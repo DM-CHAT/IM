@@ -1,6 +1,6 @@
 #私有化端对端绝对加密聊天工具
 
-
+[![pages-build-deployment](https://github.com/DM-CHAT/IM/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main&event=public)](https://github.com/DM-CHAT/IM/actions/workflows/pages/pages-build-deployment)
 
 多语言支持，私有化搭建，全开源
 
