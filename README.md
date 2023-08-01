@@ -4,7 +4,8 @@
 
 多语言支持，私有化搭建，全开源
 
-[![IOS]([https://github.com/DM-CHAT/IM/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main&event=public](https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/3f/e1/7a/3fe17af2-9764-8938-d9a5-879bf3d504a2/AppIcon-0-0-1x_U007ephone-0-0-0-0-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp))]([https://github.com/DM-CHAT/IM/actions/workflows/pages/pages-build-deployment](https://github.com/DM-CHAT/IM/blob/%E5%AE%A2%E6%88%B7%E7%AB%AF/%E8%8B%B9%E6%9E%9C%E7%AB%AF))
+IOS下载地址 [https://apps.apple.com/app/id6443910251](url)
+谷歌下载地址 [https://play.google.com/store/apps/details?id=com.mhhy.jtalking10](url)
 
 ![DM-CHAT](https://github.com/DM-CHAT/IM/assets/141175076/c902f56a-3bc2-4c28-ac7e-355e0f6ac48c)
 
