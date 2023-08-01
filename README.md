@@ -5,10 +5,10 @@
 多语言支持，私有化搭建，全开源
 
 
-✈️频道https://t.me/DM_QIANWEN
+✈️频道[https://t.me/DM_QIANWEN](url)
 
 
-✈️群组https://t.me/DM_QIANWENLLC
+✈️群组[https://t.me/DM_QIANWENLLC](url)
 
 搭建简单，前端修改容易！
 
