@@ -4,6 +4,8 @@
 
 多语言支持，私有化搭建，全开源
 
+![DM-CHAT](https://github.com/DM-CHAT/IM/assets/141175076/c902f56a-3bc2-4c28-ac7e-355e0f6ac48c)
+
 
 ✈️频道[https://t.me/DM_QIANWEN](url)
 
