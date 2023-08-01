@@ -8,20 +8,20 @@
 #下载地址
 
 
-IOS下载地址 [https://apps.apple.com/app/id6443910251](url)
+ [IOS下载地址](https://apps.apple.com/app/id6443910251)
 
 
-谷歌下载地址 [https://play.google.com/store/apps/details?id=com.mhhy.jtalking10](url)
+ [谷歌下载地址](https://play.google.com/store/apps/details?id=com.mhhy.jtalking10)
 
 
 #联系方式
 ![DM-CHAT](https://github.com/DM-CHAT/IM/assets/141175076/c902f56a-3bc2-4c28-ac7e-355e0f6ac48c)
 
 
-✈️频道[https://t.me/DM_QIANWEN](url)
+✈️频道[https://t.me/DM_QIANWEN](https://t.me/DM_QIANWEN)
 
 
-✈️群组[https://t.me/DM_QIANWENLLC](url)
+✈️群组[https://t.me/DM_QIANWENLLC](https://t.me/DM_QIANWENLLC)
 
 搭建简单，前端修改容易！
 
