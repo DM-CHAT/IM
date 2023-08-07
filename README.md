@@ -1,6 +1,7 @@
 #私有化端对端绝对加密聊天工具
 
-[![pages-build-deployment](https://github.com/DM-CHAT/IM/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main&event=public)](https://github.com/DM-CHAT/IM/actions/workflows/pages/pages-build-deployment)
+ [视频介绍](https://www.zhihu.com/zvideo/1671851237514444800)
+
 
 多语言支持，私有化搭建，全开源
 
@@ -40,3 +41,4 @@
 ![telegram-cloud-photo-size-5-6219977372304782868-y](https://github.com/DM-CHAT/IM/assets/141175076/4bfc9bf1-61a8-4845-9786-df95ce7e7b10)
 ![telegram-cloud-photo-size-5-6219977372304782868-y](https://github.com/DM-CHAT/IM/assets/141175076/33dbf4da-f812-4321-93e5-a90d88665ff1)
 ![telegram-cloud-photo-size-5-6219977372304782868-y](https://github.com/DM-CHAT/IM/assets/141175076/50b13b97-96cb-4818-a93a-37d7a5eeed1d)
+[![pages-build-deployment](https://github.com/DM-CHAT/IM/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main&event=public)](https://github.com/DM-CHAT/IM/actions/workflows/pages/pages-build-deployment)
