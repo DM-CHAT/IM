@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray5"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:id="@+id/iv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:src="@mipmap/ic_finish" />
+
+        <ImageView
+            android:id="@+id/iv_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/iv_finish"
+            android:padding="10dp"
+            android:src="@mipmap/ic_share" />
+
+        <ImageView
+            android:id="@+id/iv_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/iv_share"
+            android:padding="10dp"
+            android:src="@drawable/ic_collect" />
+        <ImageView
+            android:id="@+id/iv_collect_true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/iv_share"
+            android:padding="10dp"
+            android:src="@drawable/ic_collect_true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <WebView
+        android:id="@+id/litappWebview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

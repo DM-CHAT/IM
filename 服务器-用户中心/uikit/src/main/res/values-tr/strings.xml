@@ -1,0 +1,573 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="imid">kullanıcı ID</string>
+    <string name="modify_imid">Kullanıcı Değiştir ID</string>
+
+    <string name="complete">tamamlandı</string>
+
+    <string name="draft">[draft]</string>
+    <string name="video">video</string>
+    <string name="audio">Ses frekansı</string>
+    <string name="notify">bildirim</string>
+    <string name="set_conversation_to_top">Üst sohbet</string>
+    <string name="user_a_me">[Birisi var@Ben]</string>
+    <string name="clean_conversation">Oturumu temizle</string>
+    <string name="delete_conversation">Oturumu sil</string>
+    <string name="set_top">Toplanma</string>
+    <string name="unset_top">Toplamayı iptal et</string>
+    <string name="confirm_clean_conversation">Oturumu Temizle?</string>
+    <string name="confirm_delete_conversation">Oturumu Keşfet?</string>
+    <string name="message_notify">Bildirim Mesajı</string>
+    <string name="password" translatable="false">parola</string>
+    <string name="please_input_transfer_amount" translatable="false">Lütfen aktarım miktarını girin</string>
+    <string name="transfer_amount" translatable="false">Transfer miktarı</string>
+    <string name="network_congestion" translatable="false">Ağ toplantısı, lütfen sonra tekrar deneyin</string>
+    <string name="direction" translatable="false">Yönüne</string>
+    <string name="picture_save_success">Picture saved successfully</string>
+    <string name="picture_save_failure">Image saving failure</string>
+    <string name="allow_stangers_send_message">允许陌生人发消息</string>
+    <string name="please_shoukuan">请收款</string>
+    <string name="receive_shoukuan">已收款</string>
+    <string name="please_enter_lable_name">Please enter a label name</string>
+
+    <string name="call_canceled" translatable="false">Arama iptal edildi</string>
+    <string name="other_party_canceled" translatable="false">Diğer parti iptal edildi</string>
+    <string name="video_call_duration" translatable="false">Video arama uzunluğu</string>
+    <string name="voice_call_duration" translatable="false">Ses arama uzunluğu</string>
+    <string name="unknown_status" translatable="false">Bilinmemiş durum</string>
+
+
+    <string name="voice_call" translatable="false">sesli çağırım</string>
+    <string name="video_call" translatable="false">Video araması</string>
+    <string name="card">iş kartı</string>
+    <string name="card_user">[İş kartı]</string>
+    <string name="card_group">[grup]</string>
+    <string name="card_room">[sohbet odası]</string>
+    <string name="card_channel">[kanal]</string>
+    <string name="card_litapp">[Aplet]</string>
+
+    <string name="text_user_card">İş kartı</string>
+    <string name="text_group_card">Grup iş kartı</string>
+    <string name="text_room_card">Chat Room Business Card</string>
+    <string name="text_channel_card">Kanal iş kartı</string>
+
+    <string name="clear_day" translatable="false">Gün</string>
+
+    <!--联系人-->
+    <string name="new_friend">Yeni arkadaşlar</string>
+    <string name="group_cheat">Grup sohbeti</string>
+
+    <!--新的朋友-->
+    <string name="add_friend">Arkadaşları ekle</string>
+    <string name="no_recommend_friend">Tahmin edilen arkadaşlar yok</string>
+
+    <!--搜索用户-->
+    <string name="user_no_found">Kullanıcı yok</string>
+    <string name="search">arama</string>
+    <string name="search_result">arama sonuçları</string>
+
+    <!--用户信息-->
+    <string name="nickname_colon">lağap adı:%1$s</string>
+    <string name="set_alias_and_tag">Notlar ve Etiketleri Ayarlayın</string>
+    <string name="send_message">Bir mesaj gönder</string>
+    <string name="add_to_contact">Adres Kitabına Ekle</string>
+    <string name="change_my_name_tip">İyi bir isim arkadaşların seni hatırlaması kolaylaştıracak.</string>
+    <string name="tag" translatable="false">etiket</string>
+    <string name="tag_selection" translatable="false">Etiket Seçimi</string>
+
+    <!--修改备注-->
+    <string name="alias">Şerh Adı</string>
+    <string name="alias_no_empty">Not ismi boş olamaz</string>
+
+    <!--附言界面-->
+    <string name="postscript_tip">Doğrulama uygulamasını göndermelisiniz ve diğer partinin geçmesini beklemeniz gerekiyor</string>
+    <string name="send">gönderin</string>
+
+    <!--会话界面-->
+    <string name="please_to_talk">Konuşmayı bekle</string>
+    <string name="shot">Ateş</string>
+    <string name="location">position</string>
+    <string name="file">dosya</string>
+    <string name="photo">Fotoğraf</string>
+    <string name="redPacket">Kırmızı kaplumbağalar</string>
+    <string name="redPacket_group">Şansla savaşmak için kırmızı kaplumbağa.</string>
+    <string name="redPacket_bomb">Kırmızı paket benim süpürüm için</string>
+    <string name="transfer" translatable="false">hesapları aktar</string>
+
+    <string name="voice_rec">İletişimi iptal etmek için parmağınızı yukarı kaydırın</string>
+    <string name="voice_cancel">İletişimi iptal etmek için parmağınızı serbest bırakın</string>
+    <string name="voice_short">Kayıt zamanı çok kısa</string>
+    <string name="input_speed_too_fast" translatable="false">Girdi hızı çok hızlı</string>
+
+    <!--创建群-->
+    <string name="create_group_success">Grup başarıyla yarattı</string>
+    <string name="create_group_fail">Grup oluşturmadı</string>
+    <string name="no_group_now">Grup sohbeti yok</string>
+
+    <!--群信息-->
+    <string name="group_name">Grup sohbet ismi</string>
+    <string name="untitled">İsimsiz</string>
+    <string name="group_announcement">Grup Açıklaması</string>
+    <string name="message_free">Beni rahatsız etme</string>
+    <string name="update_redpacket">Kızıl Paket Grubunu Güncelle</string>
+    <string name="mutual_friends" translatable="false">Birbirlerine arkadaşları eklemeye izin verin</string>
+    <string name="modify_groud_name" translatable="false">Grup ismini değiştirmeye izin verin</string>
+    <string name="modify_messages_copy" translatable="false">Üyelerin mesajlarını kopyalamasına izin verin</string>
+    <string name="modify_messages_forward" translatable="false">Üyelerin mesajlarını göndermesine izin verin</string>
+    <string name="my_nickname_in_this_group">Bu grupdaki lağım</string>
+    <string name="show_group_member_name">Grup üyesi lağap isimlerini göster</string>
+    <string name="clear_chat_log">Konuşma kayıtlarını temizle</string>
+    <string name="delete_and_exit">Sil ve Çıkar</string>
+    <string name="chat_report">rapor</string>
+    <string name="delete_and_dismiss">Çıkar ve sil</string>
+    <string name="add_member_success">Grup üyesi başarıyla eklendi</string>
+    <string name="add_member_fail">Grup üyelerini eklemedi</string>
+    <string name="join_grouop_fail">Grupa katılamadı</string>
+    <string name="del_member_success">Grup üyesi başarıyla sildi</string>
+    <string name="del_member_fail">Grup üyesini silemedi</string>
+    <string name="search_for_friends" translatable="false">Arkadaşları arayın</string>
+    <string name="no_restrictions_entry" translatable="false">Katılma sınırı yok</string>
+    <string name="group_members_people" translatable="false">Grup üyeleri diğerlerini çekebilir</string>
+    <string name="only_group_management_people" translatable="false">Sadece grup yönetimi insanları çekebilir</string>
+    <string name="no_validation" translatable="false">Denetim yok</string>
+    <string name="need_to_verify" translatable="false">Değerlendirme gerekiyor</string>
+    <string name="add_friends_title" translatable="false">Arkadaşları ekle</string>
+    <string name="add_friends_verify1" translatable="false">Herkesin arkadaşları eklemesine izin verin</string>
+    <string name="add_friends_verify2" translatable="false">Arkadaşları eklemek doğrulama gerekiyor</string>
+    <string name="add_friends_verify3" translatable="false">Arkadaşları eklemeye izin verme</string>
+    <string name="allow_party_recall_message" translatable="false">Diğer partiye mesajı hatırlatmasına izin verin</string>
+    <string name="allow_party_delete" translatable="false">Diğer partinin mesajlarını silmesine izin verir</string>
+    <string name="need_reset" translatable="false">Lağap ismini ya da avatar ını henüz ayarlamadınız. Ayarlamak için OK t ıklayın</string>
+
+    <string name="all_images">Tüm Resimler</string>
+    <string name="folder_image_count">ortak%1$dZhang</string>
+    <string name="preview_image_count">%1$d/%2$d</string>
+    <string name="select_limit">En fazla seç%1$dResimler</string>
+    <string name="select_complete">tamamlandı(%1$d/%2$d)</string>
+    <string name="preview_count">önizleme(%1$d)</string>
+    <string name="origin">Orijinal</string>
+    <string name="origin_size">Orijinal(%1$s)</string>
+    <string name="user_card">İş kartı</string>
+    <string name="litapp_card">web iş kartı</string>
+    <string name="clear_cache">Temiz cache</string>
+    <string name="more">Daha fazla</string>
+    <string name="litapp_qrcode">Aplet QR kodu</string>
+    <string name="str_more">Daha fazla</string>
+    <string name="my_qrcode">Aplet QR kodu</string>
+
+    <string name="translating">Çeviri</string>
+    <string name="translated">Tercüme edildi</string>
+    <string name="url_prefix">Resim adresinin önizlerine erişin</string>
+    <string name="error">Operasyonunuz normaldir, lütfen yazılım kapatın ve yeniden açın</string>
+    <string name="text_null">Edited dynamic is empty and cannot be published</string>
+    <string name="ok">Dinamik başarıyla yayınlandı</string>
+    <string name="text">Şu anda düşünceler...</string>
+    <string name="dw_text">Seçeneksel</string>
+    <string name="rqsj_text">İhtiyar</string>
+
+    <string name="input_empty">Girdi içeriği boş olamaz</string>
+    <string name="submitting">"Gönderiyor"</string>
+    <string name="submit_wait">"Gönderiyorum, bekle..."</string>
+    <string name="submit_success">Başarılı gönderildi</string>
+    <string name="submit_failure">Yönlendirme başarısız oldu</string>
+    <string name="fav_friend">Yıldız Arkadaşı</string>
+    <string name="add_failure">Ekleme başarısız oldu</string>
+    <string name="error_osnid">FALSE OsnID</string>
+    <string name="operation_failure">işlem başarısız oldu</string>
+
+    <string name="confirm">belirle</string>
+    <string name="cancel">iptal et</string>
+    <string name="user">kullanıcı</string>
+    <string name="invite"> davet </string>
+    <string name="im">Ben </string>
+    <string name="invite_group"> Sizi grupa katılmanızı davet edin.</string>
+    <string name="request_join"> Grupa katılmak için uygulayın </string>
+    <string name="join_group"> Bir grupa katılın </string>
+    <string name="added">Eklenmiş</string>
+    <string name="rejected">Red edildi</string>
+    <string name="accept">kabul et</string>
+    <string name="reject">reddetme</string>
+    <string name="invite_sent">Arkadaş daveti gönderildi</string>
+    <string name="add_friend_failure">Arkadaşları eklemedi</string>
+    <string name="from_share">Paylaşmadan</string>
+    <string name="test_share">Testleri paylaş</string>
+    <string name="select_over">Sınırı aşan seçim</string>
+    <string name="empty_contact">Temas yok</string>
+    <string name="no_contact">Kontaktlar</string>
+    <string name="get_conversation_info_error">Oturum bilgisini alınamadı</string>
+    <string name="all_member_mute">Tüm üyeler konuşmak yasaklıdır</string>
+    <string name="no_message">Mesajlar</string>
+    <string name="no_a_message">strip@haberler</string>
+    <string name="welcome_join_room">Hoşgeldiniz %s Konuşma odasına katılın</string>
+    <string name="join_room_failure">Konuşma odasına katılamadı</string>
+    <string name="no_leave_room">%s Konuşma odasından ayrıldı.</string>
+    <string name="disable_talk">Grup üyeleri özel olarak sohbet etmeye izin verilmez</string>
+    <string name="a_all">/@Hepsi </string>
+    <string name="all_user">Hepsi</string>
+    <string name="inputting">Diğeri yazıyor</string>
+    <string name="recording">Diğer parti kaydediyor.</string>
+    <string name="photographing">Diğer parti fotoğrafları çekiyor</string>
+    <string name="send_file">Diğer parti dosyaları gönderiyor</string>
+    <string name="send_location">Diğer parti yeri gönderiyor</string>
+    <string name="count_receive">İnsanların sayısı：</string>
+    <string name="count_no_receive">İnsanların sayısı teslim edilmedi：</string>
+    <string name="count_read">Okuyan insanların sayısı：</string>
+    <string name="count_unread">Okunmamış numara：</string>
+    <string name="receipt">Mesaj alması</string>
+    <string name="input_limit">Maksimum izin verilen girdi</string>
+    <string name="no_emoji">Emotikler</string>
+    <string name="please_install">Lütfen kurun</string>
+    <string name="creating">Yapılıyor...</string>
+    <string name="select_file_error">Dosya seçme hatası</string>
+
+    <string name="cheat_record1">Konuşma kayıtları</string>
+    <string name="message_record">[Konuşma kayıtları]: </string>
+    <string name="step_forward">[Bir tane ilerleyin]ortak</string>
+    <string name="forward_success">Yönlendirme başarılı</string>
+    <string name="forward_failure">Yönlendirme başarısız oldu</string>
+
+    <string name="no_member_of_group">Grupta değilsiniz ya da bir hata oluştu. Lütfen sonra tekrar deneyin.</string>
+    <string name="please_input_nickname">Lütfen grup lağabınızı girin</string>
+    <string name="modify_nickname_failure">Grup lağabı değiştirmesi başarısız oldu:</string>
+    <string name="dismiss_group_failure">Grubun ayrılması başarısız oldu</string>
+    <string name="quit_group_failure">Grubun çıkması başarısız oldu</string>
+    <string name="group_qrcode">QR kodu grup</string>
+    <string name="disable_talk1">Grup üyeleri özel olarak sohbet etmeye izin verilmez</string>
+    <string name="unknown_duration">Bilinmegen uzunluğu</string>
+    <string name="time_p0">yyyy-MM-dd</string>
+    <string name="to"> ... </string>
+
+    <string name="is_resend">Yeniden gönder?</string>
+    <string name="is_delete">Silme doğrulama?</string>
+    <string name="resend">Retansmission</string>
+    <string name="no_set">Ayarlanmış</string>
+    <string name="recall">çekilin</string>
+    <string name="callback" tools:ignore="ExtraTranslation">çekilin</string>
+    <string name="delete">Sil</string>
+    <string name="delete_tag" translatable="false">Tap sil</string>
+    <string name="confirm_delete_tag" translatable="false">Etiket silmesini doğrula</string>
+    <string name="tag_prompt" translatable="false">Lütfen kullanıcıyı etikete eklemek için kullanıcı detayları sayfasına git</string>
+    <string name="no_tag" translatable="false">Etiket yok, etiket eklemeye git</string>
+    <string name="deleteto" tools:ignore="ExtraTranslation">Diğer partinin mesajını sil</string>
+    <string name="forward">ileri</string>
+    <string name="quota">sitat</string>
+    <string name="multi_check">Çoklu seçenek</string>
+    <string name="private_cheat">Özel sohbet</string>
+    <string name="fav">Kolleksiyon</string>
+    <string name="copy">kopyalama</string>
+    <string name="save">koruması</string>
+    <string name="save_as" translatable="false">Dosyayı belirtilen dizinine kaydet</string>
+    <string name="details" translatable="false">detaylar</string>
+    <string name="top_message" translatable="false">Üst Mesaj</string>
+    <string name="top_message_set" translatable="false">Üst Mesaj Ayarları</string>
+
+    <string name="confirm_delete">Bu mesajın silmesini doğrula</string>
+    <string name="confirm_callback" tools:ignore="MissingTranslation">Bu mesajı hatırlatmak için onaylayın</string>
+    <string name="message_context">Mesaj içeriği</string>
+
+    <string name="step_forward1">Bir tane ilerleyin.</string>
+    <string name="merge_froward">Birleştir ve ileri</string>
+    <string name="and">ve</string>
+    <string name="cheat_record">Konuşma tarihi</string>
+    <string name="group_cheat_record">Grup sohbet kayıtları</string>
+
+    <string name="linking">bağlantısında...</string>
+    <string name="syncing">Synchronizing...</string>
+    <string name="link_fail">bağlantı başarısız oldu</string>
+
+    <string name="load_fav_failed">Koleksiyon yüklenemedi </string>
+    <string name="fav_context">Favorit içeriği</string>
+
+    <string name="entry_group">Grup sohbetini girin</string>
+    <string name="joins_group">Grup sohbetine katılın</string>
+    <string name="upload_portrait_failed">Grup avatar ı yüklemesi başarısız oldu</string>
+
+    <string name="administrator">yöneticiler</string>
+    <string name="owner">Grup Lideri</string>
+    <string name="group_admin">Grup yönetimi</string>
+    <string name="set_sensitive_word" translatable="false">Duyarlı Kelime Ayarlayın</string>
+    <string name="group_message_masking_keywords" translatable="false">Mesaj ekran anahtar kelimelerini gruplama</string>
+    <string name="fill_maximum_five_keywords" translatable="false">(Beş anahtar kelimesine ekle)</string>
+    <string name="click_add_keywords" translatable="false">Anahtar kelimeleri eklemek için üst sağ köşedeki Ekle düğmesine tıklayın</string>
+    <string name="example" translatable="false">örnek</string>
+    <string name="remove_white_list">Beyaz listeyi sil</string>
+    <string name="clean_mute">Tabuyu kaldır</string>
+    <string name="white_list">Beyaz liste</string>
+    <string name="mute_list">Yasaklı Liste</string>
+    <string name="adding">Eklene...</string>
+    <string name="set_admin_error">Yönetici hatasını ayarlamak </string>
+    <string name="modify_group_join_type_failed">Klasterleme yöntemini değiştirmedi</string>
+    <string name="modify_group_verify_type_failed">Yetki yöntemi değiştirmedi</string>
+    <string name="modify_group_type_failed">Grup türünü değiştirmedi</string>
+    <string name="remove_admin">Grup yönetimini sil</string>
+    <string name="set_member_right_failed">Grup üyeleri izini ayarlamadı </string>
+    <string name="mute_failed">Stoppel hatası </string>
+    <string name="adding_white_list">Beyaz listeye katılın...</string>
+    <string name="muting">Taboo da...</string>
+    <string name="add_white_failed">Beyaz liste eklemek hatası</string>
+    <string name="set_mute">Taboo ayarla</string>
+    <string name="member_right">Üye İzinleri</string>
+    <string name="no_limit_join">Katılma sınırı yok</string>
+    <string name="group_type">Grup Türü</string>
+    <string name="join_mode">Grup modu</string>
+    <string name="verify_mode">Kontrol yöntemi</string>
+    <string name="time_mode" translatable="false">Konuşma hızı</string>
+    <string name="clear_time" translatable="false">Grup mesajlarını düzenli temizle</string>
+    <string name="no_allow_find">Bulma izin verilmedi</string>
+    <string name="find_mode">Bul</string>
+    <string name="mute_failed1">Gizli Hatayı Ayarla</string>
+    <string name="member_mute">Grup üyesi taboo</string>
+    <string name="member_white">Beyaz konuşanlar listesi</string>
+    <string name="get_group_notice_failed">Grup duyurulması alınamadı</string>
+    <string name="waiting">Lütfen bekle...</string>
+    <string name="set_notice_success">Grup duyurulmasını başarıyla ayarlayın</string>
+    <string name="set_notice_failure">Grup duyurulması ayarlanamadı: </string>
+    <string name="set_group_card_success">Grup ismini başarıyla değiştirdi</string>
+    <string name="set_group_card_failure">Grup ismini değiştirmedi: </string>
+    <string name="add_an_applet" translatable="false">Aplet Ekle</string>
+
+    <string name="authorize">yetkili vermek için</string>
+    <string name="auth_tip"> Avatarınıza ve diğer halk bilgilerinize erişebilirsiniz. İzin verildi</string>
+    <string name="exit_tip">Çıkmak için tekrar basın</string>
+    <string name="qrcode">QR kodu</string>
+    <string name="litapp_card1">Aplet iş kartı</string>
+    <string name="litapp_share" translatable="false">Elmalar paylaşıyor</string>
+    <string name="litapp_name">Aplet adı</string>
+    <string name="open_litapp">Aplet Aç</string>
+    <string name="copy_success">Kopyalama başarılı oldu</string>
+    <string name="qrcode_scan_failed">QR kodunu tanımlamadı</string>
+
+    <string name="single_price">Tek miktar</string>
+    <string name="group_has">Bu grup paylaşıyor</string>
+    <string name="man">İnsanlar</string>
+    <string name="all_price">Toplam miktar</string>
+    <string name="price">para miktarı</string>
+    <string name="price_error">Menba hatası</string>
+    <string name="luck_no_error">Şanslı sayı hatası</string>
+    <string name="packet_count_error">Kırmızı paketler yanlış sayısı</string>
+    <string name="input_count">Numara</string>
+    <string name="packet_failed">Kırmızı paketi mühürlenemedi</string>
+    <string name="bless">Facai için tebrik ederim.</string>
+    <string name="server_parameter_error">Sunucu parametre hatasını geri döndü</string>
+    <string name="service_error" translatable="false">Sunucu istisnası</string>
+    <string name="date_pattern">MM-dd HH:mm</string>
+    <string name="de_packet"> Kırmızı kaplumbağa</string>
+    <string name="count_packet">Toplam kırmızı paketler</string>
+    <string name="yuan"> </string>
+    <string name="error_hit">hata: </string>
+    <string name="pwd_error_hit">Parola hatası, geri kalan denemeler: </string>
+    <string name="red_packet_finish">Kırmızı kaplumbağa alması bitti</string>
+    <string name="red_come_from" translatable="false">Kırmızı kaplumdan</string>
+
+    <string name="records">Kayıtlar</string>
+    <string name="delete_failed">Silme başarısız oldu</string>
+
+    <string name="user_no_exist">kullanıcı yok</string>
+    <string name="modifying">Değiştiriliyor…</string>
+    <string name="modify_success">Değiştirme başarılı</string>
+    <string name="modify_failure">Değiştirme başarısız oldu</string>
+    <string name="set_alias_failed">İsimleri değiştirme hatası：</string>
+    <string name="set_account_failed">Hesabı değiştirme hatası：</string>
+    <string name="id_is_empty">ID Boş olamaz</string>
+    <string name="set_ok">Ayarlama başarılı oldu</string>
+
+    <string name="update_error_select_file">Avatar ı güncellemedi: dosya seçilmedi </string>
+    <string name="update_error_thumbnail">Avatar ı güncellemedi: örnek örnek oluşturulmadı</string>
+    <string name="update_ok">Avatarı başarıyla güncelleştirdi</string>
+    <string name="update_no">Avatar ı güncellemedi: </string>
+    <string name="downloading">Endirme</string>
+    <string name="recall_failed">Çıkarma başarısız oldu: </string>
+
+    <string name="new_message">Yeni Mesaj</string>
+    <string name="no">strip</string>
+    <string name="deng"> Böylece</string>
+    <string name="request_friend">Seni bir arkadaş olarak eklemeyi istiyorum</string>
+    <string name="friend_request">Dost uygulaması</string>
+
+    <string name="tip">Tips</string>
+    <string name="confirm_to_delete">Bu fotoğrafı silmek ister misiniz?</string>
+
+    <string name="set_user_remark">Kullanıcı Notları Ayarla</string>
+    <string name="modify_nickname">Lağap ismini değiştir</string>
+    <string name="modify_group_name">Grup ismini değiştir</string>
+    <string name="modify_group_notice">Grup duyurulmasını değiştir</string>
+    <string name="create_conversation">Oturum Oluşturma</string>
+    <string name="add_member">Yeni üye ekle</string>
+    <string name="del_member">Grup üyelerini sil</string>
+    <string name="sel_member">Grup üyelerini seç</string>
+    <string name="group_list">Grup sohbeti</string>
+    <string name="friend_request1">Dost isteği</string>
+    <string name="find_user">Kullanıcıları Ara</string>
+    <string name="add_osnid">ekle OsnID</string>
+    <string name="invite_friend">Arkadaşları davet et</string>
+    <string name="user_info">Kullanıcı bilgisi</string>
+    <string name="privacy_set">Gizlilik Ayarları</string>
+    <string name="black_list">kara listesi</string>
+    <string name="friend_circle">Wechat Moments</string>
+    <string name="new_message_notify">Yeni mesaj bildirimi</string>
+    <string name="conversation_info">Oturum Ayrıntıları</string>
+    <string name="room_list">Sohbet odası listesi</string>
+    <string name="search_center">Arama Merkezi</string>
+    <string name="sel_conversation">Sesi Seç</string>
+    <string name="channel_list">Kanal Listesi</string>
+    <string name="notify_message">Bildirim Mesajı</string>
+    <string name="litapp_list">Aplet Listesi</string>
+    <string name="litapp">Aplet</string>
+    <string name="kefu">müşteri hizmeti</string>
+    <string name="kefu_list">Müşteriler hizmet listesi</string>
+    <string name="complain">rapor</string>
+    <string name="feedback">Kullanıcı geri veri</string>
+    <string name="input_info">Girdi bilgileri</string>
+    <string name="create_channel">Kanal Oluştur</string>
+    <string name="group_info">Grup bilgisi</string>
+    <string name="litapp_info">Aplet Bilgisi</string>
+    <string name="scan">tarama</string>
+    <string name="member_list">Grup üyeleri listesi</string>
+    <string name="sel_contact">Kontakt Seçimi</string>
+    <string name="file_record">dosyaları kaydediyor</string>
+    <string name="share_cardinfo" translatable="false">İş kartları paylaş</string>
+
+
+    <string name="red_pecket_setting" translatable="false">Kırmızı paket olasılığını benimkiler için ayarlamak</string>
+    <string name="tag_option" translatable="false">Etiket operasyonu</string>
+    <string name="group_profit">Grup gelirlerini sorgula</string>
+    <string name="contact">Kontaktlar</string>
+    <string name="modify_id">değiştir ID</string>
+    <string name="meeting_invite">Toplantı daveti</string>
+    <string name="merge_message">Birleştirilen Mesaj</string>
+
+    <string name="input_id">Lütfen girin OsnID</string>
+    <string name="add">ekle</string>
+    <string name="submit">Teslim et</string>
+    <string name="complain_hint">Lütfen rapor içeriğini girin（200 kelime içinde）</string>
+    <string name="complain_photo">Resimleri rapor et</string>
+    <string name="input_user">Lütfen bir temas girin</string>
+    <string name="input_phone">Lütfen temas numarasını girin</string>
+    <string name="input_feedback">Lütfen veri içeriğini girin (200 kelime içinde)</string>
+    <string name="all_photo">Tüm Resimler</string>
+    <string name="preview3">önizleme(3)</string>
+    <string name="original_pic">Orijinal(3.07M)</string>
+    <string name="select">seçim</string>
+
+    <string name="receive_new_message">Yeni mesaj bildirimlerini alın</string>
+    <string name="notify_show_info">Bildirim İsmarış Ayrıntıları</string>
+    <string name="message_receipt">Mesaj alması</string>
+
+    <string name="to_user">Kime</string>
+    <string name="packet_count">Kırmızı paketler sayısı</string>
+    <string name="ge">kişisel</string>
+    <string name="bless0">Tebrikler</string>
+    <string name="win">Ödül kazandın</string>
+    <string name="red_packet_owner">Kırmızı kaput verici</string>
+    <string name="packet_group_info">Bu grupdaki 0 kişi</string>
+    <string name="one_price">Tek miktar</string>
+    <string name="price_hint">USD 0.00</string>
+    <string name="luck_no">Şanslı numara</string>
+    <string name="luck_tail">Kazananların sonu</string>
+    <string name="luck_times">Çoklu kazanıyor</string>
+    <string name="luck_price">Kazananlar</string>
+    <string name="packet_head">Kırmızı kaput örtüsü</string>
+    <string name="set_packet">Parayı kırmızı kaplumaya ekle</string>
+    <string name="bless1">Mutlu ve zengin olsun</string>
+    <string name="red_packet_info">1 kırmızı kaput, 0 yuan toplamda</string>
+
+    <string name="delete_friend_whether">Arkadaşını sil ya da yok？</string>
+
+
+    <string name="input_info1">Lütfen bilgi girin</string>
+    <string name="shoot_photo">Fotoğraf çek</string>
+    <string name="zero_space">Toplam 0</string>
+    <string name="user_request_add_you">Diğer parti sizi arkadaş olarak eklemesini istiyor</string>
+    <string name="message_12">12 mesaj</string>
+    <string name="message_a_12">12@ messages</string>
+    <string name="show_all_member">Bütün üyeleri görüntüle</string>
+    <string name="find_record">Konuşma kayıtlarını bul</string>
+    <string name="save_to_contact">Adres Kitabına Kaydet</string>
+    <string name="file_name">Dosya adı...</string>
+    <string name="retry">geri dene</string>
+    <string name="you_invite_join">xx e katılmak için davet ettin</string>
+    <string name="re_edit">Yeniden düzenle</string>
+    <string name="recall_one_message">Bir mesaj tekrar başlattı</string>
+    <string name="already_finish">Birleştirilmiş</string>
+    <string name="app_red_packet">wallet</string>
+    <string name="loading">Yüklenmek…</string>
+    <string name="user_red_packet">Kırmızı kaplumbağa</string>
+    <string name="random_red_packet">Şansla savaşmak için kırmızı kaplumbağa</string>
+    <string name="bomb_red_packet">Kırmızı paket benim süpürüm için</string>
+    <string name="input_pay_code">Lütfen ödeme parolanızı girin</string>
+    <string name="send_to">Gönderin:</string>
+    <string name="leave_to_friend">Bir arkadaşına mesaj bırak</string>
+    <string name="group_name1">Grup adı</string>
+    <string name="member_admin">Üye Yönetimi</string>
+    <string name="set_group_attrib">Grup Özellik Ayarları</string>
+    <string name="applet_management" tools:ignore="ExtraTranslation">Aplet yönetimi</string>
+    <string name="add_administrator">Yönetici Ekle</string>
+    <string name="allow_member_temp_chat">Normal üyelerin geçici oturumları başlatmasına izin verin</string>
+    <string name="all_mute">Tüm üyeler konuşmak yasaklıdır</string>
+    <string name="select_pic">Resim seç</string>
+    <string name="test">test</string>
+    <string name="best_luck">En iyi şanslık</string>
+    <string name="copy_to_clip">clipboard a kopyalayın</string>
+    <string name="share_and_save_picture">Resimleri paylaş ve kaydet</string>
+    <string name="share">paylaş</string>
+    <string name="input_keyword_to_search">Arama başlatmak için anahtar kelimeleri girin</string>
+    <string name="no_search_result">Arama sonuçları yok</string>
+
+    <string name="set_nickname_or_alias">Lağap adını ya da isim adını ayarlayın</string>
+    <string name="space">uzay</string>
+    <string name="video_chat">Video sohbeti</string>
+    <string name="detail">detaylar</string>
+    <string name="addr_book">Adres Kitabı</string>
+    <string name="create_group">Grup sohbetini başlat</string>
+    <string name="album">album</string>
+    <string name="delete_friend">Arkadaşları sil</string>
+    <string name="add_friend1">Arkadaşları ekle</string>
+    <string name="add_black_list">Kara listeye ekle</string>
+    <string name="del_black_list">Kara listeden kaldır</string>
+    <string name="set_remark_name">Not ismini ayarla</string>
+    <string name="set_fav_friend">Yıldız mark as ı arkadaşı olarak ayarlayın</string>
+    <string name="del_fav_friend">Yıldız markası arkadaşını iptal et</string>
+    <string name="please_input_verify_code">Lütfen ödeme parolanızı girin</string>
+    <string name="pay_mode">Ödeme yöntemi</string>
+    <string name="change">küçük değişiklik \></string>
+    <string name="game_rule">Oyunun kuralları</string>
+
+    <string name="image_doodle">Graffiti</string>
+    <string name="image_text">yazılmış kelimeler</string>
+    <string name="image_mosaic">Mosaik</string>
+    <string name="image_clip">Kıpırdama</string>
+    <string name="image_reset">düşürme</string>
+    <string name="image_done">tamamlandı</string>
+    <string name="image_cancel">iptal et</string>
+    <string name="image_rotate">Döndür</string>
+
+    <string name="image_mosaic_tip">Lütfen gerçekleştirmeyi resmime doğrudan uygulayın</string>
+    <string name="image_undo">Çıkar</string>
+    <string name="image_all_photo">Tüm fotoğraflar</string>
+    <string name="image_original">Orijinal</string>
+    <string name="image_preview">önizleme</string>
+    <string name="hint">Tips</string>
+    <string name="bomb_update_tip">% insanların kırmızı paket grubuna geliştirilmesi gerekiyor.</string>
+    <string name="friend">Arkadaşlar</string>
+    <string name="group">grup</string>
+    <string name="my_litapp">Aplet</string>
+    <string name="Yesterday" translatable="false">Dün</string>
+    <string name="Sunday" translatable="false">Pazar</string>
+    <string name="Monday" translatable="false">Pazartesi</string>
+    <string name="Tuesday" translatable="false">Salı</string>
+    <string name="Wednesday" translatable="false">Çarşamba</string>
+    <string name="Thursday" translatable="false">Perşembe</string>
+    <string name="Friday" translatable="false">Cuma</string>
+    <string name="Saturday" translatable="false">Cumartesi</string>
+
+    <string name="string_confirm" translatable="false">onaylayın</string>
+    <string name="string_cancel" translatable="false">iptal et</string>
+    <string name="string_remind" translatable="false">hatırlat</string>
+    <string name="string_ps" translatable="false">Postscript</string>
+    <string name="version_number" translatable="false">Sürüm Hayır</string>
+
+    <string name="clean_chat_whether" translatable="false">Sohbet kayıtlarını temizlemek？</string>
+    <string name="quit_delete_whether" translatable="false">Lütfen grupdan çıkıp çözülmeyeceğini doğrulayın?</string>
+
+
+
+</resources>

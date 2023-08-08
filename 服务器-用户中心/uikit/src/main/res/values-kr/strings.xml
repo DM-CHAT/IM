@@ -1,0 +1,572 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="imid">사용자ID</string>
+    <string name="modify_imid">사용자 수정ID</string>
+
+    <string name="complete">완료</string>
+
+    <string name="draft">[초고]</string>
+    <string name="video">동영상</string>
+    <string name="audio">오디오</string>
+    <string name="notify">통지</string>
+    <string name="set_conversation_to_top">머리를 숙이고 한담하다</string>
+    <string name="user_a_me">[누군가 가@나는]</string>
+    <string name="clean_conversation">세션 비우기</string>
+    <string name="delete_conversation">세션 삭제</string>
+    <string name="set_top">도와주</string>
+    <string name="unset_top">리셋 취소</string>
+    <string name="confirm_clean_conversation">세션을 비우십시오?</string>
+    <string name="confirm_delete_conversation">세션 삭제 확인?</string>
+    <string name="message_notify">메시지 알림</string>
+    <string name="password" translatable="false">암호</string>
+    <string name="please_input_transfer_amount" translatable="false">이체 금액을 입력하세요</string>
+    <string name="transfer_amount" translatable="false">이체 금액</string>
+    <string name="network_congestion" translatable="false">네트워크 정체, 나중에 다시 시도하십시오</string>
+    <string name="direction" translatable="false">방향</string>
+    <string name="picture_save_success">Picture saved successfully</string>
+    <string name="picture_save_failure">Image saving failure</string>
+    <string name="allow_stangers_send_message">允许陌生人发消息</string>
+    <string name="please_shoukuan">请收款</string>
+    <string name="receive_shoukuan">已收款</string>
+    <string name="please_enter_lable_name">Please enter a label name</string>
+
+    <string name="call_canceled" translatable="false">통화 취소됨</string>
+    <string name="other_party_canceled" translatable="false">취소됨</string>
+    <string name="video_call_duration" translatable="false">영상통화 시간</string>
+    <string name="voice_call_duration" translatable="false">음성 통화 시간</string>
+    <string name="unknown_status" translatable="false">알 수 없는 상태</string>
+
+
+    <string name="voice_call" translatable="false">음성 통화</string>
+    <string name="video_call" translatable="false">화상 통화</string>
+    <string name="card">명함</string>
+    <string name="card_user">[개인 명함]</string>
+    <string name="card_group">[그룹]</string>
+    <string name="card_room">[채팅방]</string>
+    <string name="card_channel">[채널]</string>
+    <string name="card_litapp">[애플릿]</string>
+
+    <string name="text_user_card">개인 명함</string>
+    <string name="text_group_card">그룹 명함</string>
+    <string name="text_room_card">채팅방 명함</string>
+    <string name="text_channel_card">채널 명함</string>
+
+    <string name="clear_day" translatable="false">일</string>
+
+    <!--联系人-->
+    <string name="new_friend">새 친구</string>
+    <string name="group_cheat">그룹 채팅</string>
+
+    <!--新的朋友-->
+    <string name="add_friend">친구 추가</string>
+    <string name="no_recommend_friend">아직 추천하지 않은 친구</string>
+
+    <!--搜索用户-->
+    <string name="user_no_found">이 사용자는 존재하지 않습니다</string>
+    <string name="search">검색</string>
+    <string name="search_result">검색 결과</string>
+
+    <!--用户信息-->
+    <string name="nickname_colon">닉네임:%1$s</string>
+    <string name="set_alias_and_tag">설명 및 라벨을 설정합니다</string>
+    <string name="send_message">메시지 보내기</string>
+    <string name="add_to_contact">주소록에 추가</string>
+    <string name="change_my_name_tip">좋은 이름은 친구들이 당신을 더 잘 기억하게 할 것이다.</string>
+    <string name="tag" translatable="false">태그</string>
+    <string name="tag_selection" translatable="false">태그 선택</string>
+
+    <!--修改备注-->
+    <string name="alias">비고명</string>
+    <string name="alias_no_empty">설명 이름은 비어 있을 수 없습니다</string>
+
+    <!--附言界面-->
+    <string name="postscript_tip">인증 요청서를 보내고 승인을 기다려야 한다</string>
+    <string name="send">보내기</string>
+
+    <!--会话界面-->
+    <string name="please_to_talk">말을 억제하다</string>
+    <string name="shot">촬영</string>
+    <string name="location">위치</string>
+    <string name="file">파일</string>
+    <string name="photo">사진</string>
+    <string name="redPacket">훙 바 오</string>
+    <string name="redPacket_group">비위를 맞추어 돈을 주다</string>
+    <string name="redPacket_bomb">지뢰 제거 사례금</string>
+    <string name="transfer" translatable="false">이체</string>
+
+    <string name="voice_rec">손가락을 미끄러지시면 보내기 취소합니다</string>
+    <string name="voice_cancel">손가락을 펴고 전송을 취소합니다</string>
+    <string name="voice_short">녹음 시간이 너무 짧다</string>
+    <string name="input_speed_too_fast" translatable="false">입력 속도가 너무 빠르다</string>
+
+    <!--创建群-->
+    <string name="create_group_success">성공적인 그룹 만들기</string>
+    <string name="create_group_fail">그룹 생성 실패</string>
+    <string name="no_group_now">잠시 잡담을 나누지 않다</string>
+
+    <!--群信息-->
+    <string name="group_name">그룹 이름</string>
+    <string name="untitled">이름 없음</string>
+    <string name="group_announcement">집단 공고</string>
+    <string name="message_free">방해받지 않는 소식</string>
+    <string name="update_redpacket">升级红包群</string>
+    <string name="mutual_friends" translatable="false">서로 친구가 되는 것을 허락하다</string>
+    <string name="modify_groud_name" translatable="false">멤버가 그룹 이름을 수정할 수 있도록 합니다</string>
+    <string name="modify_messages_copy" translatable="false">구성원이 메시지를 복사하는 것을 허용합니다</string>
+    <string name="modify_messages_forward" translatable="false">회원이 메시지를 전재하는 것을 허락하다</string>
+    <string name="my_nickname_in_this_group">이 그룹에서 내 애칭이요</string>
+    <string name="show_group_member_name">그룹 구성원 닉네임 보이기</string>
+    <string name="clear_chat_log">대화 기록을 비웁니다</string>
+    <string name="delete_and_exit">삭제하고 끝내기</string>
+    <string name="chat_report">고발</string>
+    <string name="delete_and_dismiss">해제 및 삭제</string>
+    <string name="add_member_success">그룹 구성원 추가에 성공했습니다</string>
+    <string name="add_member_fail">그룹 구성원을 추가하는 데 실패했습니다</string>
+    <string name="join_grouop_fail">그룹에 가입할 수 없습니다</string>
+    <string name="del_member_success">그룹 멤버를 성공적으로 삭제했습니다</string>
+    <string name="del_member_fail">그룹 구성원 지우기 실패</string>
+    <string name="search_for_friends" translatable="false">친구를 검색하다</string>
+    <string name="no_restrictions_entry" translatable="false">무제한 가입</string>
+    <string name="group_members_people" translatable="false">조직원은 사람들을 끌어들일 수 있다</string>
+    <string name="only_group_management_people" translatable="false">여러 사람이 관리하고 사람을 끌어들일 수밖에 없다</string>
+    <string name="no_validation" translatable="false">인증 없음</string>
+    <string name="need_to_verify" translatable="false">검증이 필요함</string>
+    <string name="add_friends_title" translatable="false">친구 추가</string>
+    <string name="add_friends_verify1" translatable="false">모든 사람이 친구가 되는 것을 허락하다</string>
+    <string name="add_friends_verify2" translatable="false">친구 추가에 인증이 필요합니다</string>
+    <string name="add_friends_verify3" translatable="false">친구를 추가할 수 없습니다</string>
+    <string name="allow_party_recall_message" translatable="false">상대방이 소식을 철회하도록 허락하다</string>
+    <string name="allow_party_delete" translatable="false">메시지 삭제를 허용합니다</string>
+    <string name="need_reset" translatable="false">닉네임이나 아바타를 설정하지 않았습니다. 설정을 확인하려면 누르십시오</string>
+
+    <string name="all_images">모든 그림</string>
+    <string name="folder_image_count">모두%1$d장</string>
+    <string name="preview_image_count">%1$d/%2$d</string>
+    <string name="select_limit">가장 많은 선택%1$d사진 한 장</string>
+    <string name="select_complete">완료(%1$d/%2$d)</string>
+    <string name="preview_count">미리 보기(%1$d)</string>
+    <string name="origin">놔</string>
+    <string name="origin_size">놔(%1$s)</string>
+    <string name="user_card">개인 명함</string>
+    <string name="litapp_card">web명함</string>
+    <string name="clear_cache">캐시 지우기</string>
+    <string name="more">더 많은</string>
+    <string name="litapp_qrcode">애플릿 qr 코드</string>
+    <string name="str_more">더 많은</string>
+    <string name="my_qrcode">애플릿 qr 코드</string>
+
+    <string name="translating">번역하는 중</string>
+    <string name="translated">번역됨</string>
+    <string name="url_prefix">그림 주소에 접근하기 위한 접두사</string>
+    <string name="error">작업에 이상이 있습니다. 소프트웨어를 닫고 다시 열십시오</string>
+    <string name="text_null">동적 편집이 비어 있습니다. 게시할 수 없습니다</string>
+    <string name="ok">동적 작업이 성공적으로 완료되었습니다</string>
+    <string name="text">이 순간의 생각...</string>
+    <string name="dw_text">선택</string>
+    <string name="rqsj_text">필수</string>
+
+    <string name="input_empty">입력이 비어 있으면 안 됩니다</string>
+    <string name="submitting">"보내는 중"</string>
+    <string name="submit_wait">"보내는 중,잠깐 기다리다。。。"</string>
+    <string name="submit_success">커밋에 성공했습니다.</string>
+    <string name="submit_failure">전송 실패</string>
+    <string name="fav_friend">별표 친구</string>
+    <string name="add_failure">별표 친구</string>
+    <string name="error_osnid">잘못된OsnID</string>
+    <string name="operation_failure">작업 실패</string>
+
+    <string name="confirm">확정</string>
+    <string name="cancel">취소</string>
+    <string name="user">사용자</string>
+    <string name="invite"> 초대 </string>
+    <string name="im">나는 </string>
+    <string name="invite_group"> 그룹에 가입하도록 초대합니다</string>
+    <string name="request_join"> 그룹 가입을 신청하다 </string>
+    <string name="join_group"> 그룹에 가입하다 </string>
+    <string name="added">추가됨</string>
+    <string name="rejected">거부됨</string>
+    <string name="accept">접수</string>
+    <string name="reject">거부</string>
+    <string name="invite_sent">친구 초대장 보냈습니다</string>
+    <string name="add_friend_failure">친구를 추가하는 데 실패했습니다</string>
+    <string name="from_share">공유할 수 있습니다.</string>
+    <string name="test_share">공유 테스트</string>
+    <string name="select_over">인선을 제한하지 않다</string>
+    <string name="empty_contact">연락처가 없음</string>
+    <string name="no_contact">연락처</string>
+    <string name="get_conversation_info_error">세션 정보를 가져오는 데 실패했습니다</string>
+    <string name="all_member_mute">전원 금언중</string>
+    <string name="no_message">한 가지 소식</string>
+    <string name="no_a_message">조@소식</string>
+    <string name="welcome_join_room">환영 합니다 %s 채팅 방에 가입하기</string>
+    <string name="join_room_failure">채팅 방에 들어가는데 실패했습니다.</string>
+    <string name="no_leave_room">%s 채팅 방을 나갔습니다</string>
+    <string name="disable_talk">그룹 구성원들의 사적인 대화를 금지하다</string>
+    <string name="a_all">/@소유주 </string>
+    <string name="all_user">소유주</string>
+    <string name="inputting">입력하는 중</string>
+    <string name="recording">상대방이 지금 녹음하고 있다.</string>
+    <string name="photographing">상대방이 사진을 찍고 있다.</string>
+    <string name="send_file">상대방이 문서를 발송하고 있다</string>
+    <string name="send_location">상대방이 위치를 보내고 있습니다</string>
+    <string name="count_receive">이미 송달한 인원수：</string>
+    <string name="count_no_receive">미달 인원수：</string>
+    <string name="count_read">읽은 사람 수：</string>
+    <string name="count_unread">미읽음 수：</string>
+    <string name="receipt">소식 수령 증명서</string>
+    <string name="input_limit">최대 허용 입력</string>
+    <string name="no_emoji">이모티콘이 있습니다.</string>
+    <string name="please_install">설치하십시오</string>
+    <string name="creating">만드는 중...</string>
+    <string name="select_file_error">파일 선택 오류</string>
+
+    <string name="cheat_record1">채팅 기록</string>
+    <string name="message_record">[채팅 기록]: </string>
+    <string name="step_forward">[조목조목 이첩하다]모두</string>
+    <string name="forward_success">전달 성공</string>
+    <string name="forward_failure">전달 실패</string>
+
+    <string name="no_member_of_group">그룹에 없거나 오류가 발생했습니다. 나중에 다시 시도하십시오</string>
+    <string name="please_input_nickname">그룹 닉네임을 입력하십시오</string>
+    <string name="modify_nickname_failure">그룹 닉네임을 변경할 수 없습니다:</string>
+    <string name="dismiss_group_failure">그룹 해체에 실패했습니다</string>
+    <string name="quit_group_failure">그룹을 종료할 수 없습니다</string>
+    <string name="group_qrcode">그룹 이차원 코드</string>
+    <string name="disable_talk1">그룹 구성원들의 사적인 대화를 금지하다</string>
+    <string name="unknown_duration">알 수 없는 시간</string>
+    <string name="time_p0">yyyy년MM월dd일</string>
+    <string name="to"> ~ </string>
+
+    <string name="is_resend">다시 보내기?</string>
+    <string name="is_delete">삭제 확인?</string>
+    <string name="resend">가</string>
+    <string name="no_set">설정되지 않음</string>
+    <string name="recall">철수</string>
+    <string name="callback" tools:ignore="ExtraTranslation">철수</string>
+    <string name="delete">삭제</string>
+    <string name="delete_tag" translatable="false">태그 지우기</string>
+    <string name="confirm_delete_tag" translatable="false">태그 삭제 확인</string>
+    <string name="tag_prompt" translatable="false">사용자 정보 페이지로 가서 탭에 사용자를 추가하십시오</string>
+    <string name="no_tag" translatable="false">탭이 없습니다. 탭을 추가하러 갑니다</string>
+    <string name="deleteto" tools:ignore="ExtraTranslation">상대방 메시지 삭제</string>
+    <string name="forward">전송</string>
+    <string name="quota">인용</string>
+    <string name="multi_check">선</string>
+    <string name="private_cheat">개인 이야기</string>
+    <string name="fav">소장</string>
+    <string name="copy">복사</string>
+    <string name="save">저장</string>
+    <string name="save_as" translatable="false">지정한 디렉터리에 파일을 저장합니다</string>
+    <string name="details" translatable="false">자세 한 정보</string>
+    <string name="top_message" translatable="false">정상 소식</string>
+    <string name="top_message_set" translatable="false">상위 메시지 설정</string>
+
+    <string name="confirm_delete">이 메시지 삭제 확인</string>
+    <string name="confirm_callback" tools:ignore="MissingTranslation">이 소식의 취소를 확인하다</string>
+    <string name="message_context">메시지 내용</string>
+
+    <string name="step_forward1">조목조목 이첩하다</string>
+    <string name="merge_froward">전달 합치기</string>
+    <string name="and">와</string>
+    <string name="cheat_record">채팅 기록</string>
+    <string name="group_cheat_record">그룹의 채팅 기록입니다</string>
+
+    <string name="linking">연결 중...</string>
+    <string name="syncing">동기화 중...</string>
+    <string name="link_fail">연결 실패</string>
+
+    <string name="load_fav_failed">모음집을 불러올 수 없습니다. </string>
+    <string name="fav_context">모음집 내용</string>
+
+    <string name="entry_group">그룹채팅에 들어가다</string>
+    <string name="joins_group">그룹 채팅에 가입하다</string>
+    <string name="upload_portrait_failed">그룹 아바타 올리는 데 실패했습니다</string>
+
+    <string name="administrator">관리원</string>
+    <string name="owner">떼 주</string>
+    <string name="group_admin">그룹 관리</string>
+    <string name="set_sensitive_word" translatable="false">설정민감 한단어</string>
+    <string name="group_message_masking_keywords" translatable="false">그룹 메시지 차단 키워드</string>
+    <string name="fill_maximum_five_keywords" translatable="false">(최대 5개의 키워드를 추가할 수 있다)</string>
+    <string name="click_add_keywords" translatable="false">키워드를 추가하려면 오른쪽 상단의 새 단추를 클릭하십시오</string>
+    <string name="example" translatable="false">예</string>
+    <string name="remove_white_list">화이트리스트 해제</string>
+    <string name="clean_mute">금언을 해제하다</string>
+    <string name="white_list">화이트리스트 리스트</string>
+    <string name="mute_list">금기 목록</string>
+    <string name="adding">추가하는 중...</string>
+    <string name="set_admin_error">관리자 설정 오류 </string>
+    <string name="modify_group_join_type_failed">그룹 구성을 수정할 수 없습니다</string>
+    <string name="modify_group_verify_type_failed">인증 방법을 수정할 수 없습니다</string>
+    <string name="modify_group_type_failed">그룹 형식을 수정할 수 없습니다</string>
+    <string name="remove_admin">제거 그룹 관리</string>
+    <string name="set_member_right_failed">그룹 구성원 권한을 설정할 수 없습니다 </string>
+    <string name="mute_failed">금언 실패 </string>
+    <string name="adding_white_list">화이트리스트에 넣다...</string>
+    <string name="muting">금언중...</string>
+    <string name="add_white_failed">화이트리스트 추가 오류</string>
+    <string name="set_mute">금언을 설정하다</string>
+    <string name="member_right">구성원 권한</string>
+    <string name="no_limit_join">무제한 가입</string>
+    <string name="group_type">그룹 형식</string>
+    <string name="join_mode">플러스 시스템</string>
+    <string name="verify_mode">인증 방법</string>
+    <string name="time_mode" translatable="false">발언 속도</string>
+    <string name="clear_time" translatable="false">정기적으로 군중의 소식을 정리하다</string>
+    <string name="no_allow_find">찾기 허용되지 않음</string>
+    <string name="find_mode">찾기 방법</string>
+    <string name="mute_failed1">금언을 잘못 설정하다</string>
+    <string name="member_mute">집단 성원 금언</string>
+    <string name="member_white">발언 화이트리스트</string>
+    <string name="get_group_notice_failed">발언 화이트리스트</string>
+    <string name="waiting">잠시 후...</string>
+    <string name="set_notice_success">그룹 알림 설정 성공했습니다</string>
+    <string name="set_notice_failure">그룹 알림 설정이 실패했습니다: </string>
+    <string name="set_group_card_success">그룹 이름을 성공적으로 수정했습니다</string>
+    <string name="set_group_card_failure">그룹 이름을 변경할 수 없습니다: </string>
+    <string name="add_an_applet" translatable="false">애플릿 추가</string>
+
+    <string name="authorize">수권</string>
+    <string name="auth_tip"> 자신의 얼굴과 같은 공개된 정보에 접근할 수 있습니다. 접근 허가 여부</string>
+    <string name="exit_tip">다시 클릭하여 종료하십시오</string>
+    <string name="qrcode">2차원 코드</string>
+    <string name="litapp_card1">애플릿 명함</string>
+    <string name="litapp_share" translatable="false">애플릿 공유</string>
+    <string name="litapp_name">애플릿 이름</string>
+    <string name="open_litapp">애플릿 열기</string>
+    <string name="copy_success">복사에 성공했습니다</string>
+    <string name="qrcode_scan_failed">2차원 코드를 식별하는 데 실패했습니다</string>
+
+    <string name="single_price">단일 금액</string>
+    <string name="group_has">본 그룹 공통</string>
+    <string name="man">사람이</string>
+    <string name="all_price">총금액</string>
+    <string name="price">금액</string>
+    <string name="price_error">금액 오류</string>
+    <string name="luck_no_error">행운의 숫자 오류</string>
+    <string name="packet_count_error">봉투의 개수가 틀리다</string>
+    <string name="input_count">개수</string>
+    <string name="packet_failed">봉투를 봉하지 못했다</string>
+    <string name="bless">돈 많이 벌고 대길하시길 빕니다</string>
+    <string name="server_parameter_error">서버가 오류를 반환했습니다</string>
+    <string name="service_error" translatable="false">서버 이상</string>
+    <string name="date_pattern">MM월dd호 HH:mm</string>
+    <string name="de_packet"> 돈 봉투</string>
+    <string name="count_packet">뇌물 한 개를 모두 주다</string>
+    <string name="yuan"> </string>
+    <string name="error_hit">오류: </string>
+    <string name="pwd_error_hit">암호가 잘못되었습니다. 다시 시도하십시오: </string>
+    <string name="red_packet_finish">뇌물을다 빼앗았다</string>
+    <string name="red_come_from" translatable="false">돈 봉투는 어디서 왔는가</string>
+
+    <string name="records">조목 기록</string>
+    <string name="delete_failed">삭제 실패</string>
+
+    <string name="user_no_exist">사용자가 존재하지 않음</string>
+    <string name="modifying">수정 중…</string>
+    <string name="modify_success">성공적으로 수정했습니다</string>
+    <string name="modify_failure">수정 실패</string>
+    <string name="set_alias_failed">잘못된 별명 수정：</string>
+    <string name="set_account_failed">계정 오류 수정：</string>
+    <string name="id_is_empty">ID는 비어 있을 수 없습니다</string>
+    <string name="set_ok">설정 성공</string>
+
+    <string name="update_error_select_file">아바타 업데이트 실패:파일을 선택하는데 실패했습니다 </string>
+    <string name="update_error_thumbnail">얼굴 업데이트 실패:미리 보기 그림을 만들 수 없습니다</string>
+    <string name="update_ok">아바타 업데이트 성공하였습니다</string>
+    <string name="update_no">아바타 업데이트 실패: </string>
+    <string name="downloading">다운로드 중</string>
+    <string name="recall_failed">실패를 철회하다: </string>
+
+    <string name="new_message">새 소식</string>
+    <string name="no">조</string>
+    <string name="deng"> 등</string>
+    <string name="request_friend">친구로 추가하십시오</string>
+    <string name="friend_request">친구 신청</string>
+
+    <string name="tip">제시</string>
+    <string name="confirm_to_delete">이 사진을 삭제하시겠습니까？</string>
+
+    <string name="set_user_remark">사용자 설명을 설정합니다</string>
+    <string name="modify_nickname">닉네임 바꾸기</string>
+    <string name="modify_group_name">그룹 이름 바꾸기</string>
+    <string name="modify_group_notice">그룹 공고 수정</string>
+    <string name="create_conversation">세션 만들기</string>
+    <string name="add_member">새 멤버 추가</string>
+    <string name="del_member">그룹 구성원 삭제</string>
+    <string name="sel_member">그룹 구성원 선택</string>
+    <string name="group_list">그룹 채팅</string>
+    <string name="friend_request1">친구 요청</string>
+    <string name="find_user">검색 사용자</string>
+    <string name="add_osnid">추가OsnID</string>
+    <string name="invite_friend">친한 친구를 초대하다.</string>
+    <string name="user_info">사용자 정보</string>
+    <string name="privacy_set">프라이버시 설정</string>
+    <string name="black_list">블랙리스트</string>
+    <string name="friend_circle">모멘트</string>
+    <string name="new_message_notify">새 메시지 알림</string>
+    <string name="conversation_info">세션 자세한 정보</string>
+    <string name="room_list">채팅방 목록</string>
+    <string name="search_center">검색 센터</string>
+    <string name="sel_conversation">세션 선택</string>
+    <string name="channel_list">피드 목록</string>
+    <string name="notify_message">메시지 알림</string>
+    <string name="litapp_list">애플릿 목록</string>
+    <string name="litapp">애플릿</string>
+    <string name="kefu">콜</string>
+    <string name="kefu_list">고객 서비스 목록</string>
+    <string name="complain">고발</string>
+    <string name="feedback">사용자 피드백</string>
+    <string name="input_info">정보를 입력하다</string>
+    <string name="create_channel">채널 만들기</string>
+    <string name="group_info">그룹 정보</string>
+    <string name="litapp_info">애플릿 정보</string>
+    <string name="scan">쓸어버리다</string>
+    <string name="member_list">그룹 구성원 목록</string>
+    <string name="sel_contact">연락처 선택</string>
+    <string name="file_record">문서 기록</string>
+    <string name="share_cardinfo" translatable="false">명함을 나누다</string>
+
+    <string name="red_pecket_setting" translatable="false">지뢰 제거 홍바오 확률 설정</string>
+    <string name="tag_option" translatable="false">태그 작업</string>
+    <string name="group_profit">조회그룹 소득</string>
+    <string name="contact">대화 상대</string>
+    <string name="modify_id">수정ID</string>
+    <string name="meeting_invite">회의 초대장</string>
+    <string name="merge_message">조합 메시지</string>
+
+    <string name="input_id">입력하십시오OsnID</string>
+    <string name="add">추가</string>
+    <string name="submit">제출</string>
+    <string name="complain_hint">제보 내용을 입력해 주세요（200글자 내의）</string>
+    <string name="complain_photo">고발사진</string>
+    <string name="input_user">주소록 입력</string>
+    <string name="input_phone">전화번호를 입력해 주세요</string>
+    <string name="input_feedback">피드백 내용을 입력하세요（200글자 내의）</string>
+    <string name="all_photo">모든 그림</string>
+    <string name="preview3">미리 보기(3)</string>
+    <string name="original_pic">놔(3.07M)</string>
+    <string name="select">선택</string>
+
+    <string name="receive_new_message">새 메시지 알림 받기</string>
+    <string name="notify_show_info">통지는 정보의 자세한 상황을 나타낸다</string>
+    <string name="message_receipt">소식 수령 증명서</string>
+
+    <string name="to_user">누구에게 보낼 것인가</string>
+    <string name="packet_count">봉투의 갯수</string>
+    <string name="ge">개</string>
+    <string name="bless0">축하 합니다</string>
+    <string name="win">당첨</string>
+    <string name="red_packet_owner">돈봉투를 주는 사람</string>
+    <string name="packet_group_info">본 군은 모두 0명이다</string>
+    <string name="one_price">단일 금액</string>
+    <string name="price_hint">USD 0.00</string>
+    <string name="luck_no">행운의 숫자</string>
+    <string name="luck_tail">당첨의 끝자리 수</string>
+    <string name="luck_times">당첨 배수</string>
+    <string name="luck_price">당첨금</string>
+    <string name="packet_head">빨간 봉투 표지</string>
+    <string name="set_packet">돈봉투를 찔러 주다</string>
+    <string name="bless1">부자 되세요</string>
+    <string name="red_packet_info">빨간 봉투 하나에 모두 0위안이다</string>
+
+    <string name="delete_friend_whether">친구를 삭제할지 여부？</string>
+
+
+    <string name="input_info1">정보를 입력하십시오</string>
+    <string name="shoot_photo">사진을 찍다</string>
+    <string name="zero_space">모두 0장</string>
+    <string name="user_request_add_you">친구로 추가 요청을 받았습니다</string>
+    <string name="message_12">12한 가지 소식</string>
+    <string name="message_a_12">12개의 메시지</string>
+    <string name="show_all_member">모든 구성원 보기</string>
+    <string name="find_record">채팅 기록 찾기</string>
+    <string name="save_to_contact">주소록에 저장합니다</string>
+    <string name="file_name">파일 이름。。。。。</string>
+    <string name="retry">재시도</string>
+    <string name="you_invite_join">당신은 xx를 참여하도록 초대했습니다</string>
+    <string name="re_edit">새로 편집하다</string>
+    <string name="recall_one_message">소식 하나를 철회했다</string>
+    <string name="already_finish">다 받았습니다</string>
+    <string name="app_red_packet">wallet</string>
+    <string name="loading">불러오는 중…</string>
+    <string name="user_red_packet">전속 보너스</string>
+    <string name="random_red_packet">비위를 맞추어 돈을 주다</string>
+    <string name="bomb_red_packet">지뢰 제거 사례금</string>
+    <string name="input_pay_code">결제 비밀번호를 입력해주세요</string>
+    <string name="send_to">다음으로 보내기:</string>
+    <string name="leave_to_friend">친구에게 메모를 남기다.</string>
+    <string name="group_name1">그룹 이름</string>
+    <string name="member_admin">멤버 관리</string>
+    <string name="set_group_attrib">그룹 속성 설정</string>
+    <string name="applet_management" tools:ignore="ExtraTranslation">애플릿 관리</string>
+    <string name="add_administrator">관리자 추가</string>
+    <string name="allow_member_temp_chat">일반 구성원이 임시 세션을 시작할 수 있도록 합니다</string>
+    <string name="all_mute">전원 금언</string>
+    <string name="select_pic">그림 선택</string>
+    <string name="test">테스트</string>
+    <string name="best_luck">운이 가장 좋다.</string>
+    <string name="copy_to_clip">클립보드로 복사합니다</string>
+    <string name="share_and_save_picture">사진을 공유하고 저장합니다</string>
+    <string name="share">나누기</string>
+    <string name="input_keyword_to_search">검색을 시작하려면 키워드를 입력하십시오</string>
+    <string name="no_search_result">검색 결과가 없음</string>
+
+    <string name="set_nickname_or_alias">닉네임이나 별명을 설정합니다</string>
+    <string name="space">공간</string>
+    <string name="video_chat">화상 채팅</string>
+    <string name="detail">자세 한 정보</string>
+    <string name="addr_book">주소록</string>
+    <string name="create_group">그룹채팅을 시작하다.</string>
+    <string name="album">앨범</string>
+    <string name="delete_friend">친구 삭제</string>
+    <string name="add_friend1">친구 추가</string>
+    <string name="add_black_list">블랙리스트에 가입하다</string>
+    <string name="del_black_list">블랙리스트에서 이동</string>
+    <string name="set_remark_name">비고를 설정하다</string>
+    <string name="set_fav_friend">별자리 친구로 설정</string>
+    <string name="del_fav_friend">별자리 친구를 취소합니다</string>
+    <string name="please_input_verify_code">결제 비밀번호를 입력해주세요</string>
+    <string name="pay_mode">지불 방식</string>
+    <string name="change">잔돈 \></string>
+    <string name="game_rule">게임 규칙</string>
+
+    <string name="image_doodle">낙서</string>
+    <string name="image_text">문자</string>
+    <string name="image_mosaic">모자이크</string>
+    <string name="image_clip">재단</string>
+    <string name="image_reset">되돌리기</string>
+    <string name="image_done">완료</string>
+    <string name="image_cancel">취소</string>
+    <string name="image_rotate">회전</string>
+
+    <string name="image_mosaic_tip">그림에 직접 가위질을 하세요</string>
+    <string name="image_undo">취소</string>
+    <string name="image_all_photo">모든 사진들은</string>
+    <string name="image_original">놔</string>
+    <string name="image_preview">미리 보기</string>
+    <string name="hint">제시</string>
+    <string name="bomb_update_tip">지뢰 제거 사례금이 필요하다%s사람들이 보너스로 승진하다。</string>
+    <string name="friend">친한 친구</string>
+    <string name="group">그룹</string>
+    <string name="my_litapp">내 애플릿</string>
+    <string name="Yesterday" translatable="false">어제</string>
+    <string name="Sunday" translatable="false">일요일</string>
+    <string name="Monday" translatable="false">월요일</string>
+    <string name="Tuesday" translatable="false">화요일</string>
+    <string name="Wednesday" translatable="false">수요일</string>
+    <string name="Thursday" translatable="false">목요일</string>
+    <string name="Friday" translatable="false">금요일</string>
+    <string name="Saturday" translatable="false">토요일</string>
+
+    <string name="string_confirm" translatable="false">확인</string>
+    <string name="string_cancel" translatable="false">취소</string>
+    <string name="string_remind" translatable="false">일 깨 워</string>
+    <string name="string_ps" translatable="false">추 신</string>
+    <string name="version_number" translatable="false">버전 번호</string>
+
+    <string name="clean_chat_whether" translatable="false">대화 기록을 비울지 여부입니다？</string>
+    <string name="quit_delete_whether" translatable="false">그룹을 탈퇴/해산할지 확인하십시오?</string>
+
+
+
+</resources>

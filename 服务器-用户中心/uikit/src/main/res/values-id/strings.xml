@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="imid">penggunaID</string>
+    <string name="modify_imid">memodifikasi penggunaID</string>
+
+    <string name="complete">Menyelesaikan</string>
+
+    <string name="draft">[konsep]</string>
+    <string name="video">video</string>
+    <string name="audio">audio</string>
+    <string name="notify">Melihat</string>
+    <string name="set_conversation_to_top">Obrolan Lengket</string>
+    <string name="user_a_me">[seseorang @ saya]</string>
+    <string name="clean_conversation">sesi yang jelas</string>
+    <string name="delete_conversation">hapus sesi</string>
+    <string name="set_top">atas</string>
+    <string name="unset_top">membuka peniti</string>
+    <string name="confirm_clean_conversation">Apakah Anda yakin untuk menghapus sesi?</string>
+    <string name="confirm_delete_conversation">Apakah Anda yakin untuk menghapus sesi?</string>
+    <string name="message_notify">Pesan pemberitahuan</string>
+    <string name="password" translatable="false">sandi</string>
+    <string name="please_input_transfer_amount" translatable="false">Silakan masukkan jumlah transfer</string>
+    <string name="transfer_amount" translatable="false">Jumlah transfer</string>
+    <string name="network_congestion" translatable="false">Kongesti jaringan, tolong coba lagi nanti</string>
+    <string name="direction" translatable="false">menuju</string>
+    <string name="picture_save_success">Picture saved successfully</string>
+    <string name="picture_save_failure">Image saving failure</string>
+    <string name="allow_stangers_send_message">允许陌生人发消息</string>
+    <string name="please_shoukuan">请收款</string>
+    <string name="receive_shoukuan">已收款</string>
+    <string name="please_enter_lable_name">Please enter a label name</string>
+
+    <string name="call_canceled" translatable="false">Panggilan dibatalkan</string>
+    <string name="other_party_canceled" translatable="false">Pihak lain telah membatalkan</string>
+    <string name="video_call_duration" translatable="false">Durasi panggilan video</string>
+    <string name="voice_call_duration" translatable="false">Durasi panggilan suara</string>
+    <string name="unknown_status" translatable="false">Status tidak diketahui</string>
+
+
+    <string name="card">kartu bisnis</string>
+    <string name="card_user">[kartu nama pribadi]</string>
+    <string name="card_group">[kelompok]</string>
+    <string name="card_room">[ruang obrolan]</string>
+    <string name="card_channel">[saluran]</string>
+    <string name="card_litapp">[Applet]</string>
+
+    <string name="text_user_card">kartu nama pribadi</string>
+    <string name="text_group_card">kartu kelompok</string>
+    <string name="text_room_card">kartu ruang obrolan</string>
+    <string name="text_channel_card">kartu saluran</string>
+
+    <string name="clear_day" translatable="false">langit</string>
+
+    <string name="voice_call" translatable="false">Panggilan suara</string>
+    <string name="video_call" translatable="false">Panggilan video</string>
+
+    <!--orang yang dapat dihubungi-->
+    <string name="new_friend">teman-teman baru</string>
+    <string name="group_cheat">obrolan grup</string>
+
+    <!--teman-teman baru-->
+    <string name="add_friend">tambah teman</string>
+    <string name="no_recommend_friend">belum ada teman yang direkomendasikan</string>
+
+    <!--pengguna pencarian-->
+    <string name="user_no_found">pengguna ini tidak ada</string>
+    <string name="search">Cari</string>
+    <string name="search_result">Hasil Pencarian</string>
+
+    <!--Info Pengguna-->
+    <string name="nickname_colon">Nama panggilan:%1$s</string>
+    <string name="set_alias_and_tag">Siapkan catatan dan tag</string>
+    <string name="send_message">Kirim pesan</string>
+    <string name="add_to_contact">Tambahkan ke Buku Alamat</string>
+    <string name="change_my_name_tip">Nama yang baik dapat memudahkan teman Anda untuk mengingat Anda.</string>
+    <string name="tag" translatable="false">Label</string>
+    <string name="tag_selection" translatable="false">pemilihan label</string>
+
+    <!--mengedit catatan-->
+    <string name="alias">Nama catatan</string>
+    <string name="alias_no_empty">Nama catatan tidak boleh kosong</string>
+
+    <!--antarmuka postscript-->
+    <string name="postscript_tip">Anda perlu mengirim aplikasi verifikasi dan menunggu pihak lain lulus</string>
+    <string name="send">Kirim</string>
+
+    <!--antarmuka percakapan-->
+    <string name="please_to_talk">menahan bicara</string>
+    <string name="shot">untuk menembak</string>
+    <string name="location">Lokasi</string>
+    <string name="file">dokumen</string>
+    <string name="photo">foto</string>
+    <string name="redPacket">amplop merah</string>
+    <string name="redPacket_group">Amplop merah keberuntungan</string>
+    <string name="redPacket_bomb">Amplop Merah Kapal Penyapu Ranjau</string>
+    <string name="transfer" translatable="false">transfer</string>
+
+    <string name="voice_rec">Gesek ke atas untuk membatalkan pengiriman</string>
+    <string name="voice_cancel">Angkat jari Anda untuk membatalkan pengiriman</string>
+    <string name="voice_short">Waktu perekaman terlalu singkat</string>
+    <string name="input_speed_too_fast" translatable="false">Mengetik terlalu cepat</string>
+
+    <!--membuat grup-->
+    <string name="create_group_success">Grup berhasil dibuat</string>
+    <string name="create_group_fail">Gagal membuat grup</string>
+    <string name="no_group_now">Tidak ada obrolan grup</string>
+
+    <!--informasi grup-->
+    <string name="group_name">nama obrolan grup</string>
+    <string name="untitled">tanpa nama</string>
+    <string name="group_announcement">Pengumuman grup</string>
+    <string name="message_free">pesan jangan ganggu</string>
+    <string name="update_redpacket">Tingkatkan grup amplop merah</string>
+    <string name="mutual_friends" translatable="false">Izinkan satu sama lain untuk menambah teman</string>
+    <string name="modify_groud_name" translatable="false">Izinkan anggota untuk mengubah nama grup</string>
+    <string name="modify_messages_copy" translatable="false">Izinkan anggota untuk menyalin pesan</string>
+    <string name="modify_messages_forward" translatable="false">Izinkan anggota untuk meneruskan pesan</string>
+    <string name="my_nickname_in_this_group">Nama panggilan saya di grup ini</string>
+    <string name="show_group_member_name">Tampilkan nama panggilan anggota grup</string>
+    <string name="clear_chat_log">hapus riwayat obrolan</string>
+    <string name="delete_and_exit">hapus dan keluar</string>
+    <string name="chat_report">laporan</string>
+    <string name="delete_and_dismiss">larut dan hapus</string>
+    <string name="add_member_success">Berhasil menambahkan anggota grup</string>
+    <string name="add_member_fail">Gagal menambahkan anggota grup</string>
+    <string name="join_grouop_fail">Gagal bergabung dengan grup</string>
+    <string name="del_member_success">Anggota grup berhasil dihapus</string>
+    <string name="del_member_fail">Gagal menghapus anggota grup</string>
+    <string name="search_for_friends" translatable="false">mencari teman</string>
+    <string name="no_restrictions_entry" translatable="false">akses tak terbatas</string>
+    <string name="group_members_people" translatable="false">Anggota grup dapat menarik orang</string>
+    <string name="only_group_management_people" translatable="false">Hanya manajemen grup yang dapat menarik orang</string>
+    <string name="no_validation" translatable="false">tidak ada verifikasi</string>
+    <string name="need_to_verify" translatable="false">diperlukan verifikasi</string>
+    <string name="add_friends_title" translatable="false">tambah teman</string>
+    <string name="add_friends_verify1" translatable="false">Biarkan semua orang menjadi teman</string>
+    <string name="add_friends_verify2" translatable="false">Verifikasi diperlukan untuk menambahkan teman</string>
+    <string name="add_friends_verify3" translatable="false">Tidak diperbolehkan menambahkan teman</string>
+    <string name="allow_party_recall_message" translatable="false">Izinkan pihak lain untuk menarik pesan tersebut</string>
+    <string name="allow_party_delete" translatable="false">Izinkan seseorang untuk menghapus pesan</string>
+    <string name="need_reset" translatable="false">Anda belum menetapkan nama panggilan atau avatar, klik OK untuk masuk ke pengaturan</string>
+
+    <string name="all_images">semua gambar</string>
+    <string name="folder_image_count">%1$d total</string>
+    <string name="preview_image_count">%1$d/%2$d</string>
+    <string name="select_limit">Pilih maksimal %1$d gambar</string>
+    <string name="select_complete">Menyelesaikan(%1$d/%2$d)</string>
+    <string name="preview_count">pratinjau(%1$d)</string>
+    <string name="origin">gambar asli</string>
+    <string name="origin_size">gambar asli(%1$s)</string>
+    <string name="user_card">kartu nama pribadi</string>
+    <string name="litapp_card">web kartu bisnis</string>
+    <string name="clear_cache">bersihkan cache</string>
+    <string name="more">Lagi</string>
+    <string name="litapp_qrcode">Kode QR program mini</string>
+    <string name="str_more">Lagi</string>
+    <string name="my_qrcode">Kode QR program mini</string>
+
+    <string name="translating">dalam terjemahan</string>
+    <string name="translated">diterjemahkan</string>
+    <string name="url_prefix">Awalan untuk mengakses URL gambar</string>
+    <string name="error">Ada pengecualian dalam operasi Anda, harap tutup perangkat lunak dan buka kembali</string>
+    <string name="text_null">Dinamika yang diedit kosong dan tidak dapat dipublikasikan</string>
+    <string name="ok">Berita telah berhasil dipublikasikan</string>
+    <string name="text">pikiran saat ini...</string>
+    <string name="dw_text">opsional</string>
+    <string name="rqsj_text">yg dibutuhkan</string>
+
+    <string name="input_empty">Konten input tidak boleh kosong</string>
+    <string name="submitting">"sedang mengirimkan"</string>
+    <string name="submit_wait">"Mengirim, harap tunggu. . ."</string>
+    <string name="submit_success">Berhasil dikirim</string>
+    <string name="submit_failure">Pengajuan Gagal</string>
+    <string name="fav_friend">teman bintang</string>
+    <string name="add_failure">tambah gagal</string>
+    <string name="error_osnid">OsnID salah</string>
+    <string name="operation_failure">operasi gagal</string>
+
+    <string name="confirm">Tentu</string>
+    <string name="cancel">Membatalkan</string>
+    <string name="user">pengguna</string>
+    <string name="invite"> mengundang </string>
+    <string name="im">aku </string>
+    <string name="invite_group"> mengundang Anda ke grup</string>
+    <string name="request_join"> Terapkan untuk bergabung dengan grup </string>
+    <string name="join_group"> bergabung dengan grup </string>
+    <string name="added">ditambahkan</string>
+    <string name="rejected">ditolak</string>
+    <string name="accept">menerima</string>
+    <string name="reject">menolak</string>
+    <string name="invite_sent">Undangan pertemanan terkirim</string>
+    <string name="add_friend_failure">Gagal menambahkan teman</string>
+    <string name="from_share">dari berbagi</string>
+    <string name="test_share">tes berbagi</string>
+    <string name="select_over">Kandidat dibanjiri</string>
+    <string name="empty_contact">tidak ada kontak</string>
+    <string name="no_contact">kontak</string>
+    <string name="get_conversation_info_error">Gagal mendapatkan informasi sesi</string>
+    <string name="all_member_mute">Semua orang dibungkam</string>
+    <string name="no_message">pesan</string>
+    <string name="no_a_message">Artikel @ pesan</string>
+    <string name="welcome_join_room">Selamat datang %s di ruang obrolan</string>
+    <string name="join_room_failure">Gagal bergabung dengan ruang obrolan</string>
+    <string name="no_leave_room">%s meninggalkan ruang obrolan</string>
+    <string name="disable_talk">Melarang anggota grup untuk mengobrol secara pribadi</string>
+    <string name="a_all">/@setiap orang </string>
+    <string name="all_user">setiap orang</string>
+    <string name="inputting">Pihak lain sedang mengetik</string>
+    <string name="recording">Pihak lain sedang merekam</string>
+    <string name="photographing">Pihak lain sedang memotret</string>
+    <string name="send_file">Pihak lain sedang mengirim file</string>
+    <string name="send_location">Pihak lain mengirimkan lokasi</string>
+    <string name="count_receive">Jumlah orang yang diantarkan:</string>
+    <string name="count_no_receive">Jumlah yang tidak terkirim:</string>
+    <string name="count_read">Jumlah orang yang telah membaca:</string>
+    <string name="count_unread">Jumlah yang belum dibaca:</string>
+    <string name="receipt">penerimaan pesan</string>
+    <string name="input_limit">Masukan maksimum diperbolehkan</string>
+    <string name="no_emoji">emoji</string>
+    <string name="please_install">silakan instal</string>
+    <string name="creating">menciptakan...</string>
+    <string name="select_file_error">pilih kesalahan file</string>
+
+    <string name="cheat_record1">catatan obrolan</string>
+    <string name="message_record">[catatan obrolan]: </string>
+    <string name="step_forward">[Maju satu per satu] Total</string>
+    <string name="forward_success">berhasil diteruskan</string>
+    <string name="forward_failure">penerusan gagal</string>
+
+    <string name="no_member_of_group">Anda tidak termasuk dalam grup atau terjadi kesalahan, silakan coba lagi nanti</string>
+    <string name="please_input_nickname">Silakan masukkan nama panggilan grup Anda</string>
+    <string name="modify_nickname_failure">Gagal mengubah nama panggilan grup:</string>
+    <string name="dismiss_group_failure">Gagal membubarkan grup</string>
+    <string name="quit_group_failure">Gagal keluar dari grup</string>
+    <string name="group_qrcode">Kode QR grup</string>
+    <string name="disable_talk1">Melarang anggota grup untuk mengobrol secara pribadi</string>
+    <string name="unknown_duration">durasi tidak diketahui</string>
+    <string name="time_p0">yyyy/MM/dd</string>
+    <string name="to"> ke </string>
+
+    <string name="is_resend">Kirim ulang?</string>
+    <string name="is_delete">konfirmasi penghapusan?</string>
+    <string name="resend">Kirim ulang</string>
+    <string name="no_set">tidak diatur</string>
+    <string name="recall">menarik</string>
+    <string name="callback" tools:ignore="ExtraTranslation">menarik</string>
+    <string name="delete">menghapus</string>
+    <string name="delete_tag" translatable="false">hapus label</string>
+    <string name="confirm_delete_tag" translatable="false">Konfirmasi penghapusan label</string>
+    <string name="tag_prompt" translatable="false">Silakan buka halaman detail pengguna untuk menambahkan pengguna ke label</string>
+    <string name="no_tag" translatable="false">Belum ada tag, buka tambahkan tag</string>
+    <string name="deleteto" tools:ignore="ExtraTranslation">Hapus pesan satu sama lain</string>
+    <string name="forward">Maju</string>
+    <string name="quota">mengutip</string>
+    <string name="multi_check">mengutip</string>
+    <string name="private_cheat">obrolan pribadi</string>
+    <string name="fav">mengumpulkan</string>
+    <string name="copy">salinan</string>
+    <string name="save">menyimpan</string>
+    <string name="save_as" translatable="false">Simpan file ke direktori yang ditentukan</string>
+    <string name="details" translatable="false">detail</string>
+    <string name="top_message" translatable="false">Pesan lengket</string>
+    <string name="top_message_set" translatable="false">Pengaturan pesan tempel</string>
+
+    <string name="confirm_delete">Konfirmasi untuk menghapus pesan ini</string>
+    <string name="confirm_callback" tools:ignore="MissingTranslation">Konfirmasi untuk mencabut pesan ini</string>
+    <string name="message_context">Isi pesan</string>
+
+    <string name="step_forward1">Maju satu per satu</string>
+    <string name="merge_froward"> Gabung Maju</string>
+    <string name="and">dan</string>
+    <string name="cheat_record">riwayat obrolan</string>
+    <string name="group_cheat_record">riwayat obrolan grup</string>
+
+    <string name="linking">menghubungkan...</string>
+    <string name="syncing">Menyinkronkan...</string>
+    <string name="link_fail">Koneksi gagal</string>
+
+    <string name="load_fav_failed">Gagal memuat koleksi </string>
+    <string name="fav_context">konten favorit</string>
+
+    <string name="entry_group">masuk ke obrolan grup</string>
+    <string name="joins_group">bergabung dengan obrolan grup</string>
+    <string name="upload_portrait_failed">Gagal mengunggah avatar grup</string>
+
+    <string name="administrator">administrator</string>
+    <string name="owner">Yang mulia</string>
+    <string name="group_admin">manajemen kelompok</string>
+    <string name="set_sensitive_word" translatable="false">mengatur kata-kata sensitif</string>
+    <string name="group_message_masking_keywords" translatable="false">Kata kunci pemblokiran pesan grup</string>
+    <string name="fill_maximum_five_keywords" translatable="false">(tambahkan hingga lima kata kunci)</string>
+    <string name="click_add_keywords" translatable="false">Klik tombol Tambah di pojok kanan atas untuk menambahkan kata kunci</string>
+    <string name="example" translatable="false">contoh</string>
+    <string name="remove_white_list">hapus daftar putih</string>
+    <string name="clean_mute">membunyikan</string>
+    <string name="white_list">daftar putih</string>
+    <string name="mute_list">Daftar larangan</string>
+    <string name="adding">Menambahkan...</string>
+    <string name="set_admin_error">atur kesalahan admin </string>
+    <string name="modify_group_join_type_failed">Gagal mengubah metode penambahan</string>
+    <string name="modify_group_verify_type_failed">Gagal mengubah metode verifikasi</string>
+    <string name="modify_group_type_failed">Gagal mengubah jenis grup</string>
+    <string name="remove_admin">Hapus pengelolaan grup</string>
+    <string name="set_member_right_failed">Gagal menyetel izin anggota grup </string>
+    <string name="mute_failed">Pembisukan gagal </string>
+    <string name="adding_white_list">tambahkan ke daftar putih...</string>
+    <string name="muting">Terlarang...</string>
+    <string name="add_white_failed">Tambahkan kesalahan daftar putih</string>
+    <string name="set_mute">mengatur larangan</string>
+    <string name="member_right">izin anggota</string>
+    <string name="no_limit_join">akses tak terbatas</string>
+    <string name="group_type">tipe grup</string>
+    <string name="join_mode">Tambahkan metode grup</string>
+    <string name="verify_mode">Cara mengidentifikasi</string>
+    <string name="time_mode" translatable="false">kecepatan berbicara</string>
+    <string name="clear_time" translatable="false">Bersihkan pesan grup secara teratur</string>
+    <string name="no_allow_find">Jangan izinkan pencarian</string>
+    <string name="find_mode">metode pencarian</string>
+    <string name="mute_failed1">Menyetel kesalahan bisu</string>
+    <string name="member_mute">Anggota grup dilarang</string>
+    <string name="member_white">Berbicara daftar putih</string>
+    <string name="get_group_notice_failed">Gagal mendapatkan pengumuman grup</string>
+    <string name="waiting">Harap tunggu...</string>
+    <string name="set_notice_success">Berhasil menyetel pengumuman grup</string>
+    <string name="set_notice_failure">Gagal menyetel pengumuman grup: </string>
+    <string name="set_group_card_success">Nama grup berhasil diubah</string>
+    <string name="set_group_card_failure">Gagal mengubah nama grup: </string>
+    <string name="add_an_applet" translatable="false">tambahkan applet</string>
+
+    <string name="authorize">resmi</string>
+    <string name="auth_tip"> Dapat mengakses avatar Anda dan informasi publik lainnya, baik untuk mengotorisasi akses</string>
+    <string name="exit_tip">tekan lagi untuk keluar</string>
+    <string name="qrcode">Kode QR</string>
+    <string name="litapp_card1">Kartu nama program kecil</string>
+    <string name="litapp_share" translatable="false">berbagi applet</string>
+    <string name="litapp_name">nama applet</string>
+    <string name="open_litapp">buka applet</string>
+    <string name="copy_success">berhasil menyalin</string>
+    <string name="qrcode_scan_failed">Gagal mengenali kode QR</string>
+
+    <string name="single_price">jumlah tunggal</string>
+    <string name="group_has">Grup kami</string>
+    <string name="man">rakyat</string>
+    <string name="all_price">jumlah bulat</string>
+    <string name="price">jumlah</string>
+    <string name="price_error">salah jumlah</string>
+    <string name="luck_no_error">angka keberuntungan yang salah</string>
+    <string name="packet_count_error">Jumlah amplop merah salah</string>
+    <string name="input_count">Nomor</string>
+    <string name="packet_failed">Gagal menyegel amplop merah</string>
+    <string name="bless">Gong Xi Fa Cai, selamat mencoba</string>
+    <string name="server_parameter_error">Server mengembalikan kesalahan parameter</string>
+    <string name="service_error" translatable="false">pengecualian server</string>
+    <string name="date_pattern">MM/dd HH:mm</string>
+    <string name="de_packet"> amplop merah</string>
+    <string name="count_packet">jumlah amplop merah</string>
+    <string name="yuan"> </string>
+    <string name="error_hit">kesalahan: </string>
+    <string name="pwd_error_hit">Kata sandi salah, coba lagi yang tersisa: </string>
+    <string name="red_packet_finish">Amplop merah sudah habis</string>
+    <string name="red_come_from" translatable="false">Amplop merah itu berasal</string>
+
+    <string name="records">Catatan</string>
+    <string name="delete_failed">gagal untuk menghapus</string>
+
+    <string name="user_no_exist">pengguna tidak ada</string>
+    <string name="modifying">Memodifikasi...</string>
+    <string name="modify_success">Berhasil dimodifikasi</string>
+    <string name="modify_failure">gagal mengedit</string>
+    <string name="set_alias_failed">Ubah kesalahan alias:</string>
+    <string name="set_account_failed">Ubah kesalahan akun:</string>
+    <string name="id_is_empty">ID tidak boleh kosong:</string>
+    <string name="set_ok">berhasil ditetapkan</string>
+
+    <string name="update_error_select_file">Gagal memperbarui avatar: Gagal memilih file </string>
+    <string name="update_error_thumbnail">Gagal memperbarui avatar: Gagal membuat thumbnail</string>
+    <string name="update_ok">Perbarui avatar dengan sukses</string>
+    <string name="update_no">Gagal memperbarui avatar: </string>
+    <string name="downloading">mengunduh</string>
+    <string name="recall_failed">Penarikan gagal: </string>
+
+    <string name="new_message">kabar baru</string>
+    <string name="no">mengupas</string>
+    <string name="deng"> Tunggu</string>
+    <string name="request_friend">Permintaan untuk menambahkan Anda sebagai teman</string>
+    <string name="friend_request">Permintaan pertemanan</string>
+
+    <string name="tip">petunjuk</string>
+    <string name="confirm_to_delete">Apakah Anda ingin menghapus foto ini?</string>
+
+    <string name="set_user_remark">Tetapkan catatan pengguna</string>
+    <string name="modify_nickname">ubah nama pengguna</string>
+    <string name="modify_group_name">Ubah nama grup</string>
+    <string name="modify_group_notice">Ubah pengumuman grup</string>
+    <string name="create_conversation">buat sesi</string>
+    <string name="add_member">tambah anggota baru</string>
+    <string name="del_member">menghapus anggota grup</string>
+    <string name="sel_member">memilih anggota grup</string>
+    <string name="group_list">obrolan grup</string>
+    <string name="friend_request1">permintaan pertemanan</string>
+    <string name="find_user">pengguna pencarian</string>
+    <string name="add_osnid">Tambahkan OsnID</string>
+    <string name="invite_friend">mengundang teman-teman</string>
+    <string name="user_info">Info Pengguna</string>
+    <string name="privacy_set">pengaturan Privasi</string>
+    <string name="black_list">daftar hitam</string>
+    <string name="friend_circle">Lingkaran pertemanan</string>
+    <string name="new_message_notify">pemberitahuan pesan baru</string>
+    <string name="conversation_info">detail sesi</string>
+    <string name="room_list">daftar ruang obrolan</string>
+    <string name="search_center">Pusat pencarian</string>
+    <string name="sel_conversation">pilih sesi</string>
+    <string name="channel_list">daftar saluran</string>
+    <string name="notify_message">pesan pemberitahuan</string>
+    <string name="litapp_list">daftar applet</string>
+    <string name="litapp">Applet</string>
+    <string name="kefu">pelayanan pelanggan</string>
+    <string name="kefu_list">Daftar layanan pelanggan</string>
+    <string name="complain">laporan</string>
+    <string name="feedback">Timbal balik pelanggan</string>
+    <string name="input_info">Masukkan informasi</string>
+    <string name="create_channel">membuat saluran</string>
+    <string name="group_info">informasi grup</string>
+    <string name="litapp_info">Informasi Program Mini</string>
+    <string name="scan">memindai itu</string>
+    <string name="member_list">daftar anggota kelompok</string>
+    <string name="sel_contact">pemilihan kontak</string>
+    <string name="file_record">catatan dokumen</string>
+    <string name="share_cardinfo" translatable="false">berbagi kartu nama</string>
+
+    <string name="red_pecket_setting" translatable="false">Menetapkan kemungkinan paket merah untuk membersihkan tambang</string>
+    <string name="tag_option" translatable="false">Operasi label</string>
+    <string name="group_profit">Pendapatan grup kueri</string>
+    <string name="contact">orang yang dapat dihubungi</string>
+    <string name="modify_id">Ubah ID</string>
+    <string name="meeting_invite">undangan rapat</string>
+    <string name="merge_message">pesan gabungan</string>
+
+    <string name="input_id">Silakan masukkan OsnID</string>
+    <string name="add">Tambahkan</string>
+    <string name="submit">Kirimkan</string>
+    <string name="complain_hint">Masukkan isi laporan (dalam 200 karakter)</string>
+    <string name="complain_photo">Laporan gambar</string>
+    <string name="input_user">Masukkan kontak</string>
+    <string name="input_phone">Silakan ketik nomor telepon Anda</string>
+    <string name="input_feedback">Silakan masukkan konten umpan balik (dalam 200 karakter)）</string>
+    <string name="all_photo">semua gambar</string>
+    <string name="preview3">pratinjau(3)</string>
+    <string name="original_pic">gambar asli(3.07M)</string>
+    <string name="select">memilih</string>
+
+    <string name="receive_new_message">memilih</string>
+    <string name="notify_show_info">Notifikasi menampilkan detail pesan</string>
+    <string name="message_receipt">penerimaan pesan</string>
+
+    <string name="to_user">kepada siapa</string>
+    <string name="packet_count">Jumlah amplop merah</string>
+    <string name="ge">individu</string>
+    <string name="bless0">Selamat</string>
+    <string name="win">menang lotere</string>
+    <string name="red_packet_owner">orang yang memberikan amplop merah</string>
+    <string name="packet_group_info">Ada 0 orang di grup ini</string>
+    <string name="one_price">jumlah tunggal</string>
+    <string name="price_hint">USD 0.00</string>
+    <string name="luck_no">Nomor keberuntungan</string>
+    <string name="luck_tail">Memenangkan mantissa</string>
+    <string name="luck_times">Menang berkali-kali</string>
+    <string name="luck_price">jumlah kemenangan</string>
+    <string name="packet_head">sampul amplop merah</string>
+    <string name="set_packet">memasukkan uang ke dalam amplop merah</string>
+    <string name="bless1">Semoga Anda makmur dan kaya</string>
+    <string name="red_packet_info">1 amplop merah, total 0 yuan</string>
+
+    <string name="delete_friend_whether">Apakah Anda ingin menghapus teman?</string>
+
+
+    <string name="input_info1">silakan masukkan informasi</string>
+    <string name="shoot_photo">mengambil foto</string>
+    <string name="zero_space">Jumlah 0</string>
+    <string name="user_request_add_you">Pihak lain meminta untuk menambahkan Anda sebagai teman</string>
+    <string name="message_12">12 pesan</string>
+    <string name="message_a_12">12 @pesan </string>
+    <string name="show_all_member">melihat semua anggota</string>
+    <string name="find_record">Temukan riwayat obrolan</string>
+    <string name="save_to_contact">simpan ke buku alamat</string>
+    <string name="file_name">nama file. . . . .</string>
+    <string name="retry">Mencoba kembali</string>
+    <string name="you_invite_join">Anda mengundang xx untuk bergabung</string>
+    <string name="re_edit">edit ulang</string>
+    <string name="recall_one_message">menarik kembali pesan</string>
+    <string name="already_finish">sudah diterima</string>
+    <string name="app_red_packet">wallet</string>
+    <string name="loading">Memuat…</string>
+    <string name="user_red_packet">Amplop merah eksklusif</string>
+    <string name="random_red_packet">Amplop merah keberuntungan</string>
+    <string name="bomb_red_packet">Amplop Merah Kapal Penyapu Ranjau</string>
+    <string name="input_pay_code">Silakan masukkan kata sandi pembayaran</string>
+    <string name="send_to">Kirim ke:</string>
+    <string name="leave_to_friend">meninggalkan pesan ke teman</string>
+    <string name="group_name1">nama grup</string>
+    <string name="member_admin">manajemen anggota</string>
+    <string name="set_group_attrib">Pengaturan atribut grup</string>
+    <string name="applet_management" tools:ignore="ExtraTranslation">manajemen apel</string>
+    <string name="add_administrator">tambahkan administrator</string>
+    <string name="allow_member_temp_chat">Izinkan anggota biasa untuk memulai sesi sementara</string>
+    <string name="all_mute">Semua Orang Bisu</string>
+    <string name="select_pic">Pilih gambar</string>
+    <string name="test">uji</string>
+    <string name="best_luck">paling beruntung</string>
+    <string name="copy_to_clip">menyalin ke clipboard</string>
+    <string name="share_and_save_picture">Bagikan dan simpan gambar</string>
+    <string name="share">Bagikan</string>
+    <string name="input_keyword_to_search">Masukkan kata kunci untuk mulai mencari</string>
+    <string name="no_search_result">tidak ada hasil pencarian</string>
+
+    <string name="set_nickname_or_alias">Tetapkan nama panggilan atau alias</string>
+    <string name="space">ruang angkasa</string>
+    <string name="video_chat">Obrolan video</string>
+    <string name="detail">detail</string>
+    <string name="addr_book">buku alamat</string>
+    <string name="create_group">Mulai obrolan grup</string>
+    <string name="album">album Foto</string>
+    <string name="delete_friend">hapus teman</string>
+    <string name="add_friend1">tambah teman</string>
+    <string name="add_black_list">tambahkan ke daftar hitam</string>
+    <string name="del_black_list">hapus dari daftar hitam</string>
+    <string name="set_remark_name">mengatur nama komentar</string>
+    <string name="set_fav_friend">Buat teman bintang</string>
+    <string name="del_fav_friend">hapus bintang teman</string>
+    <string name="please_input_verify_code">Silakan masukkan kata sandi pembayaran</string>
+    <string name="pay_mode">支付方式</string>
+    <string name="change">uang receh \></string>
+    <string name="game_rule">aturan permainan</string>
+
+    <string name="image_doodle">coretan</string>
+    <string name="image_text">Kata</string>
+    <string name="image_mosaic">mosaik</string>
+    <string name="image_clip">memotong</string>
+    <string name="image_reset">pengurangan</string>
+    <string name="image_done">Menyelesaikan</string>
+    <string name="image_cancel">Membatalkan</string>
+    <string name="image_rotate">untuk memutar</string>
+
+    <string name="image_mosaic_tip">Silakan terapkan blur langsung pada gambar</string>
+    <string name="image_undo">menarik kembali</string>
+    <string name="image_all_photo">semua foto</string>
+    <string name="image_original">gambar asli</string>
+    <string name="image_preview">pratinjau</string>
+    <string name="hint">petunjuk</string>
+    <string name="bomb_update_tip">Amplop merah kapal penyapu ranjau membutuhkan %s orang untuk meningkatkan ke grup amplop merah.</string>
+    <string name="friend">teman-teman</string>
+    <string name="group">kelompok</string>
+    <string name="my_litapp">applet saya</string>
+    <string name="Yesterday" translatable="false">kemarin</string>
+    <string name="Sunday" translatable="false">minggu</string>
+    <string name="Monday" translatable="false">pada hari Senin</string>
+    <string name="Tuesday" translatable="false">Selasa</string>
+    <string name="Wednesday" translatable="false">Rabu</string>
+    <string name="Thursday" translatable="false">Kamis</string>
+    <string name="Friday" translatable="false">jumat</string>
+    <string name="Saturday" translatable="false">Sabtu</string>
+
+    <string name="string_confirm" translatable="false">Konfirmasi</string>
+    <string name="string_cancel" translatable="false">Membatalkan</string>
+    <string name="string_remind" translatable="false">mengingatkan</string>
+    <string name="string_ps" translatable="false">nota bene</string>
+    <string name="version_number" translatable="false">nomor versi</string>
+
+    <string name="clean_chat_whether" translatable="false">Apakah Anda ingin menghapus riwayat obrolan?</string>
+    <string name="quit_delete_whether" translatable="false">Harap konfirmasi apakah akan keluar/bubarkan grup?</string>
+
+</resources>

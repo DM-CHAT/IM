@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">WildFireChatClient</string>
+    <string name="hello">Merhaba</string>
+    <string name="card_user_digest">[İş kartı]:</string>
+    <string name="card_group_digest">[Grup iş kartı]:</string>
+    <string name="card_room_digest">[Chat Room Business Card]:</string>
+    <string name="card_channel_digest">[Kanal iş kartı]:</string>
+    <string name="card_digest">[iş kartı]:</string>
+    <string name="red_packet_digest">[Kırmızı kaplumbağalar]</string>
+    <string name="audio_digest">[sesi]</string>
+    <string name="video_digest">[video]</string>
+    <string name="meeting_digest">[toplantı]</string>
+    <string name="file_digest">[dosya]</string>
+    <string name="photo_digest">[fotoğraf]</string>
+    <string name="sticker_digest">[Dinamik ifade]</string>
+    <string name="network_call_digest">[İnternet telefonu]"</string>
+    <string name="chat_record_digest1">[Konuşma kayıtları]: </string>
+    <string name="unknown_message">Bilinmegen tür mesaj</string>
+    <string name="channel">kanal</string>
+    <string name="room">sohbet odası</string>
+    <string name="group">Grup sohbeti</string>
+    <string name="user">kullanıcı</string>
+    <string name="location">position</string>
+    <string name="transfer">[hesapları aktar]</string>
+
+    <string name="you">Sen</string>
+    <string name="dose">Dur</string>
+    <string name="modify">değiştir</string>
+    <string name="de">of</string>
+    <string name="open">Açık</string>
+    <string name="group_card">Grup iş kartları</string>
+    <string name="open_group_join">Grupların katılma fonksiyonunu aç</string>
+    <string name="invite_group_join">Sadece grup üyelerinin grupa katılmasına izin verin</string>
+    <string name="close_group_join">Sadece grup katılma fonksiyonu etkinleştirildi</string>
+    <string name="clean_mute">Tabuyu kaldır</string>
+    <string name="enable_mute">Taboo ayarla</string>
+    <string name="clean_all_mute">Görevin yasaklığını kapattı.</string>
+    <string name="enable_all_mute">Görevin tabüs ünü açtı.</string>
+    <string name="clean_member_talk">Açık üye özel sohbet</string>
+    <string name="enable_member_talk">Kapalı üye özel sohbet</string>
+    <string name="clean_administrator">Yönetici iptal edildi</string>
+    <string name="enable_administrator">Yönetici olarak ayarlayın</string>
+    <string name="remove_member"> Grup dışında taşındı</string>
+    <string name="you_quit_group">Grup dışında taşındı </string>
+    <string name="quit_group">Gruptan çıktı </string>
+    <string name="you_transfer_group_owner">Grubu gönderdin.</string>
+    <string name="transfer_group_owner">Grubu gönderildi</string>
+    <string name="recall_one_message" translatable="false">Bir mesaj tekrar başlattı</string>
+
+    <string name="modify_group_name">Grup ismini değiştirin</string>
+    <string name="you_joined_group">Grup sohbetine katıldınız.</string>
+    <string name="joined_group">Grup sohbetine katıldı</string>
+    <string name="you_invite">Davet ettin</string>
+    <string name="invite">davet</string>
+    <string name="joined_group1"> Grupa katıldı</string>
+    <string name="update_group_portrait">Güncellenmiş grup avatar ı</string>
+    <string name="you_create_group">Bir grup yarattın </string>
+    <string name="create_group">Bir grup oluştur </string>
+    <string name="you_dismiss_group">Grubu dağıttın </string>
+    <string name="dismiss_group">Grup ayrıldı </string>
+
+    <string name="you_are_friend_and_start_chat">Zaten arkadaşınız ve konuşmaya başlayabilirsiniz.</string>
+    <string name="hello_context">Yukarıdaki merhaba içeriği</string>
+    <string name="clean_mute_chat">Grup yasaklandığında konuşma iznini iptal et</string>
+    <string name="enable_mute_chat">Grup yasaklandığında konuşma iznini ayarlayın</string>
+
+    <string name="group_upgrade">Grup mayın kırmızı paket grubuna geliştirildi</string>
+    <string name="group_who_win">Zhonglei</string>
+    <string name="bless_win">Tebrikler!</string>
+    <string name="win_price">Kazananlar</string>
+
+
+    <string name="audio_and_video_call" translatable="false">[Ses ve video araması]</string>
+
+</resources>

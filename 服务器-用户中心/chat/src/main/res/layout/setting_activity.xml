@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gray5"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <cn.wildfire.chat.kit.widget.OptionItemView
+            android:id="@+id/privacySettingOptionItemView"
+            style="@style/OptionItem"
+            android:background="@drawable/selector_option_item"
+            app:show_arrow_indicator="true"
+            app:title="@string/privacy_settings" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <cn.wildfire.chat.kit.widget.OptionItemView
+            android:visibility="gone"
+            android:id="@+id/aboutOptionItemView"
+            style="@style/OptionItem"
+            android:background="@drawable/selector_option_item"
+            app:show_arrow_indicator="true"
+            app:title="关于" />
+
+        <cn.wildfire.chat.kit.widget.OptionItemView
+            android:visibility="gone"
+            android:id="@+id/diagnoseOptionItemView"
+            style="@style/OptionItem"
+            android:background="@drawable/selector_common_item"
+            android:clickable="true"
+            app:show_arrow_indicator="true"
+            app:title="诊断" />
+
+        <cn.wildfire.chat.kit.widget.OptionItemView
+            android:visibility="gone"
+            android:id="@+id/uploadLogOptionItemView"
+            style="@style/OptionItem"
+            android:background="@drawable/selector_common_item"
+            android:clickable="true"
+            app:show_arrow_indicator="true"
+            app:title="上传日志" />
+        <cn.wildfire.chat.kit.widget.OptionItemView
+            android:visibility="gone"
+            android:id="@+id/spaceLogOptionItemView"
+            style="@style/OptionItem"
+            android:background="@drawable/selector_common_item"
+            android:clickable="true"
+            app:show_arrow_indicator="true"
+            app:title="空间设置" />
+        <cn.wildfire.chat.kit.widget.OptionItemView
+            android:id="@+id/accountAndSecurity"
+            style="@style/OptionItem"
+            android:background="@drawable/selector_common_item"
+            android:clickable="true"
+            app:show_arrow_indicator="true"
+            app:title="@string/account_security" />
+    </LinearLayout>
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/themeOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@drawable/selector_common_item"
+        app:divider_align_to_title="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_theme"
+        android:visibility="gone"
+        app:title="@string/theme" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <cn.wildfire.chat.kit.widget.OptionItemView
+            android:id="@+id/languageOptionItemView"
+            style="@style/OptionItem"
+            android:background="@drawable/selector_common_item"
+            android:clickable="true"
+            app:show_arrow_indicator="true"
+            app:title="@string/language_settings" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_about"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/abort"
+            android:textColor="@color/black1"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/rightImageView"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"/>
+        <ImageView
+            android:id="@+id/rightImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_right_arrow" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <View style="@style/Line" />
+
+        <TextView
+            android:id="@+id/exitOptionItemView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_option_item"
+            android:gravity="center"
+            android:text="@string/exit"
+            android:textColor="@color/black1"
+            android:textSize="16sp" />
+
+        <View style="@style/Line" />
+    </LinearLayout>
+
+</LinearLayout>

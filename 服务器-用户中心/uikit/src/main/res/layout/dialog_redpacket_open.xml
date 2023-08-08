@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/contentLayout">
+
+    <LinearLayout
+        android:background="#f6604f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@mipmap/open_head" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:src="@mipmap/default_header"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#e9e7b6"
+                android:textSize="20sp"
+                android:text="谁的红包"/>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e9e7b6"
+            android:textSize="28sp"
+            android:text="@string/bless"/>
+
+        <ImageView
+            android:id="@+id/open"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitEnd"
+            android:src="@mipmap/open_image" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/close"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#ededed"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@mipmap/no_open"/>
+
+</LinearLayout>

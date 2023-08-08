@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+    <!--<LinearLayout
+        android:id="@+id/ll_conversation_select"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="36dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_friend"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/friend"
+                android:layout_width="50dp"
+                android:layout_height="32dp"/>
+            <View
+                android:id="@+id/view_friend"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="10dp"
+                android:background="@color/green1"
+                android:layout_height="2dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_group"
+                android:textColor="@color/gray1"
+                android:gravity="center"
+                android:text="@string/group"
+                android:layout_width="50dp"
+                android:layout_height="32dp"/>
+            <View
+                android:id="@+id/view_group"
+                android:visibility="invisible"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="10dp"
+                android:background="@color/green1"
+                android:layout_height="2dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_kefu"
+                android:textColor="@color/gray1"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/kefu"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"/>
+            <View
+                android:id="@+id/view_kefu"
+                android:visibility="invisible"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="10dp"
+                android:background="@color/green1"
+                android:layout_height="2dp"/>
+        </LinearLayout>
+    </LinearLayout>-->
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/ll_contact_title"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/btn_new_friends"
+            android:text="@string/new_friend"
+            android:background="@null"
+            android:drawableTop="@mipmap/add_friends"
+            android:drawablePadding="4dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_groups"
+            android:text="@string/group"
+            android:drawablePadding="4dp"
+            android:background="@null"
+            android:drawableTop="@mipmap/group_chat"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_litapp"
+            android:drawablePadding="4dp"
+            android:text="@string/litapp"
+            android:background="@null"
+            android:drawableTop="@mipmap/applets"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contentLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <cn.wildfire.chat.kit.widget.ViewPagerFixed
+                android:id="@+id/contentViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <!--底部-->
+            <View style="@style/Line" />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray14"
+                app:itemTextColor="@color/bottom_nav_color"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/main_bottom_navigation" />
+            <!--app:labelVisibilityMode="labeled"-->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/startingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/app_init" />
+    </FrameLayout>
+</LinearLayout>

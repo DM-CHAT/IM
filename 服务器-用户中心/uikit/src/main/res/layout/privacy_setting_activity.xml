@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray5"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <cn.wildfire.chat.kit.widget.OptionItemView
+            android:id="@+id/blacklistOptionItemView"
+            style="@style/OptionItem"
+            android:background="@drawable/selector_option_item"
+            app:title="@string/black_list" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/option_item_margin_top"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <cn.wildfire.chat.kit.widget.OptionItemView
+                android:id="@+id/addFriend"
+                style="@style/OptionItem"
+                android:background="@drawable/selector_common_item"
+                app:desc="@string/add_friends_verify1"
+                app:divider_align_to_title="true"
+                app:title="@string/add_friends_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_weight="1"
+                android:text="@string/allow_party_recall_message"
+                android:textColor="@color/black0"
+                android:textSize="16sp" />
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/sbt_allowPartyRecallMessage"
+                android:layout_marginRight="@dimen/option_item_margin_right"
+                style="@style/IosSwitch" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_weight="1"
+                android:text="@string/allow_party_delete"
+                android:textColor="@color/black0"
+                android:textSize="16sp" />
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/sbt_allowPartyDeleteMessage"
+                android:layout_marginRight="@dimen/option_item_margin_right"
+                style="@style/IosSwitch" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_weight="1"
+                android:text="@string/allow_stangers_send_message"
+                android:textColor="@color/black0"
+                android:textSize="16sp" />
+
+            <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/sbt_allowStrangersSendMessage"
+                android:layout_marginRight="@dimen/option_item_margin_right"
+                style="@style/IosSwitch" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/option_item_margin_top"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <cn.wildfire.chat.kit.widget.OptionItemView
+            android:id="@+id/momentsPrivacyOptionItemView"
+            style="@style/OptionItem"
+            android:background="@drawable/selector_option_item"
+            app:title="@string/friend_circle" />
+    </LinearLayout>
+
+
+</LinearLayout>

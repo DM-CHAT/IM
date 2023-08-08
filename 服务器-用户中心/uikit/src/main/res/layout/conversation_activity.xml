@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wildfire.chat.kit.widget.InputAwareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <!--内容-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:background="@mipmap/ic_bg_liaotian"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_groupNotice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_gonggao"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:id="@+id/groupNotice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="公告："
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_two_right"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_topMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/ll_topMessage1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="50dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_top_message"
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/tv_topMessage1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:ellipsize="end"
+                        android:textColor="@color/black"
+                        android:lines="1"
+                        android:text="xxx: 测试" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_topMessage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="50dp"
+                    android:visibility="gone">
+                    <TextView
+                        android:id="@+id/tv_topMessage2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="xxx: 测试"
+                        android:lines="1"
+                        android:ellipsize="end"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="22dp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_delete"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/ic_two_right"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/unreadCountLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/unreadCountTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/shape_unread_message_count_label_bg"
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:text="@string/message_12"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/unreadMentionCountTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/red0"
+                    android:padding="10dp"
+                    android:text="@string/message_a_12"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_webView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:visibility="gone">
+
+                <WebView
+                    android:id="@+id/litappWebview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/iv_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@mipmap/ic_colse" />
+
+                <ImageView
+                    android:id="@+id/iv_fullscreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="10dp"
+                    android:src="@mipmap/ic_fullscreen" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                        android:id="@+id/swipeRefreshLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/msgRecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+                    <View style="@style/Line" />
+
+                    <cn.wildfire.chat.kit.conversation.ConversationInputPanel
+                        android:id="@+id/inputPanelFrameLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:id="@+id/multiMessageActionContainerLinearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_aplets"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/shape_aplets">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/ic_back1" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_aplets_open"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/shape_aplets">
+
+                        <ImageView
+                            android:id="@+id/iv_right"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:src="@mipmap/ic_right" />
+
+                        <ImageView
+                            android:id="@+id/iv_aplets"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_toLeftOf="@+id/iv_right"
+                            android:src="@mipmap/default_image" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </FrameLayout>
+</cn.wildfire.chat.kit.widget.InputAwareLayout>

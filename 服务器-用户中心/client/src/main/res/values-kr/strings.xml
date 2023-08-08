@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">WildFireChatClient</string>
+    <string name="hello">안녕하세요</string>
+    <string name="card_user_digest">[개인 명함]:</string>
+    <string name="card_group_digest">[그룹 명함]:</string>
+    <string name="card_room_digest">[채팅방 명함]:</string>
+    <string name="card_channel_digest">[채널 명함]:</string>
+    <string name="card_digest">[명함]:</string>
+    <string name="red_packet_digest">[훙 바 오]</string>
+    <string name="audio_digest">[음성]</string>
+    <string name="video_digest">[동영상]</string>
+    <string name="meeting_digest">[회의]</string>
+    <string name="file_digest">[파일]</string>
+    <string name="photo_digest">[사진]</string>
+    <string name="sticker_digest">[움직이는 표정]</string>
+    <string name="network_call_digest">[인터넷 전화]"</string>
+    <string name="chat_record_digest1">[채팅 기록]: </string>
+    <string name="unknown_message">알 수 없는 형식의 메시지</string>
+    <string name="channel">채널</string>
+    <string name="room">채팅방</string>
+    <string name="group">그룹 채팅</string>
+    <string name="user">사용자</string>
+    <string name="location">위치</string>
+    <string name="transfer">[이체]</string>
+
+    <string name="you">당신</string>
+    <string name="dose">을</string>
+    <string name="modify">수정</string>
+    <string name="de">의</string>
+    <string name="open">열</string>
+    <string name="group_card">그룹명함</string>
+    <string name="open_group_join">그룹 가입 가능</string>
+    <string name="invite_group_join">그룹 멤버만 그룹에 초대할 수 있습니다</string>
+    <string name="close_group_join">그룹 추가만 활성화되어 있습니다</string>
+    <string name="clean_mute">금언을 해제하다</string>
+    <string name="enable_mute">금언을 설정하다</string>
+    <string name="clean_all_mute">전원 금언을 폐쇄하다</string>
+    <string name="enable_all_mute">전원 금언을 해제하다</string>
+    <string name="clean_member_talk">사담을 시작하다</string>
+    <string name="enable_member_talk">멤버별 개인 채팅방을 폐쇄하다</string>
+    <string name="clean_administrator">관리자 해제</string>
+    <string name="enable_administrator">관리자로 설정</string>
+    <string name="remove_member"> 그룹 밖으로 이동되었습니다</string>
+    <string name="you_quit_group">그룹을 종료했습니다 </string>
+    <string name="quit_group">그룹에서 탈퇴했습니다 </string>
+    <string name="you_transfer_group_owner">그룹을 양도했습니다</string>
+    <string name="transfer_group_owner">그룹을 양도했습니다</string>
+    <string name="recall_one_message" translatable="false">소식 하나를 철회했다</string>
+
+    <string name="modify_group_name">그룹명 수정</string>
+    <string name="you_joined_group">당신은 단체 채팅에 가입했습니다</string>
+    <string name="joined_group">그룹채팅에 가입하다</string>
+    <string name="you_invite">초대장</string>
+    <string name="invite">초대</string>
+    <string name="joined_group1"> 그룹에 가입하다</string>
+    <string name="update_group_portrait">그룹 아바타 업데이트되었습니다</string>
+    <string name="you_create_group">그룹을 만들었습니다 </string>
+    <string name="create_group">그룹이 생성되었습니다 </string>
+    <string name="you_dismiss_group">그룹을 해제했습니다 </string>
+    <string name="dismiss_group">그룹을 해산했다 </string>
+
+    <string name="you_are_friend_and_start_chat">당신들은 이미 친한 친구이니, 대화를 시작해도 됩니다.</string>
+    <string name="hello_context">인사 내용이다</string>
+    <string name="clean_mute_chat">그룹 언행 금지시 발언권을 취소하다</string>
+    <string name="enable_mute_chat">그룹 언질시 발언 권한을 설정합니다</string>
+
+    <string name="group_upgrade">그룹이 이미 지뢰 제거 사례비 집단으로 승격되었다</string>
+    <string name="group_who_win">에서 레이</string>
+    <string name="bless_win">축하 합니다</string>
+    <string name="win_price">당첨금</string>
+
+
+    <string name="audio_and_video_call" translatable="false">[음성 영상 통화]</string>
+
+</resources>

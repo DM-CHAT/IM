@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.bingoogolapple.transformerstip.view.TransformersTipLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    app:ad_arrowExtraOffsetX="0dp"
+    app:ad_arrowExtraOffsetY="0dp"
+    app:ad_arrowGravity="to_top_align_end"
+    app:ad_arrowHeight="6dp"
+    app:ad_bgColor="#ffffff"
+    app:ad_radius="5dp">>
+
+    <LinearLayout
+        android:id="@+id/ll_new_friend"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/iv_create"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_gravity="center_vertical" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_group"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_groups"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/iv_add_friend"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_gravity="center_vertical" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_friend"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_litapp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/iv_scan"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_gravity="center_vertical" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scan"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+</cn.bingoogolapple.transformerstip.view.TransformersTipLinearLayout>

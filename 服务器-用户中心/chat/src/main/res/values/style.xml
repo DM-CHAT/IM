@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="myNavigationDrawerStyle" >
+        <item name="android:textSize">10sp</item>
+        <item name="elevation">0dp</item>
+    </style>
+</resources>

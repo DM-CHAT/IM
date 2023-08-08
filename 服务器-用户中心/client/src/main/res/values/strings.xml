@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">WildFireChatClient</string>
+    <string name="hello">你好</string>
+    <string name="card_user_digest">[个人名片]:</string>
+    <string name="card_group_digest">[群组名片]:</string>
+    <string name="card_room_digest">[聊天室名片]:</string>
+    <string name="card_channel_digest">[频道名片]:</string>
+    <string name="card_digest">[名片]:</string>
+    <string name="red_packet_digest">[红包]</string>
+    <string name="transfer">[转账]</string>
+
+    <string name="audio_digest">[语音]</string>
+    <string name="video_digest">[视频]</string>
+    <string name="meeting_digest">[会议]</string>
+    <string name="file_digest">[文件]</string>
+    <string name="photo_digest">[图片]</string>
+    <string name="sticker_digest">[动态表情]</string>
+    <string name="network_call_digest">[网络电话]"</string>
+    <string name="chat_record_digest1">[聊天记录]: </string>
+    <string name="unknown_message">未知类型消息</string>
+    <string name="channel">频道</string>
+    <string name="room">聊天室</string>
+    <string name="group">群聊</string>
+    <string name="user">用户</string>
+    <string name="location">位置</string>
+
+    <string name="you">您</string>
+    <string name="dose">把</string>
+    <string name="modify">修改</string>
+    <string name="de">的</string>
+    <string name="open">開</string>
+    <string name="group_card">群名片为</string>
+    <string name="open_group_join">开放了加入群组功能</string>
+    <string name="invite_group_join">仅允许群成员邀请加入群组</string>
+    <string name="close_group_join">只关闭了加入群组功能</string>
+    <string name="clean_mute">取消禁言</string>
+    <string name="enable_mute">设置禁言</string>
+    <string name="clean_all_mute">关闭了全员禁言</string>
+    <string name="enable_all_mute">开启了全员禁言</string>
+    <string name="clean_member_talk">开启了成员私聊</string>
+    <string name="enable_member_talk">关闭了成员私聊</string>
+    <string name="clean_administrator">取消了管理员</string>
+    <string name="enable_administrator">设置为了管理员</string>
+    <string name="remove_member"> 移出了群组</string>
+    <string name="you_quit_group">您退出了群组 </string>
+    <string name="quit_group">退出了群组 </string>
+    <string name="you_transfer_group_owner">您把群组转让给了</string>
+    <string name="transfer_group_owner">把群组转让给了</string>
+    <string name="recall_one_message" translatable="false">撤回了一条消息</string>
+
+    <string name="modify_group_name">修改群名为</string>
+    <string name="you_joined_group">你加入了群聊</string>
+    <string name="joined_group">加入了群聊</string>
+    <string name="you_invite">您邀请</string>
+    <string name="invite">邀请</string>
+    <string name="joined_group1"> 加入了群组</string>
+    <string name="update_group_portrait">更新了群头像</string>
+    <string name="you_create_group">您创建了群组 </string>
+    <string name="create_group">创建了群组 </string>
+    <string name="you_dismiss_group">您解散了群组 </string>
+    <string name="dismiss_group">解散了群组 </string>
+
+    <string name="you_are_friend_and_start_chat">你们已经是好友了，可以开始聊天了。</string>
+    <string name="hello_context">以上是打招呼的内容</string>
+    <string name="clean_mute_chat">取消群组禁言时发言权限</string>
+    <string name="enable_mute_chat">设置群组禁言时发言权限</string>
+
+    <string name="group_upgrade">群组已经升级为扫雷红包群</string>
+    <string name="group_who_win">中雷</string>
+    <string name="bless_win">恭喜</string>
+    <string name="win_price">中奖金额</string>
+    
+    <string name="audio_and_video_call" translatable="false">[音视频通话]</string>
+
+</resources>

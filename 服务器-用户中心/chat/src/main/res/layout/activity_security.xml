@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray5"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/accountAndSecurity"
+        style="@style/OptionItem"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:title="@string/change_password" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/account"
+        style="@style/OptionItem"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:title="显示助记词" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/exitOptionItemView"
+        style="@style/OptionItem"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        android:layout_marginTop="5dp"
+        app:title="@string/logout" />
+</LinearLayout>

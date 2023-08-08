@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_confirm_white">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_update"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/tv_tishi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/software_update_prompt"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_update_mark"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_updateapp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_confirm_green6"
+        android:text="@string/update_now"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_updated"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

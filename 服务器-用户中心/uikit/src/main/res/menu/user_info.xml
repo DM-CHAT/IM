@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:title="@string/delete_friend"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addFriend"
+        android:orderInCategory="100"
+        android:title="@string/add_friend1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/addBlacklist"
+        android:orderInCategory="100"
+        android:title="@string/add_black_list"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/removeBlacklist"
+        android:orderInCategory="100"
+        android:title="@string/del_black_list"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/setAlias"
+        android:orderInCategory="100"
+        android:title="@string/set_remark_name"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/setName"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:title="@string/modify_imid"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/setFav"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:title="@string/set_fav_friend"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/removeFav"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:title="@string/del_fav_friend"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">WildFireChatClient</string>
+    <string name="hello">こんにちは</string>
+    <string name="card_user_digest">[個人の名刺です]:</string>
+    <string name="card_group_digest">[グループ名刺]:</string>
+    <string name="card_room_digest">[チャットルームの名刺]:</string>
+    <string name="card_channel_digest">[チャンネル名刺です]:</string>
+    <string name="card_digest">[名刺]:</string>
+    <string name="red_packet_digest">[封筒]</string>
+    <string name="audio_digest">[音声]</string>
+    <string name="video_digest">[動画]</string>
+    <string name="meeting_digest">[会議]</string>
+    <string name="file_digest">[ファイル]</string>
+    <string name="photo_digest">[写真]</string>
+    <string name="sticker_digest">[ダイナミックな表情です]</string>
+    <string name="network_call_digest">[インターネット電話です]"</string>
+    <string name="chat_record_digest1">[チャット記録です]: </string>
+    <string name="unknown_message">未知のメッセージです</string>
+    <string name="channel">チャンネル</string>
+    <string name="room">チャットルーム</string>
+    <string name="group">群の话</string>
+    <string name="user">ユーザー</string>
+    <string name="location">位置</string>
+    <string name="transfer">[振替]</string>
+
+    <string name="you">あなた</string>
+    <string name="dose">を</string>
+    <string name="modify">修正</string>
+    <string name="de">の</string>
+    <string name="open">开く</string>
+    <string name="group_card">名刺を集めます</string>
+    <string name="open_group_join">グループ参加機能を開放しました</string>
+    <string name="invite_group_join">グループのメンバーだけにグループへの招待を許可します</string>
+    <string name="close_group_join">グループ参加機能だけはオフにしました</string>
+    <string name="clean_mute">禁句を取り消す</string>
+    <string name="enable_mute">禁句を設ける</string>
+    <string name="clean_all_mute">全員発言禁止にしました</string>
+    <string name="enable_all_mute">全員禁言を開きました</string>
+    <string name="clean_member_talk">メンバーのプライベートトークが始まりました</string>
+    <string name="enable_member_talk">メンバーのプライベートトークを閉鎖しました</string>
+    <string name="clean_administrator">管理者を削除しました</string>
+    <string name="enable_administrator">管理者として設定しました</string>
+    <string name="remove_member"> グループを外しました</string>
+    <string name="you_quit_group">あなたはグループを抜けました </string>
+    <string name="quit_group">グループを脱退しました </string>
+    <string name="you_transfer_group_owner">あなたはグループを渡しました</string>
+    <string name="transfer_group_owner">グループを提供しました</string>
+    <string name="recall_one_message" translatable="false">メッセージを撤回しました</string>
+
+    <string name="modify_group_name">グループ名を修正します</string>
+    <string name="you_joined_group">あなたはグループチャットに参加しました</string>
+    <string name="joined_group">グループチャットに参加しました</string>
+    <string name="you_invite">ご招待です</string>
+    <string name="invite">招待する</string>
+    <string name="joined_group1"> グループに参加しました</string>
+    <string name="update_group_portrait">グループ画像を更新しました</string>
+    <string name="you_create_group">グループを作成しました </string>
+    <string name="create_group">グループを作成しました </string>
+    <string name="you_dismiss_group">あなたはグループを解散しました </string>
+    <string name="dismiss_group">グループを解散しました </string>
+
+    <string name="you_are_friend_and_start_chat">あなた達はもう親友で、チャットを始めることができます。</string>
+    <string name="hello_context">挨拶の内容は以上です</string>
+    <string name="clean_mute_chat">グループ発禁時の発言権限を解除します</string>
+    <string name="enable_mute_chat">グループ禁句時の発言権限を設定します</string>
+
+    <string name="group_upgrade">グループは地雷除去グループに昇格しました</string>
+    <string name="group_who_win">で雷</string>
+    <string name="bless_win">おめでとう</string>
+    <string name="win_price">当選金です</string>
+
+
+    <string name="audio_and_video_call" translatable="false">[オーディオビデオ通話]</string>
+
+</resources>

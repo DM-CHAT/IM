@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:text="DM-CHAT"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/iv_add"
+            android:src="@mipmap/ic_search" />
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ic_add" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_biaoqian"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/rl_title">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            app:tabMode="scrollable"
+            app:tabRippleColor="@android:color/transparent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_conversation_select"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_below="@+id/ll_biaoqian"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_friend"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/bg_unread"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/friend"
+                android:textColor="@color/black" />
+
+            <View
+                android:id="@+id/view_friend"
+                android:layout_width="10dp"
+                android:layout_height="2dp"
+                android:layout_below="@+id/tv_friend"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@color/green1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/group"
+                android:textColor="@color/gray1" />
+
+            <View
+                android:id="@+id/view_group"
+                android:layout_width="10dp"
+                android:layout_height="2dp"
+                android:layout_below="@+id/tv_group"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="@color/green1"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/iv_group"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/bg_unread"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray5"
+        android:layout_below="@+id/ll_conversation_select"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_conversation_select"
+        android:layout_marginTop="1dp"
+        android:background="@color/gray5" />
+
+    <ImageView
+        android:id="@+id/iv_default"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_default"
+        android:visibility="gone" />
+
+</RelativeLayout>

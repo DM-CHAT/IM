@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">WildFireChatClient</string>
+    <string name="hello">Alô.</string>
+    <string name="card_user_digest">[Thẻ cá nhân]</string>
+    <string name="card_group_digest">[Thẻ kinh doanh nhóm]</string>
+    <string name="card_room_digest">[Mã số phòng chat]</string>
+    <string name="card_channel_digest">[kênh card]</string>
+    <string name="card_digest">[card visit]</string>
+    <string name="red_packet_digest">[Phong bì đỏ]</string>
+    <string name="audio_digest">(Giọng)</string>
+    <string name="video_digest">[Video]</string>
+    <string name="meeting_digest">[gặp]</string>
+    <string name="file_digest">[tập tin]</string>
+    <string name="photo_digest">[tranh]</string>
+    <string name="sticker_digest">(biểu hiện động)</string>
+    <string name="network_call_digest">[bốt điện thoại Mạng]</string>
+    <string name="chat_record_digest1">[Ghi chép chat]</string>
+    <string name="unknown_message">Thông điệp kiểu lạ</string>
+    <string name="channel">Kênh</string>
+    <string name="room">phòng chat</string>
+    <string name="group">Nhóm chat</string>
+    <string name="user">người dùng</string>
+    <string name="location">Vị trí</string>
+    <string name="you">cậu</string>
+    <string name="dose">giữ</string>
+    <string name="modify">Chỉnh:</string>
+    <string name="transfer">[Giao dịch]</string>
+    <string name="de">Phải.</string>
+    <string name="group_card">Danh thiếp nhóm là</string>
+    <string name="open_group_join">Mở chức năng của nhóm tham gia</string>
+    <string name="invite_group_join">Chỉ có thành viên nhóm mới được phép mời tham gia nhóm.</string>
+    <string name="close_group_join">Chỉ có chức năng tham gia nhóm bị tắt</string>
+    <string name="clean_mute">Hủy lệnh cấm</string>
+    <string name="enable_mute">Đặt cấm đoán</string>
+    <string name="clean_all_mute">Đóng cửa toàn bộ cán bộ.</string>
+    <string name="enable_all_mute">Lệnh cấm tất cả nhân viên đã được mở.</string>
+    <string name="clean_member_talk">Trò chuyện riêng thành viên mở</string>
+    <string name="enable_member_talk">Trò chuyện riêng thành viên đóng</string>
+    <string name="clean_administrator">Quản lý hủy</string>
+    <string name="enable_administrator">Đặt là người quản lý</string>
+    <string name="remove_member">Chuyển ra khỏi nhóm</string>
+    <string name="you_quit_group">Bạn đã ra khỏi nhóm</string>
+    <string name="quit_group">Nhóm Thoát</string>
+    <string name="you_transfer_group_owner">Anh đã chuyển nhóm sang</string>
+    <string name="transfer_group_owner">Chuyển nhóm sang</string>
+    <string name="modify_group_name">Sửa tên nhóm theo dạng</string>
+    <string name="you_joined_group">Cậu tham gia nhóm chat</string>
+    <string name="joined_group">Nhập vào nhóm chat</string>
+    <string name="you_invite">Lời mời</string>
+    <string name="invite">giấy</string>
+    <string name="joined_group1">Nhập nhóm</string>
+    <string name="update_group_portrait">Khai vị nhóm</string>
+    <string name="you_create_group">Bạn tạo ra một nhóm</string>
+    <string name="create_group">Nhóm đã tạo</string>
+    <string name="you_dismiss_group">Anh đã giải tán</string>
+    <string name="dismiss_group">đã giải tán nhóm</string>
+    <string name="you_are_friend_and_start_chat">Các bạn đã là bạn, các bạn có thể bắt đầu trò chuyện.</string>
+    <string name="hello_context">Phần trên là lòng chào hỏi</string>
+    <string name="clean_mute_chat">Thôi bỏ quyền nói khi bị cấm.</string>
+    <string name="enable_mute_chat">Xin phép phát âm khi bị cấm nói.</string>
+
+    <string name="group_upgrade">Nhóm được nâng cấp thành một nhóm những phong bì màu đỏ lục lọi</string>
+    <string name="group_who_win">Thắng giải thưởng</string>
+    <string name="bless_win">Chúc mừng.</string>
+    <string name="win_price">Giá thắng</string>
+    <string name="open">mở</string>
+    <string name="recall_one_message" translatable="false">Đã rút lại một tin nhắn</string>
+
+    <string name="audio_and_video_call" translatable="false">[Âm thanh cuộc gọi video]</string>
+</resources>

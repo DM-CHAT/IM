@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">WildFireChatClient</string>
+    <string name="hello">hola</string>
+    <string name="card_user_digest">[Tarjetas personales]:</string>
+    <string name="card_group_digest">[Tarjetas para grupos]:</string>
+    <string name="card_room_digest">[Chat sala de tarjetas]:</string>
+    <string name="card_channel_digest">[Tarjeta del canal]:</string>
+    <string name="card_digest">[tarjeta]:</string>
+    <string name="red_packet_digest">[Los insectitos]</string>
+    <string name="audio_digest">[voz]</string>
+    <string name="video_digest">[vídeo]</string>
+    <string name="meeting_digest">[La conferencia]</string>
+    <string name="file_digest">[El documento]</string>
+    <string name="photo_digest">[imágenes]</string>
+    <string name="sticker_digest">[Expresión en movimiento]</string>
+    <string name="network_call_digest">[Telefonía por internet]"</string>
+    <string name="chat_record_digest1">[Historial de chat]: </string>
+    <string name="unknown_message">Mensajes de tipo desconocido</string>
+    <string name="channel">El canal</string>
+    <string name="room">Sala de chat</string>
+    <string name="group">grupo</string>
+    <string name="user">El usuario</string>
+    <string name="location">La ubicación</string>
+    <string name="transfer">[transferencias]</string>
+
+    <string name="you">usted</string>
+    <string name="dose">la</string>
+    <string name="modify">La modificación</string>
+    <string name="de">la</string>
+    <string name="open">"</string>
+    <string name="group_card">La tarjeta de grupo es</string>
+    <string name="open_group_join">Abre la función unirse a un grupo</string>
+    <string name="invite_group_join">Solo permitir que los miembros del grupo inviten a unirse al grupo</string>
+    <string name="close_group_join">Solo se ha desactivado la función unirse al grupo</string>
+    <string name="clean_mute">Cancelar palabras prohibidas</string>
+    <string name="enable_mute">Poner un mordazo</string>
+    <string name="clean_all_mute">Cerró el silencio</string>
+    <string name="enable_all_mute">Activó el silencio completo</string>
+    <string name="clean_member_talk">Chat privado abierto para miembros</string>
+    <string name="enable_member_talk">Chat privado de miembros cerrado</string>
+    <string name="clean_administrator">Canceló al administrador</string>
+    <string name="enable_administrator">Configurar para el administrador</string>
+    <string name="remove_member"> Fuera del grupo</string>
+    <string name="you_quit_group">Has salido del grupo </string>
+    <string name="quit_group">Salió del grupo </string>
+    <string name="you_transfer_group_owner">Has transferido el grupo a</string>
+    <string name="transfer_group_owner">Transfirió el grupo a</string>
+    <string name="recall_one_message" translatable="false">Retirar un mensaje</string>
+
+    <string name="modify_group_name">Cambiar el nombre del grupo</string>
+    <string name="you_joined_group">Estás en el chat grupal</string>
+    <string name="joined_group">Unirse a un chat grupal</string>
+    <string name="you_invite">Usted invita</string>
+    <string name="invite">invitación</string>
+    <string name="joined_group1"> Se unió al grupo</string>
+    <string name="update_group_portrait">Actualizado avatar del grupo</string>
+    <string name="you_create_group">Usted crea grupos </string>
+    <string name="create_group">Creado el grupo </string>
+    <string name="you_dismiss_group">Has disuelto el grupo </string>
+    <string name="dismiss_group">Disolvió el grupo </string>
+
+    <string name="you_are_friend_and_start_chat">Ya son amigos y pueden empezar a chatear.</string>
+    <string name="hello_context">Lo anterior es para saludar</string>
+    <string name="clean_mute_chat">Permiso de hablar al cancelar el bloqueo de grupo</string>
+    <string name="enable_mute_chat">Establecer permisos para hablar cuando el grupo está prohibido</string>
+
+    <string name="group_upgrade">El grupo ha sido actualizado a grupo de paquetes rojos de limpieza de minas</string>
+    <string name="group_who_win">En el</string>
+    <string name="bless_win">felicidades</string>
+    <string name="win_price">Cantidad de premios</string>
+
+    <string name="audio_and_video_call" translatable="false">[Llamadas de audio y video]</string>
+
+</resources>

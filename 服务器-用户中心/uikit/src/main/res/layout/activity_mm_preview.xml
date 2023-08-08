@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+    <include layout="@layout/toolbar"
+        android:visibility="gone"/>
+    <cn.wildfire.chat.kit.widget.ViewPagerFixed
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image_container"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/editImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_top_ok"
+            android:minWidth="50dp"
+            android:minHeight="30dp"
+            android:padding="8dp"
+            android:text="@string/forward"
+            android:layout_margin="20dp"
+            android:textColor="#ffffff"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

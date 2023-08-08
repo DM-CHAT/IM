@@ -1,0 +1,572 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="imid">ユーザIDです</string>
+    <string name="modify_imid">IDを変更します</string>
+
+    <string name="complete">完成</string>
+
+    <string name="draft">[草稿]</string>
+    <string name="video">動画</string>
+    <string name="audio">オーディオ</string>
+    <string name="notify">通知</string>
+    <string name="set_conversation_to_top">上を向いて話をします</string>
+    <string name="user_a_me">[誰か@私です]</string>
+    <string name="clean_conversation">会話を空っぽにする</string>
+    <string name="delete_conversation">会話を削除します</string>
+    <string name="set_top">装</string>
+    <string name="unset_top">屋根をなくすことです</string>
+    <string name="confirm_clean_conversation">セッションのクリアを確認します?</string>
+    <string name="confirm_delete_conversation">セッション削除の確認をします?</string>
+    <string name="message_notify">お知らせします</string>
+    <string name="password" translatable="false">パスワード</string>
+    <string name="please_input_transfer_amount" translatable="false">振替金額を入力してください</string>
+    <string name="transfer_amount" translatable="false">振替金額</string>
+    <string name="network_congestion" translatable="false">ネットワークが渋滞しています。後で再試行してください</string>
+    <string name="direction" translatable="false">方向</string>
+    <string name="picture_save_success">Picture saved successfully</string>
+    <string name="picture_save_failure">Image saving failure</string>
+    <string name="allow_stangers_send_message">允许陌生人发消息</string>
+    <string name="please_shoukuan">请收款</string>
+    <string name="receive_shoukuan">已收款</string>
+    <string name="please_enter_lable_name">Please enter a label name</string>
+
+    <string name="call_canceled" translatable="false">キャンセル済み通話</string>
+    <string name="other_party_canceled" translatable="false">相手がキャンセルされました</string>
+    <string name="video_call_duration" translatable="false">ビデオ通話時間</string>
+    <string name="voice_call_duration" translatable="false">音声通話時間</string>
+    <string name="unknown_status" translatable="false">不明な状態</string>
+
+
+    <string name="voice_call" translatable="false">音声通話です</string>
+    <string name="video_call" translatable="false">ビデオ通話です</string>
+    <string name="card">名刺</string>
+    <string name="card_user">[個人の名刺です]</string>
+    <string name="card_group">[の集団]</string>
+    <string name="card_room">[チャットルーム]</string>
+    <string name="card_channel">[チャンネル]</string>
+    <string name="card_litapp">[ミニプログラムです]</string>
+
+    <string name="text_user_card">個人の名刺です</string>
+    <string name="text_group_card">グループ名刺</string>
+    <string name="text_room_card">チャットルームの名刺</string>
+    <string name="text_channel_card">チャンネル名刺です。</string>
+
+    <string name="clear_day" translatable="false">日</string>
+
+    <!--联系人-->
+    <string name="new_friend">新しい友人です</string>
+    <string name="group_cheat">群の话</string>
+
+    <!--新的朋友-->
+    <string name="add_friend">友達を追加します。</string>
+    <string name="no_recommend_friend">まだ推薦していない友達</string>
+
+    <!--搜索用户-->
+    <string name="user_no_found">そのユーザーは存在しません</string>
+    <string name="search">検索</string>
+    <string name="search_result">検索結果です</string>
+
+    <!--用户信息-->
+    <string name="nickname_colon">愛称:%1$s</string>
+    <string name="set_alias_and_tag">メモとラベルを設定します</string>
+    <string name="send_message">メッセージを送ります。</string>
+    <string name="add_to_contact">アドレス帳に追加します</string>
+    <string name="change_my_name_tip">良い名前は友達にあなたのことを覚えてもらいやすくします。</string>
+    <string name="tag" translatable="false">ラベル</string>
+    <string name="tag_selection" translatable="false">ラベルの選択です</string>
+
+    <!--修改备注-->
+    <string name="alias">注記名です</string>
+    <string name="alias_no_empty">備考名は空にしてはいけません</string>
+
+    <!--附言界面-->
+    <string name="postscript_tip">承認申請を送って相手が通るのを待ちます</string>
+    <string name="send">送信</string>
+
+    <!--会话界面-->
+    <string name="please_to_talk">おさえて話します</string>
+    <string name="shot">撮影</string>
+    <string name="location">位置</string>
+    <string name="file">ファイル</string>
+    <string name="photo">写真</string>
+    <string name="redPacket">封筒</string>
+    <string name="redPacket_group">寸志を出し合います</string>
+    <string name="redPacket_bomb">地雷掃きお年玉</string>
+    <string name="transfer" translatable="false">振替</string>
+
+    <string name="voice_rec">指が滑ったら送信取り消しです</string>
+    <string name="voice_cancel">指を放して送信をキャンセルします</string>
+    <string name="voice_short">録音時間が短すぎます</string>
+    <string name="input_speed_too_fast" translatable="false">入力速度が速すぎます</string>
+
+    <!--创建群-->
+    <string name="create_group_success">群作成に成功しました</string>
+    <string name="create_group_fail">群作成の失敗です</string>
+    <string name="no_group_now">グループチャットはしばらくありません</string>
+
+    <!--群信息-->
+    <string name="group_name">グループチャットの名前です</string>
+    <string name="untitled">未命名です</string>
+    <string name="group_announcement">集合宣言です</string>
+    <string name="message_free">ニュースはお邪魔しません</string>
+    <string name="update_redpacket">ご祝儀グループをアップグレードします</string>
+    <string name="mutual_friends" translatable="false">友達登録を許可します</string>
+    <string name="modify_groud_name" translatable="false">グループ名の変更を許可します</string>
+    <string name="modify_messages_copy" translatable="false">メンバーがメッセージをコピーできるようにします</string>
+    <string name="modify_messages_forward" translatable="false">メンバーがメッセージを転送できるようにします</string>
+    <string name="my_nickname_in_this_group">私のグループでのニックネームです</string>
+    <string name="show_group_member_name">メンバーのニックネームを表示します</string>
+    <string name="clear_chat_log">チャットを空にします</string>
+    <string name="delete_and_exit">削除してログアウトします</string>
+    <string name="chat_report">告発</string>
+    <string name="delete_and_dismiss">解散して削除します</string>
+    <string name="add_member_success">グループメンバーの追加に成功しました</string>
+    <string name="add_member_fail">グループメンバの追加失敗です</string>
+    <string name="join_grouop_fail">グループ参加に失敗します</string>
+    <string name="del_member_success">グループメンバの削除成功です</string>
+    <string name="del_member_fail">グループメンバの削除に失敗します</string>
+    <string name="search_for_friends" translatable="false">友だち検索をします</string>
+    <string name="no_restrictions_entry" translatable="false">加入の制限はありません</string>
+    <string name="group_members_people" translatable="false">グループのメンバーは人を引っ張ります</string>
+    <string name="only_group_management_people" translatable="false">集団管理しかできません</string>
+    <string name="no_validation" translatable="false">検証なしです</string>
+    <string name="need_to_verify" translatable="false">検証が必要です</string>
+    <string name="add_friends_title" translatable="false">友だちを追加します</string>
+    <string name="add_friends_verify1" translatable="false">全員に友達登録を許可します</string>
+    <string name="add_friends_verify2" translatable="false">友だち追加には検証が必要です</string>
+    <string name="add_friends_verify3" translatable="false">友だち登録はできません</string>
+    <string name="allow_party_recall_message" translatable="false">先方の撤回を許します</string>
+    <string name="allow_party_delete" translatable="false">メッセージの削除を許可します</string>
+    <string name="need_reset" translatable="false">ニックネームまたはプロフィール画像を設定していない場合は「ok」をクリックします。</string>
+
+    <string name="all_images">全画像です</string>
+    <string name="folder_image_count">1$d枚です</string>
+    <string name="preview_image_count">%1$d/%2$d</string>
+    <string name="select_limit">最大%1$dの画像を選択します。</string>
+    <string name="select_complete">完成(%1$d/%2$d)</string>
+    <string name="preview_count">プレビュー(%1$d)</string>
+    <string name="origin">原図</string>
+    <string name="origin_size">原図(%1$s)</string>
+    <string name="user_card">個人の名刺です</string>
+    <string name="litapp_card">web名刺です</string>
+    <string name="clear_cache">キャッシュを整理します</string>
+    <string name="more">より</string>
+    <string name="litapp_qrcode">ウィジェットqrコードです</string>
+    <string name="str_more">より</string>
+    <string name="my_qrcode">ウィジェットqrコードです</string>
+
+    <string name="translating">翻訳中です</string>
+    <string name="translated">翻訳済みです</string>
+    <string name="url_prefix">画像アドレスへのアクセス接頭辞です</string>
+    <string name="error">操作に異常がありましたら、ソフトウェアを閉じて開いてください</string>
+    <string name="text_null">編集者の動きが空いていて配信できません</string>
+    <string name="ok">動きは成功しました</string>
+    <string name="text">この瞬間の考えです...</string>
+    <string name="dw_text">選挙できる</string>
+    <string name="rqsj_text">必ず埋め</string>
+
+    <string name="input_empty">入力内容は空にしてはいけません</string>
+    <string name="submitting">"提出中です"</string>
+    <string name="submit_wait">"提出中ですから,しばらくお待ちください。。。"</string>
+    <string name="submit_success">提出に成功します</string>
+    <string name="submit_failure">提出に失敗します</string>
+    <string name="fav_friend">星マークの友だちです</string>
+    <string name="add_failure">失敗を追加します</string>
+    <string name="error_osnid">間違っていますOsnID</string>
+    <string name="operation_failure">操作に失敗します</string>
+
+    <string name="confirm">確定</string>
+    <string name="cancel">キャンセル</string>
+    <string name="user">ユーザー</string>
+    <string name="invite"> 招待する </string>
+    <string name="im">私は </string>
+    <string name="invite_group"> あなたをグループに招待します</string>
+    <string name="request_join"> グループへの参加を申し込みます </string>
+    <string name="join_group"> グループに参加します </string>
+    <string name="added">追加しました</string>
+    <string name="rejected">拒絶しました</string>
+    <string name="accept">受け入れて</string>
+    <string name="reject">拒否</string>
+    <string name="invite_sent">友達招待は送りました</string>
+    <string name="add_friend_failure">友達追加の失敗です</string>
+    <string name="from_share">分かち合いから生まれました</string>
+    <string name="test_share">共有テストです</string>
+    <string name="select_over">超限を選びます</string>
+    <string name="empty_contact">連絡先がありません</string>
+    <string name="no_contact">連絡先です</string>
+    <string name="get_conversation_info_error">セッション情報の取得に失敗します</string>
+    <string name="all_member_mute">全員禁句です</string>
+    <string name="no_message">メッセージです</string>
+    <string name="no_a_message">条@ニュース</string>
+    <string name="welcome_join_room">人気 %s チャットルームに参加します</string>
+    <string name="join_room_failure">チャットルームへの参加に失敗します</string>
+    <string name="no_leave_room">%s 談話室を出ました</string>
+    <string name="disable_talk">プライベートな会話は禁止です</string>
+    <string name="a_all">/@すべての人 </string>
+    <string name="all_user">すべての人</string>
+    <string name="inputting">相手は入力しています</string>
+    <string name="recording">先方は録音中です</string>
+    <string name="photographing">向こうは写真を撮っています</string>
+    <string name="send_file">先方は書類を送っています</string>
+    <string name="send_location">相手は場所を送信しています</string>
+    <string name="count_receive">到着済みの人数：</string>
+    <string name="count_no_receive">未配達人数：</string>
+    <string name="count_read">既読の人数：</string>
+    <string name="count_unread">未読の人数：</string>
+    <string name="receipt">メッセージの返信です</string>
+    <string name="input_limit">入力できるのはせいぜいです</string>
+    <string name="no_emoji">顔文字です</string>
+    <string name="please_install">インストールお願いします</string>
+    <string name="creating">作成中です...</string>
+    <string name="select_file_error">選択ファイルエラーです</string>
+
+    <string name="cheat_record1">チャット記録です</string>
+    <string name="message_record">[チャット記録です]: </string>
+    <string name="step_forward">[逐条転送します]計</string>
+    <string name="forward_success">転送成功です</string>
+    <string name="forward_failure">転送失敗です</string>
+
+    <string name="no_member_of_group">グループにいないかエラーが発生した場合は後から試してください</string>
+    <string name="please_input_nickname">グループニックネームを入力します</string>
+    <string name="modify_nickname_failure">グループニックネームの修正失敗です:</string>
+    <string name="dismiss_group_failure">グループ解散失敗です</string>
+    <string name="quit_group_failure">離脱に失敗します</string>
+    <string name="group_qrcode">qrコードです</string>
+    <string name="disable_talk1">プライベートな会話は禁止です</string>
+    <string name="unknown_duration">未知の時間です</string>
+    <string name="time_p0">yyyy年MM月dd日です</string>
+    <string name="to"> まで </string>
+
+    <string name="is_resend">再送します?</string>
+    <string name="is_delete">削除を確認します?</string>
+    <string name="resend">重発</string>
+    <string name="no_set">未設定です</string>
+    <string name="recall">撤回</string>
+    <string name="callback" tools:ignore="ExtraTranslation">撤回</string>
+    <string name="delete">削除</string>
+    <string name="delete_tag" translatable="false">ラベルを削除します</string>
+    <string name="confirm_delete_tag" translatable="false">削除ラベルを確認します</string>
+    <string name="tag_prompt" translatable="false">ユーザー詳細ページに行ってタグにユーザーを追加します</string>
+    <string name="no_tag" translatable="false">ラベルがないのでラベルを付けます</string>
+    <string name="deleteto" tools:ignore="ExtraTranslation">相手のメッセージを削除します</string>
+    <string name="forward">転送</string>
+    <string name="quota">引用</string>
+    <string name="multi_check">多選</string>
+    <string name="private_cheat">私の话</string>
+    <string name="fav">收藏</string>
+    <string name="copy">コピー</string>
+    <string name="save">保存</string>
+    <string name="save_as" translatable="false">指定ディレクトリにファイルを保存します</string>
+    <string name="details" translatable="false">详细</string>
+    <string name="top_message" translatable="false">トップニュースです。</string>
+    <string name="top_message_set" translatable="false">トップメッセージ設定です</string>
+
+    <string name="confirm_delete">このメッセージの削除を確認します</string>
+    <string name="confirm_callback" tools:ignore="MissingTranslation">このメッセージの撤回を確認します</string>
+    <string name="message_context">メッセージの内容です</string>
+
+    <string name="step_forward1">逐条転送します</string>
+    <string name="merge_froward">マージ転送です</string>
+    <string name="and">と</string>
+    <string name="cheat_record">チャットの記録です</string>
+    <string name="group_cheat_record">グループチャットの記録です</string>
+
+    <string name="linking">接続しています...</string>
+    <string name="syncing">同期しています...</string>
+    <string name="link_fail">接続に失敗します</string>
+
+    <string name="load_fav_failed">読み込みに失敗します </string>
+    <string name="fav_context">収蔵内容</string>
+
+    <string name="entry_group">グループチャットに入ります</string>
+    <string name="joins_group">グループチャットに参加します</string>
+    <string name="upload_portrait_failed">グループ画像のアップロードに失敗します</string>
+
+    <string name="administrator">管理人です</string>
+    <string name="owner">群主</string>
+    <string name="group_admin">群管理です</string>
+    <string name="set_sensitive_word" translatable="false">敏感さを設定します単語</string>
+    <string name="group_message_masking_keywords" translatable="false">グループメッセージ遮断キーワード</string>
+    <string name="fill_maximum_five_keywords" translatable="false">(キーワードは5つまでです)</string>
+    <string name="click_add_keywords" translatable="false">キーワードを追加するには、右上の新規ボタンをクリックします。</string>
+    <string name="example" translatable="false">例</string>
+    <string name="remove_white_list">ホワイトリストの削除です</string>
+    <string name="clean_mute">禁句を取り消す</string>
+    <string name="white_list">ホワイトリストの一覧です</string>
+    <string name="mute_list">禁句リストです</string>
+    <string name="adding">追加します...</string>
+    <string name="set_admin_error">管理者エラーを設定します </string>
+    <string name="modify_group_join_type_failed">加群方式の修正に失敗しました</string>
+    <string name="modify_group_verify_type_failed">検証方法の見直しに失敗します</string>
+    <string name="modify_group_type_failed">群型の修正に失敗します</string>
+    <string name="remove_admin">除去群管理です</string>
+    <string name="set_member_right_failed">グループメンバーの設定に失敗します </string>
+    <string name="mute_failed">禁言失敗です </string>
+    <string name="adding_white_list">ホワイトリストに加えます...</string>
+    <string name="muting">禁句です...</string>
+    <string name="add_white_failed">ホワイトリストのエラーを追加します</string>
+    <string name="set_mute">禁句を設ける</string>
+    <string name="member_right">メンバー権限です</string>
+    <string name="no_limit_join">加入の制限はありません</string>
+    <string name="group_type">グループタイプです</string>
+    <string name="join_mode">加群方式です</string>
+    <string name="verify_mode">検証方式です</string>
+    <string name="time_mode" translatable="false">発言のスピード</string>
+    <string name="clear_time" translatable="false">グループメッセージの時限クリーンアップ</string>
+    <string name="no_allow_find">検索は許可されません</string>
+    <string name="find_mode">検索方法です</string>
+    <string name="mute_failed1">禁句エラーを設けることです</string>
+    <string name="member_mute">メンバーの禁句です</string>
+    <string name="member_white">ホワイトリストです</string>
+    <string name="get_group_notice_failed">獲得群発表失敗です</string>
+    <string name="waiting">のちほどお願いします...</string>
+    <string name="set_notice_success">設置群公告成功しました</string>
+    <string name="set_notice_failure">設置群告知失敗です: </string>
+    <string name="set_group_card_success">群名の修正に成功しました</string>
+    <string name="set_group_card_failure">群名の修正に失敗します: </string>
+    <string name="add_an_applet" translatable="false">ウィジェットを追加します</string>
+
+    <string name="authorize">ライセンス</string>
+    <string name="auth_tip"> あなたのプロフィール画像などの公開情報にアクセスする可能性があります。</string>
+    <string name="exit_tip">もう1回押して退出します</string>
+    <string name="qrcode">qrコードです</string>
+    <string name="litapp_card1">ウィジェット名刺</string>
+    <string name="litapp_share" translatable="false">ミニプログラムを共有します</string>
+    <string name="litapp_name"> ウィジェット名です</string>
+    <string name="open_litapp">ウィジェットを開きます</string>
+    <string name="copy_success">複製に成功します</string>
+    <string name="qrcode_scan_failed">qrコードの認識に失敗します</string>
+
+    <string name="single_price">単体の金額です。</string>
+    <string name="group_has">本群共です</string>
+    <string name="man">人</string>
+    <string name="all_price">総額です</string>
+    <string name="price">金額</string>
+    <string name="price_error">金額の間違いです</string>
+    <string name="luck_no_error">ラッキーナンバーの間違いです</string>
+    <string name="packet_count_error">お年玉の数が間違っています。</string>
+    <string name="input_count">数</string>
+    <string name="packet_failed">ご祝儀の失敗です</string>
+    <string name="bless">大儲けおめでとうございます</string>
+    <string name="server_parameter_error">サーバーがパラメータエラーを返します</string>
+    <string name="service_error" translatable="false">サーバー異常です</string>
+    <string name="date_pattern">MM月dd号 HH:mm</string>
+    <string name="de_packet"> ご祝儀です</string>
+    <string name="count_packet">ご祝儀です</string>
+    <string name="yuan"> </string>
+    <string name="error_hit">ミス: </string>
+    <string name="pwd_error_hit">パスワードエラー残りの再試行回数です: </string>
+    <string name="red_packet_finish">ご祝儀袋がなくなりました</string>
+    <string name="red_come_from" translatable="false">ご祝儀はお金です</string>
+
+    <string name="records">メモです</string>
+    <string name="delete_failed">削除失敗です</string>
+
+    <string name="user_no_exist">ユーザーは存在しません</string>
+    <string name="modifying">修正中です…</string>
+    <string name="modify_success">修正成功です</string>
+    <string name="modify_failure">失敗を修正します</string>
+    <string name="set_alias_failed">エイリアスを修正します：</string>
+    <string name="set_account_failed">アカウントのエラーを修正します：</string>
+    <string name="id_is_empty">IDは空にできません</string>
+    <string name="set_ok">セットアップ成功です</string>
+
+    <string name="update_error_select_file">プロフィール画像の更新に失敗します:ファイルの選択に失敗します </string>
+    <string name="update_error_thumbnail">プロフィール画像の更新に失敗:サムネイルの作成に失敗します。</string>
+    <string name="update_ok">プロフィール画像の更新成功です</string>
+    <string name="update_no">プロフィール画像の更新に失敗します: </string>
+    <string name="downloading">ダウンロードしています</string>
+    <string name="recall_failed">撤回失敗です: </string>
+
+    <string name="new_message">新しいニュースです</string>
+    <string name="no">条</string>
+    <string name="deng"> など</string>
+    <string name="request_friend">あなたの追加をお願いします</string>
+    <string name="friend_request">友達申請です</string>
+
+    <string name="tip">提示</string>
+    <string name="confirm_to_delete">この写真は削除しますか？</string>
+
+    <string name="set_user_remark">ユーザーコメントを設定します</string>
+    <string name="modify_nickname">ニックネームを修正します</string>
+    <string name="modify_group_name">群名を修正します</string>
+    <string name="modify_group_notice">群公告を修正します</string>
+    <string name="create_conversation">セッションを作成します</string>
+    <string name="add_member">新しいメンバーを追加します。</string>
+    <string name="del_member">グループメンバを削除します</string>
+    <string name="sel_member">グループメンバーを選択します</string>
+    <string name="group_list">群の话</string>
+    <string name="friend_request1">親友お願いです</string>
+    <string name="find_user">検索ユーザーです</string>
+    <string name="add_osnid">OsnIDを追加します</string>
+    <string name="invite_friend">親友を招く</string>
+    <string name="user_info">ユーザー情報です</string>
+    <string name="privacy_set">プライバシー設定です</string>
+    <string name="black_list">ブラックリスト</string>
+    <string name="friend_circle">友達の輪です</string>
+    <string name="new_message_notify">新しいお知らせです。</string>
+    <string name="conversation_info">会話の詳細</string>
+    <string name="room_list">チャットルームの一覧です</string>
+    <string name="search_center">捜索センターです</string>
+    <string name="sel_conversation">会話を選び出す</string>
+    <string name="channel_list">チャンネル一覧です</string>
+    <string name="notify_message">お知らせします</string>
+    <string name="litapp_list">ウィジェット一覧</string>
+    <string name="litapp">ミニプログラムです</string>
+    <string name="kefu">コール</string>
+    <string name="kefu_list">お客様サービス一覧です</string>
+    <string name="complain">告発</string>
+    <string name="feedback">ユーザーの反応です</string>
+    <string name="input_info">情報を入力します</string>
+    <string name="create_channel">チャンネルを作成します</string>
+    <string name="group_info">グループ情報です</string>
+    <string name="litapp_info">ウィジェット情報です</string>
+    <string name="scan">掃きます</string>
+    <string name="member_list">グループのメンバー一覧です</string>
+    <string name="sel_contact">連絡先選択です</string>
+    <string name="file_record">文書記録です</string>
+    <string name="share_cardinfo" translatable="false">名刺を分け合います</string>
+
+    <string name="red_pecket_setting" translatable="false">掃海お年玉確率設定</string>
+    <string name="tag_option" translatable="false">タグ操作です</string>
+    <string name="group_profit">クエリ群収益です</string>
+    <string name="contact">連絡先です</string>
+    <string name="modify_id">IDを変更します</string>
+    <string name="meeting_invite">会議の招待です。</string>
+    <string name="merge_message">結合メッセージです</string>
+
+    <string name="input_id">OsnIDを入力します</string>
+    <string name="add">添加</string>
+    <string name="submit">提出</string>
+    <string name="complain_hint">通報内容を入力します(200文字以内)</string>
+    <string name="complain_photo">通報写真です</string>
+    <string name="input_user">連絡先の入力をお願いします</string>
+    <string name="input_phone">連絡先の入力をお願いします</string>
+    <string name="input_feedback">フィードバックを入力します(200文字以内)</string>
+    <string name="all_photo">全画像です</string>
+    <string name="preview3">プレビュー(3)</string>
+    <string name="original_pic">原図(3.07M)</string>
+    <string name="select">選択</string>
+
+    <string name="receive_new_message">新しいメッセージを受け取ります</string>
+    <string name="notify_show_info">お知らせメッセージの詳細を表示します</string>
+    <string name="message_receipt">メッセージの返信です</string>
+
+    <string name="to_user">誰に送りますか</string>
+    <string name="packet_count">ご祝儀の個数</string>
+    <string name="ge">つ</string>
+    <string name="bless0">おめでとう</string>
+    <string name="win">当選</string>
+    <string name="red_packet_owner">お年玉を配る人です</string>
+    <string name="packet_group_info">この群は全部で0人です</string>
+    <string name="one_price">単体の金額です。</string>
+    <string name="price_hint">USD 0.00</string>
+    <string name="luck_no">ラッキーナンバーです</string>
+    <string name="luck_tail">当たりの端数</string>
+    <string name="luck_times">当せん倍数</string>
+    <string name="luck_price">当選金です</string>
+    <string name="packet_head">ご祝儀の表紙です</string>
+    <string name="set_packet">お年玉にお金を詰め込む</string>
+    <string name="bless1">発財おめでとうございます</string>
+    <string name="red_packet_info">ご祝儀袋1箇で0元です</string>
+
+    <string name="delete_friend_whether">友だちを削除しますか？</string>
+
+
+    <string name="input_info1">情報の入力をお願いします</string>
+    <string name="shoot_photo">写真を撮ります</string>
+    <string name="zero_space">全0枚です</string>
+    <string name="user_request_add_you">あなたを追加してほしいと頼まれました</string>
+    <string name="message_12">12のメッセージです</string>
+    <string name="message_a_12">12の@メッセージです</string>
+    <string name="show_all_member">メンバー全員を調べます</string>
+    <string name="find_record">チャットを検索します</string>
+    <string name="save_to_contact">アドレス帳に保存します</string>
+    <string name="file_name">ファイル名です。。。。。</string>
+    <string name="retry">ゼルダ</string>
+    <string name="you_invite_join">あなたはxxを招待しました</string>
+    <string name="re_edit">再編集します</string>
+    <string name="recall_one_message">メッセージを撤回しました</string>
+    <string name="already_finish">受け取り終えました</string>
+    <string name="app_red_packet">wallet</string>
+    <string name="loading">ロード中です…</string>
+    <string name="user_red_packet">ご祝儀専用です</string>
+    <string name="random_red_packet">寸志を出し合います</string>
+    <string name="bomb_red_packet">地雷掃きお年玉</string>
+    <string name="input_pay_code">支払いパスワードの入力をお願いします</string>
+    <string name="send_to">発送します:</string>
+    <string name="leave_to_friend">友達にメッセージを残します</string>
+    <string name="group_name1">群名です</string>
+    <string name="member_admin">メンバー管理です</string>
+    <string name="set_group_attrib">群属性設定です</string>
+    <string name="applet_management" tools:ignore="ExtraTranslation">ウィジェット管理</string>
+    <string name="add_administrator">管理者を追加します</string>
+    <string name="allow_member_temp_chat">一般メンバーによる一時的なセッションの開始を許可します</string>
+    <string name="all_mute">全員禁句です</string>
+    <string name="select_pic">画像を選択します</string>
+    <string name="test">テスト</string>
+    <string name="best_luck">手の調子は最高です</string>
+    <string name="copy_to_clip">クリップボードにコピーします</string>
+    <string name="share_and_save_picture">写真を共有して保存します</string>
+    <string name="share">分かち合い</string>
+    <string name="input_keyword_to_search">キーワードを入力して検索を開始します</string>
+    <string name="no_search_result">検索結果が出ません</string>
+
+    <string name="set_nickname_or_alias">ニックネームや別名を設定します</string>
+    <string name="space">空間</string>
+    <string name="video_chat">ビデオチャットです</string>
+    <string name="detail">详细</string>
+    <string name="addr_book">アドレス帳</string>
+    <string name="create_group">グループチャットを始めます</string>
+    <string name="album">アルバム</string>
+    <string name="delete_friend">友だちを削除します</string>
+    <string name="add_friend1">友だちを追加します</string>
+    <string name="add_black_list">ブラックリストに加わります</string>
+    <string name="del_black_list">ブラックリストを削除します</string>
+    <string name="set_remark_name">注記名をつけます</string>
+    <string name="set_fav_friend">星標の親友にします</string>
+    <string name="del_fav_friend">スターマークの友達をキャンセルします</string>
+    <string name="please_input_verify_code">支払いパスワードの入力をお願いします</string>
+    <string name="pay_mode">支払い方法</string>
+    <string name="change">小銭 \></string>
+    <string name="game_rule">ゲームのルールです</string>
+
+    <string name="image_doodle">落書き</string>
+    <string name="image_text">文字</string>
+    <string name="image_mosaic">モザイクです</string>
+    <string name="image_clip">裁断</string>
+    <string name="image_reset">还元</string>
+    <string name="image_done">完成</string>
+    <string name="image_cancel">キャンセル</string>
+    <string name="image_rotate">回転</string>
+
+    <string name="image_mosaic_tip">画像に直接ぼかしをつけます</string>
+    <string name="image_undo">撤回</string>
+    <string name="image_all_photo">すべての写真です</string>
+    <string name="image_original">原図</string>
+    <string name="image_preview">プレビュー</string>
+    <string name="hint">提示</string>
+    <string name="bomb_update_tip">雷掃きの寸志は%s人が寸志のグループに昇格する必要があります。</string>
+    <string name="friend">親友です</string>
+    <string name="group">の集団</string>
+    <string name="my_litapp">私のミニプログラムです</string>
+    <string name="Yesterday" translatable="false">昨日、</string>
+    <string name="Sunday" translatable="false">日曜日</string>
+    <string name="Monday" translatable="false">月曜日</string>
+    <string name="Tuesday" translatable="false">火曜日</string>
+    <string name="Wednesday" translatable="false">水曜</string>
+    <string name="Thursday" translatable="false">木曜日</string>
+    <string name="Friday" translatable="false">金曜日</string>
+    <string name="Saturday" translatable="false">土曜日に</string>
+
+    <string name="string_confirm" translatable="false">确认</string>
+    <string name="string_cancel" translatable="false">キャンセル</string>
+    <string name="string_remind" translatable="false">注意</string>
+    <string name="string_ps" translatable="false">ふげん</string>
+    <string name="version_number" translatable="false">バージョン番号です</string>
+
+    <string name="clean_chat_whether" translatable="false">チャットを空にしますか？</string>
+    <string name="quit_delete_whether" translatable="false">グループの脱退/解散を確認します?</string>
+
+
+
+</resources>

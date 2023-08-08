@@ -1,0 +1,555 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="imid">userID</string>
+    <string name="modify_imid">modify user ID</string>
+
+    <string name="complete">complete</string>
+
+    <string name="draft">[draft]</string>
+    <string name="video">video</string>
+    <string name="audio">audio</string>
+    <string name="notify">notify</string>
+    <string name="set_conversation_to_top">set top chat</string>
+    <string name="user_a_me">[someone@me]</string>
+    <string name="clean_conversation">clean session</string>
+    <string name="delete_conversation">delete session</string>
+    <string name="set_top">set top</string>
+    <string name="unset_top">unset top</string>
+    <string name="confirm_clean_conversation">Confirm emptying session?</string>
+    <string name="confirm_delete_conversation">Confirm delete session?</string>
+    <string name="message_notify">Notification message</string>
+    <string name="password" translatable="false">password</string>
+    <string name="please_input_transfer_amount" translatable="false">Please enter the transfer amount</string>
+    <string name="transfer_amount" translatable="false">Transfer amount</string>
+    <string name="direction" translatable="false">direction</string>
+    <string name="please_enter_lable_name">Please enter a label name</string>
+    <string name="join_group_type_verify" translatable="false">Admission to the group requires an application</string>
+    <string name="join_group_type_password" translatable="false">Enter the password to enter the group</string>
+    <string name="set_group_password" translatable="false">Set the group password</string>
+
+    <string name="call_canceled" translatable="false">Call canceled</string>
+    <string name="other_party_canceled" translatable="false">The other party has canceled</string>
+    <string name="video_call_duration" translatable="false">Video call duration</string>
+    <string name="voice_call_duration" translatable="false">Voice call duration</string>
+    <string name="unknown_status" translatable="false">Unknown status</string>
+    <string name="allow_stangers_send_message">Allow strangers to send messages</string>
+    <string name="please_shoukuan">Request for payment</string>
+    <string name="receive_shoukuan">received</string>
+
+    <string name="voice_call" translatable="false">Voice call</string>
+    <string name="video_call" translatable="false">Video call</string>
+    <string name="clear_day" translatable="false">day</string>
+    <string name="card">card</string>
+    <string name="card_user">[user]</string>
+    <string name="card_group">[group]</string>
+    <string name="card_room">[room]</string>
+    <string name="card_channel">[channel]</string>
+    <string name="card_litapp">[litapp]</string>
+
+    <string name="text_user_card">user card</string>
+    <string name="text_group_card">group card</string>
+    <string name="text_room_card">room card</string>
+    <string name="text_channel_card">channel card</string>
+
+    <!--联系人-->
+    <string name="new_friend">New friends</string>
+    <string name="group_cheat">group chat</string>
+
+    <!--新的朋友-->
+    <string name="add_friend">Add friends</string>
+    <string name="no_recommend_friend">Friends who haven\'t been recommended</string>
+
+    <!--搜索用户-->
+    <string name="user_no_found">user no exist</string>
+    <string name="search">search</string>
+    <string name="search_result">search result</string>
+
+    <!--用户信息-->
+    <string name="nickname_colon">nickname:%1$s</string>
+    <string name="set_alias_and_tag">Set notes and labels</string>
+    <string name="send_message">send message</string>
+    <string name="add_to_contact">Add to address book</string>
+    <string name="change_my_name_tip">A good name can make it easier for your friends to remember you.</string>
+
+    <!--修改备注-->
+    <string name="alias">alias</string>
+    <string name="alias_no_empty">Note alias cannot be empty</string>
+
+    <!--附言界面-->
+    <string name="postscript_tip">You need to send a verification application and wait for the other party to pass</string>
+    <string name="send">send</string>
+
+    <!--会话界面-->
+    <string name="please_to_talk">Hold to talk</string>
+    <string name="shot">shot</string>
+    <string name="location">location</string>
+    <string name="file">file</string>
+    <string name="photo">photo</string>
+    <string name="redPacket">redPacket</string>
+    <string name="redPacket_group">random</string>
+    <string name="redPacket_bomb">bomb</string>
+    <string name="transfer" translatable="false">Transfer</string>
+
+    <string name="voice_rec">Slide your finger up and cancel sending</string>
+    <string name="voice_cancel">Release your finger and cancel sending</string>
+    <string name="voice_short">Recording time is too short</string>
+
+    <!--创建群-->
+    <string name="create_group_success">Group created successfully</string>
+    <string name="create_group_fail">Failed to create group</string>
+    <string name="no_group_now">No group chat</string>
+
+    <!--群信息-->
+    <string name="group_name">Group chat name</string>
+    <string name="untitled">Unnamed</string>
+    <string name="group_announcement">Billboard</string>
+    <string name="message_free">Message free</string>
+    <string name="update_redpacket">Upgrade red envelope group</string>
+    <string name="modify_groud_name" translatable="false">Modify the group name</string>
+    <string name="modify_messages_copy" translatable="false">Allows members to copy messages</string>
+    <string name="modify_messages_forward" translatable="false">Allows members to forward messages</string>
+    <string name="mutual_friends" translatable="false">Mutual friends</string>
+    <string name="my_nickname_in_this_group">My nickname in this group</string>
+    <string name="show_group_member_name">Show group member nicknames</string>
+    <string name="clear_chat_log">Clear chat</string>
+    <string name="delete_and_exit">Delete and exit</string>
+    <string name="chat_report">report</string>
+    <string name="delete_and_dismiss">Dissolve and delete</string>
+    <string name="add_member_success">Group member added successfully</string>
+    <string name="add_member_fail">Failed to add group member</string>
+    <string name="join_grouop_fail">Failed to join the group</string>
+    <string name="del_member_success">Group member deleted successfully</string>
+    <string name="del_member_fail">Failed to delete group member</string>
+    <string name="add_friends_verify1" translatable="false">Allow everyone to add friends</string>
+    <string name="add_friends_verify2" translatable="false">Adding a friend requires verification</string>
+    <string name="add_friends_verify3" translatable="false">Adding friends is not allowed</string>
+    <string name="allow_party_recall_message" translatable="false">Allow recall message</string>
+    <string name="allow_party_delete" translatable="false">Allow delete message</string>
+
+    <string name="add_friends_title" translatable="false">Add buddy</string>
+
+    <string name="all_images">All pictures</string>
+    <string name="folder_image_count">common%1$dfix</string>
+    <string name="preview_image_count">%1$d/%2$d</string>
+    <string name="select_limit">Most choices%1$dPicture</string>
+    <string name="select_complete">complete(%1$d/%2$d)</string>
+    <string name="preview_count">preview(%1$d)</string>
+    <string name="origin">Original drawing</string>
+    <string name="origin_size">Original drawing(%1$s)</string>
+    <string name="user_card">user card</string>
+    <string name="litapp_card">web card</string>
+    <string name="clear_cache">Clean cache</string>
+    <string name="more">more</string>
+    <string name="litapp_qrcode">Applet QR code</string>
+    <string name="litapp_share" translatable="false">Share applet</string>
+    <string name="str_more">more</string>
+    <string name="my_qrcode">Applet QR code</string>
+
+    <string name="translating">In Translation</string>
+    <string name="translated">Translated</string>
+    <string name="url_prefix">Prefix to access picture address</string>
+    <string name="error">Your operation is abnormal. Please close the software and reopen it</string>
+    <string name="text_null">The edited dynamic is empty and cannot be published</string>
+    <string name="ok">Dynamic has been published successfully</string>
+    <string name="text">The idea of this moment...</string>
+    <string name="dw_text">Optional</string>
+    <string name="rqsj_text">Required</string>
+
+    <string name="input_empty">The input content cannot be empty</string>
+    <string name="submitting">Submitting</string>
+    <string name="submit_wait">Submitting, please wait。。。</string>
+    <string name="submit_success">Submitted successfully</string>
+    <string name="submit_failure">Submit failed</string>
+    <string name="fav_friend">Star Mark friend</string>
+    <string name="add_failure">Add failed</string>
+    <string name="error_osnid">wrong OsnID</string>
+    <string name="operation_failure">operation failed</string>
+
+    <string name="confirm">confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="user">user</string>
+    <string name="invite"> invite </string>
+    <string name="im">I\'m </string>
+    <string name="invite_group"> Invite you to join the group</string>
+    <string name="request_join"> Apply to join the group </string>
+    <string name="join_group"> Join group </string>
+    <string name="added">Added</string>
+    <string name="rejected">Rejected</string>
+    <string name="accept">accept</string>
+    <string name="reject">reject</string>
+    <string name="invite_sent">Friend invitation sent</string>
+    <string name="add_friend_failure">Failed to add friend</string>
+    <string name="from_share">From sharing</string>
+    <string name="test_share">test sharing</string>
+    <string name="select_over">Over selection</string>
+    <string name="empty_contact">No contacts</string>
+    <string name="no_contact">Contacts</string>
+    <string name="get_conversation_info_error">Failed to get session information</string>
+    <string name="all_member_mute">All members are forbidden</string>
+    <string name="no_message">Message</string>
+    <string name="no_a_message">\@Message</string>
+    <string name="welcome_join_room">welcome %s Join the chat room</string>
+    <string name="join_room_failure">Failed to join the chat room</string>
+    <string name="no_leave_room">%s Left the chat room</string>
+    <string name="disable_talk">No private group members</string>
+    <string name="a_all">/@all </string>
+    <string name="all_user">all</string>
+    <string name="inputting">The other is typing</string>
+    <string name="recording">The other party is recording</string>
+    <string name="photographing">The other party is taking pictures</string>
+    <string name="send_file">The other party is sending files</string>
+    <string name="send_location">The other party is sending the location</string>
+    <string name="count_receive">Number of people served：</string>
+    <string name="count_no_receive">Number of undelivered：</string>
+    <string name="count_read">Number of people read：</string>
+    <string name="count_unread">Number of unread：</string>
+    <string name="receipt">Message receipt</string>
+    <string name="input_limit">Maximum allowed input</string>
+    <string name="no_emoji">Emoticons</string>
+    <string name="please_install">Please install</string>
+    <string name="creating">Creating...</string>
+    <string name="select_file_error">Error selecting file</string>
+
+    <string name="cheat_record1">Chat record</string>
+    <string name="message_record">[Chat record]: </string>
+    <string name="step_forward">[Item by item forwarding] </string>
+    <string name="forward_success">Forwarding succeeded</string>
+    <string name="forward_failure">Forwarding failed</string>
+
+    <string name="no_member_of_group">You are not in the group or an error occurred. Please try again later</string>
+    <string name="please_input_nickname"> please enter your group nickname </string>
+    <string name="modify_nickname_failure"> failed to modify group nickname: </string>
+    <string name="dismiss_group_failure"> failed to dismiss the group </string>
+    <string name="quit_group_failure"> failed to exit the group </string>
+    <string name="group_qrcode"> group QR code </string>
+    <string name="disable_talk1"> prohibit group members from chatting privately </string>
+    <string name="unknown_duration"> unknown duration </string>
+    <string name="time_p0"> yyyy MM DD </string>
+    <string name="to"> to </string>
+
+    <string name="is_resend"> resend</string>
+    <string name="is_delete"> confirm deletion</string>
+    <string name="resend"> resend </string>
+    <string name="no_set"> not set </string>
+    <string name="recall"> withdraw </string>
+    <string name="callback" tools:ignore="ExtraTranslation"> withdraw </string>
+    <string name="delete"> delete </string>
+    <string name="delete_tag"> delete tag </string>
+    <string name="confirm_delete_tag" translatable="false">Confirm to delete labels</string>
+    <string name="no_tag" translatable="false">No labels, go to add labels</string>
+    <string name="tag_prompt" translatable="false">Please go to the User Details page to add the user to the label</string>
+    <string name="deleteto" tools:ignore="ExtraTranslation"> Deleting Peer Messages </string>
+    <string name="forward"> forward </string>
+    <string name="quota"> reference </string>
+    <string name="multi_check"> multiple choices </string>
+    <string name="private_cheat"> private chat </string>
+    <string name="fav"> collection </string>
+    <string name="copy"> copy </string>
+    <string name="confirm_delete"> confirm to delete this message </string>
+    <string name="confirm_callback"> confirm to withdraw this message </string>
+    <string name="message_context"> message content </string>
+    <string name="step_forward1"> forward one by one </string>
+    <string name="merge_froward"> merge and forward </string>
+    <string name="and"> and </string>
+    <string name="cheat_record"> Chat record of  </string>
+    <string name="group_cheat_record"> group chat records </string>
+    <string name="linking"> connecting</string>
+    <string name="syncing"> synchronizing</string>
+    <string name="link_fail"> connection failed </string>
+
+    <string name="load_fav_failed"> failed to load collection </string>
+    <string name="fav_context"> favorite content </string>
+    <string name="entry_group"> Enter group chat </string>
+    <string name="joins_group"> join a group chat </string>
+    <string name="upload_portrait_failed"> failed to upload group avatar </string>
+    <string name="administrator"> administrator </string>
+    <string name="owner"> group leader </string>
+    <string name="group_admin"> group management </string>
+    <string name="set_sensitive_word" translatable="false">Set Sensitive Word</string>
+    <string name="group_message_masking_keywords" translatable="false">Group message masking keywords</string>
+    <string name="fill_maximum_five_keywords" translatable="false">(Fill in a maximum of five keywords)</string>
+    <string name="click_add_keywords" translatable="false">Click the New button in the upper right corner to add keywords</string>
+    <string name="example" translatable="false">Example</string>
+    <string name="remove_white_list"> remove whitelist </string>
+    <string name="clean_mute"> cancel the prohibition </string>
+    <string name="white_list"> white list </string>
+    <string name="mute_list"> forbidden list </string>
+    <string name="adding"> adding</string>
+    <string name="set_admin_error"> set administrator error </string>
+    <string name="modify_group_join_type_failed"> failed to modify the group adding method </string>
+    <string name="modify_group_verify_type_failed"> failed to modify the verification method </string>
+    <string name="modify_group_type_failed"> failed to modify group type </string>
+    <string name="remove_admin"> remove group management </string>
+    <string name="set_member_right_failed"> failed to set group member permissions </string>
+    <string name="mute_failed"> forbidden words failed </string>
+    <string name="adding_white_list"> add to white list</string>
+    <string name="muting"> forbidden words</string>
+    <string name="add_white_failed"> Add whitelist error </string>
+    <string name="set_mute"> set forbidden words </string>
+    <string name="member_right"> member permissions </string>
+    <string name="no_limit_join"> no restrictions on joining </string>
+    <string name="group_type"> group type </string>
+    <string name="join_mode"> group adding method </string>
+    <string name="verify_mode"> verification method </string>
+    <string name="time_mode" translatable="false">Speaking speed</string>
+    <string name="clear_time" translatable="false">Periodically clear group messages</string>
+    <string name="input_speed_too_fast" translatable="false">Input speed is too fast</string>
+    <string name="no_allow_find"> not allowed to find </string>
+    <string name="find_mode"> search method </string>
+    <string name="mute_failed1"> error setting forbidden words </string>
+    <string name="member_mute"> forbidden words of group members </string>
+    <string name="member_white"> white list of speakers </string>
+    <string name="get_group_notice_failed"> failed to get group announcement </string>
+    <string name="waiting"> please wait</string>
+    <string name="set_notice_success"> set group announcement successfully </string>
+    <string name="set_notice_failure"> failed to set group announcement: </string>
+    <string name="set_group_card_success"> group name modified successfully </string>
+    <string name="set_group_card_failure"> failed to modify the group name: </string>
+    <string name="authorize"> authorization </string>
+    <string name="auth_tip"> may access your avatar and other public information. Are you authorized to access </string>
+    <string name="exit_tip"> press again to exit </string>
+    <string name="qrcode"> QR code </string>
+    <string name="litapp_card1"> applet business card </string>
+    <string name="litapp_name"> applet name </string>
+    <string name="open_litapp"> Open applet </string>
+    <string name="copy_success"> copy succeeded </string>
+    <string name="qrcode_scan_failed"> failed to recognize QR code </string>
+    <string name="single_price"> single amount </string>
+    <string name="group_has"> this group has </string>
+    <string name="man"> people </string>
+    <string name="all_price"> Total amount </string>
+    <string name="price"> amount </string>
+    <string name="price_error"> wrong amount </string>
+    <string name="luck_no_error">wrong luck number</string>
+    <string name="packet_count_error">wrong packet count</string>
+    <string name="input_count">count</string>
+    <string name="packet_failed"> red envelope failed </string>
+    <string name="bless"> Good luck </string>
+    <string name="server_parameter_error"> parameter error returned by the server </string>
+    <string name="date_pattern"> MM dd HH: mm </string>
+    <string name="de_packet"> red envelope </string>
+    <string name="red_come_from" translatable="false">Red envelopes come from</string>
+    <string name="count_packet"> red packets in total </string>
+    <string name="yuan"></string>
+    <string name="error_hit"> error: </string>
+    <string name="pwd_error_hit">password error，remain retry count: </string>
+    <string name="red_packet_finish"> the red envelope has been robbed </string>
+    <string name="service_error" translatable="false">service error</string>
+    <string name="records"> records </string>
+    <string name="delete_failed"> deletion failed </string>
+    <string name="user_no_exist"> user does not exist </string>
+    <string name="modifying"> modifying</string>
+    <string name="modify_success"> modification succeeded </string>
+    <string name="modify_failure"> modification failed </string>
+    <string name="set_alias_failed"> error modifying alias: </string>
+    <string name="set_account_failed"> error modifying account: </string>
+    <string name="id_is_empty"> ID cannot be empty </string>
+    <string name="set_ok"> set successfully </string>
+    <string name="update_error_select_file"> failed to update Avatar: failed to select File </string>
+    <string name="update_error_thumbnail"> failed to update Avatar: failed to generate thumbnail </string>
+    <string name="update_ok"> updated avatar successfully </string>
+    <string name="update_no"> failed to update Avatar: </string>
+    <string name="downloading"> downloading </string>
+    <string name="recall_failed"> recall failed: </string>
+    <string name="new_message"> new message </string>
+    <string name="no"> bar </string>
+    <string name="deng"> etc. </string>
+    <string name="request_friend"> request to add you as a friend </string>
+    <string name="friend_request"> friend application </string>
+    <string name="tip"> tip </string>
+    <string name="confirm_to_delete"> delete this photo</string>
+    <string name="set_user_remark"> set user remarks </string>
+    <string name="modify_nickname"> Modify nickname </string>
+    <string name="modify_group_name"> Modify group name </string>
+    <string name="modify_group_notice"> Modify group announcement </string>
+    <string name="create_conversation"> create session </string>
+    <string name="add_member"> add new member </string>
+    <string name="del_member"> delete group member </string>
+    <string name="sel_member"> select group members </string>
+    <string name="group_list"> group list </string>
+    <string name="friend_request1"> friend request </string>
+    <string name="find_user"> search user </string>
+    <string name="add_osnid"> add osnid </string>
+    <string name="invite_friend"> invite friends </string>
+    <string name="search_for_friends" translatable="false">Search for friends</string>
+    <string name="user_info"> user information </string>
+    <string name="privacy_set"> privacy settings </string>
+    <string name="black_list"> blacklist </string>
+    <string name="friend_circle"> circle of friends </string>
+    <string name="new_message_notify"> new message notification </string>
+    <string name="conversation_info"> session details </string>
+    <string name="room_list"> chat room list </string>
+    <string name="search_center"> search center </string>
+    <string name="sel_conversation"> select session </string>
+    <string name="channel_list"> channel list </string>
+    <string name="notify_message"> notification message </string>
+    <string name="litapp_list"> applet list </string>
+    <string name="litapp"> applet </string>
+    <string name="tag" translatable="false">Tag</string>
+    <string name="tag_selection" translatable="false">Tag selection</string>
+    <string name="kefu">customer service</string>
+    <string name="kefu_list">customer service list</string>
+    <string name="complain"> report </string>
+    <string name="feedback"> user feedback </string>
+    <string name="input_info"> input information </string>
+    <string name="create_channel"> create channel </string>
+    <string name="group_info"> group information </string>
+    <string name="litapp_info"> applet information </string>
+    <string name="scan"> scan </string>
+    <string name="member_list"> group member list </string>
+    <string name="sel_contact"> contact selection </string>
+    <string name="file_record"> file record </string>
+    <string name="share_cardinfo" translatable="false">share card</string>
+
+    <string name="red_pecket_setting" translatable="false">Setting of red packet probability for mine sweeping</string>
+    <string name="tag_option" translatable="false">Tags operate</string>
+    <string name="group_profit">query group profit</string>
+    <string name="contact"> contact </string>
+    <string name="modify_id"> Modify ID </string>
+    <string name="meeting_invite"> meeting invitation </string>
+    <string name="merge_message"> combined message </string>
+    <string name="input_id"> please enter osnid </string>
+    <string name="add"> Add </string>
+    <string name="submit"> submit </string>
+    <string name="complain_hint"> please enter the report content (within 200 words) </string>
+    <string name="complain_photo"> report picture </string>
+    <string name="input_user"> please enter the contact </string>
+    <string name="input_phone"> please enter the contact number </string>
+    <string name="input_feedback"> please enter the feedback content (within 200 words) </string>
+    <string name="all_photo"> all pictures </string>
+    <string name="preview3"> preview (3) </string>
+    <string name="original_pic"> original (3.07M) </string>
+    <string name="select"> select </string>
+    <string name="receive_new_message"> receive new message notification </string>
+    <string name="notify_show_info"> notification display message details </string>
+    <string name="message_receipt"> message receipt </string>
+    <string name="to_user"> to whom </string>
+    <string name="packet_count"> Packets </string>
+    <string name="ge"> pieces </string>
+    <string name="bless0">congratulations</string>
+    <string name="win">Win the prize</string>
+    <string name="red_packet_owner">Red envelope sender</string>
+    <string name="packet_group_info"> there are 0 people in this group </string>
+    <string name="one_price"> single amount </string>
+    <string name="price_hint">USD 0.00</string>
+    <string name="luck_no"> Lucky number </string>
+    <string name="luck_tail">luck tail</string>
+    <string name="luck_times">luck times</string>
+    <string name="luck_price">luck price</string>
+    <string name="packet_head"> red envelope cover </string>
+    <string name="no_restrictions_entry" translatable="false">No restrictions on entry</string>
+    <string name="group_members_people" translatable="false">Group members can pull people</string>
+    <string name="only_group_management_people" translatable="false">Only group management to pull people</string>
+    <string name="no_validation" translatable="false">No validation</string>
+    <string name="need_to_verify" translatable="false">Need to verify</string>
+    <string name="need_reset">You have not set a nickname or profile picture, click OK to go to the Settings</string>
+    <string name="set_packet"> send</string>
+    <string name="bless1"> May you be happy and prosperous! </string>
+    <string name="network_congestion" translatable="false">Network congestion, please try again later</string>
+    <string name="red_packet_info"> one red envelope is 0 yuan in total </string>
+    <string name="input_info1"> please enter the information </string>
+    <string name="shoot_photo"> take photos </string>
+    <string name="zero_space"> 0 sheets in total </string>
+    <string name="user_request_add_you"> the other party requests to add you as a friend </string>
+    <string name="message_12"> 12 messages </string>
+    <string name="message_a_12"> 12 @ messages </string>
+    <string name="show_all_member"> view all members </string>
+    <string name="find_record"> find chat records </string>
+    <string name="save_to_contact"> save to address book </string>
+    <string name="add_an_applet" translatable="false">Add an applet</string>
+    <string name="file_name"> file name</string>
+    <string name="retry"> retry </string>
+    <string name="you_invite_join"> you invited XX to join </string>
+    <string name="re_edit"> re edit </string>
+    <string name="recall_one_message">withdrew a message </string>
+    <string name="already_finish"> has been collected </string>
+    <string name="app_red_packet">wallet</string>
+    <string name="loading"> loading</string>
+    <string name="user_red_packet"> exclusive red envelope </string>
+    <string name="random_red_packet"> lucky red envelope </string>
+    <string name="bomb_red_packet"> minesweeping red envelope </string>
+    <string name="input_pay_code"> please enter the payment password </string>
+    <string name="send_to"> send to: </string>
+    <string name="leave_to_friend"> leave a message to a friend </string>
+    <string name="group_name1"> group name </string>
+    <string name="member_admin"> member management </string>
+    <string name="set_group_attrib"> group attribute setting </string>
+    <string name="applet_management" tools:ignore="ExtraTranslation">Small program management</string>
+    <string name="add_administrator"> Add administrator </string>
+    <string name="allow_member_temp_chat"> allow ordinary members to initiate temporary sessions </string>
+    <string name="all_mute"> all staff are forbidden </string>
+    <string name="select_pic"> select Picture </string>
+    <string name="test"> test </string>
+    <string name="best_luck"> best luck </string>
+    <string name="copy_to_clip"> copy to clipboard </string>
+    <string name="share_and_save_picture">share and save pictures</string>
+    <string name="share">share</string>
+    <string name="input_keyword_to_search"> enter keywords to start search </string>
+    <string name="no_search_result"> no search result </string>
+    <string name="set_nickname_or_alias"> set nickname or alias </string>
+    <string name="space"> space </string>
+    <string name="video_chat"> video chat </string>
+    <string name="detail"> details </string>
+    <string name="addr_book"> address book </string>
+    <string name="create_group"> initiate group chat </string>
+    <string name="album"> album </string>
+    <string name="save"> save </string>
+    <string name="save_as" translatable="false">Save the picture</string>
+    <string name="details">details</string>
+    <string name="top_message" translatable="false">Top message</string>
+    <string name="top_message_set" translatable="false">Set the top message Settings</string>
+    <string name="delete_friend"> delete friend </string>
+    <string name="add_friend1"> add friends </string>
+    <string name="add_black_list"> join the blacklist </string>
+    <string name="del_black_list"> remove from blacklist </string>
+    <string name="set_remark_name"> set remark name </string>
+    <string name="set_fav_friend"> set as star friend </string>
+    <string name="del_fav_friend"> cancel star friends </string>
+
+    <string name="delete_friend_whether">Do you want to delete friends?</string>
+    <string name="picture_save_success">Picture saved successfully</string>
+    <string name="picture_save_failure">Image saving failure</string>
+
+    <string name="please_input_verify_code">please input pay code</string>
+    <string name="pay_mode">pay mode</string>
+    <string name="change">change \></string>
+    <string name="game_rule">game rule</string>
+
+    <string name="image_doodle">doodle</string>
+    <string name="image_text">text</string>
+    <string name="image_mosaic">mosaic</string>
+    <string name="image_clip">clip</string>
+    <string name="image_reset">reset</string>
+    <string name="image_done">done</string>
+    <string name="image_cancel">cancel</string>
+    <string name="image_rotate">rotate</string>
+
+    <string name="image_mosaic_tip">please doodle to photo</string>
+    <string name="image_undo">undo</string>
+    <string name="image_all_photo">all photo</string>
+    <string name="image_original">original</string>
+    <string name="image_preview">preview</string>
+    <string name="hint">hint</string>
+    <string name="bomb_update_tip">need %s member to upgrade bomb group。</string>
+    <string name="friend">Friends</string>
+    <string name="group">Group</string>
+    <string name="my_litapp">my litapp</string>
+    <string name="Yesterday" translatable="false">Yesterday</string>
+    <string name="Sunday" translatable="false">Sunday</string>
+    <string name="Monday" translatable="false">Monday</string>
+    <string name="Tuesday" translatable="false">Tuesday</string>
+    <string name="Wednesday" translatable="false">Wednesday</string>
+    <string name="Thursday" translatable="false">Thursday</string>
+    <string name="Friday" translatable="false">Friday</string>
+    <string name="Saturday" translatable="false">Saturday</string>
+
+    <string name="string_confirm" translatable="false">YES</string>
+    <string name="string_cancel" translatable="false">NO</string>
+    <string name="string_remind" translatable="false">remind</string>
+    <string name="string_ps" translatable="false">P.S.</string>
+    <string name="version_number" translatable="false">The version number</string>
+
+
+    <string name="clean_chat_whether" translatable="false">Do you want to clear the chat history?</string>
+    <string name="quit_delete_whether" translatable="false">Do you want to exit or disband the group?</string>
+
+</resources>

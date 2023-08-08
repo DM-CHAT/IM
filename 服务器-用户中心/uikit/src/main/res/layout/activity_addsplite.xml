@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="钱包"
+            android:textSize="17sp"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/iv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:src="@mipmap/ic_finish" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="J-WAllet"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/avatar_def"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="钱包ID："
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tv_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="asdasd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您将添加钱包到“DM-CHAT”至“我的”页面中"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_confirm_huise"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="免责声明"
+            android:textSize="16sp"
+            android:textColor="@color/red9"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APP不保证为用户提供便利而设置的钱包的安全性，在APP使用其服务所在的
+风险将完全由本人承担，APP概不负责，也不承担任何法律责任。添加并使用该服务，即代表同意该声明."
+            android:textSize="14sp"
+            android:textColor="@color/red9"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:text="取消"
+            android:textColor="#747B84"
+            android:background="@drawable/bg_confirm_huise1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:text="同意添加"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_confirm_green6"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

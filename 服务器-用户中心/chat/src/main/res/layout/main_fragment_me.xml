@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray5"
+    android:orientation="vertical">
+
+    <!--
+    使用LightAppBar 主题时，layout_height="110dp"，paddingTop="0dp" 更协调
+    -->
+    <LinearLayout
+        android:id="@+id/meLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/selector_common_item"
+        android:paddingTop="55dp"
+        android:paddingRight="3dp">
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="@dimen/option_item_margin_right">
+
+            <ImageView
+                android:id="@+id/portraitImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/avatar_def" />
+
+            <ImageView
+                android:id="@+id/nftFlag"
+                android:layout_width="24dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom|end"
+                android:src="@mipmap/nft"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="3dp"
+                android:singleLine="true"
+                android:text=" "
+                android:textColor="@color/gray0"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/accountTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:singleLine="true"
+                android:text="@string/my_chat_account"
+                android:textColor="@color/gray2"
+                android:textSize="13sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ib_qr_code"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/qr_code" />
+
+        <ImageButton
+            android:id="@+id/ib_set_up"
+            android:layout_marginRight="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/set_up" />
+
+    </LinearLayout>
+
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/teamOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/selector_common_item"
+        android:visibility="gone"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/pqy"
+        app:title="@string/team_circle" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/assetsOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/selector_common_item"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_assets"
+        android:visibility="gone"
+        app:title="@string/assets" />
+    
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/helpOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_crossgo"
+        android:visibility="gone"
+        app:title="@string/network_help" />
+
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/walletItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/selector_common_item"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_assets"
+        android:visibility="gone"
+        app:title="@string/wallet" />
+
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/notificationOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/selector_common_item"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_notification"
+        app:title="@string/message_and_notice"
+        android:visibility="gone"/>
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/userFeedback"
+        style="@style/OptionItem"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_userfeedback"
+        app:title="@string/feedback" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/collectItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/selector_common_item"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_collect_true"
+        app:title="收藏" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/lifeService"
+        style="@style/OptionItem"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_userfeedback"
+        android:visibility="gone"
+        app:title="@string/lifeService" />
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/privacyPolicy"
+        style="@style/OptionItem"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_privacypolicy"
+        android:visibility="gone"
+        app:title="@string/privacyPolicy" />
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/uesrAgreement"
+        style="@style/OptionItem"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_uesragreement"
+        android:visibility="gone"
+        app:title="@string/useragreement" />
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/proMotion"
+        style="@style/OptionItem"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_promotion"
+        app:title="@string/share" />
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/notice"
+        style="@style/OptionItem"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_notice"
+        app:title="@string/announcement" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/passwordOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/selector_common_item"
+        android:visibility="gone"
+        app:divider_align_to_title="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_account"
+        app:title="@string/account_and_security" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/favOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/selector_common_item"
+        android:visibility="gone"
+        app:divider_align_to_title="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_account"
+        app:title="@string/fav" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/settintOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_setting"
+        app:title="@string/setting" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/vpnOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_vpn"
+        android:visibility="gone"
+        app:title="VPN" />
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/googleOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_vpn"
+        android:visibility="gone"
+        app:title="VPN" />
+
+    <cn.wildfire.chat.kit.widget.OptionItemView
+        android:id="@+id/nftOptionItemView"
+        style="@style/OptionItem"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/selector_common_item"
+        android:clickable="true"
+        android:visibility="gone"
+        app:show_arrow_indicator="true"
+        app:start_src="@mipmap/ic_setting"
+        app:title="@string/set_nft" />
+
+</LinearLayout>

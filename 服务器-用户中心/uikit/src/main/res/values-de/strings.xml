@@ -1,0 +1,574 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="imid">BenutzerID</string>
+    <string name="modify_imid">Benutzer ändernID</string>
+
+    <string name="complete">Fertig</string>
+
+    <string name="draft">[Entwurf]</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio-</string>
+    <string name="notify">Notiz</string>
+    <string name="set_conversation_to_top">Klebriger Chat</string>
+    <string name="user_a_me">[jemand @ ich]</string>
+    <string name="clean_conversation">klare Sitzung</string>
+    <string name="delete_conversation">Sitzung löschen</string>
+    <string name="set_top">oben</string>
+    <string name="unset_top">lösen</string>
+    <string name="confirm_clean_conversation">Bestätigen Sie, um die Sitzung zu löschen?</string>
+    <string name="confirm_delete_conversation">Bestätigen Sie das Löschen der Sitzung?</string>
+    <string name="message_notify">Benachrichtigungsnachricht</string>
+    <string name="call_canceled" translatable="false">Anruf abgebrochen</string>
+    <string name="other_party_canceled" translatable="false">Die andere Partei hat abgesagt</string>
+    <string name="video_call_duration" translatable="false">Dauer des Videoanrufs</string>
+    <string name="voice_call_duration" translatable="false">Dauer des Sprachanrufs</string>
+    <string name="unknown_status" translatable="false">Unbekannter Status</string>
+    <string name="password" translatable="false">Passwort</string>
+    <string name="please_input_transfer_amount" translatable="false">Bitte geben Sie den Überweisungsbetrag ein</string>
+    <string name="transfer_amount" translatable="false">Überweisungsbetrag</string>
+    <string name="network_congestion" translatable="false">Netzüberlastung, bitte versuchen Sie es später erneut</string>
+    <string name="allow_stangers_send_message">允许陌生人发消息</string>
+    <string name="direction" translatable="false">in Richtung</string>
+    <string name="please_shoukuan">请收款</string>
+    <string name="receive_shoukuan">已收款</string>
+    <string name="please_enter_lable_name">Please enter a label name</string>
+
+    <string name="voice_call" translatable="false">Leitung unterbrochen</string>
+    <string name="video_call" translatable="false">Video chat</string>
+    <string name="card">Visitenkarte</string>
+    <string name="card_user">[persönliche Visitenkarte]</string>
+    <string name="card_group">[Gruppe]</string>
+    <string name="card_room">[Chatraum]</string>
+    <string name="card_channel">[Kanal]</string>
+    <string name="card_litapp">[Applets]</string>
+
+    <string name="text_user_card">persönliche Visitenkarte</string>
+    <string name="text_group_card">Gruppenkarte</string>
+    <string name="text_room_card">Chatroom-Karte</string>
+    <string name="text_channel_card">Kanalkarte</string>
+
+    <string name="clear_day" translatable="false">Himmel</string>
+
+    <!--Gesprächspartner-->
+    <string name="new_friend">Neue Freunde</string>
+    <string name="group_cheat">Gruppenchat</string>
+
+    <!--Neue Freunde-->
+    <string name="add_friend">Neue Freunde</string>
+    <string name="no_recommend_friend">noch keine empfohlenen Freunde</string>
+
+    <!--Benutzer suchen-->
+    <string name="user_no_found">Dieser Benutzer existiert nicht</string>
+    <string name="search">Suche</string>
+    <string name="search_result">Suchergebnisse</string>
+
+    <!--Benutzerinformation-->
+    <string name="nickname_colon">Spitzname:%1$s</string>
+    <string name="set_alias_and_tag">Richten Sie Notizen und Tags ein</string>
+    <string name="send_message">eine Nachricht schicken</string>
+    <string name="add_to_contact">Zum Adressbuch hinzufügen</string>
+    <string name="change_my_name_tip">Ein guter Name kann es Ihren Freunden erleichtern, sich an Sie zu erinnern.</string>
+    <string name="tag" translatable="false">Etikett</string>
+    <string name="tag_selection" translatable="false">Etikettenauswahl</string>
+
+    <!--Notizen bearbeiten-->
+    <string name="alias">Namen notieren</string>
+    <string name="alias_no_empty">Der Notizname darf nicht leer sein</string>
+
+    <!--Postscript-Schnittstelle-->
+    <string name="postscript_tip">Sie müssen einen Verifizierungsantrag senden und warten, bis die andere Partei bestanden hat</string>
+    <string name="send">senden</string>
+
+    <!--Gesprächsschnittstelle-->
+    <string name="please_to_talk">Gespräch halten</string>
+    <string name="shot">schießen</string>
+    <string name="location">Ort</string>
+    <string name="file">dokumentieren</string>
+    <string name="photo">Foto</string>
+    <string name="redPacket">roter Umschlag</string>
+    <string name="redPacket_group">Glücklicher roter Umschlag</string>
+    <string name="redPacket_bomb">Minesweeper Roter Umschlag</string>
+    <string name="transfer" translatable="false">Transfer</string>
+
+    <string name="voice_rec">Wischen Sie nach oben, um das Senden abzubrechen</string>
+    <string name="voice_cancel">Heben Sie Ihren Finger, um das Senden abzubrechen</string>
+    <string name="voice_short">Die Aufnahmezeit ist zu kurz</string>
+    <string name="input_speed_too_fast" translatable="false">Tippen zu schnell</string>
+
+    <!--Gruppe erstellen-->
+    <string name="create_group_success">Gruppe erfolgreich erstellt</string>
+    <string name="create_group_fail">Gruppe konnte nicht erstellt werden</string>
+    <string name="no_group_now">Kein Gruppenchat</string>
+
+    <!--Gruppeninformationen-->
+    <string name="group_name">Gruppen-Chat-Name</string>
+    <string name="untitled">unbenannt</string>
+    <string name="group_announcement">Gruppenankündigung</string>
+    <string name="message_free">Nachricht nicht stören</string>
+    <string name="update_redpacket">Aktualisieren Sie die rote Umschlaggruppe</string>
+    <string name="mutual_friends" translatable="false">Erlauben Sie sich gegenseitig, Freunde hinzuzufügen</string>
+    <string name="modify_groud_name" translatable="false">Mitgliedern erlauben, den Gruppennamen zu ändern</string>
+    <string name="modify_messages_copy" translatable="false">Mitglieder dürfen Nachrichten kopieren</string>
+    <string name="modify_messages_forward" translatable="false">Mitglieder dürfen Nachrichten weiterleiten</string>
+    <string name="my_nickname_in_this_group">Mein Spitzname in dieser Gruppe</string>
+    <string name="show_group_member_name">Spitznamen von Gruppenmitgliedern anzeigen</string>
+    <string name="clear_chat_log">Chatverlauf löschen</string>
+    <string name="delete_and_exit">löschen und beenden</string>
+    <string name="chat_report">Bericht</string>
+    <string name="delete_and_dismiss">auflösen und löschen</string>
+    <string name="add_member_success">Gruppenmitglieder erfolgreich hinzugefügt</string>
+    <string name="add_member_fail">Gruppenmitglieder konnten nicht hinzugefügt werden</string>
+    <string name="join_grouop_fail">Beitritt zur Gruppe fehlgeschlagen</string>
+    <string name="del_member_success">Gruppenmitglied erfolgreich gelöscht</string>
+    <string name="del_member_fail">Gruppenmitglieder konnten nicht gelöscht werden</string>
+    <string name="search_for_friends" translatable="false">Suche nach Freunden</string>
+    <string name="no_restrictions_entry" translatable="false">unbegrenzter Zugang</string>
+    <string name="group_members_people" translatable="false">Gruppenmitglieder können Personen ziehen</string>
+    <string name="only_group_management_people" translatable="false">Nur das Gruppenmanagement kann Leute ziehen</string>
+    <string name="no_validation" translatable="false">keine Verifizierung</string>
+    <string name="need_to_verify" translatable="false">Überprüfung erforderlich</string>
+    <string name="add_friends_title" translatable="false">Freund hinzufügen</string>
+    <string name="add_friends_verify1" translatable="false">Erlaube allen, Freunde zu sein</string>
+    <string name="add_friends_verify2" translatable="false">Zum Hinzufügen von Freunden ist eine Verifizierung erforderlich</string>
+    <string name="add_friends_verify3" translatable="false">Es ist nicht erlaubt, Freunde hinzuzufügen</string>
+    <string name="allow_party_recall_message" translatable="false">Erlauben Sie dem anderen Teilnehmer, die Nachricht zurückzuziehen</string>
+    <string name="allow_party_delete" translatable="false">Jemandem erlauben, Nachrichten zu löschen</string>
+    <string name="need_reset" translatable="false">Sie haben keinen Spitznamen oder Avatar festgelegt, klicken Sie auf OK, um zu den Einstellungen zu gelangen</string>
+
+    <string name="all_images">alle Bilder</string>
+    <string name="folder_image_count">%1$d insgesamt</string>
+    <string name="preview_image_count">%1$d/%2$d</string>
+    <string name="select_limit">Wählen Sie höchstens %1$d Bilder aus</string>
+    <string name="select_complete">Fertig(%1$d/%2$d)</string>
+    <string name="preview_count">Vorschau(%1$d)</string>
+    <string name="origin">Original Bild</string>
+    <string name="origin_size">Original Bild(%1$s)</string>
+    <string name="user_card">persönliche Visitenkarte</string>
+    <string name="litapp_card">web Visitenkarte</string>
+    <string name="clear_cache">Cache leeren</string>
+    <string name="more">Mehr</string>
+    <string name="litapp_qrcode">Mini-Programm QR-Code</string>
+    <string name="str_more">Mehr</string>
+    <string name="my_qrcode">Mini-Programm QR-Code</string>
+
+    <string name="translating">in der Übersetzung</string>
+    <string name="translated">übersetzt</string>
+    <string name="url_prefix">Präfix für den Zugriff auf Bild-URLs</string>
+    <string name="error">Es gibt eine Ausnahme in Ihrem Betrieb, bitte schließen Sie die Software und öffnen Sie sie erneut</string>
+    <string name="text_null">Die bearbeitete Dynamik ist leer und kann nicht veröffentlicht werden</string>
+    <string name="ok">Neuigkeiten wurden erfolgreich veröffentlicht</string>
+    <string name="text">Gedanken für diesen Moment...</string>
+    <string name="dw_text">Optional</string>
+    <string name="rqsj_text">erforderlich</string>
+
+    <string name="input_empty">Der Eingabeinhalt darf nicht leer sein</string>
+    <string name="submitting">"einreicht"</string>
+    <string name="submit_wait">"Senden, bitte warten. . ."</string>
+    <string name="submit_success">erfolgreich eingereicht</string>
+    <string name="submit_failure">Übermittlung fehlgeschlagen</string>
+    <string name="fav_friend">Sterne Freunde</string>
+    <string name="add_failure">Hinzufügen fehlgeschlagen</string>
+    <string name="error_osnid">Falsch OsnID</string>
+    <string name="operation_failure">Operation fehlgeschlagen</string>
+
+    <string name="confirm">Sicher</string>
+    <string name="cancel">Absagen</string>
+    <string name="user">Benutzer</string>
+    <string name="invite"> einladen </string>
+    <string name="im">Ich bin </string>
+    <string name="invite_group"> hat dich in eine Gruppe eingeladen</string>
+    <string name="request_join"> Bewerben Sie sich, um der Gruppe beizutreten </string>
+    <string name="join_group"> Gruppe beitreten </string>
+    <string name="added">hinzugefügt</string>
+    <string name="rejected">abgelehnt</string>
+    <string name="accept">annehmen</string>
+    <string name="reject">ablehnen</string>
+    <string name="invite_sent">Freundschaftseinladung gesendet</string>
+    <string name="add_friend_failure">Freund konnte nicht hinzugefügt werden</string>
+    <string name="from_share">vom Teilen</string>
+    <string name="test_share">Test teilen</string>
+    <string name="select_over">Kandidaten überlaufen</string>
+    <string name="empty_contact">keine Kontakte</string>
+    <string name="no_contact">Kontakte</string>
+    <string name="get_conversation_info_error">Sitzungsinformationen konnten nicht abgerufen werden</string>
+    <string name="all_member_mute">Alle sind stummgeschaltet</string>
+    <string name="no_message">Botschaft</string>
+    <string name="no_a_message">Artikel @ Nachricht</string>
+    <string name="welcome_join_room">Willkommen %s im Chatraum</string>
+    <string name="join_room_failure">Chatroom konnte nicht betreten werden</string>
+    <string name="no_leave_room">%s den Chatraum verlassen</string>
+    <string name="disable_talk">Gruppenmitgliedern verbieten, privat zu chatten</string>
+    <string name="a_all">/@alle </string>
+    <string name="all_user">alle</string>
+    <string name="inputting">Der andere Teilnehmer tippt</string>
+    <string name="recording">Der andere Teilnehmer nimmt auf</string>
+    <string name="photographing">Die andere Partei macht Fotos</string>
+    <string name="send_file">Die andere Partei sendet die Datei</string>
+    <string name="send_location">Die andere Partei sendet den Standort</string>
+    <string name="count_receive">Anzahl der gelieferten Personen：</string>
+    <string name="count_no_receive">Nicht zugestellt：</string>
+    <string name="count_read">Anzahl der Personen, die gelesen haben：</string>
+    <string name="count_unread">Ungelesen：</string>
+    <string name="receipt">Nachrichtenempfang</string>
+    <string name="input_limit">Maximal zulässige Eingabe</string>
+    <string name="no_emoji">Emoji</string>
+    <string name="please_install">bitte installiere</string>
+    <string name="creating">Erstellen...</string>
+    <string name="select_file_error">Dateifehler auswählen</string>
+
+    <string name="cheat_record1">Chat-Aufzeichnung</string>
+    <string name="message_record">[Chat-Aufzeichnung]: </string>
+    <string name="step_forward">[Eins nach dem anderen weiterleiten] Gesamt</string>
+    <string name="forward_success">erfolgreich weitergeleitet</string>
+    <string name="forward_failure">Weiterleitung fehlgeschlagen</string>
+
+    <string name="no_member_of_group">Sie sind nicht in der Gruppe oder es ist ein Fehler aufgetreten, bitte versuchen Sie es später erneut</string>
+    <string name="please_input_nickname">Bitte geben Sie Ihren Gruppen-Spitznamen ein</string>
+    <string name="modify_nickname_failure">Gruppen-Nickname konnte nicht geändert werden:</string>
+    <string name="dismiss_group_failure">Gruppe konnte nicht aufgelöst werden</string>
+    <string name="quit_group_failure">Gruppe konnte nicht verlassen werden</string>
+    <string name="group_qrcode">QR-Code der Gruppe</string>
+    <string name="disable_talk1">Gruppenmitgliedern verbieten, privat zu chatten</string>
+    <string name="unknown_duration">unbekannte Dauer</string>
+    <string name="time_p0">yyyyJahrMMMondddTag</string>
+    <string name="to"> Schild </string>
+
+    <string name="is_resend">Erneut senden?</string>
+    <string name="is_delete">Löschung bestätigen?</string>
+    <string name="resend">Erneut senden</string>
+    <string name="no_set">nicht festgelegt</string>
+    <string name="recall">abheben</string>
+    <string name="callback" tools:ignore="ExtraTranslation">abheben</string>
+    <string name="delete">löschen</string>
+    <string name="delete_tag" translatable="false">Etikett löschen</string>
+    <string name="confirm_delete_tag" translatable="false">Bestätigen Sie das Entfernen des Etiketts</string>
+    <string name="tag_prompt" translatable="false">Bitte gehen Sie zur Seite mit den Benutzerdetails, um den Benutzer zum Label hinzuzufügen</string>
+    <string name="no_tag" translatable="false">Noch keine Tags, gehen Sie zu Tags hinzufügen</string>
+    <string name="deleteto" tools:ignore="ExtraTranslation">Löscht die Nachricht des anderen</string>
+    <string name="forward">Nach vorne</string>
+    <string name="quota">zitieren</string>
+    <string name="multi_check">Mehrfachauswahl</string>
+    <string name="private_cheat">privater Chat</string>
+    <string name="fav">sammeln</string>
+    <string name="copy">Kopieren</string>
+    <string name="save">sparen</string>
+    <string name="save_as" translatable="false">Speichern Sie die Datei im angegebenen Verzeichnis</string>
+    <string name="details" translatable="false">Einzelheiten</string>
+    <string name="top_message" translatable="false">Klebrige Nachricht</string>
+    <string name="top_message_set" translatable="false">Einstellungen für klebrige Nachrichten</string>
+
+    <string name="confirm_delete">Bestätigen, um diese Nachricht zu löschen</string>
+    <string name="confirm_callback" tools:ignore="MissingTranslation">Bestätigen Sie, um diese Nachricht zurückzuziehen</string>
+    <string name="message_context">Nachrichteninhalt</string>
+
+    <string name="step_forward1">Nacheinander weiterleiten</string>
+    <string name="merge_froward">vorwärts verschmelzen</string>
+    <string name="and">und</string>
+    <string name="cheat_record">Chatverlauf</string>
+    <string name="group_cheat_record">Gruppen-Chat-Verlauf</string>
+    <string name="picture_save_success">Picture saved successfully</string>
+    <string name="picture_save_failure">Image saving failure</string>
+
+    <string name="linking">verbinden...</string>
+    <string name="syncing">正在同步...</string>
+    <string name="link_fail">Verbindung fehlgeschlagen</string>
+
+    <string name="load_fav_failed">Sammlung konnte nicht geladen werden </string>
+    <string name="fav_context">Lieblingsinhalte</string>
+
+    <string name="entry_group">Gruppenchat betreten</string>
+    <string name="joins_group">treten Sie dem Gruppenchat bei</string>
+    <string name="upload_portrait_failed">Gruppenavatar konnte nicht hochgeladen werden</string>
+
+    <string name="administrator">Administrator</string>
+    <string name="owner">Herr</string>
+    <string name="group_admin">Gruppenmanagement</string>
+    <string name="set_sensitive_word" translatable="false">sensible Worte setzen</string>
+    <string name="group_message_masking_keywords" translatable="false">Schlüsselwörter zum Blockieren von Gruppennachrichten</string>
+    <string name="fill_maximum_five_keywords" translatable="false">(Fügen Sie bis zu fünf Schlüsselwörter hinzu)</string>
+    <string name="click_add_keywords" translatable="false">Klicken Sie auf die Schaltfläche Hinzufügen in der oberen rechten Ecke, um Schlüsselwörter hinzuzufügen</string>
+    <string name="example" translatable="false">Beispiel</string>
+    <string name="remove_white_list">Whitelist entfernen</string>
+    <string name="clean_mute">Stummschaltung aufheben</string>
+    <string name="white_list">Weiße Liste</string>
+    <string name="mute_list">Verbotsliste</string>
+    <string name="adding">Hinzufügen...</string>
+    <string name="set_admin_error">Admin-Fehler setzen </string>
+    <string name="modify_group_join_type_failed">Die Hinzufügungsmethode konnte nicht geändert werden</string>
+    <string name="modify_group_verify_type_failed">Überprüfungsmethode konnte nicht geändert werden</string>
+    <string name="modify_group_type_failed">Gruppentyp konnte nicht geändert werden</string>
+    <string name="remove_admin">Gruppenverwaltung entfernen</string>
+    <string name="set_member_right_failed">Berechtigungen für Gruppenmitglieder konnten nicht festgelegt werden </string>
+    <string name="mute_failed">Stummschaltung fehlgeschlagen </string>
+    <string name="adding_white_list">zur weißen Liste hinzufügen...</string>
+    <string name="muting">Verboten...</string>
+    <string name="add_white_failed">Whitelist-Fehler hinzufügen</string>
+    <string name="set_mute">Verbot setzen</string>
+    <string name="member_right">Mitgliedsberechtigungen</string>
+    <string name="no_limit_join">unbegrenzter Zugang</string>
+    <string name="group_type">Gruppentyp</string>
+    <string name="join_mode">Gruppenmethode hinzufügen</string>
+    <string name="verify_mode">Wege der Identifizierung</string>
+    <string name="time_mode" translatable="false">Sprechgeschwindigkeit</string>
+    <string name="clear_time" translatable="false">Bereinigen Sie regelmäßig Gruppennachrichten</string>
+    <string name="no_allow_find">Suche nicht erlaubt</string>
+    <string name="find_mode">Suchmethode</string>
+    <string name="mute_failed1">Fehler beim Stummschalten</string>
+    <string name="member_mute">Gruppenmitglieder werden gesperrt</string>
+    <string name="member_white">Apropos weiße Liste</string>
+    <string name="get_group_notice_failed">Gruppenankündigung konnte nicht abgerufen werden</string>
+    <string name="waiting">Warten Sie mal...</string>
+    <string name="set_notice_success">Gruppenansage erfolgreich eingestellt</string>
+    <string name="set_notice_failure">Gruppenansage konnte nicht eingestellt werden: </string>
+    <string name="set_group_card_success">Gruppenname erfolgreich geändert</string>
+    <string name="set_group_card_failure">Gruppenname konnte nicht geändert werden: </string>
+    <string name="add_an_applet" translatable="false">Applet hinzufügen</string>
+
+    <string name="authorize">autorisiert</string>
+    <string name="auth_tip"> Kann auf Ihren Avatar und andere öffentliche Informationen zugreifen, um den Zugriff zu autorisieren</string>
+    <string name="exit_tip">erneut drücken, um zu beenden</string>
+    <string name="qrcode">QR-Code</string>
+    <string name="litapp_card1">Kleine Programmvisitenkarte</string>
+    <string name="litapp_share" translatable="false">Applet teilen</string>
+    <string name="litapp_name">Applet-Name</string>
+    <string name="open_litapp">Applet öffnen</string>
+    <string name="copy_success">erfolgreich kopieren</string>
+    <string name="qrcode_scan_failed">Fehler beim Erkennen des QR-Codes</string>
+
+    <string name="single_price">Einzelbetrag</string>
+    <string name="group_has">Unsere Gruppe</string>
+    <string name="man">Personen</string>
+    <string name="all_price">Pauschalbetrag</string>
+    <string name="price">die Summe</string>
+    <string name="price_error">falscher Betrag</string>
+    <string name="luck_no_error">falsche Glückszahl</string>
+    <string name="packet_count_error">Die Anzahl der roten Umschläge ist falsch</string>
+    <string name="input_count">Nummer</string>
+    <string name="packet_failed">Der rote Umschlag konnte nicht verschlossen werden</string>
+    <string name="bless">Gong Xi Fa Cai, viel Glück</string>
+    <string name="server_parameter_error">Der Server hat einen Parameterfehler zurückgegeben</string>
+    <string name="service_error" translatable="false">Server-Ausnahme</string>
+    <string name="date_pattern">MMMondddNein HH:mm</string>
+    <string name="de_packet"> der rote Umschlag</string>
+    <string name="count_packet">rote Umschläge total</string>
+    <string name="yuan"> </string>
+    <string name="error_hit">Fehler: </string>
+    <string name="pwd_error_hit">Falsches Passwort, verbleibende Wiederholungen: </string>
+    <string name="red_packet_finish">Die roten Umschläge sind vorbei</string>
+    <string name="red_come_from" translatable="false">Der rote Umschlag kommt von</string>
+
+    <string name="records">Aufzeichnungen</string>
+    <string name="delete_failed">konnte nicht gelöscht werden</string>
+
+    <string name="user_no_exist">Benutzer existiert nicht</string>
+    <string name="modifying">überarbeiten…</string>
+    <string name="modify_success">Erfolgreich geändert</string>
+    <string name="modify_failure">nicht bearbeiten</string>
+    <string name="set_alias_failed">Aliasfehler ändern：</string>
+    <string name="set_account_failed">Fehler beim Ändern des Kontos：</string>
+    <string name="id_is_empty">IDKann nicht leer sein</string>
+    <string name="set_ok">erfolgreich eingestellt</string>
+
+    <string name="update_error_select_file">Avatar konnte nicht aktualisiert werden: Datei konnte nicht ausgewählt werden </string>
+    <string name="update_error_thumbnail">Avatar konnte nicht aktualisiert werden: Miniaturansicht konnte nicht generiert werden</string>
+    <string name="update_ok">Avatar erfolgreich aktualisieren</string>
+    <string name="update_no">Avatar konnte nicht aktualisiert werden: </string>
+    <string name="downloading">wird heruntergeladen</string>
+    <string name="recall_failed">Auszahlung fehlgeschlagen: </string>
+
+    <string name="new_message">neue Nachrichten</string>
+    <string name="no">Streifen</string>
+    <string name="deng"> Warte ab</string>
+    <string name="request_friend">Anfrage, Sie als Freund hinzuzufügen</string>
+    <string name="friend_request">Freundschaftsanfragen</string>
+
+    <string name="tip">Hinweis</string>
+    <string name="confirm_to_delete">Möchten Sie dieses Foto löschen?</string>
+
+    <string name="set_user_remark">Benutzernotizen festlegen</string>
+    <string name="modify_nickname">Benutzernamen ändern</string>
+    <string name="modify_group_name">Benutzernamen ändern</string>
+    <string name="modify_group_notice">Benutzernamen ändern</string>
+    <string name="create_conversation">Sitzung erstellen</string>
+    <string name="add_member">neues Mitglied hinzufügen</string>
+    <string name="del_member">Gruppenmitglieder löschen</string>
+    <string name="sel_member">Gruppenmitglieder auswählen</string>
+    <string name="group_list">Gruppenchat</string>
+    <string name="friend_request1">Frage von einem Freund</string>
+    <string name="find_user">Benutzer suchen</string>
+    <string name="add_osnid">HinzufügenOsnID</string>
+    <string name="invite_friend">Freunde einladen</string>
+    <string name="user_info">Benutzerinformation</string>
+    <string name="privacy_set">Privatsphäreeinstellung</string>
+    <string name="black_list">schwarze Liste</string>
+    <string name="friend_circle">Freundeskreis</string>
+    <string name="new_message_notify">neue Nachrichtenbenachrichtigung</string>
+    <string name="conversation_info">Sitzungsdetails</string>
+    <string name="room_list">Chatroom-Liste</string>
+    <string name="search_center">Suchzentrum</string>
+    <string name="sel_conversation">Sitzung auswählen</string>
+    <string name="channel_list">Kanalliste</string>
+    <string name="notify_message">Benachrichtigungsnachricht</string>
+    <string name="litapp_list">Applet-Liste</string>
+    <string name="litapp">Applets</string>
+    <string name="kefu">Kundendienst</string>
+    <string name="kefu_list">Kundendienstliste</string>
+    <string name="complain">Bericht</string>
+    <string name="feedback">Kundenbewertung</string>
+    <string name="input_info">Information eingeben</string>
+    <string name="create_channel">Kanal erstellen</string>
+    <string name="group_info">Gruppeninformationen</string>
+    <string name="litapp_info">Informationen zum Miniprogramm</string>
+    <string name="scan">Scannen Sie es</string>
+    <string name="member_list">Liste der Gruppenmitglieder</string>
+    <string name="sel_contact">Kontaktauswahl</string>
+    <string name="file_record">Dokumentenaufzeichnung</string>
+    <string name="share_cardinfo" translatable="false">Visitenkarte teilen</string>
+
+    <string name="red_pecket_setting" translatable="false">Einstellung der roten Paketwahrscheinlichkeit für Minenräumung</string>
+    <string name="tag_option" translatable="false">Etikettenbetrieb</string>
+    <string name="group_profit">Gruppenumsatz abfragen</string>
+    <string name="contact">Gesprächspartner</string>
+    <string name="modify_id">ÜberarbeitenID</string>
+    <string name="meeting_invite">Einladung zum Meeting</string>
+    <string name="merge_message">kombinierte Nachricht</string>
+
+    <string name="input_id">Bitte eingebenOsnID</string>
+    <string name="add">Hinzufügen</string>
+    <string name="submit">einreichen</string>
+    <string name="complain_hint">Bitte geben Sie den Inhalt des Berichts ein (maximal 200 Zeichen)</string>
+    <string name="complain_photo">Bild melden</string>
+    <string name="input_user">Bitte geben Sie einen Kontakt ein</string>
+    <string name="input_phone">Bitte geben Sie Ihre Telefonnummer ein</string>
+    <string name="input_feedback">Bitte geben Sie den Feedback-Inhalt ein (maximal 200 Zeichen)</string>
+    <string name="all_photo">alle Bilder</string>
+    <string name="preview3">Vorschau(3)</string>
+    <string name="original_pic">Original Bild(3.07M)</string>
+    <string name="select">wählen</string>
+
+    <string name="receive_new_message">Erhalten Sie Benachrichtigungen über neue Nachrichten</string>
+    <string name="notify_show_info">Benachrichtigungen zeigen Nachrichtendetails</string>
+    <string name="message_receipt">Nachrichtenempfang</string>
+
+    <string name="to_user">denen</string>
+    <string name="packet_count">Anzahl der roten Umschläge</string>
+    <string name="ge">individuell</string>
+    <string name="bless0">Herzliche Glückwünsche</string>
+    <string name="win">im Lotto gewinnen</string>
+    <string name="red_packet_owner">Person, die rote Umschläge verteilt</string>
+    <string name="packet_group_info">Es gibt 0 Personen in dieser Gruppe</string>
+    <string name="one_price">Einzelbetrag</string>
+    <string name="price_hint">USD 0.00</string>
+    <string name="luck_no">Glückszahl</string>
+    <string name="luck_tail">gewinnende Mantisse</string>
+    <string name="luck_times">Mehrfach gewinnen</string>
+    <string name="luck_price">Zahlen und so viel</string>
+    <string name="packet_head">roter Umschlagdeckel</string>
+    <string name="set_packet">Geld in rote Umschläge stopfen</string>
+    <string name="bless1">Wünsche dir Wohlstand und Reichtum</string>
+    <string name="red_packet_info">1 roter Umschlag, insgesamt 0 Yuan</string>
+
+    <string name="delete_friend_whether">Möchten Sie Freunde löschen?</string>
+
+
+    <string name="input_info1">Bitte geben Sie Informationen ein</string>
+    <string name="shoot_photo">Fotografieren</string>
+    <string name="zero_space">Insgesamt 0</string>
+    <string name="user_request_add_you">Der andere Teilnehmer möchte Sie als Freund hinzufügen</string>
+    <string name="message_12">12 Nachrichten</string>
+    <string name="message_a_12">12 @Nachrichten</string>
+    <string name="show_all_member">alle Mitglieder anzeigen</string>
+    <string name="find_record">Chatverlauf finden</string>
+    <string name="save_to_contact">im Adressbuch speichern</string>
+    <string name="file_name">Dateiname. . . . .</string>
+    <string name="retry">Wiederholen</string>
+    <string name="you_invite_join">Sie haben xx zum Beitritt eingeladen</string>
+    <string name="re_edit">neu bearbeiten</string>
+    <string name="recall_one_message">Eine Nachricht zurückgezogen </string>
+    <string name="already_finish">wurde erhalten</string>
+    <string name="app_red_packet">wallet</string>
+    <string name="loading">Wird geladen…</string>
+    <string name="user_red_packet">Exklusiver roter Umschlag</string>
+    <string name="random_red_packet">Glücklicher roter Umschlag</string>
+    <string name="bomb_red_packet">Minesweeper Roter Umschlag</string>
+    <string name="input_pay_code">Bitte geben Sie das Zahlungspasswort ein</string>
+    <string name="send_to">senden an:</string>
+    <string name="leave_to_friend">Hinterlasse eine Nachricht an einen Freund</string>
+    <string name="group_name1">Gruppenname</string>
+    <string name="member_admin">Mitgliederverwaltung</string>
+    <string name="set_group_attrib">Gruppeneigenschaftseinstellung</string>
+    <string name="applet_management" tools:ignore="ExtraTranslation">Applet-Verwaltung</string>
+    <string name="add_administrator">Administrator hinzufügen</string>
+    <string name="allow_member_temp_chat">Erlauben Sie gewöhnlichen Mitgliedern, vorübergehende Sitzungen zu initiieren</string>
+    <string name="all_mute">Alle stumm</string>
+    <string name="select_pic">Bild auswählen</string>
+    <string name="test">Prüfung</string>
+    <string name="best_luck">am glücklichsten</string>
+    <string name="copy_to_clip">in die Zwischenablage kopieren</string>
+    <string name="share_and_save_picture">Bilder teilen und speichern</string>
+    <string name="share">Teilen</string>
+    <string name="input_keyword_to_search">Geben Sie Schlüsselwörter ein, um mit der Suche zu beginnen</string>
+    <string name="no_search_result">keine Suchergebnisse</string>
+
+    <string name="set_nickname_or_alias">Legen Sie einen Spitznamen oder Alias ​​fest</string>
+    <string name="space">Platz</string>
+    <string name="video_chat">Video-Chat</string>
+    <string name="detail">Einzelheiten</string>
+    <string name="addr_book">Adressbuch</string>
+    <string name="create_group">Starten Sie einen Gruppenchat</string>
+    <string name="album">Fotoalbum</string>
+    <string name="delete_friend">Freund löschen</string>
+    <string name="add_friend1">Freund hinzufügen</string>
+    <string name="add_black_list">zur Blacklist hinzufügen</string>
+    <string name="del_black_list">von der schwarzen Liste entfernen</string>
+    <string name="set_remark_name">Kommentarnamen festlegen</string>
+    <string name="set_fav_friend">Machen Sie einen Sternenfreund</string>
+    <string name="del_fav_friend">Freund entfernen</string>
+    <string name="please_input_verify_code">Bitte geben Sie das Zahlungspasswort ein</string>
+    <string name="pay_mode">Zahlungsmethode</string>
+    <string name="change">kleine Veränderung \></string>
+    <string name="game_rule">Spielregeln</string>
+
+    <string name="image_doodle">Graffiti</string>
+    <string name="image_text">Wort</string>
+    <string name="image_mosaic">Mosaik-</string>
+    <string name="image_clip">ausgeschnitten</string>
+    <string name="image_reset">die Ermäßigung</string>
+    <string name="image_done">Fertig</string>
+    <string name="image_cancel">Absagen</string>
+    <string name="image_rotate">rotieren</string>
+
+    <string name="image_mosaic_tip">Bitte wenden Sie Unschärfe direkt auf dem Bild an</string>
+    <string name="image_undo">widerrufen</string>
+    <string name="image_all_photo">alle Fotos</string>
+    <string name="image_original">Original Bild</string>
+    <string name="image_preview">Vorschau</string>
+    <string name="hint">Hinweis</string>
+    <string name="bomb_update_tip">Minesweeper Red Envelopes erfordern ein Upgrade von %s Personen auf die Red Envelope-Gruppe.</string>
+    <string name="friend">Freunde</string>
+    <string name="group">Gruppe</string>
+    <string name="my_litapp">mein Applet</string>
+    <string name="Yesterday" translatable="false">gestern</string>
+    <string name="Sunday" translatable="false">Sonntag</string>
+    <string name="Monday" translatable="false">am Montag</string>
+    <string name="Tuesday" translatable="false">Dienstag</string>
+    <string name="Wednesday" translatable="false">Mittwoch</string>
+    <string name="Thursday" translatable="false">Donnerstag</string>
+    <string name="Friday" translatable="false">Freitag</string>
+    <string name="Saturday" translatable="false">Samstag</string>
+
+    <string name="string_confirm" translatable="false">bestätigen</string>
+    <string name="string_cancel" translatable="false">Absagen</string>
+    <string name="string_remind" translatable="false">erinnern</string>
+    <string name="string_ps" translatable="false">Nachschrift</string>
+    <string name="version_number" translatable="false">Versionsnummer</string>
+
+    <string name="clean_chat_whether" translatable="false">Möchten Sie den Chatverlauf löschen?</string>
+    <string name="quit_delete_whether" translatable="false">Bitte bestätigen Sie, ob Sie die Gruppe verlassen/auflösen möchten.</string>
+
+
+
+</resources>
+
+
+
+

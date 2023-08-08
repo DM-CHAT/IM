@@ -1,0 +1,523 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="imid">ID người dùng.</string>
+    <string name="modify_imid">Thay đổi ID người dùng</string>
+    <string name="complete">Hoàn thành</string>
+    <string name="draft">[bản nháp]</string>
+    <string name="video">video</string>
+    <string name="audio">Âm thanh</string>
+    <string name="notify">Thông báo</string>
+    <string name="set_conversation_to_top">Top chat</string>
+    <string name="user_a_me">[ai@tôi]</string>
+    <string name="clean_conversation">Phiên chạy trống</string>
+    <string name="delete_conversation">Phiên chạy gỡ bỏ</string>
+    <string name="set_top">ZhiDing</string>
+    <string name="unset_top">Hủy bỏ đầu trang</string>
+    <string name="confirm_clean_conversation">Xác nhận phiên chạy trống?</string>
+    <string name="confirm_delete_conversation">Xác nhận phiên gỡ bỏ?</string>
+    <string name="search_for_friends" translatable="false">Tìm kiếm bạn bè</string>
+    <string name="clear_day" translatable="false">Chúa ơi</string>
+    <string name="message_notify">Thông báo</string>
+    <string name="card">Danh thiếp</string>
+    <string name="card_user">[Thẻ cá nhân]</string>
+    <string name="card_group">[nhóm]</string>
+    <string name="card_room">[phòng chat]</string>
+    <string name="card_channel">[Kênh]</string>
+    <string name="card_litapp">[chương trình nhỏ]</string>
+    <string name="text_user_card">Thẻ kinh doanh cá nhân</string>
+    <string name="text_group_card">Nhóm thẻ</string>
+    <string name="text_room_card">Danh thiếp phòng chat</string>
+    <string name="text_channel_card">Kênh kinh doanh thẻ</string>
+    <string name="please_shoukuan">Bộ sưu tập</string>
+    <string name="receive_shoukuan">Bộ sưu tập</string>
+    <string name="please_enter_lable_name">Hãy nhập tên thẻ</string>
+    <string name="new_friend">Bạn bè mới</string>
+    <string name="group_cheat">Nhóm người nói chuyện</string>
+    <string name="add_friend">Thêm bạn bè</string>
+    <string name="no_recommend_friend">Bạn bè không được giới thiệu</string>
+    <string name="user_no_found">Người dùng đó không tồn tại</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="search_result">Kết quả tìm kiếm</string>
+    <string name="nickname_colon">Biệt danh :%1$s</string>
+    <string name="set_alias_and_tag">Thiết lập ghi chú và nhãn hiệu</string>
+    <string name="send_message">Gửi tin nhắn</string>
+    <string name="add_to_contact">Thêm vào danh sách địa chỉ</string>
+    <string name="change_my_name_tip">Một cái tên hay sẽ giúp bạn bè nhớ đến anh dễ dàng hơn.</string>
+    <string name="alias">Lưu ý tên</string>
+    <string name="alias_no_empty">Tên ghi chú không thể bị bỏ trống</string>
+    <string name="allow_stangers_send_message">Cho phép người lạ gửi tin nhắn</string>
+    <string name="postscript_tip">Bạn cần phải gửi một yêu cầu xác nhận, chờ cho người khác qua</string>
+    <string name="send">Gửi đi</string>
+    <string name="please_to_talk">Bấm và giữ nói chuyện</string>
+    <string name="shot">Chụp ảnh</string>
+    <string name="location">Vị trí</string>
+    <string name="file">Tập tin</string>
+    <string name="photo">Bức ảnh</string>
+    <string name="redPacket">đề</string>
+    <string name="redPacket_group">gầy</string>
+    <string name="redPacket_bomb">Túi may mắn</string>
+    <string name="transfer" translatable="false">Giao dịch</string>
+    <string name="network_congestion" translatable="false">Mạng bị tắc, vui lòng thử lại sau</string>
+    <string name="please_input_transfer_amount" translatable="false">Vui lòng nhập số tiền chuyển khoản</string>
+    <string name="transfer_amount" translatable="false">Số tiền chuyển khoản</string>
+    <string name="direction" translatable="false">Hướng tới</string>
+
+
+    <string name="voice_rec">Trượt ngón tay và hủy lệnh gửi</string>
+    <string name="voice_cancel">Thả ngón tay ra và hủy việc gửi đi</string>
+    <string name="voice_short">Thời gian ghi âm là quá ngắn</string>
+    <string name="create_group_success">Nhóm thành công</string>
+    <string name="create_group_fail">Tạo ra nhóm thất bại</string>
+    <string name="no_group_now">Không có nhóm trò chuyện</string>
+    <string name="group_name">Nhóm tên</string>
+    <string name="untitled">Không có tên</string>
+    <string name="group_announcement">Nhóm thông báo</string>
+    <string name="message_free">Tin nhắn không làm phiền</string>
+    <string name="add_friends_verify1" translatable="false">Cho phép tất cả mọi người thêm bạn bè</string>
+    <string name="add_friends_verify2" translatable="false">Thêm bạn bè cần phải được xác nhận</string>
+    <string name="add_friends_verify3" translatable="false">Không được thêm bạn bè</string>
+    <string name="allow_party_recall_message" translatable="false">Cho phép rút lại tin nhắn</string>
+    <string name="allow_party_delete" translatable="false">Cho phép xóa tin nhắn</string>
+
+    <string name="add_friends_title" translatable="false">Thêm bạn bè</string>
+    <string name="password" translatable="false">Mật khẩu</string>
+    <string name="call_canceled" translatable="false">Hủy cuộc gọi</string>
+    <string name="other_party_canceled" translatable="false">nhau bị hủy bỏ.</string>
+    <string name="video_call_duration" translatable="false">Thời lượng cuộc gọi video</string>
+    <string name="voice_call_duration" translatable="false">Thời lượng cuộc gọi thoại</string>
+    <string name="unknown_status" translatable="false">Trạng thái không rõ</string>
+
+
+    <string name="update_redpacket">Nâng cấp nhóm màu đỏ</string>
+    <string name="modify_groud_name" translatable="false">Thay đổi tên nhóm</string>
+    <string name="modify_messages_copy" translatable="false">Cho phép thành viên SAO chép tin nhắn</string>
+    <string name="modify_messages_forward" translatable="false">Cho phép thành viên chuyển tiếp tin nhắn</string>
+    <string name="mutual_friends" translatable="false">Lẫn nhau thêm bạn bè</string>
+    <string name="my_nickname_in_this_group">Biệt danh của tôi trong nhóm này</string>
+    <string name="show_group_member_name">Hiển thị biệt danh thành viên nhóm</string>
+    <string name="clear_chat_log">Trống trò chuyện</string>
+    <string name="delete_and_exit">Loại bỏ và thoát khỏi</string>
+    <string name="chat_report">Báo cáo</string>
+    <string name="delete_and_dismiss">Giải tán và loại bỏ</string>
+    <string name="add_member_success">Thành công thêm thành viên nhóm</string>
+    <string name="add_member_fail">Việc thêm thành viên nhóm bị lỗi</string>
+    <string name="join_grouop_fail">Nhập nhóm thất bại</string>
+    <string name="del_member_success">Xoá bỏ các thành viên trong nhóm thành công</string>
+    <string name="del_member_fail">Lỗi xóa thành viên nhóm</string>
+    <string name="all_images">Tất cả hình ảnh</string>
+    <string name="folder_image_count">%1$d</string>
+    <string name="preview_image_count">%1$d/%2$d</string>
+    <string name="select_limit">Sự lựa chọn nhiều nhất # 1 đô la d % một bức hình ảnh</string>
+    <string name="select_complete">Hoàn thành (%1$d/%2$d)</string>
+    <string name="preview_count">Ô xem thử (%1$d)</string>
+    <string name="origin">YuanTu</string>
+    <string name="origin_size">YuanTu ($s/giờ # 1%)</string>
+    <string name="user_card">Thẻ kinh doanh cá nhân</string>
+    <string name="litapp_card">Web danh thiếp</string>
+    <string name="clear_cache">Một phòng kín trữ dọn dẹp</string>
+    <string name="more">Nhiều hơn</string>
+    <string name="litapp_qrcode">Chương trình nhỏ chú ý</string>
+    <string name="litapp_share" translatable="false">Chia sẻ các ứng dụng nhỏ</string>
+    <string name="str_more">Nhiều hơn</string>
+    <string name="my_qrcode">Mã qr của một chương trình nhỏ</string>
+    <string name="translating">Trong bản dịch</string>
+    <string name="translated">Đã được dịch</string>
+    <string name="url_prefix">Truy cập vào đầu của địa chỉ ảnh</string>
+    <string name="error">Có một ngoại lệ trong hoạt động của bạn, hãy tắt phần mềm và mở lại</string>
+    <string name="text_null">Năng lượng biên tập đã sẵn sàng, không thể xuất bản</string>
+    <string name="ok">Động lực đã được phát hành thành công</string>
+    <string name="text">Ý tưởng về khoảnh khắc này …</string>
+    <string name="dw_text">Có thể chọn</string>
+    <string name="rqsj_text">Sẽ điền</string>
+    <string name="input_empty">Nội dung không thể bị bỏ trống</string>
+    <string name="submitting">"Đang nộp"</string>
+    <string name="submit_wait">"Đang nộp, chờ chút …"</string>
+    <string name="submit_success">Gửi thành công</string>
+    <string name="submit_failure">Gửi thất bại</string>
+    <string name="fav_friend">SAO bạn bè</string>
+    <string name="add_failure">Thêm thất bại</string>
+    <string name="error_osnid">Nhầm OsnID rồi</string>
+    <string name="operation_failure">Hoạt động thất bại</string>
+    <string name="confirm">Chắc chắn</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="user">Người dùng</string>
+    <string name="invite">mời</string>
+    <string name="im">Tôi là</string>
+    <string name="invite_group">Mời bạn tham gia nhóm</string>
+    <string name="request_join">Để đăng ký vào nhóm</string>
+    <string name="join_group">Tham gia nhóm</string>
+    <string name="added">Đã được thêm vào</string>
+    <string name="rejected">Đã bị từ chối</string>
+    <string name="accept">Chấp nhận</string>
+    <string name="reject">Từ chối</string>
+    <string name="invite_sent">Lời mời bạn bè đã được gửi</string>
+    <string name="add_friend_failure">Thêm bạn bè thất bại</string>
+    <string name="from_share">Từ việc chia sẻ</string>
+    <string name="test_share">Chia sẻ các bài kiểm tra</string>
+    <string name="select_over">Quá giới hạn</string>
+    <string name="empty_contact">Không có liên lạc</string>
+    <string name="no_contact">Liên hệ</string>
+    <string name="get_conversation_info_error">Lỗi truy cập thông tin hội thoại</string>
+    <string name="all_member_mute">Tất cả đều bị cấm</string>
+    <string name="no_message">Tin nhắn</string>
+    <string name="no_a_message">\@ tin nhắn</string>
+    <string name="welcome_join_room">Chào mừng %s vào phòng chat</string>
+    <string name="join_room_failure">Tham gia vào phòng chat thất bại</string>
+    <string name="no_leave_room">%s rời khỏi phòng chat</string>
+    <string name="disable_talk">Cấm trò chuyện riêng tư với nhóm</string>
+    <string name="a_all">/@ tất cả mọi người</string>
+    <string name="all_user">Tất cả mọi người</string>
+    <string name="inputting">Bên kia đang nhập</string>
+    <string name="recording">Bên kia là ghi âm</string>
+    <string name="photographing">Bên kia là hình ảnh</string>
+    <string name="send_file">Bên kia đang gửi tập tin</string>
+    <string name="send_location">Họ đang gửi địa điểm</string>
+    <string name="count_receive">Số người đã đến:</string>
+    <string name="count_no_receive">Số người chưa được giao:</string>
+    <string name="count_read">Số người đọc:</string>
+    <string name="count_unread">Số người chưa đọc:</string>
+    <string name="receipt">Nhận tin nhắn</string>
+    <string name="input_limit">Cho phép nhập</string>
+    <string name="no_emoji">Biểu tượng cảm xúc</string>
+    <string name="please_install">Xin hãy cài đặt</string>
+    <string name="creating">Tạo ra …</string>
+    <string name="select_file_error">Chọn lỗi tập tin</string>
+    <string name="cheat_record1">Trò chuyện</string>
+    <string name="message_record">[chat logs]:</string>
+    <string name="step_forward">Tổng cộng</string>
+    <string name="forward_success">Chuyển tiếp thành công</string>
+    <string name="forward_failure">Chuyển tiếp thất bại</string>
+    <string name="no_member_of_group">Bạn không có trong nhóm hoặc gặp lỗi, xin vui lòng thử lại sau</string>
+    <string name="please_input_nickname">Hãy nhập biệt danh nhóm của bạn</string>
+    <string name="modify_nickname_failure">Biệt danh nhóm bị lỗi:</string>
+    <string name="dismiss_group_failure">Giải tán nhóm thất bại</string>
+    <string name="quit_group_failure">Thoát khỏi nhóm không thành công</string>
+    <string name="group_qrcode">Nhóm mã qr</string>
+    <string name="disable_talk1">Cấm trò chuyện riêng tư với nhóm</string>
+    <string name="unknown_duration">Không biết bao lâu</string>
+    <string name="time_p0">Tháng jj năm yyyy</string>
+    <string name="to">đến</string>
+    <string name="is_resend">Gửi lại?</string>
+    <string name="is_delete">Xác nhận xóa?</string>
+    <string name="resend">Nặng gửi</string>
+    <string name="no_set">Không được thiết lập</string>
+    <string name="recall">Quay lại</string>
+    <string name="callback" tools:ignore="ExtraTranslation">Quay lại</string>
+    <string name="delete">Xoá bỏ</string>
+    <string name="delete_tag">Xóa thẻ</string>
+    <string name="confirm_delete_tag" translatable="false">Xác nhận xóa thẻ</string>
+    <string name="no_tag" translatable="false">Không có thẻ, đi và thêm thẻ</string>
+    <string name="tag_prompt" translatable="false">Hãy đến trang chi tiết người dùng để thêm người dùng vào thẻ</string>
+    <string name="deleteto" tools:ignore="ExtraTranslation">Xóa tin nhắn</string>
+    <string name="forward">Chuyển tiếp</string>
+    <string name="quota">Trích dẫn</string>
+    <string name="multi_check">DuoXuan</string>
+    <string name="private_cheat">Nói chuyện riêng tư.</string>
+    <string name="fav">Bộ sưu tập</string>
+    <string name="copy">SAO chép</string>
+    <string name="confirm_delete">Xác nhận đã xóa tin nhắn này</string>
+    <string name="confirm_callback">Xác nhận đã rút lại tin nhắn</string>
+    <string name="message_context">Nội dung tin nhắn</string>
+    <string name="step_forward1">Chuyển tiếp</string>
+    <string name="merge_froward">Hợp nhất chuyển tiếp</string>
+    <string name="and">và</string>
+    <string name="cheat_record">Lịch sử trò chuyện</string>
+    <string name="group_cheat_record">Trò chuyện nhóm</string>
+    <string name="linking">Đang kết nối …</string>
+    <string name="syncing">Đang đồng bộ hóa …</string>
+    <string name="link_fail">Kết nối không thành công</string>
+    <string name="load_fav_failed">Bộ sưu tập tải lỗi</string>
+    <string name="fav_context">Nội dung bộ sưu tập</string>
+    <string name="entry_group">Vào nhóm chat</string>
+    <string name="joins_group">Tham gia nhóm chat</string>
+    <string name="upload_portrait_failed">Tải lên các nhóm avatar thất bại</string>
+    <string name="administrator">Quản lý</string>
+    <string name="owner">Nhóm chúa</string>
+    <string name="group_admin">Quản lý nhóm</string>
+    <string name="set_sensitive_word" translatable="false">Từ khóa</string>
+    <string name="group_message_masking_keywords" translatable="false">Khóa bảo mật thông điệp nhóm</string>
+    <string name="fill_maximum_five_keywords" translatable="false">(Nhiều nhất là năm từ khóa)</string>
+    <string name="click_add_keywords" translatable="false">Nhấn vào nút trên bên phải để thêm từ khóa</string>
+    <string name="example" translatable="false">Ví dụ</string>
+    <string name="remove_white_list">Loại bỏ danh sách trắng</string>
+    <string name="clean_mute">Bãi bỏ cấm</string>
+    <string name="white_list">Danh sách màu trắng</string>
+    <string name="mute_list">Danh sách cấm</string>
+    <string name="adding">Đang thêm …</string>
+    <string name="set_admin_error">Cài đặt lỗi quản trị viên</string>
+    <string name="modify_group_join_type_failed">Sửa đổi nhóm không thành công</string>
+    <string name="modify_group_verify_type_failed">Sửa đổi cách xác minh thất bại</string>
+    <string name="modify_group_type_failed">Lỗi sửa đổi kiểu nhóm</string>
+    <string name="remove_admin">Loại bỏ quản lý nhóm</string>
+    <string name="set_member_right_failed">Lỗi thiết lập quyền cho thành viên nhóm</string>
+    <string name="mute_failed">Cấm ngôn ngữ thất bại</string>
+    <string name="adding_white_list">Gia nhập danh sách trắng …</string>
+    <string name="muting">Từ ngữ cấm đoán.</string>
+    <string name="add_white_failed">Thêm lỗi trong danh sách trắng</string>
+    <string name="set_mute">Thiết lập ngôn ngữ cấm</string>
+    <string name="member_right">Sự cho phép của thành viên</string>
+    <string name="no_limit_join">Không giới hạn tham gia</string>
+    <string name="group_type">Kiểu nhóm</string>
+    <string name="join_mode">Thêm nhóm</string>
+    <string name="verify_mode">Xác nhận phương pháp</string>
+    <string name="time_mode" translatable="false">Tốc độ nói</string>
+    <string name="clear_time" translatable="false">Thông báo dọn dẹp nhóm thường xuyên</string>
+    <string name="input_speed_too_fast" translatable="false">Đầu vào quá nhanh</string>
+    <string name="no_allow_find">Không cho phép tìm kiếm</string>
+    <string name="find_mode">Tìm cách</string>
+    <string name="mute_failed1">Cài đặt lỗi cấm ngôn ngữ</string>
+    <string name="member_mute">Nhóm các thành viên bị cấm</string>
+    <string name="member_white">Nói danh sách màu trắng</string>
+    <string name="get_group_notice_failed">Thông báo truy cập nhóm thất bại</string>
+    <string name="waiting">Xin vui lòng chờ …</string>
+    <string name="set_notice_success">Thiết lập nhóm thông báo thành công</string>
+    <string name="set_notice_failure">Thiết lập nhóm thông báo thất bại:</string>
+    <string name="set_group_card_success">Sửa đổi tên nhóm thành công</string>
+    <string name="set_group_card_failure">Lỗi sửa đổi tên nhóm:</string>
+    <string name="authorize">Cho phép</string>
+    <string name="auth_tip">Có thể truy cập vào hình ảnh của bạn và thông tin công khai, cho phép truy cập</string>
+    <string name="exit_tip">Nhấn nút thoát lần nữa</string>
+    <string name="qrcode">Mã qr</string>
+    <string name="litapp_card1">Thẻ nhỏ</string>
+    <string name="litapp_name">Tên chương trình nhỏ</string>
+    <string name="open_litapp">Mở các ứng dụng nhỏ</string>
+    <string name="copy_success">SAO chép thành công</string>
+    <string name="qrcode_scan_failed">Lỗi nhận dạng mã qr</string>
+    <string name="single_price">Một số tiền duy nhất</string>
+    <string name="group_has">Nhóm tổng số</string>
+    <string name="man">người</string>
+    <string name="all_price">Tổng số tiền</string>
+    <string name="price">Giá trị</string>
+    <string name="price_error">Số lượng lỗi</string>
+    <string name="luck_no_error">Lỗi số may mắn</string>
+    <string name="packet_count_error">Không đúng số các phong bì đỏ</string>
+    <string name="input_count">Con số</string>
+    <string name="packet_failed">Phong bì màu đỏ thất bại</string>
+    <string name="bless">Xin chúc mừng, may mắn</string>
+    <string name="server_parameter_error">Máy phục vụ trả lời lỗi tham số</string>
+    <string name="date_pattern"> MM/dd HH:mm </string>
+    <string name="de_packet">Phong bì màu đỏ</string>
+    <string name="red_come_from" translatable="false">Phong bì màu đỏ đến từ</string>
+    <string name="count_packet">Tất cả một màu đỏ</string>
+    <string name="yuan"> </string>
+    <string name="error_hit">Lỗi:</string>
+    <string name="pwd_error_hit">Lỗi mật khẩu, số lần thử lại còn lại: </string>
+    <string name="red_packet_finish">Phong bì màu đỏ đã hoàn thành</string>
+    <string name="service_error" translatable="false">Máy chủ ngoại lệ</string>
+    <string name="records">Ghi chép</string>
+    <string name="delete_failed">Xóa lỗi</string>
+    <string name="user_no_exist">Người dùng không tồn tại</string>
+    <string name="modifying">Sửa đổi …</string>
+    <string name="modify_success">Sửa đổi thành công</string>
+    <string name="modify_failure">Sửa đổi thất bại</string>
+    <string name="set_alias_failed">Sửa đổi bí danh lỗi.</string>
+    <string name="set_account_failed">Sửa đổi lỗi tài khoản:</string>
+    <string name="id_is_empty">ID không thể trống</string>
+    <string name="set_ok">Thiết lập thành công</string>
+    <string name="update_error_select_file">Cập nhật avatar thất bại: tập tin không được chọn</string>
+    <string name="update_error_thumbnail">Cập nhật avatar thất bại: tạo ảnh mẫu thất bại</string>
+    <string name="update_ok">Cập nhật avatar thành công</string>
+    <string name="update_no">Cập nhật avatar thất bại:</string>
+    <string name="downloading">Đang tải về</string>
+    <string name="recall_failed">Rút lui thất bại:</string>
+    <string name="new_message">Tin mới</string>
+    <string name="no">đường</string>
+    <string name="deng">Chờ đợi</string>
+    <string name="request_friend">Yêu cầu thêm bạn như một người bạn</string>
+    <string name="friend_request">Ứng dụng bạn bè</string>
+    <string name="tip">Gợi ý</string>
+    <string name="confirm_to_delete">Bạn có muốn xóa hình ảnh này?</string>
+    <string name="set_user_remark">Thiết lập lưu ý người dùng</string>
+    <string name="modify_nickname">Sửa đổi biệt danh</string>
+    <string name="modify_group_name">Thay đổi tên nhóm</string>
+    <string name="modify_group_notice">Thay đổi nhóm thông báo</string>
+    <string name="create_conversation">Tạo ra một phiên chạy</string>
+    <string name="add_member">Thêm những thành viên mới</string>
+    <string name="del_member">Loại bỏ các thành viên nhóm</string>
+    <string name="sel_member">Chọn thành viên nhóm</string>
+    <string name="group_list">Danh sách nhóm</string>
+    <string name="friend_request1">Yêu cầu bạn bè</string>
+    <string name="find_user">Tìm kiếm người dùng</string>
+    <string name="add_osnid">Thêm OsnID</string>
+    <string name="invite_friend">Mời bạn bè</string>
+    <string name="user_info">Thông tin người dùng</string>
+    <string name="privacy_set">Thiết lập riêng tư</string>
+    <string name="black_list">Danh sách đen</string>
+    <string name="friend_circle">Vòng tròn của bạn bè</string>
+    <string name="new_message_notify">Thông báo mới</string>
+    <string name="conversation_info">Thông tin liên lạc</string>
+    <string name="room_list">Danh sách các phòng chat</string>
+    <string name="search_center">Trung tâm tìm kiếm</string>
+    <string name="sel_conversation">Chọn một phiên giao tiếp</string>
+    <string name="channel_list">Danh sách các kênh</string>
+    <string name="notify_message">Thông báo</string>
+    <string name="litapp_list">Danh sách các ứng dụng nhỏ</string>
+    <string name="litapp">Tiểu chương trình</string>
+    <string name="tag" translatable="false">thẻ</string>
+    <string name="tag_selection" translatable="false">Chọn nhãn</string>
+    <string name="kefu">dịch vụ khách</string>
+    <string name="kefu_list">Danh sách dịch vụ</string>
+    <string name="complain">Báo cáo</string>
+    <string name="feedback">Phản hồi từ người dùng</string>
+    <string name="input_info">Để nhập thông tin</string>
+    <string name="create_channel">Tạo ra các kênh</string>
+    <string name="group_info">Thông tin nhóm</string>
+    <string name="litapp_info">Thông tin chương trình nhỏ</string>
+    <string name="scan">Quét quét</string>
+    <string name="member_list">Danh sách thành viên nhóm</string>
+    <string name="sel_contact">Liên hệ chọn</string>
+    <string name="file_record">Tài liệu hồ sơ</string>
+    <string name="share_cardinfo" translatable="false">share card</string>
+
+
+    <string name="red_pecket_setting" translatable="false">Minesweeper Red Pack Thiết lập xác suất</string>
+    <string name="tag_option" translatable="false">Hoạt động nhãn</string>
+    <string name="group_profit">Hành động</string>
+    <string name="contact">Người liên lạc</string>
+    <string name="modify_id">Thay đổi ID.</string>
+    <string name="meeting_invite">Giấy mời hội nghị</string>
+    <string name="merge_message">Thông điệp kết hợp</string>
+    <string name="input_id">Hãy nhập OsnID</string>
+    <string name="add">thêm</string>
+    <string name="submit">Được gửi đi.</string>
+    <string name="complain_hint">Vui lòng nhập báo cáo nội dung (200 từ)</string>
+    <string name="complain_photo">Báo cáo hình ảnh</string>
+    <string name="input_user">Xin vui lòng nhập liên lạc</string>
+    <string name="input_phone">Vui lòng nhập số liên lạc</string>
+    <string name="input_feedback">Xin vui lòng nhập phản hồi nội dung (200 từ)</string>
+    <string name="all_photo">Tất cả các hình ảnh</string>
+    <string name="preview3">Xem thử (3)</string>
+    <string name="original_pic">Bản gốc (3.07M)</string>
+    <string name="select">Sự lựa chọn</string>
+    <string name="receive_new_message">Nhận thông báo mới</string>
+    <string name="notify_show_info">Thông tin báo tiết lộ thông chi tiết</string>
+    <string name="message_receipt">Nhận tin nhắn</string>
+    <string name="to_user">Gửi cho ai</string>
+    <string name="packet_count">Số gói</string>
+    <string name="ge">Một người</string>
+    <string name="bless0">Chúc mừng.</string>
+    <string name="win">Thắng giải thưởng</string>
+    <string name="red_packet_owner">Gửi phong bì đỏ</string>
+    <string name="packet_group_info">Nhóm này là 0 người</string>
+    <string name="one_price">Một số tiền duy nhất</string>
+    <string name="price_hint">USD 0.00</string>
+    <string name="luck_no">Số may mắn</string>
+    <string name="luck_tail">Thắng Minh Đường.</string>
+    <string name="luck_times">Thắng nhiều</string>
+    <string name="luck_price">Giá thắng</string>
+    <string name="packet_head">Phong bì màu đỏ bìa</string>
+    <string name="set_packet">Gửi đi</string>
+    <string name="no_restrictions_entry" translatable="false">Không giới hạn tham gia</string>
+    <string name="group_members_people" translatable="false">Thành viên nhóm có thể kéo người</string>
+    <string name="only_group_management_people" translatable="false">Chỉ người quản lý nhóm</string>
+    <string name="no_validation" translatable="false">Không xác nhận</string>
+    <string name="need_to_verify" translatable="false">Cần phải xác minh</string>
+    <string name="need_reset" >Bạn chưa đặt biệt hiệu hay avatar, nhấn "ok đi" vào thiết lập</string>
+    <string name="bless1">Xin chúc mừng tài sản</string>
+    <string name="red_packet_info">1 màu đỏ tổng cộng 0 nhân dân tệ</string>
+    <string name="input_info1">Hãy nhập thông tin</string>
+    <string name="shoot_photo">Chụp ảnh</string>
+    <string name="zero_space">Tổng số 0</string>
+    <string name="user_request_add_you">Họ yêu cầu thêm bạn như một người bạn</string>
+    <string name="message_12">12 tin nhắn</string>
+    <string name="message_a_12">12 tin @</string>
+    <string name="show_all_member">Xem tất cả các thành viên</string>
+    <string name="find_record">Tìm kiếm lịch sử trò chuyện</string>
+    <string name="save_to_contact">Lưu vào sổ địa chỉ</string>
+    <string name="add_an_applet" translatable="false">Thêm các ứng dụng nhỏ</string>
+    <string name="file_name">Tên tập tin …</string>
+    <string name="retry">Thử lại</string>
+    <string name="you_invite_join">Anh đã mời xx tham gia</string>
+    <string name="re_edit">Chỉnh sửa lại</string>
+    <string name="recall_one_message">WFC đã rút lại một thông điệp</string>
+    <string name="already_finish">Đã được thực hiện</string>
+    <string name="app_red_packet">wallet</string>
+    <string name="loading">Đang tải …</string>
+    <string name="user_red_packet">Phong bì màu đỏ độc quyền</string>
+    <string name="random_red_packet">Đánh vần may mắn phong bì màu đỏ</string>
+    <string name="bomb_red_packet">Phong bì màu đỏ mine</string>
+    <string name="input_pay_code">Vui lòng nhập mật khẩu thanh toán</string>
+    <string name="send_to">Gửi cho:</string>
+    <string name="leave_to_friend">Để lại tin nhắn cho bạn bè</string>
+    <string name="group_name1">Tên nhóm</string>
+    <string name="member_admin">Quản lý thành viên</string>
+    <string name="set_group_attrib">Thiết lập thuộc tính nhóm</string>
+    <string name="applet_management" tools:ignore="ExtraTranslation">Quản lý chương trình nhỏ</string>
+    <string name="add_administrator">Thêm quản trị viên</string>
+    <string name="allow_member_temp_chat">Cho phép các thành viên bình thường thực hiện phiên chạy tạm thời</string>
+    <string name="all_mute">Tất cả đều bị cấm</string>
+    <string name="select_pic">Chọn hình ảnh</string>
+    <string name="test">Kiểm tra</string>
+    <string name="best_luck">May mắn nhất</string>
+    <string name="copy_to_clip">SAO chép vào bảng nháp</string>
+    <string name="share_and_save_picture">Chia và lưu ảnh</string>
+    <string name="share">chia</string>
+    <string name="input_keyword_to_search">Nhập từ khóa và bắt đầu tìm kiếm</string>
+    <string name="no_search_result">Không có kết quả tìm kiếm</string>
+    <string name="set_nickname_or_alias">Đặt biệt danh hoặc bí danh</string>
+    <string name="space">Không gian</string>
+    <string name="video_chat">Video chat</string>
+    <string name="detail">Chi tiết</string>
+    <string name="addr_book">Sổ địa chỉ</string>
+    <string name="create_group">Nhóm trò chuyện</string>
+    <string name="album">Album này</string>
+    <string name="save">Bảo tồn</string>
+    <string name="save_as" translatable="false">Lưu hình ảnh</string>
+    <string name="details">details</string>
+    <string name="top_message" translatable="false">Tin nhắn đầu trang</string>
+    <string name="top_message_set" translatable="false">Cài đặt thông báo đặt hàng đầu</string>
+    <string name="delete_friend">Xóa bạn bè</string>
+    <string name="add_friend1">Thêm bạn bè</string>
+    <string name="add_black_list">Tham gia danh sách đen</string>
+    <string name="del_black_list">Ra khỏi danh sách đen</string>
+    <string name="set_remark_name">Đặt tên lưu ý</string>
+    <string name="set_fav_friend">Làm bạn với một ngôi SAO</string>
+    <string name="del_fav_friend">Hủy bỏ bạn bè của một ngôi SAO</string>
+    <string name="picture_save_success">Hình ảnh lưu thành công</string>
+    <string name="picture_save_failure">Hình ảnh bị lỗi</string>
+
+    <string name="please_input_verify_code">Hãy nhập mật khẩu thanh toán.</string>
+    <string name="pay_mode">Phương pháp thanh toán</string>
+    <string name="change">nhỏ thay đổi \></string>
+    <string name="game_rule">Luật chơi</string>
+
+    <string name="image_doodle">Vẽ</string>
+    <string name="image_text">chữ viết</string>
+    <string name="image_mosaic">Khảm</string>
+    <string name="image_clip">Cắt</string>
+    <string name="image_reset">giảm</string>
+    <string name="image_done">Hoàn</string>
+    <string name="image_cancel">hủy</string>
+    <string name="image_rotate">xoay</string>
+
+    <string name="image_mosaic_tip">Vui lòng bôi bóng trực tiếp lên ảnh.</string>
+    <string name="image_undo">thu</string>
+    <string name="image_all_photo">Tất cả ảnh</string>
+    <string name="image_original">Bản gốc</string>
+    <string name="image_preview">xem thử</string>
+    <string name="hint">Mẹo</string>
+    <string name="bomb_update_tip">Phong bì màu đỏ yêu cầu người ta %s nâng cấp thành nhóm phong bì màu đỏ.</string>
+
+    <string name="friend">Bạn</string>
+    <string name="group">nhóm</string>
+    <string name="my_litapp">my litapp</string>
+    <string name="Yesterday" translatable="false">Hôm qua</string>
+    <string name="Sunday" translatable="false">Chủ nhật</string>
+    <string name="Monday" translatable="false">Thứ hai</string>
+    <string name="Tuesday" translatable="false">Thứ ba</string>
+    <string name="Wednesday" translatable="false">Ngày thứ tư</string>
+    <string name="Thursday" translatable="false">Thứ năm</string>
+    <string name="Friday" translatable="false">Thứ sáu</string>
+    <string name="Saturday" translatable="false">Thứ bảy</string>
+
+    <string name="delete_friend_whether">Bạn bè bị xóa?</string>
+
+    <string name="string_confirm" translatable="false">Xác nhận</string>
+    <string name="string_cancel" translatable="false">Hủy bỏ</string>
+    <string name="string_remind" translatable="false">Nhắc nhở</string>
+    <string name="string_ps" translatable="false">FuYan</string>
+    <string name="version_number" translatable="false">Phiên bản số</string>
+
+    <string name="clean_chat_whether" translatable="false">Trống trò chuyện?</string>
+    <string name="quit_delete_whether" translatable="false">Vui lòng xác nhận việc rút lui/giải tán nhóm?</string>
+
+</resources>

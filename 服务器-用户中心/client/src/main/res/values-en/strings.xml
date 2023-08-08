@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">WildFireChatClient</string>
+    <string name="hello">Hello</string>
+    <string name="card_user_digest">[personal business card]:</string>
+    <string name="card_group_digest">[group business card]:</string>
+    <string name="card_room_digest">[chat room business card]:</string>
+    <string name="card_channel_digest">[channel business card]:</string>
+    <string name="card_digest">[business card]:</string>
+    <string name="red_packet_digest">[red envelope]</string>
+    <string name="audio_digest">[voice]</string>
+    <string name="video_digest">[Video]</string>
+    <string name="meeting_digest">[meeting]</string>
+    <string name="file_digest">[file]</string>
+    <string name="photo_digest">[picture]</string>
+    <string name="sticker_digest">[dynamic expression]</string>
+    <string name="network_call_digest">[Internet phone]</string>
+    <string name="chat_record_digest1">[chat record]:</string>
+    <string name="unknown_message">Unknown type message</string>
+    <string name="channel">channel</string>
+    <string name="room">chat room</string>
+    <string name="group">Group chat</string>
+    <string name="user">user</string>
+    <string name="location">position</string>
+    <string name="you">you</string>
+    <string name="dose">hold</string>
+    <string name="modify">modify</string>
+    <string name="de">of</string>
+    <string name="transfer" translatable="false">[Transfer]</string>
+    <string name="group_card">Group business card is</string>
+    <string name="open_group_join">Open the function of joining groups</string>
+    <string name="invite_group_join">Only group members are allowed to invite to join the group</string>
+    <string name="close_group_join">Only the group joining function is turned off</string>
+    <string name="clean_mute">Cancel the prohibition</string>
+    <string name="enable_mute">Set prohibitions</string>
+    <string name="clean_all_mute">Shut down the whole staff</string>
+    <string name="enable_all_mute">The prohibition of all staff was opened</string>
+    <string name="clean_member_talk">Opened member private chat</string>
+    <string name="enable_member_talk">Closed member private chat</string>
+    <string name="clean_administrator">Administrator canceled</string>
+    <string name="enable_administrator">Set as Administrator</string>
+    <string name="remove_member">Moved out of group</string>
+    <string name="you_quit_group">You have exited the group</string>
+    <string name="quit_group">Quit group</string>
+    <string name="you_transfer_group_owner">You transferred the group to</string>
+    <string name="transfer_group_owner">Transferred the group to</string>
+    <string name="modify_group_name">Modify the group name as</string>
+    <string name="you_joined_group">You joined the group chat</string>
+    <string name="joined_group">Joined the group chat</string>
+    <string name="you_invite">Your invitation</string>
+    <string name="invite">invitation</string>
+    <string name="joined_group1">Joined a group</string>
+    <string name="update_group_portrait">Updated group avatars</string>
+    <string name="you_create_group">You created a group</string>
+    <string name="create_group">Group created</string>
+    <string name="you_dismiss_group">You disbanded the group</string>
+    <string name="dismiss_group">Disbanded the group</string>
+    <string name="you_are_friend_and_start_chat">You are already friends. You can start chatting.</string>
+    <string name="hello_context">The above is the content of greeting</string>
+    <string name="clean_mute_chat">Cancel the right to speak when the group is forbidden</string>
+    <string name="enable_mute_chat">Set the speaking permission when the group is forbidden to speak</string>
+
+    <string name="group_upgrade">The group has been upgraded to a minesweeping red envelope group</string>
+    <string name="group_who_win">Win the prize</string>
+    <string name="bless_win">congratulations</string>
+    <string name="win_price">Winning amount</string>
+    <string name="open">OPEN</string>
+
+    <string name="audio_and_video_call" translatable="false">[Audio and video call]</string>
+
+    <string name="recall_one_message" translatable="false">A message was withdrawn</string>
+</resources>

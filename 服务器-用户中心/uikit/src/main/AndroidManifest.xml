@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.wildfire.chat.kit">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage ="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data
+            android:name="design_width"
+            android:value="720" />
+        <meta-data
+            android:name="design_height"
+            android:value="1280" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+        <meta-data
+            android:name="android.webkit.WebView.EnableSafeBrowsing"
+            android:value="true" />
+        <meta-data
+            android:name="com.north.light.libloadpic.glide.GlideCache"
+            android:value="AppGlideModule" />
+
+        <activity
+            android:name=".conversation.ConversationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.ConversationActivity"/>
+        <activity android:name=".litapp.AddSqliteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".user.SetAliasActivity"
+            android:label="@string/set_user_remark"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.ChangeMyNameActivity"
+            android:label="@string/modify_nickname"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mm.TakePhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:name=".group.SetGroupNameActivity"
+            android:label="@string/modify_group_name"
+            android:screenOrientation="portrait" />
+        <activity android:name=".conversation.top.TopMessageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".group.SetGroupAnnouncementActivity"
+            android:label="@string/modify_group_notice"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".group.ActivityGroupAnnounceMent"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".group.manage.SetKeyWordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".third.location.ui.activity.ShowLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".litapp.DappActivity2"
+            android:screenOrientation="portrait"
+            android:process=":${litappID}"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity android:name=".tag.TagActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".tag.TagSelectionActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".tag.DeleteTagActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".mm.MMPreviewActivity"
+            android:theme="@style/AppTheme.FullScreen" />
+        <activity
+            android:exported="false"
+            android:name=".voip.SingleCallActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="${packageName}.kit.voip.single" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:exported="false"
+            android:name=".voip.MultipleCallActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="${packageName}.kit.voip.multiple" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".conversation.CreateConversationActivity"
+            android:label="@string/create_conversation" />
+        <activity
+            android:name=".group.AddGroupMemberActivity"
+            android:label="@string/add_member" />
+        <activity android:name=".user.ImageActivity"/>
+        <activity android:name=".user.NftActivity"/>
+        <activity android:name=".third.location.ui.activity.WalletsActivity"/>
+        <activity android:name=".third.location.ui.activity.WalletTransferWebViewActivity"/>
+        <activity
+            android:name=".group.RemoveGroupMemberActivity"
+            android:label="@string/del_member" />
+        <activity
+            android:name=".conversation.mention.MentionGroupMemberActivity"
+            android:label="@string/sel_member" />
+        <activity
+            android:name=".group.GroupListActivity"
+            android:label="@string/group_list" />
+        <activity
+            android:name=".group.GroupListActivity1"
+            android:label="@string/group_list" />
+        <activity
+            android:name=".contact.newfriend.FriendRequestListActivity"
+            android:label="@string/friend_request1" />
+        <activity
+            android:name=".contact.newfriend.SearchUserActivity"
+            android:label="@string/find_user" />
+        <activity
+            android:name=".contact.newfriend.AddOsnIDActivity"
+            android:label="@string/add_osnid" />
+        <activity android:name=".contact.newfriend.AddFriendActivity"/>
+        <activity
+            android:name=".contact.newfriend.InviteFriendActivity"
+            android:label="@string/invite_friend" />
+        <activity
+            android:name=".user.UserInfoActivity"
+            android:label="@string/user_info" />
+        <activity
+            android:name=".settings.PrivacySettingActivity"
+            android:label="@string/privacy_set" />
+        <activity
+            android:name=".settings.blacklist.BlacklistListActivity"
+            android:label="@string/black_list" />
+        <activity
+            android:name=".settings.MessageNotifySettingActivity"
+            android:label="@string/new_message_notify" />
+        <activity
+            android:name=".conversation.ConversationInfoActivity"
+            android:label="@string/conversation_info" />
+        <activity
+            android:name=".chatroom.ChatRoomListActivity"
+            android:label="@string/room_list" />
+        <activity
+            android:name=".search.SearchPortalActivity"
+            android:label="@string/search_center" />
+        <activity
+            android:name=".conversation.forward.ForwardActivity"
+            android:label="@string/forward" />
+        <activity
+            android:name=".conversation.pick.PickOrCreateConversationTargetActivity"
+            android:label="@string/sel_conversation" />
+        <activity
+            android:name=".channel.ChannelListActivity"
+            android:label="@string/channel_list" />
+        <activity
+            android:name=".notifylist.NotifyListActivity"
+            android:label="@string/notify_message" />
+        <activity
+            android:name=".kefu.KefuListActivity"
+            android:label="@string/kefu_list" />
+        <activity
+            android:name=".litapp.LitappListActivity"
+            android:label="@string/litapp_list" />
+        <activity android:name=".litapp.LitappListActivity1"/>
+        <activity
+            android:name=".litapp.LitappResultActivity"
+            android:label="@string/litapp_list" />
+        <activity android:name=".conversation.message.TranferResultActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".litapp.AddanApletsActivity"
+            android:label="@string/litapp_list" />
+        <!--android:process=":${litappID}"
+        android:taskAffinity=".${litappID}"-->
+        <activity
+            android:name=".litapp.LitappActivity"
+            android:label="@string/litapp"
+            android:process=":${litappID}"
+            android:taskAffinity=".${litappID}"
+            android:hardwareAccelerated="true"
+            android:exported="false"
+            android:screenOrientation="portrait"
+
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="${applicationId}.litapp" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sharehome.ShareHomeActivity" />
+        <activity android:name=".redpacket.RedPacketActivity" />
+        <activity android:name=".redpacket.RedPacketInfoActivity" />
+        <activity android:name=".web.WebViewActivity"/>
+        <activity android:name=".web.WebViewActivity1"/>
+        <activity android:name=".web.WebCrossGoActivity"
+            android:hardwareAccelerated="true"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".common.ComplaintActivity"
+            android:label="@string/complain" />
+        <activity
+            android:name=".common.FeedbackActivity"
+            android:label="@string/feedback" />
+        <activity
+            android:name=".common.SingleInfoActivity"
+            android:label="@string/input_info" />
+        <activity
+            android:name=".channel.CreateChannelActivity"
+            android:label="@string/create_channel"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden|adjustResize" />
+        <activity android:name=".channel.ChannelInfoActivity" />
+        <activity android:name=".WfcWebViewActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="${packageName}.webview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".search.SearchMessageActivity" />
+        <activity android:name=".channel.SearchChannelActivity" />
+        <activity android:name=".group.PickGroupMemberActivity" />
+        <activity android:name=".qrcode.QRCodeActivity" />
+        <activity
+            android:name=".group.GroupInfoActivity"
+            android:label="@string/group_info" />
+        <activity
+            android:name=".litapp.LitappInfoActivity"
+            android:label="@string/litapp_info" />
+        <activity
+            android:name=".qrcode.ScanQRCodeActivity"
+            android:label="@string/scan" />
+        <activity android:name=".group.manage.GroupManageActivity" />
+        <activity android:name=".group.manage.GroupManagerListActivity" />
+        <activity android:name=".group.manage.AddGroupManagerActivity" />
+        <activity android:name=".group.manage.GroupMuteOrAllowActivity" />
+        <activity android:name=".group.manage.GroupMemberPermissionActivity" />
+        <activity android:name=".voip.conference.CreateConferenceActivity" />
+        <activity android:name=".voip.conference.ConferenceActivity" />
+        <activity
+            android:name=".group.GroupMemberListActivity"
+            android:label="@string/member_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:exported="true"
+            android:name=".contact.pick.PickContactActivity"
+            android:label="@string/sel_contact">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".voip.MultiCallActivity"
+            android:launchMode="singleInstance"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="${packageName}.kit.voip.multi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".voip.VoipDummyActivity" />
+        <activity android:name=".pc.PCSessionActivity" />
+        <activity android:name=".third.location.ui.activity.MyLocationActivity" />
+        <activity
+            android:name=".conversation.file.FileRecordActivity"
+            android:label="@string/file_record" /> <!-- moment start -->
+        <activity android:name="cn.wildfire.chat.moment.PublishFeedActivity" />
+        <activity android:name="cn.wildfire.chat.moment.FeedMessageActivity" />
+        <activity android:name="cn.wildfire.chat.moment.FeedDetailActivity" />
+        <activity android:name="cn.wildfire.chat.moment.FeedListActivity" android:exported="false">
+            <intent-filter>
+                <action android:name="${packageName}.moment" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.wildfire.chat.moment.FeedVisibleScopeActivity" />
+        <activity android:name=".group.manage.MuteGroupMemberActivity" />
+        <activity
+            android:name=".contact.ContactListActivity"
+            android:label="@string/contact" />
+        <activity
+            android:name=".contact.ContactListActivity1"
+            android:label="@string/contact" />
+        <activity
+            android:name=".user.SetNameActivity"
+            android:label="@string/modify_id" />
+        <activity
+            android:name=".voip.conference.ConferenceInviteActivity"
+            android:label="@string/meeting_invite" />
+        <activity
+            android:name=".conversation.message.CompositeMessageContentActivity"
+            android:label="@string/merge_message" />
+        <activity
+            android:name=".favorite.FavoriteListActivity"
+            android:label="@string/fav" /> <!-- moment end -->
+        <activity android:name="com.lqr.imagepicker.ui.ImageBaseActivity" />
+        <activity
+            android:name="com.lqr.imagepicker.ui.ImageGridActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ImagePickerTheme" />
+        <activity
+            android:name="com.lqr.imagepicker.ui.ImageCropActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="false"
+            android:theme="@style/ImagePickerTheme" />
+        <activity
+            android:name="com.lqr.imagepicker.ui.ImagePreviewActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/ImagePickerThemeFullScreen" />
+        <activity
+            android:name="me.kareluo.imaging.IMGGalleryActivity"
+            android:theme="@style/ImageGalleryTheme" />
+
+
+        <activity
+            android:name="me.kareluo.imaging.IMGEditActivity"
+            android:theme="@style/ImageEditTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity android:name=".litapp.TestActivity"/>
+
+        <receiver
+            android:name=".utils.UpdateManager"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.mhhy.jtalking10.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

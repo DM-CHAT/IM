@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WildFireChatClient</string>
+    <string name="hello">Halo</string>
+    <string name="card_user_digest">[kartu nama pribadi]:</string>
+    <string name="card_group_digest">[kartu kelompok]:</string>
+    <string name="card_room_digest">[kartu ruang obrolan]:</string>
+    <string name="card_channel_digest">[kartu saluran]:</string>
+    <string name="card_digest">[kartu bisnis]:</string>
+    <string name="red_packet_digest">[amplop merah]</string>
+    <string name="audio_digest">[suara]</string>
+    <string name="video_digest">[video]</string>
+    <string name="meeting_digest">[Pertemuan]</string>
+    <string name="file_digest">[dokumen]</string>
+    <string name="photo_digest">[gambar]</string>
+    <string name="sticker_digest">[ekspresi dinamis]</string>
+    <string name="network_call_digest">[telepon daring]"</string>
+    <string name="chat_record_digest1">[catatan obrolan]: </string>
+    <string name="unknown_message">pesan jenis tidak dikenal</string>
+    <string name="channel">saluran</string>
+    <string name="room">ruang obrolan</string>
+    <string name="group">obrolan grup</string>
+    <string name="user">pengguna</string>
+    <string name="location">Lokasi</string>
+    <string name="transfer" >[transfer]</string>
+
+    <string name="you">Anda</string>
+    <string name="dose">Bundel</string>
+    <string name="modify">Merevisi</string>
+    <string name="de">dari</string>
+    <string name="open">membuka</string>
+    <string name="group_card">Kartu nama grup adalah</string>
+    <string name="open_group_join">Dibuka untuk bergabung dengan grup</string>
+    <string name="invite_group_join">Hanya izinkan anggota grup untuk mengundang untuk bergabung dengan grup</string>
+    <string name="close_group_join">Matikan saja bergabung dengan grup</string>
+    <string name="clean_mute">membunyikan</string>
+    <string name="enable_mute">mengatur larangan</string>
+    <string name="clean_all_mute">Bisukan semua dimatikan</string>
+    <string name="enable_all_mute">Mengaktifkan larangan pada semua staf</string>
+    <string name="clean_member_talk">Obrolan pribadi anggota diaktifkan</string>
+    <string name="enable_member_talk">Obrolan pribadi anggota dinonaktifkan</string>
+    <string name="clean_administrator">dibatalkan admin</string>
+    <string name="enable_administrator">ditetapkan sebagai administrator</string>
+    <string name="remove_member"> dikeluarkan dari grup</string>
+    <string name="you_quit_group">kamu keluar dari grup </string>
+    <string name="quit_group">meninggalkan grup </string>
+    <string name="you_transfer_group_owner">Anda mentransfer grup ke</string>
+    <string name="transfer_group_owner">Mentransfer grup ke</string>
+    <string name="recall_one_message" translatable="false">menarik kembali pesan</string>
+
+    <string name="modify_group_name">Ubah nama grup</string>
+    <string name="you_joined_group">Anda bergabung dengan obrolan grup</string>
+    <string name="joined_group">bergabung dengan obrolan grup</string>
+    <string name="you_invite">Anda mengundang</string>
+    <string name="invite">mengundang</string>
+    <string name="joined_group1"> bergabung dengan grup</string>
+    <string name="update_group_portrait">Avatar grup diperbarui</string>
+    <string name="you_create_group">Anda membuat grup </string>
+    <string name="create_group">grup yang dibuat </string>
+    <string name="you_dismiss_group">Anda membubarkan grup </string>
+    <string name="dismiss_group">Membubarkan grup </string>
+
+    <string name="you_are_friend_and_start_chat">Anda sudah berteman dan bisa mulai mengobrol.</string>
+    <string name="hello_context">Di atas adalah isi dari salam</string>
+    <string name="clean_mute_chat">Urungkan izin berbicara saat pembisukan grup dibatalkan</string>
+    <string name="enable_mute_chat">Setel izin berbicara saat grup dibisukan</string>
+
+    <string name="group_upgrade">Grup tersebut telah ditingkatkan menjadi grup amplop merah kapal penyapu ranjau</string>
+    <string name="group_who_win">Zhong Lei</string>
+    <string name="bless_win">Selamat</string>
+    <string name="win_price">jumlah kemenangan</string>
+
+
+    <string name="audio_and_video_call" translatable="false">[Panggilan audio dan video]</string>
+
+</resources>

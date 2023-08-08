@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23262B">
+
+    <EditText
+        android:id="@+id/edt_mnemonic"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_confirm_huise2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:gravity="top"
+        android:hint="input"/>
+
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_confirm_black"
+        android:textColor="@color/white"
+        android:text="导入"
+        android:textSize="16sp"/>
+</LinearLayout>

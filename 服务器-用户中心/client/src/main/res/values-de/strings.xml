@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">WildFireChatClient</string>
+    <string name="hello">Hallo</string>
+    <string name="card_user_digest">[persönliche Visitenkarte]:</string>
+    <string name="card_group_digest">[Gruppenkarte]:</string>
+    <string name="card_room_digest">[Chatroom-Karte]:</string>
+    <string name="card_channel_digest">[Kanalkarte]:</string>
+    <string name="card_digest">[Visitenkarte]:</string>
+    <string name="red_packet_digest">[roter Umschlag]</string>
+    <string name="audio_digest">[Stimme]</string>
+    <string name="video_digest">[Video]</string>
+    <string name="meeting_digest">[Treffen]</string>
+    <string name="file_digest">[dokumentieren]</string>
+    <string name="photo_digest">[Bild]</string>
+    <string name="sticker_digest">[dynamischer Ausdruck]</string>
+    <string name="network_call_digest">[Online-Telefon]"</string>
+    <string name="chat_record_digest1">[Chat-Aufzeichnung]: </string>
+    <string name="unknown_message">Nachricht vom unbekannten Typ</string>
+    <string name="channel">Kanal</string>
+    <string name="room">Chatraum</string>
+    <string name="group">Gruppenchat</string>
+    <string name="user">Benutzer</string>
+    <string name="location">Ort</string>
+    <string name="transfer">[Transfer]</string>
+
+    <string name="you">Sie</string>
+    <string name="dose">Bündeln</string>
+    <string name="modify">Überarbeiten</string>
+    <string name="de">von</string>
+    <string name="open">offen</string>
+    <string name="group_card">Die Visitenkarte der Gruppe ist</string>
+    <string name="open_group_join">Geöffnet, um Gruppen beizutreten</string>
+    <string name="invite_group_join">Erlauben Sie nur Gruppenmitgliedern, die Gruppe einzuladen</string>
+    <string name="close_group_join">Deaktivieren Sie einfach den Gruppenbeitritt</string>
+    <string name="clean_mute">Stummschaltung aufheben</string>
+    <string name="enable_mute">Verbot setzen</string>
+    <string name="clean_all_mute">Stumm alle ausgeschaltet</string>
+    <string name="enable_all_mute">Das Verbot für alle Mitarbeiter wurde aktiviert</string>
+    <string name="clean_member_talk">Privater Chat für Mitglieder aktiviert</string>
+    <string name="enable_member_talk">Privater Chat für Mitglieder deaktiviert</string>
+    <string name="clean_administrator">Administrator abgebrochen</string>
+    <string name="enable_administrator">als Administrator festlegen</string>
+    <string name="remove_member"> aus der Gruppe entfernt</string>
+    <string name="you_quit_group">Du hast die Gruppe verlassen </string>
+    <string name="quit_group">hat die Gruppe verlassen </string>
+    <string name="you_transfer_group_owner">Sie haben die Gruppe übertragen an</string>
+    <string name="transfer_group_owner">Übertragen der Gruppe an</string>
+    <string name="recall_one_message" translatable="false">eine Nachricht zurückgezogen</string>
+
+    <string name="modify_group_name">Gruppennamen ändern</string>
+    <string name="you_joined_group">Sie sind dem Gruppenchat beigetreten</string>
+    <string name="joined_group">dem Gruppenchat beigetreten</string>
+    <string name="you_invite">du lädst ein</string>
+    <string name="invite">einladen</string>
+    <string name="joined_group1"> schloss sich der Gruppe an</string>
+    <string name="update_group_portrait">Aktualisierter Gruppenavatar</string>
+    <string name="you_create_group">Sie haben eine Gruppe erstellt </string>
+    <string name="create_group">erstellte Gruppe </string>
+    <string name="you_dismiss_group">Du hast die Gruppe aufgelöst </string>
+    <string name="dismiss_group">Habe die Gruppe aufgelöst</string>
+
+    <string name="you_are_friend_and_start_chat">Sie sind bereits Freunde und können mit dem Chatten beginnen.</string>
+    <string name="hello_context">Das Obige ist der Inhalt der Begrüßung</string>
+    <string name="clean_mute_chat">Heben Sie die Sprechberechtigung auf, wenn die Gruppenstummschaltung aufgehoben wird</string>
+    <string name="enable_mute_chat">Legen Sie die Sprechberechtigung fest, wenn die Gruppe stummgeschaltet ist</string>
+
+    <string name="group_upgrade">Die Gruppe wurde zu einer Minesweeper Red Envelope-Gruppe aufgerüstet</string>
+    <string name="group_who_win">ZhongLei</string>
+    <string name="bless_win">Herzliche Glückwünsche</string>
+    <string name="win_price">Gewinnbetrag</string>
+
+    <string name="audio_and_video_call" translatable="false">[Audio- und Videoanrufe]</string>
+
+</resources>

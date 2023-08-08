@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".voip.MultipleCallActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar" />
+
+    <org.webrtc.SurfaceViewRenderer
+        android:id="@+id/view0"
+        android:layout_width="100dp"
+        android:layout_height="200dp"/>
+    <org.webrtc.SurfaceViewRenderer
+        android:id="@+id/view1"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="110dp" />
+    <org.webrtc.SurfaceViewRenderer
+        android:id="@+id/view2"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="220dp"/>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp">
+            <ImageView
+                android:id="@+id/switchImage"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:src="@drawable/av_camera_hover" />
+
+            <ImageView
+                android:id="@+id/muteImage"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:src="@drawable/av_mute_hover" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp">
+
+            <ImageView
+                android:id="@+id/rejectImage"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:src="@drawable/av_hang_up" />
+
+            <ImageView
+                android:id="@+id/acceptImage"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:src="@drawable/av_video_answer" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

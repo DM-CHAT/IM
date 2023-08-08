@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23262B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wish you a happy life"
+            android:textColor="@color/white"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"/>
+        
+        <Button
+            android:id="@+id/btn_chuangjian"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_confirm_black"
+            android:textColor="@color/white"
+            android:text="创建"
+            android:textSize="16sp"/>
+        <Button
+            android:id="@+id/btn_daoru"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_confirm_huise2"
+            android:textColor="@color/white"
+            android:text="导入"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

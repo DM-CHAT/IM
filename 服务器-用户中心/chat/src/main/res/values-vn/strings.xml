@@ -1,0 +1,235 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="zolo_name">DM-CHAT</string>
+    <string name="yuelan_name">yuelan</string>
+    <string name="app_name">zolo</string>
+    <string name="app_init">IM initialization</string>
+    <string name="app_IM">IM</string>
+    <string name="app_doc">Tài liệu phát triển IM</string>
+    <string name="app_sn">zolo</string>
+    <string name="page_main">Trang chủ</string>
+    <string name="page_app">Chat</string>
+    <string name="page_found" translatable="false">Tìm thấy</string>
+    <string name="page_contact">Thư ký</string>
+    <string name="page_me">Của tôi</string>
+    <string name="account">Tài khoản</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="my_chat_account">Số tài khoản :%1$s</string>
+    <string name="setting">Thiết lập</string>
+    <string name="notice">Thông báo</string>
+    <string name="announcement">Thông báo</string>
+    <string name="all_read">Tất cả đã đọc</string>
+    <string name="choose_service">Chọn dịch vụ</string>
+    <string name="abort">về</string>
+    <string name="new_message_remind">Tin nhắn mới nhắc nhở</string>
+    <string name="lifeService" translatable="false">Dịch vụ cuộc sống</string>
+    <string name="exit">Thoát khỏi đăng nhập</string>
+    <string name="logout">Xóa tài khoản</string>
+    <string name="app_name_in_about">Đọc tin nhắn nhanh</string>
+    <string name="function_introduction">Mô tả chức năng</string>
+    <string name="complaint">Khiếu nại</string>
+    <string name="check_update">Kiểm tra cập nhật</string>
+    <string name="terms_of_use_and_privacy_policy">Các điều khoản sử dụng và chính sách riêng tư</string>
+    <string name="name">Đọc các cộng đồng</string>
+    <string name="slogan">Giao tiếp đơn giản như vậy</string>
+    <string name="warning">Cảnh báo</string>
+    <string name="exit_confirm" translatable="false">Xác định lối ra</string>
+    <string name="kickoff">Bạn đã bị đá khỏi vạch!</string>
+    <string name="confirm">Chắc chắn</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="upgrade">Nâng cấp</string>
+    <string name="find_new_version">Tìm thấy phiên bản mới:</string>
+    <string name="background_info">Cho phép IM chạy hậu trường, đảm bảo tính chất thời gian của thông điệp</string>
+    <string name="modify_user_nickname">Đổi biệt danh?</string>
+    <string name="modify">Sửa đổi</string>
+    <string name="modify_success">Sửa đổi thành công</string>
+    <string name="modify_failure">Sửa đổi thất bại</string>
+    <string name="privacy_settings">Thiết lập riêng tư</string>
+    <string name="account_security">Tài khoản và bảo mật</string>
+    <string name="language_settings">Thiết lập Ngôn ngữ</string>
+    <string name="space_setting">Thiết lập không gian</string>
+    <string name="help_network">CROSSGO</string>
+    <string name="error_network">Lỗi mạng …</string>
+    <string name="error_need_permission">Cần có quyền liên quan để chạy</string>
+    <string name="error_privilege_grant">Truy cập không thành công</string>
+    <string name="error_login_failed">Đăng nhập không thành công</string>
+    <string name="create_group">Nhóm trò chuyện</string>
+    <string name="add_friend">Thêm bạn bè</string>
+    <string name="scan">Quét quét</string>
+    <string name="assets">khai</string>
+    <string name="wallet" translatable="false">ví</string>
+    <string name="team_circle">Vòng tròn của đội</string>
+    <string name="message_and_notice">Tin nhắn và thông báo</string>
+    <string name="feedback">Phản hồi từ người dùng</string>
+    <string name="privacyPolicy" translatable="false">Chính sách riêng tư</string>
+    <string name="useragreement" translatable="false">Giao thức người dùng</string>
+    <string name="promotion" translatable="false">Khuyến mãi</string>
+    <string name="account_and_security">Tài khoản và bảo mật</string>
+    <string name="fav">Bộ sưu tập</string>
+    <string name="theme">Chủ đề</string>
+    <string name="network_help">CROSSGO</string>
+    <string name="set_nft">Thiết lập NFT.</string>
+    <string name="english">AnhName</string>
+    <string name="chinese">Trung</string>
+    <string name="vietnam">ViệtName</string>
+    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="restart_app">app phục hồi</string>
+    <string name="restart_app2" translatable="false">Thay đổi ngôn ngữ, cần phải khởi động lại</string>
+    <string name="new_updated">Phiên bản mới nhất</string>
+
+    <string name="change_password">Thay đổi mật khẩu</string>
+    <string name="old_password">Mật khẩu cũ</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="accomplish">Hoàn thành</string>
+    <string name="please_enter_old_password">Vui lòng nhập mật khẩu cũ</string>
+    <string name="please_enter_new_password">Vui lòng nhập mật khẩu mới</string>
+    <string name="please_enter_code">Vui lòng nhập CAPTCHA</string>
+    <string name="get_code">Mã xác nhận</string>
+    <string name="new_get_code">Lấy lại</string>
+    <string name="password_not_empty">Mật khẩu không được để trống</string>
+    <string name="code_not_empty">Captcha không được để trống</string>
+    <string name="password_is_different">Mật khẩu không giống nhau</string>
+
+
+
+    <string name="search_for_friends" translatable="false">Tìm kiếm bạn bè</string>
+
+    <string name="software_update_prompt" translatable="false">Cập nhật phần mềm Mẹo</string>
+    <string name="app_update_mark" translatable="false">Tối ưu hóa chức năng cơ bản, trải nghiệm trước</string>
+    <string name="update_now" translatable="false">Cập nhật ngay</string>
+    <string name="not_updated" translatable="false">Chưa update</string>
+
+    <string name="privacy_content" translatable="false">
+
+        JTalking tuân thủ nghiêm ngặt các quy định pháp luật và tuân thủ các nguyên tắc bảo mật sau đây để cung cấp cho bạn một dịch vụ an toàn và đáng tin cậy hơn:\n
+Đầu tiên, an toàn và đáng tin cậy:\n\n
+Chúng tôi cố gắng hết sức để ngăn chặn sự rò rỉ, hư hỏng và mất mát thông tin của bạn thông qua các quy trình quản lý và công nghệ bảo mật thông tin hợp lý và hiệu quả.\n
+2. Lựa chọn độc lập:\n
+Chúng tôi cung cấp cho bạn các tùy chọn quản lý thông tin thuận tiện, cho phép bạn đưa ra lựa chọn phù hợp để quản lý thông tin cá nhân của bạn.\n
+3. Bảo vệ bí mật thông tin liên lạc:\n
+Chúng tôi tuân thủ nghiêm ngặt luật pháp và quy định, bảo vệ bí mật thông tin liên lạc của bạn và cung cấp cho bạn dịch vụ thông tin liên lạc an toàn.\n
+Bốn. Hợp lý và cần thiết:\n
+Để cung cấp dịch vụ tốt hơn cho bạn và những người dùng khác, chúng tôi chỉ thu thập thông tin cần thiết.\n
+Thứ năm, công khai, minh bạch:\n
+Chúng tôi cố gắng giới thiệu cho bạn chính sách bảo mật để bạn có thể hiểu rõ cách xử lý thông tin của chúng tôi.\n
+Sáu.\n Tích hợp bảo vệ quyền riêng tư vào thiết kế sản phẩm:\n
+Chúng tôi tích hợp khái niệm bảo vệ quyền riêng tư vào tất cả các khía cạnh của hoạt động phát triển sản phẩm và dịch vụ.\n\n
+
+Chính sách bảo mật chủ yếu giải thích cho mọi người:\n
+Chúng tôi thu thập thông tin gì\n
+Mục đích thu thập thông tin của chúng tôi\n
+Quyền của bạn\n\n
+
+Bạn có thể đọc Chính sách bảo mật JTalking (“Chính sách bảo mật này”) để hiểu rõ hơn về dịch vụ của chúng tôi và đưa ra lựa chọn phù hợp.\n
+Nếu có hướng dẫn bảo mật cụ thể cho các sản phẩm và dịch vụ cụ thể của chúng tôi, bạn có thể tham khảo hướng dẫn bảo mật cụ thể này để giúp bạn bảo vệ thông tin cá nhân của mình tốt hơn.\n
+Chúng tôi đi từ số\n
+Chỉ thu thập thông tin cá nhân cần thiết để thực hiện các chức năng của sản phẩm theo các nguyên tắc hợp pháp, hợp pháp, cần thiết và đầy đủ theo yêu cầu của pháp luật và quy định. Các thông tin này bao gồm:\n
+I. Thông tin bạn tự nguyện cung cấp khi sử dụng dịch vụ của chúng tôi:\n\n
+
+1. Nickname, số điện thoại di động, ảnh đại diện và hình ảnh của bạn chủ động điền hoặc tải lên khi đăng ký hoặc sử dụng sản phẩm hoặc dịch vụ của chúng tôi.\n
+2. Thông tin bạn gửi thông qua dịch vụ khách hàng của chúng tôi hoặc tại các sự kiện của chúng tôi.\n
+3. Một số dịch vụ cụ thể của chúng tôi có thể yêu cầu bạn cung cấp thông tin cá nhân cụ thể để thực hiện các chức năng có liên quan. Nếu bạn chọn không cung cấp thông tin đó, nó sẽ không ảnh hưởng đến việc sử dụng các tính năng khác trong sản phẩm hoặc dịch vụ của bạn.\n\n
+
+
+Ii. Thông tin chúng tôi nhận được khi bạn sử dụng Dịch vụ:\n
+1. Thông tin đăng nhập\n
+Ví dụ, khi bạn sử dụng dịch vụ của chúng tôi, để thu thập thông tin thiết bị, thông tin phần mềm và thông tin nhật ký dịch vụ, chúng tôi có thể thu thập thông tin về hoạt động an toàn và ổn định của các sản phẩm và dịch vụ của chúng tôi.\n
+2. Thông tin vị trí\n
+Ví dụ, khi bạn sử dụng các dịch vụ liên quan đến vị trí, chúng tôi có thể ghi lại thông tin vị trí của thiết bị của bạn để cung cấp cho bạn các dịch vụ liên quan.\n
+\nThông tin do bạn hoặc người dùng khác cung cấp khi sử dụng Dịch vụ có thể bao gồm thông tin định vị địa lý của bạn, chẳng hạn như thông tin được gắn thẻ địa lý có trong các bức ảnh mà bạn hoặc người khác chia sẻ.\n
+Thông tin vị trí GPS là thông tin cá nhân nhạy cảm, nếu bạn từ chối cung cấp thông tin đó, nó sẽ không ảnh hưởng đến việc bạn sử dụng các chức năng khác của sản phẩm hoặc dịch vụ mà chỉ ảnh hưởng đến các chức năng liên quan đến vị trí địa lý.\n\n
+
+3. Thông tin liên quan khác\n
+Để giúp bạn sử dụng tốt hơn các sản phẩm hoặc dịch vụ của chúng tôi, chúng tôi có thể thu thập thông tin liên quan với quyền hạn rõ ràng của bạn, ví dụ, nếu bạn chọn mở chức năng Nhập sổ địa chỉ, chúng tôi có thể mã hóa tên và số điện thoại liên hệ của bạn và chỉ thu thập thông tin được mã hóa.\n\n
+
+Thông tin được chia sẻ bởi những người dùng khác chứa thông tin của bạn\n
+Ví dụ, ảnh do người dùng khác đăng hoặc video được chia sẻ có thể chứa thông tin của bạn.\n
+Thông tin thu được trong các trường hợp khác\n
+Khi được pháp luật cho phép và với sự đồng ý của bạn, chúng tôi có thể nhận được thông tin mà bạn tạo ra hoặc chia sẻ khi sử dụng các dịch vụ của các đối tác bên thứ ba. Ví dụ, khi bạn sử dụng tài khoản WeChat hoặc QQ để đăng nhập vào dịch vụ đối tác bên thứ ba, chúng tôi sẽ nhận được tên bạn đăng nhập vào dịch vụ đối tác bên thứ ba và các thông tin khác để thuận tiện cho việc quản lý ủy quyền của bạn. Bạn có thể đọc thỏa thuận người dùng và chính sách bảo mật của các dịch vụ của đối tác bên thứ ba.\n
+Cách chúng tôi sử dụng thông tin này\n
+\nChúng tôi tuân thủ nghiêm ngặt các quy định của pháp luật và các quy định và thỏa thuận với người dùng để sử dụng thông tin thu thập được cho các mục đích sau. Chúng tôi sử dụng thông tin của bạn vượt quá các mục đích dưới đây và chúng tôi sẽ thông báo lại với sự đồng ý của bạn.\n
+I. Cung cấp dịch vụ cho bạn\n
+Đáp ứng nhu cầu cá nhân của bạn\n
+Ví dụ như cài đặt ngôn ngữ, cài đặt vị trí, cá nhân hóa các dịch vụ trợ giúp.\n
+2. Đảm bảo an toàn\n
+Ví dụ, chúng tôi sẽ sử dụng thông tin của bạn để xác thực, bảo mật, giám sát chống gian lận, sao lưu kho lưu trữ, dịch vụ bảo mật khách hàng và các mục đích khác. Ví dụ, phần mềm bảo mật mà bạn tải về hoặc cài đặt có thể phát hiện các chương trình hoặc virus độc hại, hoặc xác định các thông tin lừa đảo cho bạn.\n
+Tôi khuyên bạn nên quảng cáo và thông tin mà bạn có thể quan tâm\n
+Đánh giá và cải thiện hiệu quả của quảng cáo và các hoạt động quảng bá khác của chúng tôi\n
+Bốn. Phần mềm quản lý\n
+\nVí dụ như thực hiện xác thực phần mềm, nâng cấp phần mềm…\n
+V. Mời bạn tham gia khảo sát về dịch vụ của chúng tôi\n
+Để cung cấp cho bạn trải nghiệm tốt hơn, cải thiện các dịch vụ của chúng tôi hoặc cho các mục đích khác với sự đồng ý của bạn, chúng tôi có thể sử dụng thông tin thu thập được thông qua các Dịch vụ nhất định, tuân thủ các luật và quy định có liên quan. Ví dụ, khi bạn sử dụng dịch vụ của chúng tôi để cá nhân hóa trải nghiệm dịch vụ, nghiên cứu người dùng, phân tích và thống kê, hãy sử dụng thông tin này.\n
+Để đảm bảo an toàn cho dịch vụ của chúng tôi và giúp chúng tôi hiểu rõ hơn về cách thức hoạt động của ứng dụng, chúng tôi có thể ghi lại các thông tin liên quan, ví dụ, tần suất bạn sử dụng ứng dụng, thông tin lỗi, sử dụng tổng thể, dữ liệu hiệu suất và nơi ứng dụng đến từ. Chúng tôi không kết hợp thông tin mà chúng tôi lưu trữ trong phần mềm phân tích với thông tin nhận dạng cá nhân mà bạn cung cấp trong ứng dụng.\n
+\nKhi doanh nghiệp phát triển, các chức năng sản phẩm và dịch vụ mà chúng tôi cung cấp có thể được điều chỉnh và thay đổi, nếu mục đích gia công thay đổi tương ứng, chúng tôi sẽ giải thích cho bạn một lần nữa và nhận được sự đồng ý của bạn.\n
+Cách sử dụng cookie, định danh và các công nghệ liên quan\n
+Cookie, định danh và các công nghệ liên quan là những công nghệ thường được sử dụng trong ngành công nghiệp Internet. Theo luật và quy định có liên quan, chúng tôi hoặc các đối tác bên thứ ba của chúng tôi có thể thu thập thông tin của bạn bằng cách đặt cookie bảo mật, định danh và các công nghệ liên quan để cung cấp cho bạn trải nghiệm và dịch vụ người dùng tốt hơn. Chúng tôi sẽ nghiêm túc yêu cầu các đối tác bên thứ ba tuân thủ các quy định có liên quan của Chính sách bảo mật này.\n
+Thông tin bạn chia sẻ\n
+Bạn có thể chia sẻ thông tin của mình với bạn bè, gia đình và những người dùng khác thông qua dịch vụ của chúng tôi.\n
+Xin lưu ý rằng điều này có thể chứa thông tin nhạy cảm về danh tính cá nhân và thông tin tài sản cá nhân của bạn.\n Hãy cân nhắc kỹ việc lộ thông tin nhạy cảm cá nhân liên quan của mình.\n
+Bạn có thể kiểm soát phạm vi thông tin bạn chia sẻ thông qua các cài đặt bảo mật trong Dịch vụ của chúng tôi hoặc xóa thông tin bạn chia sẻ công khai thông qua các cài đặt trong Dịch vụ hoặc các hướng dẫn mà chúng tôi cung cấp. Tuy nhiên, vui lòng lưu ý rằng thông tin này vẫn có thể được lưu giữ độc lập bởi người dùng khác hoặc bởi các bên thứ ba không liên kết không nằm dưới sự kiểm soát của chúng tôi.\n
+Làm thế nào để bạn quản lý thông tin của riêng bạn\n
+Khi bạn sử dụng dịch vụ của chúng tôi, bạn có thể quản lý thông tin của mình bằng cách truy cập, sao chép, sửa chữa, bổ sung, xóa, v.v. và khi bạn sử dụng các sản phẩm và dịch vụ cụ thể của chúng tôi, bạn có thể tham khảo các hướng dẫn bảo mật độc lập của họ, trong đó chúng tôi mô tả cụ thể cách thức và cách thức bạn quản lý thông tin cá nhân của mình để giúp bạn bảo vệ thông tin cá nhân của mình tốt hơn.\n
+\nVí dụ, nếu bạn muốn ngừng chia sẻ thông tin vị trí của mình khi sử dụng các dịch vụ liên quan đến vị trí, bạn có thể ngừng chia sẻ bằng cách tắt tính năng Location Off trên điện thoại di động, nhà cung cấp dịch vụ phần mềm và phần cứng và nhà cung cấp dịch vụ truyền thông. Chúng tôi khuyên bạn nên đọc kỹ hướng dẫn sử dụng.\n
+Khi bạn thực hiện các quyền này, chúng tôi có thể yêu cầu bạn bảo vệ tài khoản của mình. Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với chúng tôi theo thông tin liên hệ được liệt kê trong Chính sách bảo mật này.\n
+Vui lòng hiểu rằng chúng tôi có thể không đáp ứng tất cả các yêu cầu của bạn do các hạn chế kỹ thuật, yêu cầu pháp lý hoặc quy định và chúng tôi sẽ đưa ra phản hồi trong thời hạn được quy định bởi pháp luật và quy định. Đồng thời, chúng tôi sẽ không ngừng tối ưu hóa sản phẩm và dịch vụ để đảm bảo quyền và lợi ích của bạn.\n
+Xử lý dữ liệu của bên thứ ba và công bố công khai thông tin\n
+Trong quá trình hợp tác với bên thứ ba, chúng tôi sẽ tuân thủ pháp luật và xử lý dữ liệu liên quan một cách an toàn và thận trọng theo các nguyên tắc cần thiết tối thiểu.\n
+Chúng tôi sẽ hạn chế nghiêm ngặt các bên thứ ba tham gia xử lý dữ liệu theo quy định của pháp luật. Yêu cầu tuân thủ nghiêm ngặt các biện pháp và yêu cầu của chúng tôi về bảo vệ quyền riêng tư dữ liệu, bao gồm nhưng không giới hạn việc xử lý theo thỏa thuận bảo vệ dữ liệu, cam kết và chính sách xử lý dữ liệu liên quan, đảm bảo an toàn dữ liệu.\n
+Đối với mục đích cung cấp dịch vụ cho bạn, chúng tôi có thể ủy quyền cho các nhà cung cấp dịch vụ bên thứ ba xử lý thông tin cá nhân của bạn và các nhà cung cấp dịch vụ bên thứ ba sẽ xử lý thông tin cá nhân của bạn theo đúng mục đích ủy quyền của chúng tôi và các thỏa thuận xử lý ủy quyền có liên quan.\n
+\nChúng tôi sẽ bảo vệ nghiêm ngặt thông tin cá nhân của bạn để không tiết lộ công khai thông tin cá nhân của bạn hoặc chia sẻ thông tin được sử dụng để xác định danh tính của bạn với các đối tác, trừ khi có sự đồng ý duy nhất của bạn hoặc có quy định khác theo luật và quy định, chẳng hạn như:
+1– Người có nhu cầu giao kết, thực hiện hợp đồng cá nhân với tư cách là một bên hoặc thực hiện quản lý nhân sự theo nội quy lao động do pháp luật quy định, hợp đồng tập thể được ký kết theo quy định của pháp luật;\n
+2. Yêu cầu thực hiện nhiệm vụ, nghĩa vụ theo quy định của pháp luật;\n
+3. Để đáp ứng sự kiện y tế công cộng khẩn cấp hoặc bảo vệ tính mạng, sức khỏe, tài sản của cá nhân trong trường hợp khẩn cấp;\n
+4. Thực hiện báo chí và giám sát dư luận vì lợi ích công cộng, xử lý thông tin cá nhân trong phạm vi hợp lý;\n
+5. Xử lý thông tin cá nhân được cá nhân công khai hoặc công khai hợp pháp theo quy định của pháp luật trong phạm vi hợp lý;\n
+6. Các trường hợp khác theo quy định của pháp luật, quy chế hành chính.\n
+
+\nKhi hoạt động kinh doanh của chúng tôi tiếp tục phát triển, khi các giao dịch sáp nhập, mua lại, chuyển giao tài sản dẫn đến việc chuyển giao thông tin cá nhân của bạn cho bên thứ ba, chúng tôi sẽ thông báo cho bạn dưới dạng thông báo đẩy, thông báo, tiếp tục bảo vệ hoặc yêu cầu người quản lý mới tiếp tục bảo vệ thông tin cá nhân của bạn theo quy định của pháp luật và các tiêu chuẩn không thấp hơn yêu cầu của Chính sách bảo mật này.\n
+Thông tin chúng tôi có thể gửi cho bạn\n
+1. Thông tin báo cáo\n
+Chúng tôi có thể gửi cho bạn email, tin nhắn văn bản, tin nhắn hoặc thông báo đẩy khi bạn sử dụng dịch vụ của chúng tôi.\n
+Bạn có thể chọn hủy đăng ký trên thiết bị theo hướng dẫn của chúng tôi. Nếu có thông tin đẩy được cá nhân hóa cho một sản phẩm và dịch vụ cụ thể, vui lòng tham khảo hướng dẫn bảo mật cụ thể cho sản phẩm và dịch vụ đó để tìm hiểu thêm hoặc tắt các đề xuất được cá nhân hóa.\n
+
+2. Thông báo liên quan đến dịch vụ\n
+\nChúng tôi có thể gửi cho bạn thông báo liên quan đến Dịch vụ nếu cần thiết (ví dụ: Dịch vụ bị đình chỉ do bảo trì hệ thống).\n
+Bạn có thể không thể hủy các thông báo liên quan đến dịch vụ không có tính chất quảng cáo này.\n
+
+Địa điểm và thời gian lưu trữ thông tin\n
+I. Lưu trữ thông tin\n
+Chúng tôi tuân thủ các quy định của pháp luật và quy định để lưu trữ thông tin cá nhân được thu thập và tạo ra trên lãnh thổ của Cộng hòa Nhân dân Trung\n
+
+2. Thời gian lưu trữ thông tin\n
+Nói chung, chúng tôi chỉ lưu giữ thông tin cá nhân của bạn trong khoảng thời gian tối thiểu cần thiết để đạt được mục đích của bạn, ngoại trừ các trường hợp sau:\n
+1. Tuân thủ pháp luật hiện hành và các quy định khác có liên quan;\n
+2. Tuân thủ các quy định trong bản án, quyết định của Toà án hoặc thủ tục tố tụng khác theo quy định của pháp luật;\n
+3. Tuân thủ yêu cầu thực thi pháp luật của các cơ quan có thẩm quyền của Chính\n
+
+\nKhi sản phẩm hoặc dịch vụ của chúng tôi ngừng hoạt động, chúng tôi sẽ thông báo cho bạn dưới dạng thông báo đẩy, thông báo, v.v. Chúng tôi sẽ xóa hoặc ẩn danh thông tin cá nhân của bạn trong một khoảng thời gian hợp lý.\n
+
+Bảo mật thông tin\n
+I. Chúng tôi sẽ cung cấp bảo đảm an toàn thích hợp cho thông tin của bạn để ngăn chặn sự mất mát, sử dụng không đúng cách, truy cập trái phép hoặc tiết lộ thông tin.\n
+2. Chúng tôi tuân thủ nghiêm ngặt luật pháp và quy định để bảo vệ bí mật giao tiếp của người dùng.\n
+Thứ ba, chúng tôi sẽ sử dụng các biện pháp bảo vệ an toàn khác nhau trong mức độ an toàn hợp lý để đảm bảo an toàn thông tin.\n
+Ví dụ, chúng tôi sử dụng mã hóa, ẩn danh và các phương pháp khác để bảo vệ thông tin cá nhân của bạn.\n
+Thứ tư, xây dựng hệ thống quản lý chuyên ngành, quy trình, tổ chức bảo đảm an toàn thông tin.\n
+Ví dụ, chúng tôi giới hạn nghiêm ngặt phạm vi những người tiếp cận thông tin, yêu cầu họ tuân thủ nghĩa vụ bảo mật và kiểm duyệt.\n
+Trong trường hợp xảy ra sự cố bảo mật như rò rỉ thông tin cá nhân, chúng tôi sẽ kích hoạt kế hoạch khẩn cấp để ngăn chặn sự cố bảo mật mở rộng và thông báo cho mọi người dưới hình thức thông báo đẩy, thông báo và các hình thức khác.\n
+
+Chiến dịch quảng cáo\n
+Để cung cấp trải nghiệm quảng cáo phong phú hơn, chúng tôi có thể cung cấp cho bạn các dịch vụ quảng cáo được cá nhân hóa, nơi bạn có thể nhận nội dung quảng cáo có liên quan trên các trang web, ứng dụng và các kênh khác mà JTalking và bên thứ ba hợp tác. Bạn có thể xem hướng dẫn bảo mật của một sản phẩm cụ thể để biết thêm thông tin. Nếu không muốn nhận quảng cáo được cá nhân hóa, bạn cũng có thể tắt chúng theo các hướng dẫn trong một sản phẩm cụ thể.\n
+
+Liên hệ với chúng tôi\n
+Chúng tôi đã thành lập nhóm chuyên trách về bảo vệ thông tin cá nhân và người phụ trách bảo vệ thông tin cá nhân Nếu có bất kỳ câu hỏi hoặc khiếu nại hoặc đề xuất nào liên quan đến Chính sách bảo mật này hoặc các vấn đề bảo vệ dữ liệu cá nhân, bạn có thể liên hệ với chúng tôi qua:\n
+1. Bạn có thể liên hệ với chúng tôi bằng cách điền vào "Bảng câu hỏi phản hồi về bảo vệ thông tin cá nhân và các vấn đề bảo mật thông tin"; 
+2. Gửi câu hỏi đến correos332@outlook.com;\n
+\nNhững vấn đề liên quan, chúng tôi sẽ rà soát ngay và phản hồi trong vòng 15 ngày làm việc hoặc trong thời hạn quy định của pháp luật và quy định.\n
+
+Thay đổi\n
+Chúng tôi có thể sửa đổi chính sách bảo mật này vào thời điểm thích hợp.\n
+Nếu thay đổi có thể gây thiệt hại đáng kể cho các quyền của bạn theo Chính sách bảo mật này, chúng tôi sẽ ghi rõ trên trang trước khi thay đổi có hiệu lực. Hướng dẫn bảo vệ quyền riêng tư cho các sản phẩm và dịch vụ cụ thể Nếu mục đích, cách thức xử lý và loại thông tin cá nhân được xử lý thay đổi, sự đồng ý của bạn sẽ được gia hạn.\n
+
+
+
+
+    </string>
+</resources>

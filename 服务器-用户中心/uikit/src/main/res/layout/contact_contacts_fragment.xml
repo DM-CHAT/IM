@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone"
+        android:background="@drawable/select_friend">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:src="@mipmap/ic_search2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:hint="@string/search_for_friends" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll_contact_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/rl_search"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/unreadFriendRequestCountTextView"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignTop="@id/btn_new_friends"
+                android:layout_alignRight="@id/btn_new_friends"
+                android:background="@drawable/shape_red_dot"
+                android:gravity="center"
+                android:text="99"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_new_friends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:drawableTop="@mipmap/add_friends"
+                android:drawablePadding="4dp"
+                android:text="@string/new_friend" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_groups"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@mipmap/group_chat"
+            android:drawablePadding="4dp"
+            android:text="@string/group" />
+
+        <Button
+            android:id="@+id/btn_litapp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableTop="@mipmap/applets"
+            android:drawablePadding="4dp"
+            android:text="@string/litapp" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/usersRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_contact_title" />
+
+    <cn.wildfire.chat.kit.widget.QuickIndexBar
+        android:id="@+id/quickIndexBar"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" />
+
+    <!--字母对话框-->
+    <TextView
+        android:id="@+id/indexLetterTextView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_contact_letter_bg"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone" />
+</RelativeLayout>

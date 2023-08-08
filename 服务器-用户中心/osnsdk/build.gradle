@@ -1,0 +1,51 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    compileSdkVersion 32
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    productFlavors {
+//        yuelan{
+//            flavorDimensions "main"
+//        }
+        zolo{
+            flavorDimensions "main"
+        }
+    }
+}
+
+dependencies {
+
+//    implementation 'androidx.appcompat:appcompat:1.1.0'
+//    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.alibaba:fastjson:1.2.76'
+
+    //助记词
+    implementation 'org.web3j:core:3.3.1-android'
+    implementation 'org.bitcoinj:bitcoinj-core:0.14.7'
+    implementation 'party.loveit:bip44forandroidlibrary:1.0.7'
+
+    implementation 'com.google.guava:guava:27.0.1-android'
+}

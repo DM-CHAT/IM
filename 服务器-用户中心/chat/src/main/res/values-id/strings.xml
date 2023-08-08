@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="zolo_name">DM-CHAT</string>
+    <string name="yuelan_name">yuelan</string>
+    <string name="app_name">zolo</string>
+    <string name="app_init">inisialisasi IM</string>
+    <string name="app_IM">IM</string>
+    <string name="app_doc">Dokumentasi Pengembangan IM</string>
+    <string name="app_sn">untuk mengobrol dengan</string>
+
+    <string name="page_main">halaman rumah</string>
+    <string name="page_app">percakapan</string>
+    <string name="page_found" translatable="false">Menemukan</string>
+    <string name="page_contact">Daftar kontak</string>
+    <string name="page_me">Milikku</string>
+    <string name="notice">Notice</string>
+    <string name="announcement">announcement</string>
+    <string name="all_read">All read</string>
+    <string name="choose_service">Pilih penyedia layanan</string>
+    <string name="search">Cari</string>
+
+    <string name="account">Akun</string>
+    <string name="my_chat_account">Akun:%1$s</string>
+    <string name="setting">mempersiapkan</string>
+    <string name="abort">tentang</string>
+
+    <string name="change_password">Ubah Sandi</string>
+    <string name="old_password">Kata sandi lama</string>
+    <string name="new_password">Kata sandi baru</string>
+    <string name="confirm_password">Konfirmasi Sandi</string>
+    <string name="accomplish">selesai</string>
+    <string name="please_enter_old_password">Silakan masukkan sandi lama</string>
+    <string name="please_enter_new_password">Por favor, introduzca una nueva contraseña</string>
+
+
+    <string name="software_update_prompt" translatable="false">Permintaan pemutakhiran perisian</string>
+    <string name="app_update_mark" translatable="false">Optimisasi fungsi dasar dan pengalaman preventif</string>
+    <string name="update_now" translatable="false">Kemaskini sekarang</string>
+    <string name="not_updated" translatable="false">Tidak diperbarui</string>
+    <string name="please_enter_code">Silakan masukkan kode verifikasi</string>
+    <string name="get_code">Kode Verifikasi</string>
+    <string name="new_get_code">Reacquire</string>
+    <string name="password_not_empty">Kata sandi tidak dapat kosong</string>
+    <string name="code_not_empty">Kode pengesahan tidak dapat kosong</string>
+    <string name="password_is_different">Kata sandi berbeda</string>
+
+
+    <string name="new_message_remind">pengingat berita baru</string>
+    <string name="exit">keluar</string>
+    <string name="logout">batalkan akun</string>
+    <string name="search_for_friends" translatable="false">mencari teman</string>
+
+    <string name="app_name_in_about">membaca obrolan</string>
+    <string name="function_introduction">Fitur</string>
+    <string name="complaint">keluhan</string>
+    <string name="check_update">Periksa pembaruan</string>
+    <string name="terms_of_use_and_privacy_policy">Persyaratan penggunaan dan kebijakan privasi</string>
+    <string name="name">komunitas membaca</string>
+    <string name="slogan">komunikasi jadi mudah</string>
+    <string name="new_updated">Apakah versi terbaru</string>
+
+
+    <string name="warning">memperingatkan</string>
+    <string name="exit_confirm" translatable="false">Apakah Anda yakin untuk keluar</string>
+
+    <string name="kickoff">Anda harus masuk lagi</string>
+    <string name="confirm">Tentu</string>
+    <string name="cancel">Membatalkan</string>
+    <string name="upgrade">meningkatkan</string>
+    <string name="find_new_version">Versi baru ditemukan:</string>
+    <string name="background_info">Izinkan IM untuk berjalan di latar belakang, yang dapat lebih memastikan sifat real-time dari pesan tersebut</string>
+    <string name="modify_user_nickname">Ubah nama panggilan pribadi?</string>
+    <string name="modify">Merevisi</string>
+    <string name="modify_success">Berhasil dimodifikasi</string>
+    <string name="modify_failure">gagal mengedit</string>
+    <string name="privacy_settings">pengaturan Privasi</string>
+    <string name="account_security">Akun dan Keamanan</string>
+    <string name="language_settings">pengaturan bahasa</string>
+    <string name="space_setting">pengaturan ruang</string>
+    <string name="help_network">CROSSGO</string>
+
+    <string name="error_network">Kesalahan Jaringan…</string>
+    <string name="error_need_permission">Izin diperlukan untuk menjalankan</string>
+    <string name="error_privilege_grant">Perolehan izin gagal</string>
+    <string name="error_login_failed">Gagal masuk</string>
+    <string name="create_group">Mulai obrolan grup</string>
+    <string name="add_friend">tambah teman</string>
+    <string name="scan">memindai itu</string>
+
+    <string name="assets">aktiva</string>
+    <string name="wallet" translatable="false">dompet</string>
+    <string name="team_circle">lingkaran tim</string>
+    <string name="message_and_notice">Berita dan Pemberitahuan</string>
+    <string name="feedback">Timbal balik pelanggan</string>
+    <string name="lifeService" translatable="false">Layanan hidup</string>
+    <string name="privacyPolicy" translatable="false">Kebijakan pribadi</string>
+    <string name="useragreement" translatable="false">Perjanjian Pengguna</string>
+    <string name="promotion" translatable="false">ekstensi</string>
+    <string name="account_and_security">Akun dan Keamanan</string>
+    <string name="fav">mengumpulkan</string>
+    <string name="theme">tema</string>
+    <string name="network_help">CROSSGO</string>
+    <string name="set_nft">atur nft</string>
+    <string name="english">Bahasa inggris</string>
+    <string name="chinese">Cina</string>
+    <string name="vietnam">Orang Vietnam</string>
+    <string name="select_language">Pilih bahasa</string>
+    <string name="restart_app">mulai ulang aplikasi</string>
+    <string name="restart_app2" translatable="false">Bahasa berubah, perlu dimulai ulang</string>
+    <string name="default_notification_channel_id">channel_id</string>
+
+    <string name="privacy_content" translatable="false">
+        J-Talking strictly complies with laws and regulations and follows the following privacy principles to provide you with more secure and reliable services:\n\n
+        I. Safe and reliable:\n
+We do our best to prevent your information leakage, damage, and loss through a reasonable and effective information security technology and management process.\n
+        2. Independent choice:\n
+We provide you with convenient information management options so that you can make the right choices to manage your personal information.\n
+3. Protection of communication secrets:\n
+We strictly comply with the laws and regulations, protect your communication secrets, and provide you with secure communication services.\n
+IV. Reasonable and necessary:\n
+In order to provide better services to you and other users, we only collect the necessary information.\n
+        V. Open and transparent:\n
+We strive to introduce you to the privacy policy to plain statements so that you have a clear understanding of how our information processes.\n
+ Vi. Integrate privacy protection into product design:\n
+We integrate the concept of privacy protection in all aspects of product and service development and operation.\n\n
+        The Privacy Policy mainly explains to you that:\n\n
+What information do we collect\n\n
+The purpose for which we collect the information\n\n
+        Your rights\n
+ You can read the J-Talking Privacy Policy ("this Privacy Policy") so that you can better understand our services and make appropriate choices.\n\n
+If our specific products and services have specific privacy guidelines, you can consult this specific privacy guide to help you better protect your personal information.\n\n
+        The information that we have collected from the No\n\n
+According to the requirements of laws and regulations, we follow the principles of legality, legitimacy, necessary and integrity, and only collect the personal information necessary to realize the function of the product. This information includes:\n\n
+        I. The information you voluntarily provide when using our services:\n\n
+1. Your nickname, mobile phone number, profile picture and pictures are actively filled in or uploaded when registering or using our products or services.\n
+2. Information you submit through our customer service or at our events.\n
+3. Some of our specific services may require you to provide specific personal information to achieve relevant functions. If you choose not to provide such information, it will not affect your use of other functions in the product or service.\n\n
+        Ii. Information we obtain when you use the service:\n\n
+1. Log information\n
+For example, when you use our services, in order to collect device information, software information, and service log information, we may collect information about the safe and stable operation of our products and services.\n
+2. Location information\n
+ For example, when you use location-related services, we may record the location information of your device to provide you with related services.\n
+        The information that you or other users provide when using the service may include your geolocation information, such as the geotag information contained in photos shared by you or someone else.\n
+The GPS location information is sensitive personal information, and if you refuse to provide that information, it will not affect your use of other functions of the product or service, but will only affect the functions related to the geographic location.\n
+        3. Other relevant information\n
+To help you better use our products or services, we may collect relevant information with your express authority, for example, if you choose to open the import address book function, we may encrypt the name and phone number of your contact, and collect only the encrypted information.\n\n
+        Information shared by other users contains your information\n
+For example, photos posted or videos shared by other users may contain your information.\n\n
+ Information obtained in other cases\n\n
+        As permitted by law, with your consent, we may obtain information generated or shared by you while using third-party partner services. For example, when you use wechat or QQ account to log in in the third party partner service, we will get the information such as the name of your login in the third party partner service to facilitate your authorization management. You can read the user agreements and privacy policies of third-party Partner Services.\n
+        How do we use the information\n\n
+We strictly abide by the provisions of laws and regulations and the agreements with users, and use the collected information for the following purposes. We use your information beyond the following purposes, we will inform you again with your consent.\n
+        First, to provide services to you\n
+ Meet your personalized needs
+For example, language setting, location setting, and personalized help services.\n
+2. Safety guarantee\n
+For example, we will use your information for authentication, security prevention, anti-fraud monitoring, archive backup, customer security services, and other purposes. For example, the security software you download or install can detect malicious programs or viruses, or identify fraud information for you.\n
+        I recommend advertisements and information that you may be interested in\n
+To evaluate and improve the effectiveness of our advertising and other promotions and promotional campaigns\n
+ IV. Management software\n
+For example, conduct software authentication, software upgrades, etc.\n
+        V. Invite you to participate in the survey about our services\n
+ In order to give you a better experience, improve our services, or other uses with your consent, we may use the information collected through certain services in compliance with relevant laws and regulations. For example, use the information when you use one of our services for personalized service experience, user research, analysis, and statistics.\n
+        To ensure the security of our services and help us better understand how our application works, we may record relevant information, for example, how often you use the application, failure information, overall usage, performance data, and where the application is coming from. We do not combine the information we store in our analysis software with the personally identifiable information you provide in your application.\n
+        As the business develops, the product functions and services we provide may be adjusted and change, and if the processing purpose changes accordingly, we will explain it to you again and with your consent.\n
+ How do we use Cookie s, identifiers, and related techniques\n
+        Cookie, identifiers, and related technologies are commonly used technologies in the Internet industry. In accordance with the relevant laws and regulations, we or our third-party partners may collect your information by placing secure Cookie s, identifiers, and related technologies to provide you with a better user experience and services. We will strictly require third-party partners to comply with the relevant provisions of this Privacy Policy.\n
+ The information you share\n
+        You can share your information with your friends, family members, and other users through our services.\n
+ Note that this may contain sensitive information about your personal identity and personal property information. Please carefully consider the disclosure of your relevant personal sensitive information.
+        You can control the scope of your shared information either through the privacy settings in our service, or delete the information you have shared publicly through the settings in the Service or through the guidelines we provide. However, please note that this information may still be saved independently by other users or non-associated third parties not under our control.\n
+ How do you manage your own information\n
+        As you use our services, you can manage your information by consulting, copying, correcting, supplementing, deleting, etc. When you use our specific products and services, you can consult its independent privacy guidelines, in which we specifically describe the ways and ways you manage your personal information to help you better protect your personal information.\n
+ For example, if you want to stop sharing your location information when using location-related services, you can stop sharing by closing the mobile phone location shutdown function, hardware and software service providers and communication service providers. We suggest that you read the instructions carefully.\n
+        When you exercise these rights, we may require you to secure your account. If you have any questions, please contact us through the contact information listed in this privacy policy.\n
+Please understand that we may not be able to meet all of your requirements due to technical limitations, legal or regulatory requirements, and we will give feedback within the period prescribed by laws and regulations. At the same time, we will continue to optimize our products and services to protect your rights.\n
+        Third-party data processing and public disclosure of information\n
+ In our cooperation with third parties, we will comply with the law and handle relevant data safely and prudently in accordance with the principle of minimum necessity.\n\n
+ We will impose strict restrictions on the third parties involved in data processing in accordance with laws and regulations. It is required to strictly comply with our measures and requirements on data privacy protection, including but not limited to processing according to the data protection agreement, the letter of commitment and relevant data processing policies, to ensure data security.\n
+        For the purpose of providing the services to you, we may entrust the third-party service providers to process your personal information, which will process your personal information in strict accordance with the purpose of our entrustment and the relevant entrusted processing agreements.\n
+We will strictly protect your personal information from publicly disclose your personal information or share information used to identify you with partners, unless with your sole consent or otherwise provided by laws and regulations, such as:\n
+        1. It is necessary to conclude and perform an individual contract as a party, or to implement human resources management in accordance with the labor rules and regulations formulated by laws and the collective contracts signed according to law;\n
+2. It is necessary to perform the statutory duties or legal obligations;\n
+3. It is necessary to deal with public health emergencies or to protect the life, health and property safety of natural persons in emergency;\n
+4. Carry out news reports and public opinion supervision for the public interest, and handle personal information within a reasonable scope;\n
+
+    </string>
+</resources>

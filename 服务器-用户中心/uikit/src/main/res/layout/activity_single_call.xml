@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".voip.SingleCallActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar" />
+
+    <org.webrtc.SurfaceViewRenderer
+        android:id="@+id/bigView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <org.webrtc.SurfaceViewRenderer
+        android:id="@+id/litView"
+        android:layout_gravity="end|top"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="120dp"
+        android:layout_height="180dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_shiping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_suoxiao"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/ic_suoxiao"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/iv_touxiang"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:src="@mipmap/avatar_def"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_names"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textColor="@color/white"/>
+            <Chronometer
+                android:id="@+id/chr_timers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:format="00:00:00"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/target"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1111"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"/>
+
+        <Chronometer
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:format="00:00:00"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:id="@+id/chr_timer"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp">
+
+            <ImageView
+                android:id="@+id/iv_audio_true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:visibility="gone"
+                android:src="@mipmap/ic_mute_hover_true" />
+            <ImageView
+                android:id="@+id/iv_audio_false"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:visibility="gone"
+                android:src="@mipmap/ic_mute_hover_false" />
+
+            <ImageView
+                android:id="@+id/rejectImage"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:src="@drawable/av_hang_up" />
+
+            <ImageView
+                android:id="@+id/acceptImage"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/ic_jieting" />
+            <ImageView
+                android:id="@+id/iv_yangshengqi"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:visibility="gone"
+                android:src="@mipmap/ic_yangshengqi"
+                android:layout_marginRight="30dp"/>
+            <ImageView
+                android:id="@+id/iv_tingtong"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:visibility="gone"
+                android:src="@mipmap/ic_tingtong"
+                android:layout_marginRight="30dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

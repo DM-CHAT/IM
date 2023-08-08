@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/img_bubble_receive">
+    <TextView
+        android:id="@+id/contentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:autoLink="phone|email|map|web"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="16dp"
+        android:text="Audio call"
+        android:textColor="#444444"
+        android:textColorLink="#666666"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/iv_audio"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_audio_call_black"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/iv_video"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_video_call_black"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"/>
+</LinearLayout>
+

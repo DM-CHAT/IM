@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23262B">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Set password"
+        android:textSize="32sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="accout"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edt_accout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_confirm_huise2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:hint="input"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/edt_pwd1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_confirm_huise2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:inputType="textEmailAddress"
+        android:maxLength="16"
+        android:hint="input"/>
+    <EditText
+        android:id="@+id/edt_pwd2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_confirm_huise2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:inputType="textEmailAddress"
+        android:maxLength="16"
+        android:hint="reinput"/>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_confirm_black"
+        android:textColor="@color/white"
+        android:text="Confirm"
+        android:textSize="16sp"/>
+</LinearLayout>
