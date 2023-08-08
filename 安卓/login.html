@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		html,body{
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+			width: 100%;
+			background-color: #000;
+		}
+	</style>
+	<script>
+		var json = {
+			command: "MnemonicMode",
+			url: "http://127.0.0.1:9314/api/login/loginByMnemonic"
+		};
+	</script>
+	<body>
+	<button style="display: none;" onclick="osnsdk.run(JSON.stringify(json))">跳转</button>
+	</body>
+<script>
+	try{
+		osnsdk.run(JSON.stringify(json));
+	}catch (e) {
+		alert(e);
+	}
+	window.onload = function (){
+		try{
+			osnsdk.run(JSON.stringify(json));
+		}catch (e) {
+			alert(e);
+		}
+	}
+</script>
+</html>
