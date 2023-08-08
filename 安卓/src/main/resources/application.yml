@@ -1,0 +1,49 @@
+server.port: 9314
+spring:
+  profiles:
+    active: @profilesActive@
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+
+  application:
+    name: userServer-api
+  servlet:
+    multipart.maxFileSize: 15MB
+    multipart.maxRequestSize: 20MB
+
+IM:
+  imUrl: http://127.0.0.1:8300/admin
+  imPwd: password
+  LOGIN_URL: http://127.0.0.1:8300/admin
+  HOST_IP: 127.0.0.1
+  PEFIX_URL: http://127.0.0.1:8334
+  APP_DEVICE: http://127.0.0.1:8334/api/im/device
+  SET_NAME: http://127.0.0.1:8334/api/im/setName
+  KEFU_LIST: http://127.0.0.1:8334/api/im/custormer
+  QueryAplets: http://127.0.0.1:8334/api/im/findOne
+  GroupList: http://127.0.0.1:8334/program/list
+  AddGroup: http://127.0.0.1:8334/groupProgram/add
+  ENDPOINT:
+  RemoteTempFilePath:
+  AccessKeyId:
+  AccessKeySecret:
+  BUCKETNAME: imx-default
+  UserPortraitDirectory: portrait/
+  GroupPortraitDirectory: portrait/
+  TempDirectory: temp/
+  MainDapp:
+  WEBRTCBASE: webrtc://127.0.0.1:1985/live/android/
+  WEBRTCHOST: http://127.0.0.1:1985
+
+sms:
+  mei-tang:
+    content: 本次登录验证码为{code}
+    url: http://sms.meitangyun.com:8001/std/sms
+    password:
+    account:
+
+
+
+#logging:root
