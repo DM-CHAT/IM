@@ -16,8 +16,7 @@
 
 
 #联系方式
-![DM-CHAT](https://github.com/DM-CHAT/IM/assets/141175076/c902f56a-3bc2-4c28-ac7e-355e0f6ac48c)
-
+![DM-CHAT](https://github.com/DM-CHAT/IM/assets/141175076/67736f90-cdf9-4a37-a993-1184aac190f5)
 
 ✈️频道[https://t.me/DM_QIANWEN](https://t.me/DM_QIANWEN)
 
