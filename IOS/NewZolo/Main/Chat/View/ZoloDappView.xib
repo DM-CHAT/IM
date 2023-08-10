@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZoloDappView">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="61"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ih9-wm-V6T">
+                    <rect key="frame" x="308" y="0.0" width="55" height="61"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dappBg" translatesAutoresizingMaskIntoConstraints="NO" id="DOq-i4-ARg">
+                            <rect key="frame" x="0.0" y="0.0" width="55" height="61"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dapp_left" translatesAutoresizingMaskIntoConstraints="NO" id="Oyp-tO-Ha2">
+                            <rect key="frame" x="12.5" y="15.5" width="30" height="30"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="DOq-i4-ARg" secondAttribute="bottom" id="6vw-76-7p7"/>
+                        <constraint firstItem="Oyp-tO-Ha2" firstAttribute="centerX" secondItem="DOq-i4-ARg" secondAttribute="centerX" id="EPK-1i-sRK"/>
+                        <constraint firstAttribute="trailing" secondItem="DOq-i4-ARg" secondAttribute="trailing" id="EYC-bp-cB3"/>
+                        <constraint firstItem="DOq-i4-ARg" firstAttribute="top" secondItem="Ih9-wm-V6T" secondAttribute="top" id="QN1-Ld-eDs"/>
+                        <constraint firstItem="Oyp-tO-Ha2" firstAttribute="centerY" secondItem="DOq-i4-ARg" secondAttribute="centerY" id="REs-7z-sFc"/>
+                        <constraint firstItem="DOq-i4-ARg" firstAttribute="leading" secondItem="Ih9-wm-V6T" secondAttribute="leading" id="RML-QQ-YVL"/>
+                        <constraint firstAttribute="width" constant="55" id="gcU-LV-XWQ"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BoJ-RZ-oeQ">
+                    <rect key="frame" x="243" y="0.0" width="120" height="61"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dappBg" translatesAutoresizingMaskIntoConstraints="NO" id="tYi-2s-4qP">
+                            <rect key="frame" x="0.0" y="0.0" width="120" height="61"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dapp_right" translatesAutoresizingMaskIntoConstraints="NO" id="TKr-Pu-7dU">
+                            <rect key="frame" x="82" y="15.5" width="30" height="30"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="herdImg" translatesAutoresizingMaskIntoConstraints="NO" id="pT0-On-5EB">
+                            <rect key="frame" x="20" y="5.5" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="W5Q-bV-07G"/>
+                                <constraint firstAttribute="width" constant="50" id="fGK-Pc-mc9"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="6mc-JJ-Vcu"/>
+                        <constraint firstAttribute="trailing" secondItem="TKr-Pu-7dU" secondAttribute="trailing" constant="8" id="93X-8Z-xG8"/>
+                        <constraint firstAttribute="trailing" secondItem="tYi-2s-4qP" secondAttribute="trailing" id="Aef-5n-u1s"/>
+                        <constraint firstItem="TKr-Pu-7dU" firstAttribute="centerY" secondItem="BoJ-RZ-oeQ" secondAttribute="centerY" id="J18-Gl-ChG"/>
+                        <constraint firstItem="pT0-On-5EB" firstAttribute="leading" secondItem="BoJ-RZ-oeQ" secondAttribute="leading" constant="20" id="KKS-yP-53l"/>
+                        <constraint firstItem="tYi-2s-4qP" firstAttribute="leading" secondItem="BoJ-RZ-oeQ" secondAttribute="leading" id="PEH-QN-Qr9"/>
+                        <constraint firstItem="pT0-On-5EB" firstAttribute="centerY" secondItem="BoJ-RZ-oeQ" secondAttribute="centerY" id="SzA-hQ-h2l"/>
+                        <constraint firstItem="tYi-2s-4qP" firstAttribute="top" secondItem="BoJ-RZ-oeQ" secondAttribute="top" id="kwL-5x-LC4"/>
+                        <constraint firstAttribute="bottom" secondItem="tYi-2s-4qP" secondAttribute="bottom" id="zQ8-LK-IqS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ih9-wm-V6T" secondAttribute="trailing" id="0Hi-8f-Z2A"/>
+                <constraint firstItem="Ih9-wm-V6T" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="UbA-9x-VTK"/>
+                <constraint firstAttribute="bottom" secondItem="Ih9-wm-V6T" secondAttribute="bottom" id="aDe-3I-7q5"/>
+                <constraint firstItem="BoJ-RZ-oeQ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="pZD-FZ-wiR"/>
+                <constraint firstItem="BoJ-RZ-oeQ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="qzC-df-L50"/>
+                <constraint firstAttribute="bottom" secondItem="BoJ-RZ-oeQ" secondAttribute="bottom" id="uf8-5L-ewI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dappIcon" destination="pT0-On-5EB" id="7Qf-q1-tBk"/>
+                <outlet property="offImg" destination="TKr-Pu-7dU" id="prY-hZ-oTM"/>
+                <outlet property="offView" destination="Ih9-wm-V6T" id="Vce-9V-ihA"/>
+                <outlet property="onView" destination="BoJ-RZ-oeQ" id="q86-nA-ESo"/>
+            </connections>
+            <point key="canvasLocation" x="100" y="427.73613193403304"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dappBg" width="36" height="68"/>
+        <image name="dapp_left" width="30" height="30"/>
+        <image name="dapp_right" width="30" height="30"/>
+        <image name="herdImg" width="266" height="266"/>
+    </resources>
+</document>

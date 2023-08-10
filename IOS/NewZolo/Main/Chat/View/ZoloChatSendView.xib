@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZoloChatSendView">
+            <rect key="frame" x="0.0" y="0.0" width="495" height="69"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vjl-SD-4a9">
+                    <rect key="frame" x="68" y="4" width="306" height="45"/>
+                    <subviews>
+                        <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zIO-2T-Gjx">
+                            <rect key="frame" x="10" y="0.0" width="286" height="45"/>
+                            <color key="tintColor" red="0.30980392159999998" green="0.62745098040000002" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Stt-A2-OYS">
+                            <rect key="frame" x="0.0" y="0.0" width="306" height="45"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="按住说话">
+                                <color key="titleColor" red="0.1333333333" green="0.64313725489999995" blue="0.36470588240000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="zIO-2T-Gjx" secondAttribute="trailing" constant="10" id="M3z-5k-Mpj"/>
+                        <constraint firstAttribute="height" constant="45" id="Mc3-wR-iNh"/>
+                        <constraint firstItem="zIO-2T-Gjx" firstAttribute="top" secondItem="Vjl-SD-4a9" secondAttribute="top" id="Mxb-hT-iDh"/>
+                        <constraint firstItem="Stt-A2-OYS" firstAttribute="leading" secondItem="Vjl-SD-4a9" secondAttribute="leading" id="SbL-1L-8vj"/>
+                        <constraint firstAttribute="bottom" secondItem="Stt-A2-OYS" secondAttribute="bottom" id="eQL-Pz-BDI"/>
+                        <constraint firstAttribute="bottom" secondItem="zIO-2T-Gjx" secondAttribute="bottom" id="fFW-Gf-oGr"/>
+                        <constraint firstItem="zIO-2T-Gjx" firstAttribute="leading" secondItem="Vjl-SD-4a9" secondAttribute="leading" constant="10" id="nzi-Yb-nFu"/>
+                        <constraint firstItem="Stt-A2-OYS" firstAttribute="top" secondItem="Vjl-SD-4a9" secondAttribute="top" id="yjY-RH-fTi"/>
+                        <constraint firstAttribute="trailing" secondItem="Stt-A2-OYS" secondAttribute="trailing" id="zdz-u0-ux6"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IxI-ep-ku9">
+                    <rect key="frame" x="435" y="4" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="c0B-DZ-GbJ"/>
+                        <constraint firstAttribute="width" constant="45" id="qk2-UQ-e2W"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="more"/>
+                    <connections>
+                        <action selector="addMoreBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="LYx-IP-wUH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2V-qK-cr1">
+                    <rect key="frame" x="382" y="4" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="huN-3e-oZq"/>
+                        <constraint firstAttribute="height" constant="45" id="viM-Gp-EqQ"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="emoticons"/>
+                    <state key="selected" image="emj_s"/>
+                    <connections>
+                        <action selector="emojiBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="LdU-VU-NKn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zC-Us-6Zo">
+                    <rect key="frame" x="15" y="4" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="39z-DW-tWc"/>
+                        <constraint firstAttribute="width" constant="45" id="yui-NM-R5T"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="chatVoice"/>
+                    <state key="selected" image="emj_s"/>
+                    <connections>
+                        <action selector="voiceBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="i3v-bI-xDp"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cr9-7e-3p8">
+                    <rect key="frame" x="15" y="4" width="465" height="45"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="全员禁言中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPZ-j1-GX4">
+                            <rect key="frame" x="169" y="11.5" width="87" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Vjl-SD-4a9" firstAttribute="leading" secondItem="3zC-Us-6Zo" secondAttribute="trailing" constant="8" id="2lH-Nt-Cs7"/>
+                <constraint firstItem="IxI-ep-ku9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="7BH-MI-Erk"/>
+                <constraint firstItem="cr9-7e-3p8" firstAttribute="bottom" secondItem="Vjl-SD-4a9" secondAttribute="bottom" id="JNy-mT-gAn"/>
+                <constraint firstItem="IxI-ep-ku9" firstAttribute="leading" secondItem="d2V-qK-cr1" secondAttribute="trailing" constant="8" id="OvB-N6-Ck3"/>
+                <constraint firstItem="3zC-Us-6Zo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="TQH-Qf-Gpa"/>
+                <constraint firstItem="d2V-qK-cr1" firstAttribute="centerY" secondItem="IxI-ep-ku9" secondAttribute="centerY" id="UvM-L5-NUV"/>
+                <constraint firstItem="Vjl-SD-4a9" firstAttribute="centerY" secondItem="IxI-ep-ku9" secondAttribute="centerY" id="Yxu-DE-pMF"/>
+                <constraint firstItem="3zC-Us-6Zo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="cuv-wd-yLe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IxI-ep-ku9" secondAttribute="trailing" constant="15" id="dSr-Y9-UNQ"/>
+                <constraint firstItem="cr9-7e-3p8" firstAttribute="trailing" secondItem="IxI-ep-ku9" secondAttribute="trailing" id="iLX-9w-hW4"/>
+                <constraint firstItem="cr9-7e-3p8" firstAttribute="top" secondItem="Vjl-SD-4a9" secondAttribute="top" id="mje-cc-Wvc"/>
+                <constraint firstItem="cr9-7e-3p8" firstAttribute="leading" secondItem="3zC-Us-6Zo" secondAttribute="leading" id="y46-Gq-mG3"/>
+                <constraint firstItem="d2V-qK-cr1" firstAttribute="leading" secondItem="Vjl-SD-4a9" secondAttribute="trailing" constant="8" id="ySe-mg-Pgl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="emjBtn" destination="d2V-qK-cr1" id="wBa-H7-u0d"/>
+                <outlet property="muteLab" destination="hPZ-j1-GX4" id="tDx-CV-PtQ"/>
+                <outlet property="muteView" destination="cr9-7e-3p8" id="tii-Rv-uja"/>
+                <outlet property="textBgView" destination="Vjl-SD-4a9" id="meg-Xi-0tp"/>
+                <outlet property="textMsgField" destination="zIO-2T-Gjx" id="ItO-sf-6Fs"/>
+                <outlet property="voiceBtn" destination="Stt-A2-OYS" id="gXr-zx-GzW"/>
+                <outlet property="voiceStatusBtn" destination="3zC-Us-6Zo" id="weh-Ir-hyM"/>
+            </connections>
+            <point key="canvasLocation" x="196.37681159420291" y="306.36160714285711"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chatVoice" width="45" height="45"/>
+        <image name="emj_s" width="45" height="45"/>
+        <image name="emoticons" width="45" height="45"/>
+        <image name="more" width="45" height="45"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

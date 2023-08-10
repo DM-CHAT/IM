@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmptyVC">
+            <connections>
+                <outlet property="img" destination="pYL-C0-uOn" id="vuY-eZ-H5p"/>
+                <outlet property="message" destination="GKA-cM-Wn9" id="QVc-eY-h6S"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKA-cM-Wn9">
+                    <rect key="frame" x="159" y="295" width="57.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emptPage" translatesAutoresizingMaskIntoConstraints="NO" id="pYL-C0-uOn">
+                    <rect key="frame" x="122.5" y="179" width="130" height="92"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="GKA-cM-Wn9" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-30" id="AXQ-Y5-Bic"/>
+                <constraint firstItem="GKA-cM-Wn9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NPa-VR-CBo"/>
+                <constraint firstItem="pYL-C0-uOn" firstAttribute="centerX" secondItem="GKA-cM-Wn9" secondAttribute="centerX" id="Prp-iK-UsQ"/>
+                <constraint firstItem="GKA-cM-Wn9" firstAttribute="top" secondItem="pYL-C0-uOn" secondAttribute="bottom" constant="24" id="Vaj-mc-r5K"/>
+            </constraints>
+            <point key="canvasLocation" x="-53" y="55"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="emptPage" width="130" height="92"/>
+    </resources>
+</document>

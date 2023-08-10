@@ -1,0 +1,1200 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2492E9245D3982007268E3 /* DMCCDeleteMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2492E7245D3982007268E3 /* DMCCDeleteMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B2492EA245D3982007268E3 /* DMCCDeleteMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2492E8245D3982007268E3 /* DMCCDeleteMessageContent.m */; };
+		2B5623A024FB8F1700EB2A03 /* DMCCPCLoginRequestMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B56239E24FB8F1700EB2A03 /* DMCCPCLoginRequestMessageContent.m */; };
+		2B5623A124FB8F1700EB2A03 /* DMCCPCLoginRequestMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B56239F24FB8F1700EB2A03 /* DMCCPCLoginRequestMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B5FD8792375A55800C41A72 /* DMCCPTextMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5FD8772375A55800C41A72 /* DMCCPTextMessageContent.m */; };
+		2B5FD87A2375A55800C41A72 /* DMCCPTextMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5FD8782375A55800C41A72 /* DMCCPTextMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6336752470DAB2008D6B38 /* DMCCDeliveryReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6336732470DAB2008D6B38 /* DMCCDeliveryReport.m */; };
+		2B6336762470DAB2008D6B38 /* DMCCDeliveryReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6336742470DAB2008D6B38 /* DMCCDeliveryReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6336792470DB7E008D6B38 /* DMCCReadReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6336772470DB7E008D6B38 /* DMCCReadReport.m */; };
+		2B63367A2470DB7E008D6B38 /* DMCCReadReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6336782470DB7E008D6B38 /* DMCCReadReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B785A5425294C0D003CBF78 /* DMCCQuoteInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B785A5225294C0D003CBF78 /* DMCCQuoteInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B785A5525294C0D003CBF78 /* DMCCQuoteInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B785A5325294C0D003CBF78 /* DMCCQuoteInfo.m */; };
+		2B8352CA25DE278300BA0800 /* DMCCPTTInviteMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8352C825DE278300BA0800 /* DMCCPTTInviteMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8352CB25DE278300BA0800 /* DMCCPTTInviteMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8352C925DE278300BA0800 /* DMCCPTTInviteMessageContent.m */; };
+		2B97D4852505BACF00162A2B /* DMCCCardMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B97D4832505BACF00162A2B /* DMCCCardMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B97D4862505BACF00162A2B /* DMCCCardMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B97D4842505BACF00162A2B /* DMCCCardMessageContent.m */; };
+		2BA6622824CFD23B00E28BC5 /* DMCCGroupMemberMuteNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA6622624CFD23B00E28BC5 /* DMCCGroupMemberMuteNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BA6622924CFD23B00E28BC5 /* DMCCGroupMemberMuteNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA6622724CFD23B00E28BC5 /* DMCCGroupMemberMuteNotificationContent.m */; };
+		2BC2AC592581F68B00E3D12D /* DMCCKickoffGroupMemberVisibleNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC2AC572581F68B00E3D12D /* DMCCKickoffGroupMemberVisibleNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC2AC5A2581F68B00E3D12D /* DMCCKickoffGroupMemberVisibleNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC2AC582581F68B00E3D12D /* DMCCKickoffGroupMemberVisibleNotificationContent.m */; };
+		2BC2AC5E2581F69E00E3D12D /* DMCCQuitGroupVisibleNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC2AC5C2581F69E00E3D12D /* DMCCQuitGroupVisibleNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC2AC5F2581F69E00E3D12D /* DMCCQuitGroupVisibleNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC2AC5D2581F69E00E3D12D /* DMCCQuitGroupVisibleNotificationContent.m */; };
+		2BC606E825C1A12400F77AD3 /* DMCCGroupPrivateChatNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF2A45F22C4DDF5006A6D4C /* DMCCGroupPrivateChatNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC9EDDE24D99CB3004B3F0B /* DMCCGroupMemberAllowNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC9EDDC24D99CB3004B3F0B /* DMCCGroupMemberAllowNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC9EDDF24D99CB3004B3F0B /* DMCCGroupMemberAllowNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC9EDDD24D99CB3004B3F0B /* DMCCGroupMemberAllowNotificationContent.m */; };
+		2BD8D71D24D68FCD00281B81 /* DMCCFileRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD8D71B24D68FCD00281B81 /* DMCCFileRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD8D71E24D68FCD00281B81 /* DMCCFileRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8D71C24D68FCD00281B81 /* DMCCFileRecord.m */; };
+		2E6B50A01FAE98E6006B6E31 /* DMCChatClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B509E1FAE98E6006B6E31 /* DMCChatClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B50B01FAE990D006B6E31 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50A71FAE990D006B6E31 /* interf_dec.h */; };
+		2E6B50B11FAE990D006B6E31 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50A81FAE990D006B6E31 /* interf_enc.h */; };
+		2E6B50B21FAE990D006B6E31 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6B50A91FAE990D006B6E31 /* libopencore-amrnb.a */; };
+		2E6B50B31FAE990D006B6E31 /* wav_amr.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50AA1FAE990D006B6E31 /* wav_amr.h */; };
+		2E6B50B41FAE990D006B6E31 /* wav_amr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50AB1FAE990D006B6E31 /* wav_amr.mm */; };
+		2E6B50B51FAE990D006B6E31 /* wavreader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50AC1FAE990D006B6E31 /* wavreader.c */; };
+		2E6B50B61FAE990D006B6E31 /* wavreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50AD1FAE990D006B6E31 /* wavreader.h */; };
+		2E6B50B71FAE990D006B6E31 /* wavwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50AE1FAE990D006B6E31 /* wavwriter.h */; };
+		2E6B50B81FAE990D006B6E31 /* wavwriter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50AF1FAE990D006B6E31 /* wavwriter.mm */; };
+		2E6B50C21FAE9B08006B6E31 /* app_callback.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50BA1FAE9B08006B6E31 /* app_callback.h */; };
+		2E6B50C31FAE9B08006B6E31 /* app_callback.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50BB1FAE9B08006B6E31 /* app_callback.mm */; };
+		2E6B50C41FAE9B08006B6E31 /* DMCCIMService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50BC1FAE9B08006B6E31 /* DMCCIMService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B50C51FAE9B08006B6E31 /* DMCCIMService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50BD1FAE9B08006B6E31 /* DMCCIMService.mm */; };
+		2E6B50C61FAE9B08006B6E31 /* DMCCNetworkService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50BE1FAE9B08006B6E31 /* DMCCNetworkService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B50C71FAE9B08006B6E31 /* DMCCNetworkService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50BF1FAE9B08006B6E31 /* DMCCNetworkService.mm */; };
+		2E6B50C81FAE9B08006B6E31 /* DMCCNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50C01FAE9B08006B6E31 /* DMCCNetworkStatus.h */; };
+		2E6B50C91FAE9B08006B6E31 /* DMCCNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50C11FAE9B08006B6E31 /* DMCCNetworkStatus.m */; };
+		2E6B50F71FAE9B10006B6E31 /* DMCCAddGroupeMemberNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50CB1FAE9B10006B6E31 /* DMCCAddGroupeMemberNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B50F81FAE9B10006B6E31 /* DMCCAddGroupeMemberNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50CC1FAE9B10006B6E31 /* DMCCAddGroupeMemberNotificationContent.m */; };
+		2E6B50F91FAE9B10006B6E31 /* DMCCCreateGroupNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50CD1FAE9B10006B6E31 /* DMCCCreateGroupNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B50FA1FAE9B10006B6E31 /* DMCCCreateGroupNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50CE1FAE9B10006B6E31 /* DMCCCreateGroupNotificationContent.m */; };
+		2E6B50FB1FAE9B10006B6E31 /* DMCCDismissGroupNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50CF1FAE9B10006B6E31 /* DMCCDismissGroupNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B50FC1FAE9B10006B6E31 /* DMCCDismissGroupNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50D01FAE9B10006B6E31 /* DMCCDismissGroupNotificationContent.m */; };
+		2E6B50FD1FAE9B10006B6E31 /* DMCCImageMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50D11FAE9B10006B6E31 /* DMCCImageMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B50FE1FAE9B10006B6E31 /* DMCCImageMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50D21FAE9B10006B6E31 /* DMCCImageMessageContent.m */; };
+		2E6B50FF1FAE9B10006B6E31 /* DMCCKickoffGroupMemberNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50D31FAE9B10006B6E31 /* DMCCKickoffGroupMemberNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51001FAE9B10006B6E31 /* DMCCKickoffGroupMemberNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50D41FAE9B10006B6E31 /* DMCCKickoffGroupMemberNotificationContent.m */; };
+		2E6B51011FAE9B10006B6E31 /* DMCCMediaMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50D51FAE9B10006B6E31 /* DMCCMediaMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51021FAE9B10006B6E31 /* DMCCMediaMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50D61FAE9B10006B6E31 /* DMCCMediaMessageContent.m */; };
+		2E6B51031FAE9B10006B6E31 /* DMCCMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50D71FAE9B10006B6E31 /* DMCCMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51041FAE9B10006B6E31 /* DMCCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50D81FAE9B10006B6E31 /* DMCCMessage.m */; };
+		2E6B51051FAE9B10006B6E31 /* DMCCMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50D91FAE9B10006B6E31 /* DMCCMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51061FAE9B10006B6E31 /* DMCCMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50DA1FAE9B10006B6E31 /* DMCCMessageContent.m */; };
+		2E6B51071FAE9B10006B6E31 /* DMCCNotificationMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50DB1FAE9B10006B6E31 /* DMCCNotificationMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51081FAE9B10006B6E31 /* DMCCNotificationMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50DC1FAE9B10006B6E31 /* DMCCNotificationMessageContent.m */; };
+		2E6B51091FAE9B10006B6E31 /* DMCCQuitGroupNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50DD1FAE9B10006B6E31 /* DMCCQuitGroupNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B510A1FAE9B10006B6E31 /* DMCCQuitGroupNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50DE1FAE9B10006B6E31 /* DMCCQuitGroupNotificationContent.m */; };
+		2E6B510B1FAE9B10006B6E31 /* DMCCSoundMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50DF1FAE9B10006B6E31 /* DMCCSoundMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B510C1FAE9B10006B6E31 /* DMCCSoundMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50E01FAE9B10006B6E31 /* DMCCSoundMessageContent.m */; };
+		2E6B510D1FAE9B10006B6E31 /* DMCCTextMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50E11FAE9B10006B6E31 /* DMCCTextMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B510E1FAE9B10006B6E31 /* DMCCTextMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50E21FAE9B10006B6E31 /* DMCCTextMessageContent.m */; };
+		2E6B510F1FAE9B10006B6E31 /* DMCCTransferGroupOwnerNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50E31FAE9B10006B6E31 /* DMCCTransferGroupOwnerNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51101FAE9B10006B6E31 /* DMCCTransferGroupOwnerNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50E41FAE9B10006B6E31 /* DMCCTransferGroupOwnerNotificationContent.m */; };
+		2E6B51111FAE9B10006B6E31 /* DMCCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50E61FAE9B10006B6E31 /* DMCCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51121FAE9B10006B6E31 /* DMCCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50E71FAE9B10006B6E31 /* DMCCUtilities.m */; };
+		2E6B51131FAE9B10006B6E31 /* DMCCConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50E91FAE9B10006B6E31 /* DMCCConversation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51141FAE9B10006B6E31 /* DMCCConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50EA1FAE9B10006B6E31 /* DMCCConversation.m */; };
+		2E6B51151FAE9B10006B6E31 /* DMCCConversationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50EB1FAE9B10006B6E31 /* DMCCConversationInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51161FAE9B10006B6E31 /* DMCCConversationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50EC1FAE9B10006B6E31 /* DMCCConversationInfo.m */; };
+		2E6B51171FAE9B10006B6E31 /* DMCCConversationSearchInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50ED1FAE9B10006B6E31 /* DMCCConversationSearchInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51181FAE9B10006B6E31 /* DMCCConversationSearchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50EE1FAE9B10006B6E31 /* DMCCConversationSearchInfo.m */; };
+		2E6B51191FAE9B10006B6E31 /* DMCCFriendRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50EF1FAE9B10006B6E31 /* DMCCFriendRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B511A1FAE9B10006B6E31 /* DMCCFriendRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50F01FAE9B10006B6E31 /* DMCCFriendRequest.m */; };
+		2E6B511B1FAE9B10006B6E31 /* DMCCGroupInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50F11FAE9B10006B6E31 /* DMCCGroupInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B511C1FAE9B10006B6E31 /* DMCCGroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50F21FAE9B10006B6E31 /* DMCCGroupInfo.m */; };
+		2E6B511D1FAE9B10006B6E31 /* DMCCGroupMember.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50F31FAE9B10006B6E31 /* DMCCGroupMember.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B511E1FAE9B10006B6E31 /* DMCCGroupMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50F41FAE9B10006B6E31 /* DMCCGroupMember.m */; };
+		2E6B511F1FAE9B10006B6E31 /* DMCCUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6B50F51FAE9B10006B6E31 /* DMCCUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E6B51201FAE9B10006B6E31 /* DMCCUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B50F61FAE9B10006B6E31 /* DMCCUserInfo.m */; };
+		2EE6A4881FB290FC007953BC /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE6A4871FB290FC007953BC /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F19723622C6FC31009F7055 /* DMCCGroupSetManagerNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F19723422C6FC31009F7055 /* DMCCGroupSetManagerNotificationContent.m */; };
+		2F19723722C6FC31009F7055 /* DMCCGroupSetManagerNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F19723522C6FC31009F7055 /* DMCCGroupSetManagerNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F1A931A21B250F5006625CD /* DMCCTypingMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1A931821B250F5006625CD /* DMCCTypingMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F1A931B21B250F5006625CD /* DMCCTypingMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A931921B250F5006625CD /* DMCCTypingMessageContent.m */; };
+		2F1EB5BF2499AB4600FD3575 /* DMCCConferenceInviteMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1EB5BD2499AB4500FD3575 /* DMCCConferenceInviteMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F1EB5C02499AB4600FD3575 /* DMCCConferenceInviteMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1EB5BE2499AB4600FD3575 /* DMCCConferenceInviteMessageContent.m */; };
+		2F3223D52144C5FB0016A2C4 /* DMCCVideoMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3223D32144C5FB0016A2C4 /* DMCCVideoMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F3223D62144C5FB0016A2C4 /* DMCCVideoMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3223D42144C5FB0016A2C4 /* DMCCVideoMessageContent.m */; };
+		2F444875252D6E51007A570E /* DMCCLinkMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F444873252D6E50007A570E /* DMCCLinkMessageContent.m */; };
+		2F444876252D6E51007A570E /* DMCCLinkMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F444874252D6E50007A570E /* DMCCLinkMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F48C9C5214D16250092B167 /* DMCCRecallMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F48C9C3214D16240092B167 /* DMCCRecallMessageContent.m */; };
+		2F48C9C6214D16250092B167 /* DMCCRecallMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F48C9C4214D16240092B167 /* DMCCRecallMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F56F6A22529D04500B829C4 /* DMCCCompositeMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F56F6A02529D04500B829C4 /* DMCCCompositeMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F56F6A32529D04500B829C4 /* DMCCCompositeMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F56F6A12529D04500B829C4 /* DMCCCompositeMessageContent.m */; };
+		2F77099E2453DCB10020DB77 /* DMCCThingsLostEventContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7709982453DCB10020DB77 /* DMCCThingsLostEventContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F7709A02453DCB10020DB77 /* DMCCThingsDataContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F77099A2453DCB10020DB77 /* DMCCThingsDataContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F7709A12453DCB10020DB77 /* DMCCThingsDataContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F77099B2453DCB10020DB77 /* DMCCThingsDataContent.m */; };
+		2F7709A22453DCB10020DB77 /* DMCCThingsLostEventContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F77099C2453DCB10020DB77 /* DMCCThingsLostEventContent.m */; };
+		2F8742DB219C4FED00F65EBA /* DMCCChatroomInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8742D5219C4FEC00F65EBA /* DMCCChatroomInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F8742DC219C4FED00F65EBA /* DMCCUnreadCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8742D6219C4FEC00F65EBA /* DMCCUnreadCount.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F8742DD219C4FED00F65EBA /* DMCCUnreadCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8742D7219C4FED00F65EBA /* DMCCUnreadCount.m */; };
+		2F8742DE219C4FED00F65EBA /* DMCCChatroomMemberInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8742D8219C4FED00F65EBA /* DMCCChatroomMemberInfo.m */; };
+		2F8742DF219C4FED00F65EBA /* DMCCChatroomMemberInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8742D9219C4FED00F65EBA /* DMCCChatroomMemberInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F8742E0219C4FED00F65EBA /* DMCCChatroomInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8742DA219C4FED00F65EBA /* DMCCChatroomInfo.m */; };
+		2FB87A622650BDE000790A26 /* DMCCFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB87A602650BDE000790A26 /* DMCCFriend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FB87A632650BDE000790A26 /* DMCCFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB87A612650BDE000790A26 /* DMCCFriend.m */; };
+		2FB87C6D243EF0FE0078A199 /* DMCCFriendAddedMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB87C69243EF0FE0078A199 /* DMCCFriendAddedMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FB87C6E243EF0FE0078A199 /* DMCCFriendGreetingMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB87C6A243EF0FE0078A199 /* DMCCFriendGreetingMessageContent.m */; };
+		2FB87C6F243EF0FE0078A199 /* DMCCFriendGreetingMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB87C6B243EF0FE0078A199 /* DMCCFriendGreetingMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FB87C70243EF0FE0078A199 /* DMCCFriendAddedMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB87C6C243EF0FE0078A199 /* DMCCFriendAddedMessageContent.m */; };
+		2FD9513D243ACF3600EE4F60 /* DMCCPCOnlineInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD9513B243ACF3600EE4F60 /* DMCCPCOnlineInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD9513E243ACF3600EE4F60 /* DMCCPCOnlineInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9513C243ACF3600EE4F60 /* DMCCPCOnlineInfo.m */; };
+		2FDEEFD024A49C690032428A /* DMCCEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDEEFCF24A49BA20032428A /* DMCCEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FEF332621BE93980087B6C2 /* DMCCChannelInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF332421BE93980087B6C2 /* DMCCChannelInfo.m */; };
+		2FEF332721BE93980087B6C2 /* DMCCChannelInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEF332521BE93980087B6C2 /* DMCCChannelInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FF2A45D22C4DBD1006A6D4C /* DMCCGroupMuteNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2A45B22C4DBD1006A6D4C /* DMCCGroupMuteNotificationContent.m */; };
+		2FF2A45E22C4DBD1006A6D4C /* DMCCGroupMuteNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF2A45C22C4DBD1006A6D4C /* DMCCGroupMuteNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FF2A46222C4DDF5006A6D4C /* DMCCGroupPrivateChatNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2A46022C4DDF5006A6D4C /* DMCCGroupPrivateChatNotificationContent.m */; };
+		2FF6699B267D759D008FDCD4 /* DMCCModifyGroupMemberExtraNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF66999267D759D008FDCD4 /* DMCCModifyGroupMemberExtraNotificationContent.m */; };
+		2FF6699C267D759D008FDCD4 /* DMCCModifyGroupMemberExtraNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF6699A267D759D008FDCD4 /* DMCCModifyGroupMemberExtraNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FF6699F267D7833008FDCD4 /* DMCCModifyGroupExtraNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF6699D267D7833008FDCD4 /* DMCCModifyGroupExtraNotificationContent.m */; };
+		2FF669A0267D7833008FDCD4 /* DMCCModifyGroupExtraNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF6699E267D7833008FDCD4 /* DMCCModifyGroupExtraNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E6C69A720B959F100006628 /* DMCCGroupSearchInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6C69A520B959F100006628 /* DMCCGroupSearchInfo.m */; };
+		6E6C69A820B959F100006628 /* DMCCGroupSearchInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6C69A620B959F100006628 /* DMCCGroupSearchInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ECFB2C720A84C88001F91CB /* DMCCFileMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECFB2C520A84C88001F91CB /* DMCCFileMessageContent.m */; };
+		6ECFB2C820A84C88001F91CB /* DMCCFileMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECFB2C620A84C88001F91CB /* DMCCFileMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ED103DB20AE5C9700D4A59C /* DMCCTipNotificationMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED103D920AE5C9600D4A59C /* DMCCTipNotificationMessageContent.m */; };
+		6ED103DC20AE5C9700D4A59C /* DMCCTipNotificationMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED103DA20AE5C9600D4A59C /* DMCCTipNotificationMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A5D197282BFDE000E41A12 /* client.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70A5D195282BFDE000E41A12 /* client.strings */; };
+		70A5D1A9282CA1AD00E41A12 /* DMCCLitappInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E76180272A623800E12440 /* DMCCLitappInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D3B31028011DEF0028F67F /* osnsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D3B30F28011DEF0028F67F /* osnsdk.framework */; };
+		70D3B321280124BA0028F67F /* DMCCRedPacketInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3B31F280124BA0028F67F /* DMCCRedPacketInfo.m */; };
+		70D3B322280124BA0028F67F /* DMCCRedPacketInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D3B320280124BA0028F67F /* DMCCRedPacketInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D3B32A28012F4A0028F67F /* DMCCGroupNotifyContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D3B32728012F4A0028F67F /* DMCCGroupNotifyContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D3B32B28012F4A0028F67F /* DMCCGroupNotifyContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3B32828012F4A0028F67F /* DMCCGroupNotifyContent.m */; };
+		70D3B32C28012F4A0028F67F /* DMCCKickoffGroupMemberVisiableNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D3B32928012F4A0028F67F /* DMCCKickoffGroupMemberVisiableNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D3B32F2801366B0028F67F /* DMCCUnpackInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3B32D2801366B0028F67F /* DMCCUnpackInfo.m */; };
+		70D3B3302801366B0028F67F /* DMCCUnpackInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D3B32E2801366B0028F67F /* DMCCUnpackInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D3B333280138960028F67F /* DMCCRedPacketMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D3B331280138960028F67F /* DMCCRedPacketMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D3B334280138960028F67F /* DMCCRedPacketMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D3B332280138960028F67F /* DMCCRedPacketMessageContent.m */; };
+		70E7617B272833A400E12440 /* SqliteUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70E7617A272833A400E12440 /* SqliteUtils.mm */; };
+		70E7617F272834F700E12440 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E7617D272834CA00E12440 /* libsqlite3.tbd */; };
+		70E76182272A625A00E12440 /* DMCCLitappInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E76181272A625A00E12440 /* DMCCLitappInfo.m */; };
+		70EBA0F728352BBD004F4F3C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901E270D21F1543D00A163CB /* CoreTelephony.framework */; };
+		901E271021F1545000A163CB /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 901E270F21F1545000A163CB /* libresolv.tbd */; };
+		901E271221F1545900A163CB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 901E271121F1545900A163CB /* libc++.tbd */; };
+		901E271421F1546100A163CB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 901E271321F1546100A163CB /* libz.tbd */; };
+		903EBB8B21357DDF00312C16 /* DMCCStickerMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 903EBB8921357DDF00312C16 /* DMCCStickerMessageContent.m */; };
+		903EBB8C21357DDF00312C16 /* DMCCStickerMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 903EBB8A21357DDF00312C16 /* DMCCStickerMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B044461FEFD6BA00AFE79B /* DMCCUnknownMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B044441FEFD6BA00AFE79B /* DMCCUnknownMessageContent.m */; };
+		90B044471FEFD6BA00AFE79B /* DMCCUnknownMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B044451FEFD6BA00AFE79B /* DMCCUnknownMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B0444A1FEFDC1A00AFE79B /* DMCCChangeGroupNameNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B044481FEFDC1A00AFE79B /* DMCCChangeGroupNameNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B0444B1FEFDC1A00AFE79B /* DMCCChangeGroupNameNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B044491FEFDC1A00AFE79B /* DMCCChangeGroupNameNotificationContent.m */; };
+		90B0444E1FEFDC4D00AFE79B /* DMCCModifyGroupAliasNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B0444C1FEFDC4D00AFE79B /* DMCCModifyGroupAliasNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B0444F1FEFDC4D00AFE79B /* DMCCModifyGroupAliasNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B0444D1FEFDC4D00AFE79B /* DMCCModifyGroupAliasNotificationContent.m */; };
+		90B1373C22D9D1CC005F103C /* DMCCGroupJoinTypeNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B1373A22D9D1CC005F103C /* DMCCGroupJoinTypeNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B1373D22D9D1CC005F103C /* DMCCGroupJoinTypeNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B1373B22D9D1CC005F103C /* DMCCGroupJoinTypeNotificationContent.m */; };
+		90D1F596208D65B500C2A9CA /* DMCCCallStartMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D1F594208D65B500C2A9CA /* DMCCCallStartMessageContent.m */; };
+		90D1F597208D65B500C2A9CA /* DMCCCallStartMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D1F595208D65B500C2A9CA /* DMCCCallStartMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E4D1DF1FFB0AE200B9A4E4 /* DMCCLocationMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E4D1DD1FFB0AE200B9A4E4 /* DMCCLocationMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90E4D1E01FFB0AE200B9A4E4 /* DMCCLocationMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E4D1DE1FFB0AE200B9A4E4 /* DMCCLocationMessageContent.m */; };
+		90F584991FFDB39800F7FFA8 /* DMCCChangeGroupPortraitNotificationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F584971FFDB39700F7FFA8 /* DMCCChangeGroupPortraitNotificationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F5849A1FFDB39800F7FFA8 /* DMCCChangeGroupPortraitNotificationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F584981FFDB39800F7FFA8 /* DMCCChangeGroupPortraitNotificationContent.m */; };
+		FC21F386290A8D5F0067A126 /* DMCCTagInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FC21F384290A8D5F0067A126 /* DMCCTagInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC21F387290A8D5F0067A126 /* DMCCTagInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FC21F385290A8D5F0067A126 /* DMCCTagInfo.m */; };
+		FC29B4D128C1AB95008A2943 /* config.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC29B4D028C1AB95008A2943 /* config.framework */; };
+		FC29B4D228C1AB95008A2943 /* config.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC29B4D028C1AB95008A2943 /* config.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FC6B01152948178200044FFE /* DMCCCallMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6B01132948178200044FFE /* DMCCCallMessageContent.m */; };
+		FC6B01162948178200044FFE /* DMCCCallMessageContent.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6B01142948178200044FFE /* DMCCCallMessageContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCB113E529F630670061226C /* DMCCWalletInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB113E329F630670061226C /* DMCCWalletInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCB113E629F630670061226C /* DMCCWalletInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB113E429F630670061226C /* DMCCWalletInfo.m */; };
+		FCCDBC7E2A147B0600B659B8 /* DMCCCollectInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCDBC7C2A147B0600B659B8 /* DMCCCollectInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCCDBC7F2A147B0600B659B8 /* DMCCCollectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCDBC7D2A147B0600B659B8 /* DMCCCollectInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC29B4D328C1AB95008A2943 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FC29B4D228C1AB95008A2943 /* config.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B2492E7245D3982007268E3 /* DMCCDeleteMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCDeleteMessageContent.h; sourceTree = "<group>"; };
+		2B2492E8245D3982007268E3 /* DMCCDeleteMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCDeleteMessageContent.m; sourceTree = "<group>"; };
+		2B56239E24FB8F1700EB2A03 /* DMCCPCLoginRequestMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCPCLoginRequestMessageContent.m; sourceTree = "<group>"; };
+		2B56239F24FB8F1700EB2A03 /* DMCCPCLoginRequestMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCPCLoginRequestMessageContent.h; sourceTree = "<group>"; };
+		2B5FD8772375A55800C41A72 /* DMCCPTextMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCPTextMessageContent.m; sourceTree = "<group>"; };
+		2B5FD8782375A55800C41A72 /* DMCCPTextMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCPTextMessageContent.h; sourceTree = "<group>"; };
+		2B6336732470DAB2008D6B38 /* DMCCDeliveryReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCDeliveryReport.m; sourceTree = "<group>"; };
+		2B6336742470DAB2008D6B38 /* DMCCDeliveryReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCDeliveryReport.h; sourceTree = "<group>"; };
+		2B6336772470DB7E008D6B38 /* DMCCReadReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCReadReport.m; sourceTree = "<group>"; };
+		2B6336782470DB7E008D6B38 /* DMCCReadReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCReadReport.h; sourceTree = "<group>"; };
+		2B785A5225294C0D003CBF78 /* DMCCQuoteInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCCQuoteInfo.h; sourceTree = "<group>"; };
+		2B785A5325294C0D003CBF78 /* DMCCQuoteInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCCQuoteInfo.m; sourceTree = "<group>"; };
+		2B8352C825DE278300BA0800 /* DMCCPTTInviteMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCPTTInviteMessageContent.h; sourceTree = "<group>"; };
+		2B8352C925DE278300BA0800 /* DMCCPTTInviteMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCPTTInviteMessageContent.m; sourceTree = "<group>"; };
+		2B97D4832505BACF00162A2B /* DMCCCardMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCCardMessageContent.h; sourceTree = "<group>"; };
+		2B97D4842505BACF00162A2B /* DMCCCardMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCCardMessageContent.m; sourceTree = "<group>"; };
+		2BA6622624CFD23B00E28BC5 /* DMCCGroupMemberMuteNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCGroupMemberMuteNotificationContent.h; sourceTree = "<group>"; };
+		2BA6622724CFD23B00E28BC5 /* DMCCGroupMemberMuteNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCGroupMemberMuteNotificationContent.m; sourceTree = "<group>"; };
+		2BC2AC572581F68B00E3D12D /* DMCCKickoffGroupMemberVisibleNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCKickoffGroupMemberVisibleNotificationContent.h; sourceTree = "<group>"; };
+		2BC2AC582581F68B00E3D12D /* DMCCKickoffGroupMemberVisibleNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCKickoffGroupMemberVisibleNotificationContent.m; sourceTree = "<group>"; };
+		2BC2AC5C2581F69E00E3D12D /* DMCCQuitGroupVisibleNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCQuitGroupVisibleNotificationContent.h; sourceTree = "<group>"; };
+		2BC2AC5D2581F69E00E3D12D /* DMCCQuitGroupVisibleNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCQuitGroupVisibleNotificationContent.m; sourceTree = "<group>"; };
+		2BC9EDDC24D99CB3004B3F0B /* DMCCGroupMemberAllowNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCGroupMemberAllowNotificationContent.h; sourceTree = "<group>"; };
+		2BC9EDDD24D99CB3004B3F0B /* DMCCGroupMemberAllowNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCGroupMemberAllowNotificationContent.m; sourceTree = "<group>"; };
+		2BD8D71B24D68FCD00281B81 /* DMCCFileRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCCFileRecord.h; sourceTree = "<group>"; };
+		2BD8D71C24D68FCD00281B81 /* DMCCFileRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCCFileRecord.m; sourceTree = "<group>"; };
+		2E6B509B1FAE98E6006B6E31 /* DMChatClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMChatClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6B509E1FAE98E6006B6E31 /* DMCChatClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCChatClient.h; sourceTree = "<group>"; };
+		2E6B509F1FAE98E6006B6E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6B50A71FAE990D006B6E31 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		2E6B50A81FAE990D006B6E31 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		2E6B50A91FAE990D006B6E31 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		2E6B50AA1FAE990D006B6E31 /* wav_amr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav_amr.h; sourceTree = "<group>"; };
+		2E6B50AB1FAE990D006B6E31 /* wav_amr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav_amr.mm; sourceTree = "<group>"; };
+		2E6B50AC1FAE990D006B6E31 /* wavreader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wavreader.c; sourceTree = "<group>"; };
+		2E6B50AD1FAE990D006B6E31 /* wavreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavreader.h; sourceTree = "<group>"; };
+		2E6B50AE1FAE990D006B6E31 /* wavwriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavwriter.h; sourceTree = "<group>"; };
+		2E6B50AF1FAE990D006B6E31 /* wavwriter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wavwriter.mm; sourceTree = "<group>"; };
+		2E6B50BA1FAE9B08006B6E31 /* app_callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = app_callback.h; sourceTree = "<group>"; };
+		2E6B50BB1FAE9B08006B6E31 /* app_callback.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = app_callback.mm; sourceTree = "<group>"; };
+		2E6B50BC1FAE9B08006B6E31 /* DMCCIMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCIMService.h; sourceTree = "<group>"; };
+		2E6B50BD1FAE9B08006B6E31 /* DMCCIMService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DMCCIMService.mm; sourceTree = "<group>"; };
+		2E6B50BE1FAE9B08006B6E31 /* DMCCNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCNetworkService.h; sourceTree = "<group>"; };
+		2E6B50BF1FAE9B08006B6E31 /* DMCCNetworkService.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DMCCNetworkService.mm; sourceTree = "<group>"; };
+		2E6B50C01FAE9B08006B6E31 /* DMCCNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCNetworkStatus.h; sourceTree = "<group>"; };
+		2E6B50C11FAE9B08006B6E31 /* DMCCNetworkStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCNetworkStatus.m; sourceTree = "<group>"; };
+		2E6B50CB1FAE9B10006B6E31 /* DMCCAddGroupeMemberNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCAddGroupeMemberNotificationContent.h; sourceTree = "<group>"; };
+		2E6B50CC1FAE9B10006B6E31 /* DMCCAddGroupeMemberNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCAddGroupeMemberNotificationContent.m; sourceTree = "<group>"; };
+		2E6B50CD1FAE9B10006B6E31 /* DMCCCreateGroupNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCCreateGroupNotificationContent.h; sourceTree = "<group>"; };
+		2E6B50CE1FAE9B10006B6E31 /* DMCCCreateGroupNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCCreateGroupNotificationContent.m; sourceTree = "<group>"; };
+		2E6B50CF1FAE9B10006B6E31 /* DMCCDismissGroupNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCDismissGroupNotificationContent.h; sourceTree = "<group>"; };
+		2E6B50D01FAE9B10006B6E31 /* DMCCDismissGroupNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCDismissGroupNotificationContent.m; sourceTree = "<group>"; };
+		2E6B50D11FAE9B10006B6E31 /* DMCCImageMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCImageMessageContent.h; sourceTree = "<group>"; };
+		2E6B50D21FAE9B10006B6E31 /* DMCCImageMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCImageMessageContent.m; sourceTree = "<group>"; };
+		2E6B50D31FAE9B10006B6E31 /* DMCCKickoffGroupMemberNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCKickoffGroupMemberNotificationContent.h; sourceTree = "<group>"; };
+		2E6B50D41FAE9B10006B6E31 /* DMCCKickoffGroupMemberNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCKickoffGroupMemberNotificationContent.m; sourceTree = "<group>"; };
+		2E6B50D51FAE9B10006B6E31 /* DMCCMediaMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCMediaMessageContent.h; sourceTree = "<group>"; };
+		2E6B50D61FAE9B10006B6E31 /* DMCCMediaMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCMediaMessageContent.m; sourceTree = "<group>"; };
+		2E6B50D71FAE9B10006B6E31 /* DMCCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCMessage.h; sourceTree = "<group>"; };
+		2E6B50D81FAE9B10006B6E31 /* DMCCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCMessage.m; sourceTree = "<group>"; };
+		2E6B50D91FAE9B10006B6E31 /* DMCCMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCMessageContent.h; sourceTree = "<group>"; };
+		2E6B50DA1FAE9B10006B6E31 /* DMCCMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCMessageContent.m; sourceTree = "<group>"; };
+		2E6B50DB1FAE9B10006B6E31 /* DMCCNotificationMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCNotificationMessageContent.h; sourceTree = "<group>"; };
+		2E6B50DC1FAE9B10006B6E31 /* DMCCNotificationMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCNotificationMessageContent.m; sourceTree = "<group>"; };
+		2E6B50DD1FAE9B10006B6E31 /* DMCCQuitGroupNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCQuitGroupNotificationContent.h; sourceTree = "<group>"; };
+		2E6B50DE1FAE9B10006B6E31 /* DMCCQuitGroupNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCQuitGroupNotificationContent.m; sourceTree = "<group>"; };
+		2E6B50DF1FAE9B10006B6E31 /* DMCCSoundMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCSoundMessageContent.h; sourceTree = "<group>"; };
+		2E6B50E01FAE9B10006B6E31 /* DMCCSoundMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCSoundMessageContent.m; sourceTree = "<group>"; };
+		2E6B50E11FAE9B10006B6E31 /* DMCCTextMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCTextMessageContent.h; sourceTree = "<group>"; };
+		2E6B50E21FAE9B10006B6E31 /* DMCCTextMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCTextMessageContent.m; sourceTree = "<group>"; };
+		2E6B50E31FAE9B10006B6E31 /* DMCCTransferGroupOwnerNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCTransferGroupOwnerNotificationContent.h; sourceTree = "<group>"; };
+		2E6B50E41FAE9B10006B6E31 /* DMCCTransferGroupOwnerNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCTransferGroupOwnerNotificationContent.m; sourceTree = "<group>"; };
+		2E6B50E61FAE9B10006B6E31 /* DMCCUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCUtilities.h; sourceTree = "<group>"; };
+		2E6B50E71FAE9B10006B6E31 /* DMCCUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCUtilities.m; sourceTree = "<group>"; };
+		2E6B50E91FAE9B10006B6E31 /* DMCCConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCConversation.h; sourceTree = "<group>"; };
+		2E6B50EA1FAE9B10006B6E31 /* DMCCConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCConversation.m; sourceTree = "<group>"; };
+		2E6B50EB1FAE9B10006B6E31 /* DMCCConversationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCConversationInfo.h; sourceTree = "<group>"; };
+		2E6B50EC1FAE9B10006B6E31 /* DMCCConversationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCConversationInfo.m; sourceTree = "<group>"; };
+		2E6B50ED1FAE9B10006B6E31 /* DMCCConversationSearchInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCConversationSearchInfo.h; sourceTree = "<group>"; };
+		2E6B50EE1FAE9B10006B6E31 /* DMCCConversationSearchInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCConversationSearchInfo.m; sourceTree = "<group>"; };
+		2E6B50EF1FAE9B10006B6E31 /* DMCCFriendRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCFriendRequest.h; sourceTree = "<group>"; };
+		2E6B50F01FAE9B10006B6E31 /* DMCCFriendRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCFriendRequest.m; sourceTree = "<group>"; };
+		2E6B50F11FAE9B10006B6E31 /* DMCCGroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCGroupInfo.h; sourceTree = "<group>"; };
+		2E6B50F21FAE9B10006B6E31 /* DMCCGroupInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCGroupInfo.m; sourceTree = "<group>"; };
+		2E6B50F31FAE9B10006B6E31 /* DMCCGroupMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCGroupMember.h; sourceTree = "<group>"; };
+		2E6B50F41FAE9B10006B6E31 /* DMCCGroupMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCGroupMember.m; sourceTree = "<group>"; };
+		2E6B50F51FAE9B10006B6E31 /* DMCCUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCUserInfo.h; sourceTree = "<group>"; };
+		2E6B50F61FAE9B10006B6E31 /* DMCCUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCUserInfo.m; sourceTree = "<group>"; };
+		2EE6A4871FB290FC007953BC /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		2F19723422C6FC31009F7055 /* DMCCGroupSetManagerNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCGroupSetManagerNotificationContent.m; sourceTree = "<group>"; };
+		2F19723522C6FC31009F7055 /* DMCCGroupSetManagerNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCGroupSetManagerNotificationContent.h; sourceTree = "<group>"; };
+		2F1A931821B250F5006625CD /* DMCCTypingMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCTypingMessageContent.h; sourceTree = "<group>"; };
+		2F1A931921B250F5006625CD /* DMCCTypingMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCTypingMessageContent.m; sourceTree = "<group>"; };
+		2F1EB5BD2499AB4500FD3575 /* DMCCConferenceInviteMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCConferenceInviteMessageContent.h; sourceTree = "<group>"; };
+		2F1EB5BE2499AB4600FD3575 /* DMCCConferenceInviteMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCConferenceInviteMessageContent.m; sourceTree = "<group>"; };
+		2F3223D32144C5FB0016A2C4 /* DMCCVideoMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCVideoMessageContent.h; sourceTree = "<group>"; };
+		2F3223D42144C5FB0016A2C4 /* DMCCVideoMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCVideoMessageContent.m; sourceTree = "<group>"; };
+		2F444873252D6E50007A570E /* DMCCLinkMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCLinkMessageContent.m; sourceTree = "<group>"; };
+		2F444874252D6E50007A570E /* DMCCLinkMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCLinkMessageContent.h; sourceTree = "<group>"; };
+		2F48C9C3214D16240092B167 /* DMCCRecallMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCRecallMessageContent.m; sourceTree = "<group>"; };
+		2F48C9C4214D16240092B167 /* DMCCRecallMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCRecallMessageContent.h; sourceTree = "<group>"; };
+		2F56F6A02529D04500B829C4 /* DMCCCompositeMessageContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCCCompositeMessageContent.h; sourceTree = "<group>"; };
+		2F56F6A12529D04500B829C4 /* DMCCCompositeMessageContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCCCompositeMessageContent.m; sourceTree = "<group>"; };
+		2F7709982453DCB10020DB77 /* DMCCThingsLostEventContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCThingsLostEventContent.h; sourceTree = "<group>"; };
+		2F77099A2453DCB10020DB77 /* DMCCThingsDataContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCThingsDataContent.h; sourceTree = "<group>"; };
+		2F77099B2453DCB10020DB77 /* DMCCThingsDataContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCThingsDataContent.m; sourceTree = "<group>"; };
+		2F77099C2453DCB10020DB77 /* DMCCThingsLostEventContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCThingsLostEventContent.m; sourceTree = "<group>"; };
+		2F8742D5219C4FEC00F65EBA /* DMCCChatroomInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCChatroomInfo.h; sourceTree = "<group>"; };
+		2F8742D6219C4FEC00F65EBA /* DMCCUnreadCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCUnreadCount.h; sourceTree = "<group>"; };
+		2F8742D7219C4FED00F65EBA /* DMCCUnreadCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCUnreadCount.m; sourceTree = "<group>"; };
+		2F8742D8219C4FED00F65EBA /* DMCCChatroomMemberInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCChatroomMemberInfo.m; sourceTree = "<group>"; };
+		2F8742D9219C4FED00F65EBA /* DMCCChatroomMemberInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCChatroomMemberInfo.h; sourceTree = "<group>"; };
+		2F8742DA219C4FED00F65EBA /* DMCCChatroomInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCChatroomInfo.m; sourceTree = "<group>"; };
+		2FB87A602650BDE000790A26 /* DMCCFriend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCCFriend.h; sourceTree = "<group>"; };
+		2FB87A612650BDE000790A26 /* DMCCFriend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCCFriend.m; sourceTree = "<group>"; };
+		2FB87C69243EF0FE0078A199 /* DMCCFriendAddedMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCFriendAddedMessageContent.h; sourceTree = "<group>"; };
+		2FB87C6A243EF0FE0078A199 /* DMCCFriendGreetingMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCFriendGreetingMessageContent.m; sourceTree = "<group>"; };
+		2FB87C6B243EF0FE0078A199 /* DMCCFriendGreetingMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCFriendGreetingMessageContent.h; sourceTree = "<group>"; };
+		2FB87C6C243EF0FE0078A199 /* DMCCFriendAddedMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCFriendAddedMessageContent.m; sourceTree = "<group>"; };
+		2FD9513B243ACF3600EE4F60 /* DMCCPCOnlineInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCCPCOnlineInfo.h; sourceTree = "<group>"; };
+		2FD9513C243ACF3600EE4F60 /* DMCCPCOnlineInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCCPCOnlineInfo.m; sourceTree = "<group>"; };
+		2FDEEFCF24A49BA20032428A /* DMCCEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCCEnums.h; sourceTree = "<group>"; };
+		2FEF332421BE93980087B6C2 /* DMCCChannelInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCChannelInfo.m; sourceTree = "<group>"; };
+		2FEF332521BE93980087B6C2 /* DMCCChannelInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCChannelInfo.h; sourceTree = "<group>"; };
+		2FF2A45B22C4DBD1006A6D4C /* DMCCGroupMuteNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCGroupMuteNotificationContent.m; sourceTree = "<group>"; };
+		2FF2A45C22C4DBD1006A6D4C /* DMCCGroupMuteNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCGroupMuteNotificationContent.h; sourceTree = "<group>"; };
+		2FF2A45F22C4DDF5006A6D4C /* DMCCGroupPrivateChatNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCGroupPrivateChatNotificationContent.h; sourceTree = "<group>"; };
+		2FF2A46022C4DDF5006A6D4C /* DMCCGroupPrivateChatNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCGroupPrivateChatNotificationContent.m; sourceTree = "<group>"; };
+		2FF66999267D759D008FDCD4 /* DMCCModifyGroupMemberExtraNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCModifyGroupMemberExtraNotificationContent.m; sourceTree = "<group>"; };
+		2FF6699A267D759D008FDCD4 /* DMCCModifyGroupMemberExtraNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCModifyGroupMemberExtraNotificationContent.h; sourceTree = "<group>"; };
+		2FF6699D267D7833008FDCD4 /* DMCCModifyGroupExtraNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCModifyGroupExtraNotificationContent.m; sourceTree = "<group>"; };
+		2FF6699E267D7833008FDCD4 /* DMCCModifyGroupExtraNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCModifyGroupExtraNotificationContent.h; sourceTree = "<group>"; };
+		6E6C69A520B959F100006628 /* DMCCGroupSearchInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCGroupSearchInfo.m; sourceTree = "<group>"; };
+		6E6C69A620B959F100006628 /* DMCCGroupSearchInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCGroupSearchInfo.h; sourceTree = "<group>"; };
+		6ECFB2C520A84C88001F91CB /* DMCCFileMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCFileMessageContent.m; sourceTree = "<group>"; };
+		6ECFB2C620A84C88001F91CB /* DMCCFileMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCFileMessageContent.h; sourceTree = "<group>"; };
+		6ED103D920AE5C9600D4A59C /* DMCCTipNotificationMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCTipNotificationMessageContent.m; sourceTree = "<group>"; };
+		6ED103DA20AE5C9600D4A59C /* DMCCTipNotificationMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCTipNotificationMessageContent.h; sourceTree = "<group>"; };
+		70A5D196282BFDE000E41A12 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/client.strings; sourceTree = "<group>"; };
+		70A5D198282BFDFB00E41A12 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/client.strings"; sourceTree = "<group>"; };
+		70A5D199282BFE4400E41A12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/client.strings; sourceTree = "<group>"; };
+		70D3B30F28011DEF0028F67F /* osnsdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = osnsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D3B31F280124BA0028F67F /* DMCCRedPacketInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCRedPacketInfo.m; sourceTree = "<group>"; };
+		70D3B320280124BA0028F67F /* DMCCRedPacketInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCRedPacketInfo.h; sourceTree = "<group>"; };
+		70D3B32728012F4A0028F67F /* DMCCGroupNotifyContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCGroupNotifyContent.h; sourceTree = "<group>"; };
+		70D3B32828012F4A0028F67F /* DMCCGroupNotifyContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCGroupNotifyContent.m; sourceTree = "<group>"; };
+		70D3B32928012F4A0028F67F /* DMCCKickoffGroupMemberVisiableNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCKickoffGroupMemberVisiableNotificationContent.h; sourceTree = "<group>"; };
+		70D3B32D2801366B0028F67F /* DMCCUnpackInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCUnpackInfo.m; sourceTree = "<group>"; };
+		70D3B32E2801366B0028F67F /* DMCCUnpackInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCUnpackInfo.h; sourceTree = "<group>"; };
+		70D3B331280138960028F67F /* DMCCRedPacketMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCRedPacketMessageContent.h; sourceTree = "<group>"; };
+		70D3B332280138960028F67F /* DMCCRedPacketMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCRedPacketMessageContent.m; sourceTree = "<group>"; };
+		70E761742727C4A900E12440 /* osnsdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = osnsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E7617A272833A400E12440 /* SqliteUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SqliteUtils.mm; sourceTree = "<group>"; };
+		70E7617C272833DD00E12440 /* SqliteUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqliteUtils.h; sourceTree = "<group>"; };
+		70E7617D272834CA00E12440 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		70E7617E272834DA00E12440 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libsqlite3.0.tbd; sourceTree = DEVELOPER_DIR; };
+		70E76180272A623800E12440 /* DMCCLitappInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCCLitappInfo.h; sourceTree = "<group>"; };
+		70E76181272A625A00E12440 /* DMCCLitappInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCCLitappInfo.m; sourceTree = "<group>"; };
+		901E270D21F1543D00A163CB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		901E270F21F1545000A163CB /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		901E271121F1545900A163CB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		901E271321F1546100A163CB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		903EBB8921357DDF00312C16 /* DMCCStickerMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCStickerMessageContent.m; sourceTree = "<group>"; };
+		903EBB8A21357DDF00312C16 /* DMCCStickerMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCStickerMessageContent.h; sourceTree = "<group>"; };
+		90B044441FEFD6BA00AFE79B /* DMCCUnknownMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCUnknownMessageContent.m; sourceTree = "<group>"; };
+		90B044451FEFD6BA00AFE79B /* DMCCUnknownMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCUnknownMessageContent.h; sourceTree = "<group>"; };
+		90B044481FEFDC1A00AFE79B /* DMCCChangeGroupNameNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCChangeGroupNameNotificationContent.h; sourceTree = "<group>"; };
+		90B044491FEFDC1A00AFE79B /* DMCCChangeGroupNameNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCChangeGroupNameNotificationContent.m; sourceTree = "<group>"; };
+		90B0444C1FEFDC4D00AFE79B /* DMCCModifyGroupAliasNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCModifyGroupAliasNotificationContent.h; sourceTree = "<group>"; };
+		90B0444D1FEFDC4D00AFE79B /* DMCCModifyGroupAliasNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCModifyGroupAliasNotificationContent.m; sourceTree = "<group>"; };
+		90B1373A22D9D1CC005F103C /* DMCCGroupJoinTypeNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCGroupJoinTypeNotificationContent.h; sourceTree = "<group>"; };
+		90B1373B22D9D1CC005F103C /* DMCCGroupJoinTypeNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCGroupJoinTypeNotificationContent.m; sourceTree = "<group>"; };
+		90D1F594208D65B500C2A9CA /* DMCCCallStartMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCCallStartMessageContent.m; sourceTree = "<group>"; };
+		90D1F595208D65B500C2A9CA /* DMCCCallStartMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCCallStartMessageContent.h; sourceTree = "<group>"; };
+		90E4D1DD1FFB0AE200B9A4E4 /* DMCCLocationMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCLocationMessageContent.h; sourceTree = "<group>"; };
+		90E4D1DE1FFB0AE200B9A4E4 /* DMCCLocationMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCLocationMessageContent.m; sourceTree = "<group>"; };
+		90F584971FFDB39700F7FFA8 /* DMCCChangeGroupPortraitNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCChangeGroupPortraitNotificationContent.h; sourceTree = "<group>"; };
+		90F584981FFDB39800F7FFA8 /* DMCCChangeGroupPortraitNotificationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCChangeGroupPortraitNotificationContent.m; sourceTree = "<group>"; };
+		FC21F384290A8D5F0067A126 /* DMCCTagInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCCTagInfo.h; sourceTree = "<group>"; };
+		FC21F385290A8D5F0067A126 /* DMCCTagInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCCTagInfo.m; sourceTree = "<group>"; };
+		FC29B4D028C1AB95008A2943 /* config.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = config.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6B01132948178200044FFE /* DMCCCallMessageContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCCCallMessageContent.m; sourceTree = "<group>"; };
+		FC6B01142948178200044FFE /* DMCCCallMessageContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCCCallMessageContent.h; sourceTree = "<group>"; };
+		FCB113E329F630670061226C /* DMCCWalletInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCCWalletInfo.h; sourceTree = "<group>"; };
+		FCB113E429F630670061226C /* DMCCWalletInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCCWalletInfo.m; sourceTree = "<group>"; };
+		FCCDBC7C2A147B0600B659B8 /* DMCCCollectInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMCCCollectInfo.h; sourceTree = "<group>"; };
+		FCCDBC7D2A147B0600B659B8 /* DMCCCollectInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMCCCollectInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E6B50971FAE98E6006B6E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E7617F272834F700E12440 /* libsqlite3.tbd in Frameworks */,
+				901E271421F1546100A163CB /* libz.tbd in Frameworks */,
+				FC29B4D128C1AB95008A2943 /* config.framework in Frameworks */,
+				70EBA0F728352BBD004F4F3C /* CoreTelephony.framework in Frameworks */,
+				901E271221F1545900A163CB /* libc++.tbd in Frameworks */,
+				70D3B31028011DEF0028F67F /* osnsdk.framework in Frameworks */,
+				901E271021F1545000A163CB /* libresolv.tbd in Frameworks */,
+				2E6B50B21FAE990D006B6E31 /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E6B50911FAE98E5006B6E31 = {
+			isa = PBXGroup;
+			children = (
+				2E6B509D1FAE98E6006B6E31 /* DMChatClient */,
+				2E6B509C1FAE98E6006B6E31 /* Products */,
+				901E270C21F1543C00A163CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E6B509C1FAE98E6006B6E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B509B1FAE98E6006B6E31 /* DMChatClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E6B509D1FAE98E6006B6E31 /* DMChatClient */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B50CA1FAE9B10006B6E31 /* Messages */,
+				2E6B50E81FAE9B10006B6E31 /* Model */,
+				2E6B50E51FAE9B10006B6E31 /* Utility */,
+				2E6B50B91FAE9B08006B6E31 /* Client */,
+				2E6B50A61FAE990D006B6E31 /* amr */,
+				2E6B509E1FAE98E6006B6E31 /* DMCChatClient.h */,
+				70A5D195282BFDE000E41A12 /* client.strings */,
+				2E6B509F1FAE98E6006B6E31 /* Info.plist */,
+			);
+			path = DMChatClient;
+			sourceTree = "<group>";
+		};
+		2E6B50A61FAE990D006B6E31 /* amr */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B50A71FAE990D006B6E31 /* interf_dec.h */,
+				2E6B50A81FAE990D006B6E31 /* interf_enc.h */,
+				2E6B50A91FAE990D006B6E31 /* libopencore-amrnb.a */,
+				2E6B50AA1FAE990D006B6E31 /* wav_amr.h */,
+				2E6B50AB1FAE990D006B6E31 /* wav_amr.mm */,
+				2E6B50AC1FAE990D006B6E31 /* wavreader.c */,
+				2E6B50AD1FAE990D006B6E31 /* wavreader.h */,
+				2E6B50AE1FAE990D006B6E31 /* wavwriter.h */,
+				2E6B50AF1FAE990D006B6E31 /* wavwriter.mm */,
+			);
+			path = amr;
+			sourceTree = "<group>";
+		};
+		2E6B50B91FAE9B08006B6E31 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B50BA1FAE9B08006B6E31 /* app_callback.h */,
+				2E6B50BB1FAE9B08006B6E31 /* app_callback.mm */,
+				70E7617C272833DD00E12440 /* SqliteUtils.h */,
+				70E7617A272833A400E12440 /* SqliteUtils.mm */,
+				2E6B50BC1FAE9B08006B6E31 /* DMCCIMService.h */,
+				2E6B50BD1FAE9B08006B6E31 /* DMCCIMService.mm */,
+				2E6B50BE1FAE9B08006B6E31 /* DMCCNetworkService.h */,
+				2E6B50BF1FAE9B08006B6E31 /* DMCCNetworkService.mm */,
+				2E6B50C01FAE9B08006B6E31 /* DMCCNetworkStatus.h */,
+				2E6B50C11FAE9B08006B6E31 /* DMCCNetworkStatus.m */,
+				2EE6A4871FB290FC007953BC /* Common.h */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		2E6B50CA1FAE9B10006B6E31 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				2F7709962453DC740020DB77 /* Things */,
+				70D3B331280138960028F67F /* DMCCRedPacketMessageContent.h */,
+				70D3B332280138960028F67F /* DMCCRedPacketMessageContent.m */,
+				70D3B32928012F4A0028F67F /* DMCCKickoffGroupMemberVisiableNotificationContent.h */,
+				90D1F595208D65B500C2A9CA /* DMCCCallStartMessageContent.h */,
+				90D1F594208D65B500C2A9CA /* DMCCCallStartMessageContent.m */,
+				2F1EB5BD2499AB4500FD3575 /* DMCCConferenceInviteMessageContent.h */,
+				2F1EB5BE2499AB4600FD3575 /* DMCCConferenceInviteMessageContent.m */,
+				2E6B50CB1FAE9B10006B6E31 /* DMCCAddGroupeMemberNotificationContent.h */,
+				2E6B50CC1FAE9B10006B6E31 /* DMCCAddGroupeMemberNotificationContent.m */,
+				2E6B50CD1FAE9B10006B6E31 /* DMCCCreateGroupNotificationContent.h */,
+				2E6B50CE1FAE9B10006B6E31 /* DMCCCreateGroupNotificationContent.m */,
+				2E6B50CF1FAE9B10006B6E31 /* DMCCDismissGroupNotificationContent.h */,
+				2E6B50D01FAE9B10006B6E31 /* DMCCDismissGroupNotificationContent.m */,
+				2E6B50D11FAE9B10006B6E31 /* DMCCImageMessageContent.h */,
+				2E6B50D21FAE9B10006B6E31 /* DMCCImageMessageContent.m */,
+				2F3223D32144C5FB0016A2C4 /* DMCCVideoMessageContent.h */,
+				2F3223D42144C5FB0016A2C4 /* DMCCVideoMessageContent.m */,
+				903EBB8A21357DDF00312C16 /* DMCCStickerMessageContent.h */,
+				903EBB8921357DDF00312C16 /* DMCCStickerMessageContent.m */,
+				2E6B50D31FAE9B10006B6E31 /* DMCCKickoffGroupMemberNotificationContent.h */,
+				2E6B50D41FAE9B10006B6E31 /* DMCCKickoffGroupMemberNotificationContent.m */,
+				2E6B50D51FAE9B10006B6E31 /* DMCCMediaMessageContent.h */,
+				2E6B50D61FAE9B10006B6E31 /* DMCCMediaMessageContent.m */,
+				2E6B50D71FAE9B10006B6E31 /* DMCCMessage.h */,
+				2E6B50D81FAE9B10006B6E31 /* DMCCMessage.m */,
+				2E6B50D91FAE9B10006B6E31 /* DMCCMessageContent.h */,
+				2E6B50DA1FAE9B10006B6E31 /* DMCCMessageContent.m */,
+				2E6B50DB1FAE9B10006B6E31 /* DMCCNotificationMessageContent.h */,
+				2E6B50DC1FAE9B10006B6E31 /* DMCCNotificationMessageContent.m */,
+				6ED103DA20AE5C9600D4A59C /* DMCCTipNotificationMessageContent.h */,
+				6ED103D920AE5C9600D4A59C /* DMCCTipNotificationMessageContent.m */,
+				2E6B50DD1FAE9B10006B6E31 /* DMCCQuitGroupNotificationContent.h */,
+				2E6B50DE1FAE9B10006B6E31 /* DMCCQuitGroupNotificationContent.m */,
+				70D3B32728012F4A0028F67F /* DMCCGroupNotifyContent.h */,
+				70D3B32828012F4A0028F67F /* DMCCGroupNotifyContent.m */,
+				2E6B50DF1FAE9B10006B6E31 /* DMCCSoundMessageContent.h */,
+				2E6B50E01FAE9B10006B6E31 /* DMCCSoundMessageContent.m */,
+				2B2492E7245D3982007268E3 /* DMCCDeleteMessageContent.h */,
+				2B2492E8245D3982007268E3 /* DMCCDeleteMessageContent.m */,
+				6ECFB2C620A84C88001F91CB /* DMCCFileMessageContent.h */,
+				6ECFB2C520A84C88001F91CB /* DMCCFileMessageContent.m */,
+				2E6B50E11FAE9B10006B6E31 /* DMCCTextMessageContent.h */,
+				2E6B50E21FAE9B10006B6E31 /* DMCCTextMessageContent.m */,
+				2B5FD8782375A55800C41A72 /* DMCCPTextMessageContent.h */,
+				2B5FD8772375A55800C41A72 /* DMCCPTextMessageContent.m */,
+				2F1A931821B250F5006625CD /* DMCCTypingMessageContent.h */,
+				2F1A931921B250F5006625CD /* DMCCTypingMessageContent.m */,
+				2F48C9C4214D16240092B167 /* DMCCRecallMessageContent.h */,
+				2F48C9C3214D16240092B167 /* DMCCRecallMessageContent.m */,
+				90E4D1DD1FFB0AE200B9A4E4 /* DMCCLocationMessageContent.h */,
+				90E4D1DE1FFB0AE200B9A4E4 /* DMCCLocationMessageContent.m */,
+				2E6B50E31FAE9B10006B6E31 /* DMCCTransferGroupOwnerNotificationContent.h */,
+				2E6B50E41FAE9B10006B6E31 /* DMCCTransferGroupOwnerNotificationContent.m */,
+				90B044451FEFD6BA00AFE79B /* DMCCUnknownMessageContent.h */,
+				90B044441FEFD6BA00AFE79B /* DMCCUnknownMessageContent.m */,
+				90B044481FEFDC1A00AFE79B /* DMCCChangeGroupNameNotificationContent.h */,
+				90B044491FEFDC1A00AFE79B /* DMCCChangeGroupNameNotificationContent.m */,
+				90F584971FFDB39700F7FFA8 /* DMCCChangeGroupPortraitNotificationContent.h */,
+				90F584981FFDB39800F7FFA8 /* DMCCChangeGroupPortraitNotificationContent.m */,
+				90B0444C1FEFDC4D00AFE79B /* DMCCModifyGroupAliasNotificationContent.h */,
+				90B0444D1FEFDC4D00AFE79B /* DMCCModifyGroupAliasNotificationContent.m */,
+				2FF6699A267D759D008FDCD4 /* DMCCModifyGroupMemberExtraNotificationContent.h */,
+				2FF66999267D759D008FDCD4 /* DMCCModifyGroupMemberExtraNotificationContent.m */,
+				2FF6699E267D7833008FDCD4 /* DMCCModifyGroupExtraNotificationContent.h */,
+				2FF6699D267D7833008FDCD4 /* DMCCModifyGroupExtraNotificationContent.m */,
+				2BA6622624CFD23B00E28BC5 /* DMCCGroupMemberMuteNotificationContent.h */,
+				2BA6622724CFD23B00E28BC5 /* DMCCGroupMemberMuteNotificationContent.m */,
+				2BC9EDDC24D99CB3004B3F0B /* DMCCGroupMemberAllowNotificationContent.h */,
+				2BC9EDDD24D99CB3004B3F0B /* DMCCGroupMemberAllowNotificationContent.m */,
+				2FF2A45C22C4DBD1006A6D4C /* DMCCGroupMuteNotificationContent.h */,
+				2FF2A45B22C4DBD1006A6D4C /* DMCCGroupMuteNotificationContent.m */,
+				2FF2A45F22C4DDF5006A6D4C /* DMCCGroupPrivateChatNotificationContent.h */,
+				2FF2A46022C4DDF5006A6D4C /* DMCCGroupPrivateChatNotificationContent.m */,
+				2F19723522C6FC31009F7055 /* DMCCGroupSetManagerNotificationContent.h */,
+				2F19723422C6FC31009F7055 /* DMCCGroupSetManagerNotificationContent.m */,
+				90B1373A22D9D1CC005F103C /* DMCCGroupJoinTypeNotificationContent.h */,
+				90B1373B22D9D1CC005F103C /* DMCCGroupJoinTypeNotificationContent.m */,
+				2FB87C69243EF0FE0078A199 /* DMCCFriendAddedMessageContent.h */,
+				2FB87C6C243EF0FE0078A199 /* DMCCFriendAddedMessageContent.m */,
+				2FB87C6B243EF0FE0078A199 /* DMCCFriendGreetingMessageContent.h */,
+				2FB87C6A243EF0FE0078A199 /* DMCCFriendGreetingMessageContent.m */,
+				2B56239F24FB8F1700EB2A03 /* DMCCPCLoginRequestMessageContent.h */,
+				2B56239E24FB8F1700EB2A03 /* DMCCPCLoginRequestMessageContent.m */,
+				2B97D4832505BACF00162A2B /* DMCCCardMessageContent.h */,
+				2B97D4842505BACF00162A2B /* DMCCCardMessageContent.m */,
+				2F56F6A02529D04500B829C4 /* DMCCCompositeMessageContent.h */,
+				2F56F6A12529D04500B829C4 /* DMCCCompositeMessageContent.m */,
+				2F444874252D6E50007A570E /* DMCCLinkMessageContent.h */,
+				2F444873252D6E50007A570E /* DMCCLinkMessageContent.m */,
+				2BC2AC572581F68B00E3D12D /* DMCCKickoffGroupMemberVisibleNotificationContent.h */,
+				2BC2AC582581F68B00E3D12D /* DMCCKickoffGroupMemberVisibleNotificationContent.m */,
+				2BC2AC5C2581F69E00E3D12D /* DMCCQuitGroupVisibleNotificationContent.h */,
+				2BC2AC5D2581F69E00E3D12D /* DMCCQuitGroupVisibleNotificationContent.m */,
+				2B8352C825DE278300BA0800 /* DMCCPTTInviteMessageContent.h */,
+				2B8352C925DE278300BA0800 /* DMCCPTTInviteMessageContent.m */,
+				FC6B01142948178200044FFE /* DMCCCallMessageContent.h */,
+				FC6B01132948178200044FFE /* DMCCCallMessageContent.m */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		2E6B50E51FAE9B10006B6E31 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B50E61FAE9B10006B6E31 /* DMCCUtilities.h */,
+				2E6B50E71FAE9B10006B6E31 /* DMCCUtilities.m */,
+				2FDEEFCF24A49BA20032428A /* DMCCEnums.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2E6B50E81FAE9B10006B6E31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70D3B32E2801366B0028F67F /* DMCCUnpackInfo.h */,
+				70D3B32D2801366B0028F67F /* DMCCUnpackInfo.m */,
+				70D3B320280124BA0028F67F /* DMCCRedPacketInfo.h */,
+				70D3B31F280124BA0028F67F /* DMCCRedPacketInfo.m */,
+				2E6B50E91FAE9B10006B6E31 /* DMCCConversation.h */,
+				2E6B50EA1FAE9B10006B6E31 /* DMCCConversation.m */,
+				2E6B50EB1FAE9B10006B6E31 /* DMCCConversationInfo.h */,
+				2E6B50EC1FAE9B10006B6E31 /* DMCCConversationInfo.m */,
+				2E6B50ED1FAE9B10006B6E31 /* DMCCConversationSearchInfo.h */,
+				2E6B50EE1FAE9B10006B6E31 /* DMCCConversationSearchInfo.m */,
+				6E6C69A620B959F100006628 /* DMCCGroupSearchInfo.h */,
+				6E6C69A520B959F100006628 /* DMCCGroupSearchInfo.m */,
+				2E6B50EF1FAE9B10006B6E31 /* DMCCFriendRequest.h */,
+				2E6B50F01FAE9B10006B6E31 /* DMCCFriendRequest.m */,
+				2E6B50F11FAE9B10006B6E31 /* DMCCGroupInfo.h */,
+				2E6B50F21FAE9B10006B6E31 /* DMCCGroupInfo.m */,
+				2E6B50F31FAE9B10006B6E31 /* DMCCGroupMember.h */,
+				2E6B50F41FAE9B10006B6E31 /* DMCCGroupMember.m */,
+				2E6B50F51FAE9B10006B6E31 /* DMCCUserInfo.h */,
+				2E6B50F61FAE9B10006B6E31 /* DMCCUserInfo.m */,
+				2F8742D5219C4FEC00F65EBA /* DMCCChatroomInfo.h */,
+				2F8742DA219C4FED00F65EBA /* DMCCChatroomInfo.m */,
+				2F8742D9219C4FED00F65EBA /* DMCCChatroomMemberInfo.h */,
+				2F8742D8219C4FED00F65EBA /* DMCCChatroomMemberInfo.m */,
+				2F8742D6219C4FEC00F65EBA /* DMCCUnreadCount.h */,
+				2F8742D7219C4FED00F65EBA /* DMCCUnreadCount.m */,
+				2FEF332521BE93980087B6C2 /* DMCCChannelInfo.h */,
+				2FEF332421BE93980087B6C2 /* DMCCChannelInfo.m */,
+				2FD9513B243ACF3600EE4F60 /* DMCCPCOnlineInfo.h */,
+				2FD9513C243ACF3600EE4F60 /* DMCCPCOnlineInfo.m */,
+				2B6336782470DB7E008D6B38 /* DMCCReadReport.h */,
+				2B6336772470DB7E008D6B38 /* DMCCReadReport.m */,
+				2B6336742470DAB2008D6B38 /* DMCCDeliveryReport.h */,
+				2B6336732470DAB2008D6B38 /* DMCCDeliveryReport.m */,
+				2BD8D71B24D68FCD00281B81 /* DMCCFileRecord.h */,
+				2BD8D71C24D68FCD00281B81 /* DMCCFileRecord.m */,
+				2B785A5225294C0D003CBF78 /* DMCCQuoteInfo.h */,
+				2B785A5325294C0D003CBF78 /* DMCCQuoteInfo.m */,
+				2FB87A602650BDE000790A26 /* DMCCFriend.h */,
+				2FB87A612650BDE000790A26 /* DMCCFriend.m */,
+				70E76180272A623800E12440 /* DMCCLitappInfo.h */,
+				70E76181272A625A00E12440 /* DMCCLitappInfo.m */,
+				FC21F384290A8D5F0067A126 /* DMCCTagInfo.h */,
+				FC21F385290A8D5F0067A126 /* DMCCTagInfo.m */,
+				FCB113E329F630670061226C /* DMCCWalletInfo.h */,
+				FCB113E429F630670061226C /* DMCCWalletInfo.m */,
+				FCCDBC7C2A147B0600B659B8 /* DMCCCollectInfo.h */,
+				FCCDBC7D2A147B0600B659B8 /* DMCCCollectInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F7709962453DC740020DB77 /* Things */ = {
+			isa = PBXGroup;
+			children = (
+				2F77099A2453DCB10020DB77 /* DMCCThingsDataContent.h */,
+				2F77099B2453DCB10020DB77 /* DMCCThingsDataContent.m */,
+				2F7709982453DCB10020DB77 /* DMCCThingsLostEventContent.h */,
+				2F77099C2453DCB10020DB77 /* DMCCThingsLostEventContent.m */,
+			);
+			path = Things;
+			sourceTree = "<group>";
+		};
+		901E270C21F1543C00A163CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC29B4D028C1AB95008A2943 /* config.framework */,
+				70D3B30F28011DEF0028F67F /* osnsdk.framework */,
+				70E7617E272834DA00E12440 /* libsqlite3.0.tbd */,
+				70E7617D272834CA00E12440 /* libsqlite3.tbd */,
+				70E761742727C4A900E12440 /* osnsdk.framework */,
+				901E271321F1546100A163CB /* libz.tbd */,
+				901E271121F1545900A163CB /* libc++.tbd */,
+				901E270F21F1545000A163CB /* libresolv.tbd */,
+				901E270D21F1543D00A163CB /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E6B50981FAE98E6006B6E31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B63367A2470DB7E008D6B38 /* DMCCReadReport.h in Headers */,
+				2BC606E825C1A12400F77AD3 /* DMCCGroupPrivateChatNotificationContent.h in Headers */,
+				2FB87A622650BDE000790A26 /* DMCCFriend.h in Headers */,
+				90D1F597208D65B500C2A9CA /* DMCCCallStartMessageContent.h in Headers */,
+				2FF6699C267D759D008FDCD4 /* DMCCModifyGroupMemberExtraNotificationContent.h in Headers */,
+				2FF669A0267D7833008FDCD4 /* DMCCModifyGroupExtraNotificationContent.h in Headers */,
+				2B6336762470DAB2008D6B38 /* DMCCDeliveryReport.h in Headers */,
+				2FDEEFD024A49C690032428A /* DMCCEnums.h in Headers */,
+				2F444876252D6E51007A570E /* DMCCLinkMessageContent.h in Headers */,
+				2F77099E2453DCB10020DB77 /* DMCCThingsLostEventContent.h in Headers */,
+				2F1EB5BF2499AB4600FD3575 /* DMCCConferenceInviteMessageContent.h in Headers */,
+				2E6B51131FAE9B10006B6E31 /* DMCCConversation.h in Headers */,
+				2F7709A02453DCB10020DB77 /* DMCCThingsDataContent.h in Headers */,
+				2FD9513D243ACF3600EE4F60 /* DMCCPCOnlineInfo.h in Headers */,
+				903EBB8C21357DDF00312C16 /* DMCCStickerMessageContent.h in Headers */,
+				2F1A931A21B250F5006625CD /* DMCCTypingMessageContent.h in Headers */,
+				2F3223D52144C5FB0016A2C4 /* DMCCVideoMessageContent.h in Headers */,
+				2FB87C6F243EF0FE0078A199 /* DMCCFriendGreetingMessageContent.h in Headers */,
+				2FB87C6D243EF0FE0078A199 /* DMCCFriendAddedMessageContent.h in Headers */,
+				2E6B51151FAE9B10006B6E31 /* DMCCConversationInfo.h in Headers */,
+				2E6B50F71FAE9B10006B6E31 /* DMCCAddGroupeMemberNotificationContent.h in Headers */,
+				2E6B50F91FAE9B10006B6E31 /* DMCCCreateGroupNotificationContent.h in Headers */,
+				6ED103DC20AE5C9700D4A59C /* DMCCTipNotificationMessageContent.h in Headers */,
+				2B785A5425294C0D003CBF78 /* DMCCQuoteInfo.h in Headers */,
+				2E6B50FD1FAE9B10006B6E31 /* DMCCImageMessageContent.h in Headers */,
+				2F8742DC219C4FED00F65EBA /* DMCCUnreadCount.h in Headers */,
+				2F8742DF219C4FED00F65EBA /* DMCCChatroomMemberInfo.h in Headers */,
+				2B97D4852505BACF00162A2B /* DMCCCardMessageContent.h in Headers */,
+				2B5FD87A2375A55800C41A72 /* DMCCPTextMessageContent.h in Headers */,
+				2B8352CA25DE278300BA0800 /* DMCCPTTInviteMessageContent.h in Headers */,
+				2B5623A124FB8F1700EB2A03 /* DMCCPCLoginRequestMessageContent.h in Headers */,
+				2FEF332721BE93980087B6C2 /* DMCCChannelInfo.h in Headers */,
+				2F8742DB219C4FED00F65EBA /* DMCCChatroomInfo.h in Headers */,
+				2F48C9C6214D16250092B167 /* DMCCRecallMessageContent.h in Headers */,
+				6E6C69A820B959F100006628 /* DMCCGroupSearchInfo.h in Headers */,
+				2BC2AC592581F68B00E3D12D /* DMCCKickoffGroupMemberVisibleNotificationContent.h in Headers */,
+				2E6B50FB1FAE9B10006B6E31 /* DMCCDismissGroupNotificationContent.h in Headers */,
+				2E6B51191FAE9B10006B6E31 /* DMCCFriendRequest.h in Headers */,
+				6ECFB2C820A84C88001F91CB /* DMCCFileMessageContent.h in Headers */,
+				2BC2AC5E2581F69E00E3D12D /* DMCCQuitGroupVisibleNotificationContent.h in Headers */,
+				90E4D1DF1FFB0AE200B9A4E4 /* DMCCLocationMessageContent.h in Headers */,
+				2BC9EDDE24D99CB3004B3F0B /* DMCCGroupMemberAllowNotificationContent.h in Headers */,
+				2E6B511B1FAE9B10006B6E31 /* DMCCGroupInfo.h in Headers */,
+				90F584991FFDB39800F7FFA8 /* DMCCChangeGroupPortraitNotificationContent.h in Headers */,
+				2E6B51031FAE9B10006B6E31 /* DMCCMessage.h in Headers */,
+				2E6B51011FAE9B10006B6E31 /* DMCCMediaMessageContent.h in Headers */,
+				2E6B51051FAE9B10006B6E31 /* DMCCMessageContent.h in Headers */,
+				2E6B51071FAE9B10006B6E31 /* DMCCNotificationMessageContent.h in Headers */,
+				90B0444A1FEFDC1A00AFE79B /* DMCCChangeGroupNameNotificationContent.h in Headers */,
+				90B044471FEFD6BA00AFE79B /* DMCCUnknownMessageContent.h in Headers */,
+				90B0444E1FEFDC4D00AFE79B /* DMCCModifyGroupAliasNotificationContent.h in Headers */,
+				2E6B50FF1FAE9B10006B6E31 /* DMCCKickoffGroupMemberNotificationContent.h in Headers */,
+				2E6B510B1FAE9B10006B6E31 /* DMCCSoundMessageContent.h in Headers */,
+				2EE6A4881FB290FC007953BC /* Common.h in Headers */,
+				2E6B510D1FAE9B10006B6E31 /* DMCCTextMessageContent.h in Headers */,
+				2E6B51091FAE9B10006B6E31 /* DMCCQuitGroupNotificationContent.h in Headers */,
+				2E6B511F1FAE9B10006B6E31 /* DMCCUserInfo.h in Headers */,
+				2E6B511D1FAE9B10006B6E31 /* DMCCGroupMember.h in Headers */,
+				90B1373C22D9D1CC005F103C /* DMCCGroupJoinTypeNotificationContent.h in Headers */,
+				2F19723722C6FC31009F7055 /* DMCCGroupSetManagerNotificationContent.h in Headers */,
+				2BA6622824CFD23B00E28BC5 /* DMCCGroupMemberMuteNotificationContent.h in Headers */,
+				2B2492E9245D3982007268E3 /* DMCCDeleteMessageContent.h in Headers */,
+				2FF2A45E22C4DBD1006A6D4C /* DMCCGroupMuteNotificationContent.h in Headers */,
+				2E6B510F1FAE9B10006B6E31 /* DMCCTransferGroupOwnerNotificationContent.h in Headers */,
+				2E6B51171FAE9B10006B6E31 /* DMCCConversationSearchInfo.h in Headers */,
+				70D3B322280124BA0028F67F /* DMCCRedPacketInfo.h in Headers */,
+				70D3B3302801366B0028F67F /* DMCCUnpackInfo.h in Headers */,
+				70D3B333280138960028F67F /* DMCCRedPacketMessageContent.h in Headers */,
+				2E6B51111FAE9B10006B6E31 /* DMCCUtilities.h in Headers */,
+				2E6B50C61FAE9B08006B6E31 /* DMCCNetworkService.h in Headers */,
+				70D3B32C28012F4A0028F67F /* DMCCKickoffGroupMemberVisiableNotificationContent.h in Headers */,
+				70D3B32A28012F4A0028F67F /* DMCCGroupNotifyContent.h in Headers */,
+				2BD8D71D24D68FCD00281B81 /* DMCCFileRecord.h in Headers */,
+				2E6B50C41FAE9B08006B6E31 /* DMCCIMService.h in Headers */,
+				2F56F6A22529D04500B829C4 /* DMCCCompositeMessageContent.h in Headers */,
+				70A5D1A9282CA1AD00E41A12 /* DMCCLitappInfo.h in Headers */,
+				FC21F386290A8D5F0067A126 /* DMCCTagInfo.h in Headers */,
+				FC6B01162948178200044FFE /* DMCCCallMessageContent.h in Headers */,
+				FCCDBC7E2A147B0600B659B8 /* DMCCCollectInfo.h in Headers */,
+				FCB113E529F630670061226C /* DMCCWalletInfo.h in Headers */,
+				2E6B50B31FAE990D006B6E31 /* wav_amr.h in Headers */,
+				2E6B50C21FAE9B08006B6E31 /* app_callback.h in Headers */,
+				2E6B50B11FAE990D006B6E31 /* interf_enc.h in Headers */,
+				2E6B50C81FAE9B08006B6E31 /* DMCCNetworkStatus.h in Headers */,
+				2E6B50B71FAE990D006B6E31 /* wavwriter.h in Headers */,
+				2E6B50B61FAE990D006B6E31 /* wavreader.h in Headers */,
+				2E6B50A01FAE98E6006B6E31 /* DMCChatClient.h in Headers */,
+				2E6B50B01FAE990D006B6E31 /* interf_dec.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E6B509A1FAE98E6006B6E31 /* DMChatClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6B50A31FAE98E6006B6E31 /* Build configuration list for PBXNativeTarget "DMChatClient" */;
+			buildPhases = (
+				2E6B50961FAE98E6006B6E31 /* Sources */,
+				2E6B50971FAE98E6006B6E31 /* Frameworks */,
+				2E6B50981FAE98E6006B6E31 /* Headers */,
+				2E6B50991FAE98E6006B6E31 /* Resources */,
+				F89D8F2820538E36005A6CD1 /* ShellScript */,
+				FC29B4D328C1AB95008A2943 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMChatClient;
+			productName = WFChatClient;
+			productReference = 2E6B509B1FAE98E6006B6E31 /* DMChatClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E6B50921FAE98E5006B6E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = WildFireChat;
+				TargetAttributes = {
+					2E6B509A1FAE98E6006B6E31 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2E6B50951FAE98E5006B6E31 /* Build configuration list for PBXProject "DMChatClient" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				vi,
+			);
+			mainGroup = 2E6B50911FAE98E5006B6E31;
+			productRefGroup = 2E6B509C1FAE98E6006B6E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E6B509A1FAE98E6006B6E31 /* DMChatClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E6B50991FAE98E6006B6E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A5D197282BFDE000E41A12 /* client.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F89D8F2820538E36005A6CD1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash xcodescript.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E6B50961FAE98E6006B6E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC2AC5F2581F69E00E3D12D /* DMCCQuitGroupVisibleNotificationContent.m in Sources */,
+				2E6B50FE1FAE9B10006B6E31 /* DMCCImageMessageContent.m in Sources */,
+				2E6B51001FAE9B10006B6E31 /* DMCCKickoffGroupMemberNotificationContent.m in Sources */,
+				2E6B50C91FAE9B08006B6E31 /* DMCCNetworkStatus.m in Sources */,
+				2F444875252D6E51007A570E /* DMCCLinkMessageContent.m in Sources */,
+				2E6B511A1FAE9B10006B6E31 /* DMCCFriendRequest.m in Sources */,
+				2BA6622924CFD23B00E28BC5 /* DMCCGroupMemberMuteNotificationContent.m in Sources */,
+				2E6B510C1FAE9B10006B6E31 /* DMCCSoundMessageContent.m in Sources */,
+				2FB87C6E243EF0FE0078A199 /* DMCCFriendGreetingMessageContent.m in Sources */,
+				90B044461FEFD6BA00AFE79B /* DMCCUnknownMessageContent.m in Sources */,
+				2FB87C70243EF0FE0078A199 /* DMCCFriendAddedMessageContent.m in Sources */,
+				FCB113E629F630670061226C /* DMCCWalletInfo.m in Sources */,
+				2B785A5525294C0D003CBF78 /* DMCCQuoteInfo.m in Sources */,
+				903EBB8B21357DDF00312C16 /* DMCCStickerMessageContent.m in Sources */,
+				2B6336792470DB7E008D6B38 /* DMCCReadReport.m in Sources */,
+				2E6B51141FAE9B10006B6E31 /* DMCCConversation.m in Sources */,
+				2FEF332621BE93980087B6C2 /* DMCCChannelInfo.m in Sources */,
+				70D3B321280124BA0028F67F /* DMCCRedPacketInfo.m in Sources */,
+				70D3B334280138960028F67F /* DMCCRedPacketMessageContent.m in Sources */,
+				2E6B51121FAE9B10006B6E31 /* DMCCUtilities.m in Sources */,
+				2E6B51041FAE9B10006B6E31 /* DMCCMessage.m in Sources */,
+				FC6B01152948178200044FFE /* DMCCCallMessageContent.m in Sources */,
+				2B5623A024FB8F1700EB2A03 /* DMCCPCLoginRequestMessageContent.m in Sources */,
+				2E6B50FC1FAE9B10006B6E31 /* DMCCDismissGroupNotificationContent.m in Sources */,
+				2B5FD8792375A55800C41A72 /* DMCCPTextMessageContent.m in Sources */,
+				2F19723622C6FC31009F7055 /* DMCCGroupSetManagerNotificationContent.m in Sources */,
+				2F3223D62144C5FB0016A2C4 /* DMCCVideoMessageContent.m in Sources */,
+				2E6B51181FAE9B10006B6E31 /* DMCCConversationSearchInfo.m in Sources */,
+				2FF6699F267D7833008FDCD4 /* DMCCModifyGroupExtraNotificationContent.m in Sources */,
+				2E6B50C31FAE9B08006B6E31 /* app_callback.mm in Sources */,
+				2BD8D71E24D68FCD00281B81 /* DMCCFileRecord.m in Sources */,
+				6ECFB2C720A84C88001F91CB /* DMCCFileMessageContent.m in Sources */,
+				2FD9513E243ACF3600EE4F60 /* DMCCPCOnlineInfo.m in Sources */,
+				70E76182272A625A00E12440 /* DMCCLitappInfo.m in Sources */,
+				2F1A931B21B250F5006625CD /* DMCCTypingMessageContent.m in Sources */,
+				2F7709A22453DCB10020DB77 /* DMCCThingsLostEventContent.m in Sources */,
+				2E6B50B81FAE990D006B6E31 /* wavwriter.mm in Sources */,
+				2E6B50C71FAE9B08006B6E31 /* DMCCNetworkService.mm in Sources */,
+				2B2492EA245D3982007268E3 /* DMCCDeleteMessageContent.m in Sources */,
+				2E6B510A1FAE9B10006B6E31 /* DMCCQuitGroupNotificationContent.m in Sources */,
+				2E6B51061FAE9B10006B6E31 /* DMCCMessageContent.m in Sources */,
+				FC21F387290A8D5F0067A126 /* DMCCTagInfo.m in Sources */,
+				2E6B50FA1FAE9B10006B6E31 /* DMCCCreateGroupNotificationContent.m in Sources */,
+				2E6B50F81FAE9B10006B6E31 /* DMCCAddGroupeMemberNotificationContent.m in Sources */,
+				2BC2AC5A2581F68B00E3D12D /* DMCCKickoffGroupMemberVisibleNotificationContent.m in Sources */,
+				2F7709A12453DCB10020DB77 /* DMCCThingsDataContent.m in Sources */,
+				2E6B511E1FAE9B10006B6E31 /* DMCCGroupMember.m in Sources */,
+				2FF6699B267D759D008FDCD4 /* DMCCModifyGroupMemberExtraNotificationContent.m in Sources */,
+				70D3B32B28012F4A0028F67F /* DMCCGroupNotifyContent.m in Sources */,
+				2F8742DE219C4FED00F65EBA /* DMCCChatroomMemberInfo.m in Sources */,
+				90D1F596208D65B500C2A9CA /* DMCCCallStartMessageContent.m in Sources */,
+				6ED103DB20AE5C9700D4A59C /* DMCCTipNotificationMessageContent.m in Sources */,
+				90E4D1E01FFB0AE200B9A4E4 /* DMCCLocationMessageContent.m in Sources */,
+				2E6B51101FAE9B10006B6E31 /* DMCCTransferGroupOwnerNotificationContent.m in Sources */,
+				2E6B50C51FAE9B08006B6E31 /* DMCCIMService.mm in Sources */,
+				2FF2A46222C4DDF5006A6D4C /* DMCCGroupPrivateChatNotificationContent.m in Sources */,
+				2E6B51201FAE9B10006B6E31 /* DMCCUserInfo.m in Sources */,
+				2E6B511C1FAE9B10006B6E31 /* DMCCGroupInfo.m in Sources */,
+				90B1373D22D9D1CC005F103C /* DMCCGroupJoinTypeNotificationContent.m in Sources */,
+				70D3B32F2801366B0028F67F /* DMCCUnpackInfo.m in Sources */,
+				2BC9EDDF24D99CB3004B3F0B /* DMCCGroupMemberAllowNotificationContent.m in Sources */,
+				2FB87A632650BDE000790A26 /* DMCCFriend.m in Sources */,
+				2F1EB5C02499AB4600FD3575 /* DMCCConferenceInviteMessageContent.m in Sources */,
+				2B97D4862505BACF00162A2B /* DMCCCardMessageContent.m in Sources */,
+				2E6B51161FAE9B10006B6E31 /* DMCCConversationInfo.m in Sources */,
+				6E6C69A720B959F100006628 /* DMCCGroupSearchInfo.m in Sources */,
+				2E6B50B41FAE990D006B6E31 /* wav_amr.mm in Sources */,
+				2F48C9C5214D16250092B167 /* DMCCRecallMessageContent.m in Sources */,
+				2B6336752470DAB2008D6B38 /* DMCCDeliveryReport.m in Sources */,
+				2B8352CB25DE278300BA0800 /* DMCCPTTInviteMessageContent.m in Sources */,
+				2F8742E0219C4FED00F65EBA /* DMCCChatroomInfo.m in Sources */,
+				2E6B50B51FAE990D006B6E31 /* wavreader.c in Sources */,
+				2E6B510E1FAE9B10006B6E31 /* DMCCTextMessageContent.m in Sources */,
+				2F56F6A32529D04500B829C4 /* DMCCCompositeMessageContent.m in Sources */,
+				2E6B51081FAE9B10006B6E31 /* DMCCNotificationMessageContent.m in Sources */,
+				90F5849A1FFDB39800F7FFA8 /* DMCCChangeGroupPortraitNotificationContent.m in Sources */,
+				90B0444B1FEFDC1A00AFE79B /* DMCCChangeGroupNameNotificationContent.m in Sources */,
+				90B0444F1FEFDC4D00AFE79B /* DMCCModifyGroupAliasNotificationContent.m in Sources */,
+				FCCDBC7F2A147B0600B659B8 /* DMCCCollectInfo.m in Sources */,
+				2E6B51021FAE9B10006B6E31 /* DMCCMediaMessageContent.m in Sources */,
+				70E7617B272833A400E12440 /* SqliteUtils.mm in Sources */,
+				2FF2A45D22C4DBD1006A6D4C /* DMCCGroupMuteNotificationContent.m in Sources */,
+				2F8742DD219C4FED00F65EBA /* DMCCUnreadCount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		70A5D195282BFDE000E41A12 /* client.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70A5D196282BFDE000E41A12 /* vi */,
+				70A5D198282BFDFB00E41A12 /* zh-Hans */,
+				70A5D199282BFE4400E41A12 /* en */,
+			);
+			name = client.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E6B50A11FAE98E6006B6E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E6B50A21FAE98E6006B6E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E6B50A41FAE98E6006B6E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = arm64;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DMChatClient/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/DMChatClient/Proto",
+				);
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/DMChatClient/Proto/**";
+				INFOPLIST_FILE = DMChatClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DMChatClient/amr",
+					"$(PROJECT_DIR)",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.client.dmchat;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		2E6B50A51FAE98E6006B6E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = arm64;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DMChatClient/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/DMChatClient/Proto",
+				);
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/DMChatClient/Proto/**";
+				INFOPLIST_FILE = DMChatClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DMChatClient/amr",
+					"$(PROJECT_DIR)",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.client.dmchat;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E6B50951FAE98E5006B6E31 /* Build configuration list for PBXProject "DMChatClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6B50A11FAE98E6006B6E31 /* Debug */,
+				2E6B50A21FAE98E6006B6E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E6B50A31FAE98E6006B6E31 /* Build configuration list for PBXNativeTarget "DMChatClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6B50A41FAE98E6006B6E31 /* Debug */,
+				2E6B50A51FAE98E6006B6E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E6B50921FAE98E5006B6E31 /* Project object */;
+}

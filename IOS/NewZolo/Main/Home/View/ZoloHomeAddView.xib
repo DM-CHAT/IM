@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZoloHomeAddView">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="573"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrBg1" translatesAutoresizingMaskIntoConstraints="NO" id="pEg-VY-OIO">
+                    <rect key="frame" x="248" y="7" width="116" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="116" id="AOV-he-mm7"/>
+                        <constraint firstAttribute="height" constant="150" id="IrI-5E-fVP"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="sCL-P1-rN6">
+                    <rect key="frame" x="258" y="17" width="96" height="130"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.18431372549019609" green="0.1843137255" blue="0.1843137255" alpha="0.02" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="sCL-P1-rN6" firstAttribute="top" secondItem="pEg-VY-OIO" secondAttribute="top" constant="10" id="K9d-P9-YfY"/>
+                <constraint firstItem="sCL-P1-rN6" firstAttribute="bottom" secondItem="pEg-VY-OIO" secondAttribute="bottom" constant="-10" id="QLu-YK-FSf"/>
+                <constraint firstItem="sCL-P1-rN6" firstAttribute="trailing" secondItem="pEg-VY-OIO" secondAttribute="trailing" constant="-10" id="fNH-RK-IjM"/>
+                <constraint firstItem="sCL-P1-rN6" firstAttribute="leading" secondItem="pEg-VY-OIO" secondAttribute="leading" constant="10" id="fkG-4M-sYt"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="pEg-VY-OIO" secondAttribute="trailing" constant="7" id="mIa-5Z-uJj"/>
+                <constraint firstItem="pEg-VY-OIO" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="7" id="wkN-Fy-xE6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tableView" destination="sCL-P1-rN6" id="RTn-ob-5dt"/>
+                <outlet property="tableWidth" destination="AOV-he-mm7" id="mr6-YS-xgx"/>
+            </connections>
+            <point key="canvasLocation" x="106.5217391304348" y="521.98660714285711"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="qrBg1" width="108" height="138.66667175292969"/>
+    </resources>
+</document>

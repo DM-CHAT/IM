@@ -1,0 +1,20 @@
+
+platform :ios, '11.0'
+
+target "NewZolo" do
+  
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'YYModel'
+pod 'SVProgressHUD'
+pod 'LSTPopView'
+pod 'IQKeyboardManager'
+pod 'CRBoxInputView', '1.2.1'
+pod 'JPush'
+pod 'DateTools'
+pod 'GoogleWebRTC'
+pod 'Bugly'
+
+end
+

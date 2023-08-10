@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZoloSearchHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="445" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y0x-I8-GXH">
+                    <rect key="frame" x="20" y="18" width="405" height="44"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_search" translatesAutoresizingMaskIntoConstraints="NO" id="PN9-dN-jLR">
+                            <rect key="frame" x="20" y="10" width="24" height="24"/>
+                        </imageView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入搜索内容" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CVF-mA-RYv">
+                            <rect key="frame" x="54" y="4" width="341" height="36"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="2ki-b1-aer"/>
+                        <constraint firstAttribute="bottom" secondItem="CVF-mA-RYv" secondAttribute="bottom" constant="4" id="E5r-nP-iRM"/>
+                        <constraint firstAttribute="trailing" secondItem="CVF-mA-RYv" secondAttribute="trailing" constant="10" id="LKf-gU-adp"/>
+                        <constraint firstItem="PN9-dN-jLR" firstAttribute="centerY" secondItem="y0x-I8-GXH" secondAttribute="centerY" id="Mfg-27-6i3"/>
+                        <constraint firstItem="PN9-dN-jLR" firstAttribute="leading" secondItem="y0x-I8-GXH" secondAttribute="leading" constant="20" id="aVc-Ty-c1w"/>
+                        <constraint firstItem="CVF-mA-RYv" firstAttribute="leading" secondItem="PN9-dN-jLR" secondAttribute="trailing" constant="10" id="atj-rl-QSa"/>
+                        <constraint firstItem="CVF-mA-RYv" firstAttribute="top" secondItem="y0x-I8-GXH" secondAttribute="top" constant="4" id="nqd-1I-gQi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="y0x-I8-GXH" secondAttribute="trailing" constant="20" id="0pP-JJ-MBD"/>
+                <constraint firstItem="y0x-I8-GXH" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="3uL-LC-7tn"/>
+                <constraint firstItem="y0x-I8-GXH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="42n-xN-kpK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="searchView" destination="y0x-I8-GXH" id="CpI-T3-DFK"/>
+                <outlet property="textField" destination="CVF-mA-RYv" id="MbO-7M-VMu"/>
+            </connections>
+            <point key="canvasLocation" x="160.1449275362319" y="406.47321428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_search" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

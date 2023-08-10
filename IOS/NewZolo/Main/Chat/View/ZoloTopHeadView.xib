@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZoloTopHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="32"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Vt7-mc-wvF">
+                    <rect key="frame" x="40" y="2" width="324" height="30"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ma-65-3Mj">
+                    <rect key="frame" x="370" y="-6" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="m4u-yJ-BYU"/>
+                        <constraint firstAttribute="width" constant="44" id="xqS-Q0-09g"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="msg_arrow"/>
+                    <connections>
+                        <action selector="tapCloseClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="vaP-ha-Idw"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="msg_top" translatesAutoresizingMaskIntoConstraints="NO" id="rf0-ar-8yx">
+                    <rect key="frame" x="12" y="4" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="jGM-r0-PNY"/>
+                        <constraint firstAttribute="width" constant="24" id="rPF-Ub-UwO"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Vt7-mc-wvF" secondAttribute="bottom" id="CID-YA-ITb"/>
+                <constraint firstItem="rf0-ar-8yx" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Ufg-Yl-Hnb"/>
+                <constraint firstItem="rf0-ar-8yx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="XEc-b7-eUg"/>
+                <constraint firstItem="1ma-65-3Mj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Y1z-dT-e8c"/>
+                <constraint firstItem="Vt7-mc-wvF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="Ytd-9B-GpN"/>
+                <constraint firstAttribute="trailing" secondItem="Vt7-mc-wvF" secondAttribute="trailing" constant="50" id="ZHL-Pz-7ey"/>
+                <constraint firstAttribute="trailing" secondItem="1ma-65-3Mj" secondAttribute="trailing" id="a1l-eK-tvK"/>
+                <constraint firstItem="Vt7-mc-wvF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="2" id="auo-vC-CZw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="topCloseBtn" destination="1ma-65-3Mj" id="GQ6-Ez-nJH"/>
+                <outlet property="topTableView" destination="Vt7-mc-wvF" id="W6H-cf-jUU"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="170.08928571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="msg_arrow" width="24" height="24"/>
+        <image name="msg_top" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

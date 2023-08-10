@@ -1,0 +1,74 @@
+PODS:
+  - Bugly (2.5.91)
+  - CRBoxInputView (1.2.1):
+    - Masonry
+  - DateTools (2.0.0)
+  - GoogleWebRTC (1.1.31999)
+  - IQKeyboardManager (6.5.10)
+  - JCore (3.2.5)
+  - JPush (4.8.1):
+    - JCore (>= 2.0.0)
+  - LSTPopView (0.3.10):
+    - LSTPopView/Code (= 0.3.10)
+    - LSTTimer
+  - LSTPopView/Code (0.3.10):
+    - LSTTimer
+  - LSTTimer (0.2.10)
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.5)
+  - SDWebImage (5.13.0):
+    - SDWebImage/Core (= 5.13.0)
+  - SDWebImage/Core (5.13.0)
+  - SVProgressHUD (2.2.5)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Bugly
+  - CRBoxInputView (= 1.2.1)
+  - DateTools
+  - GoogleWebRTC
+  - IQKeyboardManager
+  - JPush
+  - LSTPopView
+  - Masonry
+  - MJRefresh
+  - SDWebImage
+  - SVProgressHUD
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - Bugly
+    - CRBoxInputView
+    - DateTools
+    - GoogleWebRTC
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - LSTPopView
+    - LSTTimer
+    - Masonry
+    - MJRefresh
+    - SDWebImage
+    - SVProgressHUD
+    - YYModel
+
+SPEC CHECKSUMS:
+  Bugly: afe841bba2ea6de6d432a3c125240a5e75949c55
+  CRBoxInputView: d73a630e5326ee70487b4a56d09daebf915d82fd
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  GoogleWebRTC: b39a78c4f5cc6b0323415b9233db03a2faa7b0f0
+  IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
+  JCore: 4c9febdfdb1a5675ab361bc1f06c0905391d7b23
+  JPush: 2caabdb6d62d009bc07a9bd115d03c7c42512b5e
+  LSTPopView: 9379f00f6ce7d1fc620b50ab00ed3ef97b2d4d52
+  LSTTimer: caf8f02ff366ca175cf4c1778d26c166183c1b6f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SDWebImage: 0327043dbb9533e75f2eff8445b3df0f2ceca6ac
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 989f66a85dbeed6b75edf98e11abdc5747e370a9
+
+COCOAPODS: 1.11.3

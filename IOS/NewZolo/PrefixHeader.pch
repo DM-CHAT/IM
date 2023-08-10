@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  NewZolo
+//
+//  Created by 陈泽萱 on 2022/6/6.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/** 相关工具类  */
+#import "Definition.h"
+#import "Notification.h"
+#import "Macros.h"
+#import "Config.h"
+#import "UIView+MHCurrentVC.h"
+#import "UIView+MHExtension.h"
+#import "MHCurrentVCTool.h"
+#import "MHAlert.h"
+#import "FontManage.h"
+#import "NSObject+Extend.h"
+#import "NSObject+MHModelTool.h"
+#import "MHHelperUtils.h"
+#import "MHNavigationVC.h"
+#import "MHDateTools.h"
+#import "UITabBar+ZoloBadge.h"
+#import "ZoloAPIManager.h"
+#import "ZoloHttpTool.h"
+#import "ZoloInfoManager.h"
+
+/** 第三方框架管理  */
+#import <config/language.h>
+#import <config/config.h>
+#import <osnsdk/osnsdk.h>
+#import <SVProgressHUD.h>
+#import "Masonry.h"
+#import <YYModel.h>
+#import "AFNetworking.h"
+#import <MJRefresh.h>
+#import "UIImageView+WebCache.h"
+#import <DMChatClient/DMCChatClient.h>
+
+#endif /* PrefixHeader_pch */

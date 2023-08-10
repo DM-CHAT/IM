@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZoloTagMoveView">
+            <rect key="frame" x="0.0" y="0.0" width="418" height="74"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcU-Hl-3UE">
+                    <rect key="frame" x="22" y="27" width="53" height="20"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="全选" image="select_n">
+                        <color key="titleColor" systemColor="labelColor"/>
+                    </state>
+                    <state key="selected" image="select_s"/>
+                    <connections>
+                        <action selector="allBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="1i0-XK-szz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLR-Om-i2F">
+                    <rect key="frame" x="324" y="22" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.30980392159999998" green="0.62745098040000002" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="gmb-Sz-YTC"/>
+                        <constraint firstAttribute="width" constant="80" id="m3f-3M-yor"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="删除">
+                        <color key="titleColor" systemColor="systemBackgroundColor"/>
+                    </state>
+                    <connections>
+                        <action selector="delBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="DSE-Lo-EaS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mf3-Sf-gEg">
+                    <rect key="frame" x="240" y="22" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.30980392159999998" green="0.62745098040000002" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="M2N-hW-mhe"/>
+                        <constraint firstAttribute="height" constant="30" id="gji-5p-V6J"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="移动至">
+                        <color key="titleColor" systemColor="systemBackgroundColor"/>
+                    </state>
+                    <connections>
+                        <action selector="moveBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="2gx-BB-T23"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="mf3-Sf-gEg" firstAttribute="centerY" secondItem="aLR-Om-i2F" secondAttribute="centerY" id="7ra-nl-x4d"/>
+                <constraint firstItem="aLR-Om-i2F" firstAttribute="leading" secondItem="mf3-Sf-gEg" secondAttribute="trailing" constant="4" id="MPj-Bp-YY7"/>
+                <constraint firstItem="aLR-Om-i2F" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="PAx-zZ-k2M"/>
+                <constraint firstItem="gcU-Hl-3UE" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Px1-B4-Fxf"/>
+                <constraint firstAttribute="trailing" secondItem="aLR-Om-i2F" secondAttribute="trailing" constant="14" id="dGg-Pm-gIH"/>
+                <constraint firstItem="gcU-Hl-3UE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="22" id="hka-Fg-j7K"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="allBtn" destination="gcU-Hl-3UE" id="nOU-lk-EMz"/>
+                <outlet property="delBtn" destination="aLR-Om-i2F" id="OQL-O2-oT4"/>
+                <outlet property="moveBtn" destination="mf3-Sf-gEg" id="M5S-eJ-c3Z"/>
+            </connections>
+            <point key="canvasLocation" x="140.57971014492756" y="417.1875"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="select_n" width="20" height="20"/>
+        <image name="select_s" width="20" height="20"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
